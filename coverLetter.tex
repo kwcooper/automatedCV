@@ -1,0 +1,81 @@
+%%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% I forget where I had gotten this from, but it was a latex website
+
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,11pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\graphicspath{ {images/}} %upload your signature to this file
+%Change the margins to fit your CV/resume content
+\usepackage[left=1in, right=1in, bottom=1.25in, top=1.25in]{geometry}
+
+%Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+
+%%%%%%%%%%%%%%%%% COverLetter %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearpage
+\setlength\parindent{0cm}
+\pagenumbering{gobble} %cover letter should be one page, {gobble}=no page number
+
+
+
+\begin{flushright}
+ \today                           \\
+ \vspace{1em}                              
+ Indiana University            \\
+ Home Department                  \\
+ Street Address                       \\
+ City, State. 12345-67899   \\
+ Phone: +1 (123) 456-7899         \\
+\href{mailto:john.smith@email.com}{john.smith@email.com}  \\ %insert your email address here for a clickable link
+\end{flushright}
+
+
+\begin{flushleft}
+ \textbf{Faculty Search Committee}         \\
+ Name of University \\
+Name of Department                  \\
+Address of Department \\
+City, State. Zip Code
+\end{flushleft}
+
+\vspace{2em}
+
+Dear Sir or Madam, \\
+
+\vspace{1em}
+\onehalfspacing
+
+My name is Keiland Cooper and I'm applying to the academic position in this subject at the Name of University. I have experience teaching something and something else and my research focuses on this and that. I completed my Ph.D. in this subject in September 2015 at my alma mater.
+
+\vspace{1em}
+
+My educational background is in this and that at the former university along with an earned Master's and Ph.D. degree in this recent subject at this alma mater. I have taught this, that, and everything else. My research is in this area, that area, and another area still.
+
+\vspace{1em}
+
+My dissertation advisor, Professor Head Adviser, and committee members Professor Two and Professor Three have been instrumental throughout my time at Home University. Please feel free to contact me with any questions.
+
+\vspace{1em}
+
+\begin{flushright}
+Sincerely, \\
+\vspace{1em} 
+\includegraphics[scale=0.4]{Phillips} \\ %insert your own signature here
+\vspace{1em} 
+John Smith \\
+\end{flushright}
+
+
+\end{document}
