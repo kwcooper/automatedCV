@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  14 OCT 2018 21:58
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  1 NOV 2018 01:22
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.161 seconds
+luaotfload | main : initialization completed in 0.164 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
@@ -1366,7 +1366,7 @@ Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--30
 
 ) (./sections/awards.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 3.
+(Font)              scaled to size 12.0pt on input line 9.
 ) (./sections/training.tex) (./sections/service.tex)
 (./sections/publications.tex [2]) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
@@ -1379,15 +1379,15 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38364 strings out of 494481
+ 38365 strings out of 494481
  125171,953878 words of node,token memory allocated
  536 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 79 glue_spec, 4 attribute_list
 , 1 write nodes
-   avail lists: 1:8,2:1271,3:240,4:175,5:485,6:2194,7:1246,8:111,9:419,10:11,11:
-253
+   avail lists: 1:7,2:1271,3:224,4:175,5:361,6:1882,7:1266,8:111,9:419,10:11,11:
+191
  40978 multiletter control sequences out of 65536+600000
- 73 fonts using 18257735 bytes
+ 73 fonts using 18257575 bytes
  72i,12n,89p,880b,469s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSan
 sPro-Light.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesa
@@ -1397,10 +1397,10 @@ dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/local/texli
 ve/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-RegularIt.ot
 f><./fonts/Roboto-Italic.ttf><./fonts/Roboto-Regular.ttf><./fonts/FontAwesome.tt
 f><./fonts/Roboto-Thin.ttf>
-Output written on cv.pdf (3 pages, 49816 bytes).
+Output written on cv.pdf (3 pages, 50385 bytes).
 
-PDF statistics: 99 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 131072)
+PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
