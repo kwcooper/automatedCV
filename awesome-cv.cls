@@ -4,7 +4,7 @@
 % Claud D. Park http://www.posquit0.com
 % Defines the structure and layout of the template file (cv.tex, resume.tex).
 %
-% Keiland Cooper 181010
+% Keiland Cooper 181030
 
 
 
@@ -105,6 +105,8 @@
 % Enable if you want to make header or footer using fancyhdr
 \pagestyle{fancy}
 
+% prevent hyphenation
+\usepackage[none]{hyphenat}
 
 %-------------------------------------------------------------------------------
 %                Configuration for colors
