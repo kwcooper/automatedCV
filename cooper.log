@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  1 NOV 2018 01:41
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  6 NOV 2018 16:56
  restricted system commands enabled.
 **cooper.tex
 (./cooper.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.182 seconds
+luaotfload | main : initialization completed in 0.204 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
@@ -1372,8 +1372,13 @@ Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--30
 ) (./sections/awards.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 9.
 ) (./sections/training.tex) (./sections/service.tex)
-(./sections/publications.tex [2]
+(./sections/publications.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
+(Font)              scaled to size 11.0pt on input line 18.
+ [2]
 Underfull \hbox (badness 2401) in paragraph at lines 63--63
 []\TU/SourceSansPro(2)/m/n/11 Cooper K. W., Os-born Z. (󰁭󰁫󰁬󰁱) Down-
 stream Hip-pocam-pal Ac-tiv-ity Pre-dic-tion with Neu-ral Net-works. Mid-west
@@ -1390,15 +1395,15 @@ Package rerunfilecheck Info: File `cooper.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38402 strings out of 494481
+ 38410 strings out of 494481
  125171,953878 words of node,token memory allocated
  536 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 79 glue_spec, 4 attribute_list
 , 1 write nodes
-   avail lists: 1:7,2:1271,3:224,4:175,5:363,6:1882,7:1266,8:111,9:419,10:11,11:
+   avail lists: 1:7,2:1271,3:224,4:175,5:371,6:1882,7:1266,8:111,9:419,10:11,11:
 191
- 41008 multiletter control sequences out of 65536+600000
- 73 fonts using 18257775 bytes
+ 41010 multiletter control sequences out of 65536+600000
+ 75 fonts using 18532471 bytes
  72i,12n,89p,884b,469s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSan
 sPro-Light.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesa
@@ -1408,7 +1413,7 @@ dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/local/texli
 ve/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-RegularIt.ot
 f><./fonts/Roboto-Italic.ttf><./fonts/Roboto-Regular.ttf><./fonts/FontAwesome.tt
 f><./fonts/Roboto-Thin.ttf>
-Output written on cooper.pdf (3 pages, 50402 bytes).
+Output written on cooper.pdf (3 pages, 51016 bytes).
 
 PDF statistics: 100 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
