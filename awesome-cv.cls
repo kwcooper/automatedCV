@@ -219,7 +219,7 @@
 
 % For elements of skill
 \newcommand*{\skilltypestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\skillsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{text} #1}}
+\newcommand*{\skillsetstyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\color{text} #1}}
 
 % For elements of the cover letter
 \newcommand*{\lettersectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
@@ -727,12 +727,12 @@
   \begin{justify}
   % for bullets replace label with "nosep, noitemsep"
   \begin{itemize}[leftmargin=2ex, label={}]
-    \setlength{\parskip}{5pt}
+    \setlength{\parskip}{10pt}
     %\renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-2.0mm}
+  \vspace{-3.0mm}
 }
 
 %-------------------------------------------------------------------------------
