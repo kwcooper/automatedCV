@@ -4,7 +4,7 @@
 % Claud D. Park http://www.posquit0.com
 % Defines the structure and layout of the template file (cv.tex, resume.tex).
 %
-% Keiland Cooper 181030
+% Keiland Cooper 181127
 
 
 
@@ -153,6 +153,7 @@
 %-------------------------------------------------------------------------------
 % Set the FontAwesome font to be up-to-date.
 \newfontfamily\FA[Path=\@fontdir]{FontAwesome}
+
 % Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
@@ -198,7 +199,7 @@
 \newcommand*{\descriptionstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
 % For elements of subentry
-\newcommand*{\subentrytitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\mdseries\color{graytext} #1}}
+\newcommand*{\subentrytitlestyle}[1]{{\fontsize{12pt}{1em}\bodyfont\mdseries\color{graytext} #1}}
 \newcommand*{\subentrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\subentrydatestyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\subentrylocationstyle}[1]{{\fontsize{11pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
@@ -601,7 +602,7 @@
 
 
 %-------------------------------------------------------------------------------
-%                Research Project design
+%     Research Project design (ResearchProjectsLong.tex)
 %-------------------------------------------------------------------------------
 % Define an environment for cvrpitems(for cventry) (just adds bullets)
 \newenvironment{cvrpitems}{%
@@ -638,7 +639,7 @@
 % Define an entry of cv research projects
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cvrpentry}[5]{%
-  \vspace{1.0mm}
+  \vspace{1.5mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -698,6 +699,7 @@
 \newenvironment{cvpubs}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2mm}
+  \begin{minipage}{15cm} 
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
@@ -705,6 +707,7 @@
 }{%
     \end{tabular*}
   \end{center}
+  \end{minipage}
 }
 
 % Define a publication (dep)
@@ -731,7 +734,9 @@
 	\skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
 
-% Publications
+%-------------------------------------------------------------------------------
+%                Publication design (publications.tex)
+%-------------------------------------------------------------------------------
 % Define an environment for cvpubentry
 \newenvironment{cvpubentries}{%
   \vspace{\acvSectionContentTopSkip}
@@ -742,7 +747,7 @@
 % Define an entry of cv information
 % Usage: \cvpubentry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cvpubentry}[5]{%
-  \vspace{-2.0mm}
+  \vspace{1.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -760,12 +765,14 @@
 \newenvironment{cvpubitems}{%
   \vspace{-4.0mm}
   \begin{justify}
+  \begin{minipage}{16cm} 
   % for bullets replace label with "nosep, noitemsep"
   \begin{itemize}[leftmargin=2ex, label={}]
     \setlength{\parskip}{10pt}
     %\renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
+  \end{minipage}
   \end{justify}
   \vspace{-3.0mm}
 }

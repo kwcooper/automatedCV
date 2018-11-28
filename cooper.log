@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  27 NOV 2018 19:57
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  27 NOV 2018 20:50
  restricted system commands enabled.
 **cooper.tex
 (./cooper.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.132 seconds
+luaotfload | main : initialization completed in 0.180 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
@@ -1354,7 +1354,18 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 11.0pt on input line 15.
 )
-(./sections/researchProjects.tex
+(./sections/researchProjectsLong.tex
+Underfull \hbox (badness 1400) in paragraph at lines 30--30
+[]\TU/SourceSansPro(2)/m/it/11 In-ves-ti-gat-ing the in-ter-play of acetyl-chol
+ine and theta os-cila-tions and their role of al-low-ing
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 30--30
+\TU/SourceSansPro(2)/m/it/11 the hip-pocam-pus to switch be-tween in-ter-nal an
+d ex-tre-nal in-for-ma-tion pro-cess-ing by us-ing
+ []
+
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 30.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 11.00017pt on input line 30.
@@ -1369,21 +1380,9 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 5.49991pt on input line 30.
 
-Underfull \hbox (badness 7451) in paragraph at lines 30--30
-\TU/SourceSansPro(2)/m/n/11 con-fig-ur-ing anal-y-sis soft-ware, and con-duct-i
-ng sur-vival vi-ral in-jec-tion and en-do-scopic
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 30--30
-[]\TU/SourceSansPro(2)/m/n/11 Con-structed be-hav-ioral train-ing set up which 
-con-sisted of build-ing an open field maze,
- []
-
-
-Underfull \hbox (badness 2762) in paragraph at lines 72--72
-[]\TU/SourceSansPro(2)/m/n/11 Used prin-ci-pals from the nat-u-ral com-pu-ta-ti
-on paradigm and com-plex-ity the-ory to add
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+\TU/SourceSansPro(2)/m/it/11 con-fig-ur-ing anal-y-sis soft-ware, and con-duct-
+ing sur-vival vi-ral in-jec-tion and en-do-scopic
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
@@ -1396,18 +1395,13 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (./sections/publications.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
 (Font)              scaled to size 11.0pt on input line 18.
-
-Underfull \hbox (badness 2401) in paragraph at lines 63--63
-[]\TU/SourceSansPro(2)/m/n/11 Cooper K. W., Os-born Z. (󰁭󰁫󰁬󰁱) Down-
-stream Hip-pocam-pal Ac-tiv-ity Pre-dic-tion with Neu-ral Net-works. Mid-west
- []
-
 ) (./sections/awards.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 9.
+(Font)              scaled to size 12.0pt on input line 5.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 9.
-) (./sections/orgs.tex [2]) (./sections/pedagogy.tex
+(Font)              scaled to size 12.0pt on input line 5.
+) (./sections/orgs.tex
+[2]) (./sections/pedagogy.tex
 Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--30
    [] 
  []
@@ -1422,13 +1416,12 @@ Overfull \hbox (35.16505pt too wide) in alignment at lines 10--35
 [] []
  []
 
-) (./sections/training.tex) (./sections/service.tex) (./sections/press.tex
-[3]) [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+) (./sections/training.tex) (./sections/service.tex [3]) (./sections/press.tex) [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
  (./cooper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 Package rerunfilecheck Info: File `cooper.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
@@ -1439,11 +1432,11 @@ Here is how much of LuaTeX's memory you used:
  536 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 79 glue_spec, 4 attribute_list
 , 1 write nodes
-   avail lists: 1:8,2:1215,3:244,4:157,5:633,6:3274,7:1360,8:99,9:378,10:11,11:3
-83
+   avail lists: 1:8,2:1235,3:245,4:155,5:569,6:3302,7:1365,8:83,9:372,10:14,11:3
+86
  41030 multiletter control sequences out of 65536+600000
- 89 fonts using 26261347 bytes
- 72i,12n,89p,884b,741s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 89 fonts using 26261271 bytes
+ 72i,12n,89p,884b,752s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSan
 sPro-Light.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesa
 nspro/SourceSansPro-LightIt.otf></usr/local/texlive/2017/texmf-dist/fonts/openty
@@ -1452,7 +1445,7 @@ dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/local/texli
 ve/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-RegularIt.ot
 f><./fonts/Roboto-Italic.ttf><./fonts/Roboto-Regular.ttf><./fonts/FontAwesome.tt
 f><./fonts/Roboto-Thin.ttf>
-Output written on cooper.pdf (4 pages, 54906 bytes).
+Output written on cooper.pdf (4 pages, 57254 bytes).
 
 PDF statistics: 110 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
