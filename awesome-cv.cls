@@ -148,7 +148,6 @@
   \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
 }
 
-
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
@@ -600,10 +599,46 @@
   \vspace{-4.0mm}
 }
 
+
+%-------------------------------------------------------------------------------
+%                Research Project design
+%-------------------------------------------------------------------------------
+% Define an environment for cvrpitems(for cventry) (just adds bullets)
+\newenvironment{cvrpitems}{%
+  \vspace{-4.0mm}
+  \begin{justify}
+  % for bullets replace label with "nosep, noitemsep"
+  \begin{itemize}[leftmargin=2ex, label={}]
+    \setlength{\parskip}{3pt}
+    \renewcommand{\labelitemi}{\bullet}
+}{%
+  \end{itemize}
+  \end{justify}
+  \vspace{-4.0mm}
+}
+
+% Define an environment for cvitemsdes(for cventry)
+\newenvironment{cvitemsdes}{%
+  \vspace{-.5mm}
+  \begin{justify}
+  % for wraping
+  \begin{minipage}{15cm} 
+  % for bullets replace label with "nosep, noitemsep"
+  \begin{itemize}[leftmargin=2ex, label={}]
+    \setlength{\parskip}{4pt}
+
+    %\renewcommand{\labelitemi}{\bullet}
+}{%
+  \end{itemize}
+  \end{minipage}
+  \end{justify}
+  \vspace{1mm}
+}
+
 % Define an entry of cv research projects
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cvrpentry}[5]{%
-  \vspace{-2.0mm}
+  \vspace{1.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
