@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  9 NOV 2018 16:36
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  27 NOV 2018 19:57
  restricted system commands enabled.
 **cooper.tex
 (./cooper.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.150 seconds
+luaotfload | main : initialization completed in 0.132 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
@@ -1106,7 +1106,7 @@ luaotfload | aux : no font with id 31
 luaotfload | aux : font no 31 (nil) does not define feature smcp for script  wit
 h language 
 luaotfload | aux : no font with id 31
-LaTeX Info: Redefining \FA on input line 156.
+LaTeX Info: Redefining \FA on input line 155.
 (load luc: /Users/K/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts/ot
 l/roboto-regular.luc)
 luaotfload | aux : font no 32 (nil) defines no feature for script latn
@@ -1354,17 +1354,60 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 11.0pt on input line 15.
 )
-(./sections/researchProjects.tex) (./sections/orgs.tex)
-(./sections/pedagogy.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 1.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 1.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 1.
- [1
+(./sections/researchProjects.tex
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 30.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 11.00017pt on input line 30.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.70007pt on input line 30.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.50008pt on input line 30.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.99983pt on input line 30.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.69984pt on input line 30.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.49991pt on input line 30.
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 7451) in paragraph at lines 30--30
+\TU/SourceSansPro(2)/m/n/11 con-fig-ur-ing anal-y-sis soft-ware, and con-duct-i
+ng sur-vival vi-ral in-jec-tion and en-do-scopic
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 30--30
+[]\TU/SourceSansPro(2)/m/n/11 Con-structed be-hav-ioral train-ing set up which 
+con-sisted of build-ing an open field maze,
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 72--72
+[]\TU/SourceSansPro(2)/m/n/11 Used prin-ci-pals from the nat-u-ral com-pu-ta-ti
+on paradigm and com-plex-ity the-ory to add
+ []
+
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 117.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
+(Font)              scaled to size 8.0pt on input line 117.
+[1
+
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+(./sections/publications.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
+(Font)              scaled to size 11.0pt on input line 18.
+
+Underfull \hbox (badness 2401) in paragraph at lines 63--63
+[]\TU/SourceSansPro(2)/m/n/11 Cooper K. W., Os-born Z. (󰁭󰁫󰁬󰁱) Down-
+stream Hip-pocam-pal Ac-tiv-ity Pre-dic-tion with Neu-ral Net-works. Mid-west
+ []
+
+) (./sections/awards.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 9.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 9.
+) (./sections/orgs.tex [2]) (./sections/pedagogy.tex
 Overfull \hbox (2.92001pt too wide) in paragraph at lines 16--30
    [] 
  []
@@ -1379,22 +1422,8 @@ Overfull \hbox (35.16505pt too wide) in alignment at lines 10--35
 [] []
  []
 
-) (./sections/awards.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 9.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 9.
-) (./sections/training.tex) (./sections/service.tex)
-(./sections/publications.tex [2]
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 11.0pt on input line 18.
-
-Underfull \hbox (badness 2401) in paragraph at lines 63--63
-[]\TU/SourceSansPro(2)/m/n/11 Cooper K. W., Os-born Z. (󰁭󰁫󰁬󰁱) Down-
-stream Hip-pocam-pal Ac-tiv-ity Pre-dic-tion with Neu-ral Net-works. Mid-west
- []
-
-) (./sections/press.tex) [3]
+) (./sections/training.tex) (./sections/service.tex) (./sections/press.tex
+[3]) [4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
  (./cooper.aux)
@@ -1405,16 +1434,16 @@ Package rerunfilecheck Info: File `cooper.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38438 strings out of 494481
+ 38484 strings out of 494481
  125171,953878 words of node,token memory allocated
  536 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 79 glue_spec, 4 attribute_list
 , 1 write nodes
-   avail lists: 1:7,2:1271,3:224,4:175,5:375,6:1882,7:1266,8:111,9:419,10:11,11:
-191
- 41012 multiletter control sequences out of 65536+600000
- 77 fonts using 19154807 bytes
- 72i,12n,89p,884b,526s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:8,2:1215,3:244,4:157,5:633,6:3274,7:1360,8:99,9:378,10:11,11:3
+83
+ 41030 multiletter control sequences out of 65536+600000
+ 89 fonts using 26261347 bytes
+ 72i,12n,89p,884b,741s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSan
 sPro-Light.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesa
 nspro/SourceSansPro-LightIt.otf></usr/local/texlive/2017/texmf-dist/fonts/openty
@@ -1423,10 +1452,10 @@ dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/local/texli
 ve/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-RegularIt.ot
 f><./fonts/Roboto-Italic.ttf><./fonts/Roboto-Regular.ttf><./fonts/FontAwesome.tt
 f><./fonts/Roboto-Thin.ttf>
-Output written on cooper.pdf (3 pages, 52371 bytes).
+Output written on cooper.pdf (4 pages, 54906 bytes).
 
-PDF statistics: 106 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 131072)
+PDF statistics: 110 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
