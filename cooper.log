@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  27 NOV 2018 20:50
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  29 JAN 2019 16:26
  restricted system commands enabled.
 **cooper.tex
 (./cooper.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.180 seconds
+luaotfload | main : initialization completed in 0.164 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
@@ -1432,10 +1432,10 @@ Here is how much of LuaTeX's memory you used:
  536 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 79 glue_spec, 4 attribute_list
 , 1 write nodes
-   avail lists: 1:8,2:1235,3:245,4:155,5:569,6:3302,7:1365,8:83,9:372,10:14,11:3
+   avail lists: 1:7,2:1235,3:245,4:155,5:568,6:3301,7:1365,8:83,9:372,10:14,11:3
 86
  41030 multiletter control sequences out of 65536+600000
- 89 fonts using 26261271 bytes
+ 89 fonts using 26261575 bytes
  72i,12n,89p,884b,752s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSan
 sPro-Light.otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/adobe/sourcesa
@@ -1445,7 +1445,7 @@ dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-Bold.otf></usr/local/texli
 ve/2017/texmf-dist/fonts/opentype/adobe/sourcesanspro/SourceSansPro-RegularIt.ot
 f><./fonts/Roboto-Italic.ttf><./fonts/Roboto-Regular.ttf><./fonts/FontAwesome.tt
 f><./fonts/Roboto-Thin.ttf>
-Output written on cooper.pdf (4 pages, 57254 bytes).
+Output written on cooper.pdf (4 pages, 57161 bytes).
 
 PDF statistics: 110 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
