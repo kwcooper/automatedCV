@@ -1,10 +1,10 @@
-# Converts my Resume from YAML to TeX.
-# Requires pdflatex 
+# Requires pdflatex to compile the .tex output -> TODO: create function for this
 # ------------------------------------------------------------------------------
-# inspired by work of:
-#  Aleksandr Mattal <https://github.com/qutebits>
-#  Brandon Amos <https://github.com/bamos/cv>
+# inspired by:
+# https://github.com/qutebits
+# https://github.com/bamos/cv
 # https://github.com/craffel/craffel.github.io/blob/master/src/compile.py
+# https://timsainburg.com/curriculum-vitae-in-python-html-jinja.html
 
 import re
 import yaml
