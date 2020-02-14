@@ -1,0 +1,250 @@
+name: Keiland W. Cooper
+email: qute.bits@gmail.com
+
+#   GENERAL GUIDELINES:
+# ------------------------------------------------------------------------------
+# - if you change the name of any section in 'order' list (example: you rename
+#   "PORTFOLIO" into "STUFF"), remember that you also have to change that name
+#   in the resume-section.tmpl.tex
+# - quote the strings with : or - because these are YAML special chars
+# - avoid / symbol - it fucks up the height of some fonts
+# - if _ (underscore) is needed in PDF: TeX needs \_ so you write \\_ in YAML
+#   because YAML converts \\ to \
+# - if _ is a part of url - put the whole url into \url{} brackets in TeX cause
+#   otherwise www.let.it/be_good/ will compile to www.let.it/be in PDF on hover
+# - COMPILE TWICE when done - needed by TeX to get the lastpage number right
+
+order:
+  - [life_education, LIFE / EDUCATION]
+  - [industry, WORK EXPERIENCE]
+  - [research, RESEARCH EXPERIENCE]
+  - [portfolios, PORTFOLIO]
+  - [tools, TOOLS]
+  - [honors, ACHIEVEMENTS]
+  - [languages, HUMAN LANGUAGES]
+  - [personal_projects, PERSONAL PROJECTS]
+
+life_education:
+  - experience: moved to United Kingdom (London)
+    dates: 2015
+
+  - experience: Christian-Albrechts-University
+    location: Kiel, Germany
+    degree: Diplom in {\bf Computer Science} (with minor in {\bf Mathematics})
+    dates: 2004--2012
+    grade: "1.95 (best possible: 1.0)"
+
+  - experience: moved to Germany (Kiel)
+    dates: 2004
+
+  - experience: High school Tallinna T\~{o}nism\"{a}e Reaalkool (with major in {\bf Mathematics}) 
+    location: Tallinn, Estonia
+    dates: 1996--2004
+    grade: "4.89 (best possible: 5.0)"
+
+  - experience: Art school Rakenduskunsti Erakool 
+    location: Tallinn, Estonia
+    dates: 1997--2001
+    grade: "8.17 (best possible: 10.0)"
+
+#  - experience: born in Estonia
+#    dates: 1987
+
+research:
+  - title: "Extensive Form$^{+}$ : Describing Games Linear Nature (Diploma Thesis, 52 pages)"
+    link: "\\url{https://github.com/qutebits/final_thesis}"
+    field: Game Theory
+    supervisor: Prof. Dr. Thomas Wilke, chair for theoretical informatics, University of Kiel.
+    grade: "1.0 (best possible: 1.0)"
+    description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
+
+industry:
+  - place: Synthace, Ravelin, nCube, Murat Diril etc.
+    location: London, UK
+    title: 'Contractor Developer / Designer'
+    languages: JavaScript, Python, PHP
+    dates: 2014--Present
+    details:
+      - "Hybrid app UI for a cool home automation system (AngularJS/Ionic),"
+      - "Switched to full stack (MongoDB/ExpressJS/AngularJS/Node.js + Ionic),"
+      - "Built a CRM and an inventory system in 8 months (full stack, LAMP),"
+      - "Developed an in-browser QR code PDF generator and QR code scanner (JavaScript),"
+      - "Built and deployed a sitemap with 150 million URLs (Python),"
+      - "Full redesign of CI for Murat Diril, produced full advertisement package (print)."
+#  - place: Murat Diril LTD
+#    location: London, UK
+#    title: 'Contractor Designer / Web Developer'
+#    languages: JavaScript, PHP
+#    dates: 2014--Present
+#    details:
+#      - "Programmed a communication/ordering platform (full stack, LAMP),"
+#      - "Developed the main website,"
+#      - "Upgraded CI of the company and produced full advertisement package (print)."
+  - place: H19 Produktion
+    location: Kiel, Germany
+    title: 'Lead Designer / Web Developer'
+    languages: JavaScript, Python, PHP
+    dates: 2007--2014
+    details:
+      - "Developed (both frontend and backend) websites/services based on Wordpress/Contao,"
+      - "Built a job board (full stack, LAMP),"
+      - "Designed CI's, posters, flyers, catalogues, business cards etc."
+  - place: WortBildTon, New Communication
+    location: Kiel, Germany
+    title: 'Contractor Designer / Jr. Project Manager / Web Developer'
+    languages: JavaScript
+    dates: 2012--2014
+    details:
+      - "Developed an analytics tool and a UI for a project (2000+ users as of Oct.2014)."
+#  - place: "Christian-Albrechts-University"
+#    location: Kiel, Germany
+#    title: 'Web Developer'
+#    languages: PHP
+#    dates: 2010
+#    details:
+#      - "Programmed TYPO3 Extensions for the faculty website. Nothing fancy."
+  - place: "Raytrix"
+    location: Kiel, Germany
+    title: 'Internship (Research)'
+    dates: 2010
+    details:
+      - "Lazer path optimization using pythagorean-hodograph curves in $R^{4}$,"
+      - "Disproved given hypothesis and two of its generalized versions."
+#  - place: "Christian-Albrechts-University"
+#    location: Kiel, Germany
+#    title: 'Student Tutor'
+#    dates: 2009--2010
+#    details:
+#      - "Tutored a lecture in cryptography, corrected students homework,"
+#      - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students."
+#  - place: "Christian-Albrechts-University"
+#    location: Kiel, Germany
+#    title: 'Programmer'
+#    languages: C++, Java
+#    dates: 2006--2009
+#    details:
+#      - "Proposed an algorithm for real-time matching of filmed objects with their 3D-models,"
+#      - "Implemented several real-time pattern recognition and triangulation algorithms,"
+#      - "Made some of the code run 10x faster so to be used in real-time video analysis,"
+#      - "Implemented several sheduling algorithms and a GUI for their usage (J2EE + Swing)."
+  - place: "Christian-Albrechts-University"
+    location: Kiel, Germany
+    title: 'Scientific Assistant / Student Tutor / Programmer'
+    languages: C++, Java
+    dates: 2006--2010
+    details:
+      - "Proposed an algorithm for real-time matching of filmed objects with their 3D-models,"
+      - "Implemented several real-time pattern recognition and triangulation algorithms,"
+      - "Optimized image-recognition code so that it could be used in real-time video analysis,"
+      - "Implemented several sheduling algorithms and a GUI for their usage (J2EE + Swing),"
+      - "Tutored a lecture in cryptography, corrected students homework,"
+      - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students,"
+      - "Also did some boring stuff: wrote TYPO3 modules."
+
+tools:
+  - title: Languages of choice
+    details: JavaScript, Python, PHP
+#  - title: Languages
+#    details: C++, Java, Haskell, Assembler
+  - title: Stack - big stuff
+    details: "Node.js/ExpressJS/AngularJS/React/d3.js, Python/PHP, MySQL/MongoDB, Git"
+  - title: Stack - small stuff
+    details: "js/jQuery, PHP, MySQL, Wordpress/Contao"
+  - title: Teamwork
+    details: "Git, Linux, Slack/Hipchat, Asana/Pivotal Tracker, Dropbox/Evernote/Trello/Google Docs"
+  - title: Design
+    details: Adobe Creative Suite
+
+honors:
+  - honor: Participant of International Mathematical Olympiad (IMO04 - Athens, Greece) as a representative of Estonian National Team.
+    date: 2004
+  - honor: 2. place, PC game character design competition (Etherlords, Nival Interactive, 2001).
+    date: 2001
+
+portfolios:
+  - name: GitHub Portfolio
+    url: "https://github.com/qutebits/"
+  - name: Graphical Portfolio
+    url: "http://www.coroflot.com/qutepixels/"
+#  - name: Personal Blog
+#    url: "http://scriptogr.am/qutebits/"
+
+personal_projects:
+  - name: YAML to PDF Resume Generator (Python Script)
+    url: "https://github.com/qutebits/resume\\_42/"
+    details:
+      - Generates a small and nice PDF Resume out of YAML data,
+      - Main script is written in {\bf Python}, translates {\bf YAML} data into \TeX\hspace{1mm} using {\bf Jinja} templating engine.
+      - This whole Resume is generated with it :)
+  - name: VKontakte Playlist Downloader (Chrome Extension)
+    url: "https://github.com/qutebits/vkpd/"
+    details:
+      - Chrome Extension for batch download of audio tracks from social network VKontakte,
+#      - "The blog post about it is here -- http://scriptogr.am/qutebits/post/q01-vkontakte-playlist-downloader"
+  - name: PIP (Web Scraper)
+#    url: "http://scriptogr.am/qutebits/post/q08-personal-information-pimp/"
+    details:
+      - Scrapes 80+ pages of different boards/blogs/listings (HN,Reddit,Gumtree,etc.) that I visit daily,
+      - Sorts the scraped data and filters according to several criteria,
+      - Reads the filtered data with a human voice on a single click of a button using a TTS library :)
+  - name: Etsy Thug (Online Tool)
+    url: "https://github.com/qutebits/etsy\\_thug/"
+    details:
+      - Tool for quick creation of Etsy collections.
+  - name: Stackin (UI Concept)
+    url: "https://github.com/qutebits/stackin/"
+    details:
+      - Responsive UI concept for sorted value-assigned text data (like Hacker News posts).
+  - name: QR codes PDF generator (JavaScript)
+    url: "https://github.com/QuteBits/qr\\_pdf\\_generator"
+    details:
+      - In-browser QR codes generator which then builds and downloads a PDF with them.
+  - name: QR codes Scanner (JavaScript)
+    url: "https://github.com/QuteBits/qr\\_scanner"
+    details:
+      - Really easy to install/use,
+      - Runs purely in the browser (no server needed), 
+      - HTML5 QR codes scanner which uses cameras on your devices to scan QR codes.
+  - name: My Taste of Ideas (Blog Post)
+#    url: "http://scriptogr.am/qutebits/post/q04-qute-hack-ideas/"
+    details:
+      - 21 personal ideas that appeal to my taste,
+      - Used {\bf Markdown} for posts, {\bf MathJax} for \TeX\hspace{1mm} snippets, {\bf Dropbox} as storage for posts and {\bf GitHub} as storage for images.
+  - name: Hashtag Adjustor (Instagram Scraper)
+    details:
+      - Scrapes all hashtags from 30 last posts of all the accounts that liked your posts,
+      - Sorts them and shows most used combinations of 1, 2 or 3 hashtags
+  - name: Accounting Jobs Scraper
+    details:
+      - Scrapes for companies in 50 industries by location and generates a CSV with their contact emails,
+      - Scans 5 largest UK job sites and generates a CSV and a histogram of all the salaries
+  - name: Google Maps and Meetup.com Scraper
+    details:
+      - Scrapes Meetup.com Calendar for the current day,
+      - Scrapes Google Maps Search results by simulating human behavior in the browser and analyzing screenshots
+  - name: Executing python code on a smartphone using NFC chips and code hosted on a public fiddle 
+    details:
+      - Root your smartphone and install a command-line tool or a Linux distro,
+      - Write python code and save it as text on a public feedle (use hackmd.io or similar)
+      - save a small bash script that downloads the code from hackmd.io and executes it on an NFC chip,
+  - name: Browser CCTV Streaming (JavaScript/PHP)
+    details:
+      - Allows you to stream any number smartphone/laptop cameras (no install needed),
+      - Open page A in your smartphone/laptop browser and allow access to the device camera,
+      - page B shows all current streams from page A
+  - name: Automatic Diary (JavaScript/PHP)
+    details:
+      - Generates a static diary that shows a diary entry and all photos with a similar date from a folder
+
+languages:
+  - language: English
+    level: Fluently speaking and writing
+    certified: IELTS 7.5/9.0, GMAT 730/800
+  - language: German
+    level: Fluently speaking and writing
+    certified: TestDaF 17/20
+  - language: Estonian
+    level: Speaking and writing
+    certified: Kesktase 89/100
+  - language: Russian
+    level: Native language
