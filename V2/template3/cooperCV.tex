@@ -1,0 +1,130 @@
+%-------------------------------------------------------------------------------
+%       Created by K.W.Cooper | 200214
+%-------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{result/developercv} % Default font size, values from 8-12pt are recommended
+
+\usepackage{fontawesome} % Required for FontAwesome icons
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	Heading
+%----------------------------------------------------------------------------------------
+
+% \begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+% 	% If your name is very short, use just one of the lines below
+% 	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+% 	\HUGE\textcolor{black}{\textbf{\MakeUppercase{~{{ name }}~ ~{{ lastName }}~}}} % First name
+% 	%\HUGE\textcolor{black}{\textbf{\MakeUppercase{~{{ lastName }}~}}} % Last name
+	
+% 	\vspace{6pt}
+% \end{minipage}
+
+\begin{center}
+% \HUGE\textcolor{gray}{\MakeUppercase{~{{ name }}~}} % For uppercase:
+% \HUGE\textcolor{black}{\textbf{\MakeUppercase{~{{ lastName }}~}}}
+\HUGE\textcolor{gray}{~{{ name }}~}
+\HUGE\textcolor{black}{\textbf{~{{ lastName }}~}}
+\end{center}
+
+% Draw a line to divide the page
+\begin{center}
+\textcolor{gray}{\line(1,0){400}}
+\end{center}
+
+\begin{center}
+\href{https://kwcooper.xyz}{\faGlobe \hspace{0.1cm} kwcooper.xyz | \hspace{0.1cm}}
+\href{https://twitter.com/kwcooper}{\faTwitter \hspace{0.1cm} @keilandwcooper | \hspace{0.1cm}} 
+\href{mailto: ~{{ email }}~ }{\faAt \hspace{0.1cm} ~{{ email }}~ | \hspace{0.1cm}} 
+\href{https://github.com/kwcooper}{\faGithub \hspace{0.1cm} kwcooper} 
+\end{center}
+
+\begin{center} \emph{\textcolor{gray}{Last updated ~{{ today }}~}} \end{center}
+\vspace{0.7cm}
+
+% \begin{center}
+% \icon{MapMarker}{12}{updated ~{{ today }}~} |
+% \icon{Phone}{12}{+1 123 456 789} |
+% \icon{At}{12}{\href{mailto:alyx@vance.me}{alyx@vance.me}} 
+% \end{center}
+
+% \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+% 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+% 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+% 	\icon{MapMarker}{12}{updated ~{{ today }}~}\\
+% 	\icon{Phone}{12}{+1 123 456 789}\\
+% 	\icon{At}{12}{\href{mailto:alyx@vance.me}{alyx@vance.me}}\\	
+% \end{minipage}
+% \begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+% 	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+% 	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+% 	\icon{Globe}{12}{\href{https://alyx.vance.me}{alyx.vance.me}}\\
+% 	\icon{Github}{12}{\href{https://github.com/alyxvance}{github.com/alyxvance}}\\
+% 	\icon{Twitter}{12}{\href{https://twitter.com/@alyxvance}{@alyxvance}}\\
+% \end{minipage}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	Compute the rest of the sections
+%----------------------------------------------------------------------------------------
+
+%main color
+\definecolor{maincolor}{RGB}{118,13,112}
+\definecolor{maingrey}{RGB}{150,150,150}
+
+\begin{flushright}
+\vspace{3.5mm}
+
+\end{flushright}
+\vspace{-18mm}
+
+~{{ body }}~
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{JavaScript}{60}
+		\baritem{PHP}{100}
+		\baritem{SASS/LESS}{70}
+		\baritem{Bootstrap}{70}
+		\baritem{Git}{40}
+		\baritem{LaTeX}{60}
+	\end{barchart}
+\end{minipage}
+
+\begin{center}
+	\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
+\end{center}
+
+
+
+
+\end{document}
+

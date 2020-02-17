@@ -1,4 +1,5 @@
-name: Keiland W. Cooper
+name: Keiland W. 
+lastName: Cooper
 email: qute.bits@gmail.com
 
 #   GENERAL GUIDELINES:
@@ -55,6 +56,13 @@ research:
     link: "\\url{https://github.com/qutebits/final_thesis}"
     field: Game Theory
     supervisor: Prof. Dr. Thomas Wilke, chair for theoretical informatics, University of Kiel.
+    grade: "1.0 (best possible: 1.0)"
+    description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
+    dates: 2010-2011
+  - title: "Theta modulation"
+    link: "\\url{https://github.com/qutebits/final_thesis}"
+    field: Game Theory
+    supervisor: Prof. Dr. Thomas Wilke
     grade: "1.0 (best possible: 1.0)"
     description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
 
