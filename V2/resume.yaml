@@ -1,6 +1,6 @@
 name: Keiland W. 
 lastName: Cooper
-email: qute.bits@gmail.com
+email: kwcooper@uci.edu 
 
 #   GENERAL GUIDELINES:
 # ------------------------------------------------------------------------------
@@ -19,6 +19,7 @@ order:
   - [life_education, LIFE / EDUCATION]
   - [industry, WORK EXPERIENCE]
   - [research, RESEARCH EXPERIENCE]
+  - [publications, PUBLICATIONS]
   - [portfolios, PORTFOLIO]
   - [tools, TOOLS]
   - [honors, ACHIEVEMENTS]
@@ -26,27 +27,16 @@ order:
   - [personal_projects, PERSONAL PROJECTS]
 
 life_education:
-  - experience: moved to United Kingdom (London)
-    dates: 2015
+  - experience: University of California, Irvine
+    location: b
+    degree: Neuroscience, Ph.D.
+    dates: In progress
 
-  - experience: Christian-Albrechts-University
-    location: Kiel, Germany
-    degree: Diplom in {\bf Computer Science} (with minor in {\bf Mathematics})
-    dates: 2004--2012
-    grade: "1.95 (best possible: 1.0)"
-
-  - experience: moved to Germany (Kiel)
-    dates: 2004
-
-  - experience: High school Tallinna T\~{o}nism\"{a}e Reaalkool (with major in {\bf Mathematics}) 
-    location: Tallinn, Estonia
-    dates: 1996--2004
-    grade: "4.89 (best possible: 5.0)"
-
-  - experience: Art school Rakenduskunsti Erakool 
-    location: Tallinn, Estonia
-    dates: 1997--2001
-    grade: "8.17 (best possible: 10.0)"
+  - experience: Indiana University, Bloomington 
+    location: b
+    dates: May the fourth, 2019
+    degree: Cognitive Science B.S. \emph{with Honors}; Neuroscience Cert.
+    thesis: "Thesis: Cholanergic mode switching"
 
 #  - experience: born in Estonia
 #    dates: 1987
@@ -256,3 +246,14 @@ languages:
     certified: Kesktase 89/100
   - language: Russian
     level: Native language
+
+publications:
+  - preprints: 
+    - "pre, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
+  - published:
+    - "pub, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
+    - "pub, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
+  - abstracts:
+    - "abs, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
+    - "abs, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
+
