@@ -38,9 +38,6 @@ life_education:
     degree: Cognitive Science B.S. \emph{with Honors}; Neuroscience Cert.
     thesis: "Thesis: Cholanergic mode switching"
 
-#  - experience: born in Estonia
-#    dates: 1987
-
 research:
   - title: "Extensive Form$^{+}$ : Describing Games Linear Nature (Diploma Thesis, 52 pages)"
     link: "\\url{https://github.com/qutebits/final_thesis}"
@@ -69,15 +66,6 @@ industry:
       - "Developed an in-browser QR code PDF generator and QR code scanner (JavaScript),"
       - "Built and deployed a sitemap with 150 million URLs (Python),"
       - "Full redesign of CI for Murat Diril, produced full advertisement package (print)."
-#  - place: Murat Diril LTD
-#    location: London, UK
-#    title: 'Contractor Designer / Web Developer'
-#    languages: JavaScript, PHP
-#    dates: 2014--Present
-#    details:
-#      - "Programmed a communication/ordering platform (full stack, LAMP),"
-#      - "Developed the main website,"
-#      - "Upgraded CI of the company and produced full advertisement package (print)."
   - place: H19 Produktion
     location: Kiel, Germany
     title: 'Lead Designer / Web Developer'
@@ -94,13 +82,6 @@ industry:
     dates: 2012--2014
     details:
       - "Developed an analytics tool and a UI for a project (2000+ users as of Oct.2014)."
-#  - place: "Christian-Albrechts-University"
-#    location: Kiel, Germany
-#    title: 'Web Developer'
-#    languages: PHP
-#    dates: 2010
-#    details:
-#      - "Programmed TYPO3 Extensions for the faculty website. Nothing fancy."
   - place: "Raytrix"
     location: Kiel, Germany
     title: 'Internship (Research)'
@@ -108,23 +89,6 @@ industry:
     details:
       - "Lazer path optimization using pythagorean-hodograph curves in $R^{4}$,"
       - "Disproved given hypothesis and two of its generalized versions."
-#  - place: "Christian-Albrechts-University"
-#    location: Kiel, Germany
-#    title: 'Student Tutor'
-#    dates: 2009--2010
-#    details:
-#      - "Tutored a lecture in cryptography, corrected students homework,"
-#      - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students."
-#  - place: "Christian-Albrechts-University"
-#    location: Kiel, Germany
-#    title: 'Programmer'
-#    languages: C++, Java
-#    dates: 2006--2009
-#    details:
-#      - "Proposed an algorithm for real-time matching of filmed objects with their 3D-models,"
-#      - "Implemented several real-time pattern recognition and triangulation algorithms,"
-#      - "Made some of the code run 10x faster so to be used in real-time video analysis,"
-#      - "Implemented several sheduling algorithms and a GUI for their usage (J2EE + Swing)."
   - place: "Christian-Albrechts-University"
     location: Kiel, Germany
     title: 'Scientific Assistant / Student Tutor / Programmer'
@@ -142,8 +106,6 @@ industry:
 tools:
   - title: Languages of choice
     details: JavaScript, Python, PHP
-#  - title: Languages
-#    details: C++, Java, Haskell, Assembler
   - title: Stack - big stuff
     details: "Node.js/ExpressJS/AngularJS/React/d3.js, Python/PHP, MySQL/MongoDB, Git"
   - title: Stack - small stuff
@@ -154,18 +116,18 @@ tools:
     details: Adobe Creative Suite
 
 honors:
-  - honor: Participant of International Mathematical Olympiad (IMO04 - Athens, Greece) as a representative of Estonian National Team.
-    date: 2004
-  - honor: 2. place, PC game character design competition (Etherlords, Nival Interactive, 2001).
-    date: 2001
+  - honor: "National Science Foundation, GRFP: emph{Honorable Mention}"
+    date: 2019
+  - honor: "Indiana University Cognitive Science Outstanding Research Award"
+    date: 2018
+  - honor: "Ewing Prize"
+    date: 2018
 
 portfolios:
   - name: GitHub Portfolio
     url: "https://github.com/qutebits/"
   - name: Graphical Portfolio
     url: "http://www.coroflot.com/qutepixels/"
-#  - name: Personal Blog
-#    url: "http://scriptogr.am/qutebits/"
 
 personal_projects:
   - name: YAML to PDF Resume Generator (Python Script)
@@ -178,13 +140,6 @@ personal_projects:
     url: "https://github.com/qutebits/vkpd/"
     details:
       - Chrome Extension for batch download of audio tracks from social network VKontakte,
-#      - "The blog post about it is here -- http://scriptogr.am/qutebits/post/q01-vkontakte-playlist-downloader"
-  - name: PIP (Web Scraper)
-#    url: "http://scriptogr.am/qutebits/post/q08-personal-information-pimp/"
-    details:
-      - Scrapes 80+ pages of different boards/blogs/listings (HN,Reddit,Gumtree,etc.) that I visit daily,
-      - Sorts the scraped data and filters according to several criteria,
-      - Reads the filtered data with a human voice on a single click of a button using a TTS library :)
   - name: Etsy Thug (Online Tool)
     url: "https://github.com/qutebits/etsy\\_thug/"
     details:
@@ -204,7 +159,6 @@ personal_projects:
       - Runs purely in the browser (no server needed), 
       - HTML5 QR codes scanner which uses cameras on your devices to scan QR codes.
   - name: My Taste of Ideas (Blog Post)
-#    url: "http://scriptogr.am/qutebits/post/q04-qute-hack-ideas/"
     details:
       - 21 personal ideas that appeal to my taste,
       - Used {\bf Markdown} for posts, {\bf MathJax} for \TeX\hspace{1mm} snippets, {\bf Dropbox} as storage for posts and {\bf GitHub} as storage for images.
