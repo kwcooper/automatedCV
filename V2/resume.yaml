@@ -21,10 +21,16 @@ order:
   - [research, RESEARCH EXPERIENCE]
   - [publications, PUBLICATIONS]
   - [honors, ACHIEVEMENTS]
-  - [portfolios, PORTFOLIO]
-  - [tools, TOOLS]
-  - [languages, HUMAN LANGUAGES]
-  - [personal_projects, PERSONAL PROJECTS]
+  - [networks, NETWORKS]
+  - [pedagogy, PEDAGOGY]
+  - [skills, SKILLS]
+  - [outreach, OUTREACH]
+  - [trainings, TRAININGS]
+  - [press, PRESS]
+  - [erdos, ERDOS]
+  # - [portfolios, PORTFOLIO]
+  # - [languages, HUMAN LANGUAGES]
+  # - [personal_projects, PERSONAL PROJECTS]
 
 life_education:
   - experience: University of California, Irvine
@@ -103,25 +109,72 @@ industry:
       - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students,"
       - "Also did some boring stuff: wrote TYPO3 modules."
 
-tools:
-  - title: Languages of choice
+honors:
+  - honor: "National Science Foundation, GRFP: \\emph{Honorable Mention}"
+    date: 2019
+  - honor: "Indiana University Cognitive Science Outstanding Research Award"
+    date: 2018
+  - honor: "Ewing Prize"
+    date: 2018
+
+networks:
+  - societies:
+    - "Indiana Academy of Science"
+    - "Psi Chi"
+  - other:
+    - "Continual AI"
+  - confCommittee:
+    - "Learning: Fast, Deep, and Shallow"
+
+pedagogy:
+  - ugcoinstruct:
+    - "Autonomous Robotics (CSCI-B355); Spring 2019"
+    - "Programming in the Cognitive and Info Sciences (COGS-Q 260); Spring 2018"
+  - ugta: 
+    - "Cognitive Psychology (PSY-P 355); Fall 2018"
+  - commseats:
+    - "Education Policy Committee; Indiana University"
+    - "Faculty Council; Indiana University"
+
+skills:
+  - title: Laboratory
     details: JavaScript, Python, PHP
-  - title: Stack - big stuff
+  - title: Computational
     details: "Node.js/ExpressJS/AngularJS/React/d3.js, Python/PHP, MySQL/MongoDB, Git"
-  - title: Stack - small stuff
+  - title: IT
     details: "js/jQuery, PHP, MySQL, Wordpress/Contao"
   - title: Teamwork
     details: "Git, Linux, Slack/Hipchat, Asana/Pivotal Tracker, Dropbox/Evernote/Trello/Google Docs"
   - title: Design
     details: Adobe Creative Suite
 
-honors:
-  - honor: "National Science Foundation, GRFP: emph{Honorable Mention}"
-    date: 2019
-  - honor: "Indiana University Cognitive Science Outstanding Research Award"
-    date: 2018
-  - honor: "Ewing Prize"
-    date: 2018
+outreach:
+  - title:
+    details: "Hoosier Stars (co-founding Director)"
+  - title:
+    details: "Brain Club @ The Boys and Girls Club"
+  - title:
+    details: "Quora Top Writer"
+
+trainings:
+  - title:
+    details: "Nonlinear dynamics at the santa fe institute"
+  - title:
+    details: "Complexity Science, santa fe institute"
+  - title:
+    details: "Science Communication workshop, Indiana University"
+
+press:
+  - title:
+    details: "Keiland went and did outreach somewhere (2018)"
+  - title:
+    details: "The art of dissemination part 3: Care to share?"
+  - title:
+    details: "Science Communication workshop, Indiana University"
+
+erdos:
+  - title:
+    details: "Paul Erdos -> Ronald L. Graham -> Feng Zhou -> Mike -> Ehren -> Me"
 
 portfolios:
   - name: GitHub Portfolio
@@ -152,41 +205,6 @@ personal_projects:
     url: "https://github.com/QuteBits/qr\\_pdf\\_generator"
     details:
       - In-browser QR codes generator which then builds and downloads a PDF with them.
-  - name: QR codes Scanner (JavaScript)
-    url: "https://github.com/QuteBits/qr\\_scanner"
-    details:
-      - Really easy to install/use,
-      - Runs purely in the browser (no server needed), 
-      - HTML5 QR codes scanner which uses cameras on your devices to scan QR codes.
-  - name: My Taste of Ideas (Blog Post)
-    details:
-      - 21 personal ideas that appeal to my taste,
-      - Used {\bf Markdown} for posts, {\bf MathJax} for \TeX\hspace{1mm} snippets, {\bf Dropbox} as storage for posts and {\bf GitHub} as storage for images.
-  - name: Hashtag Adjustor (Instagram Scraper)
-    details:
-      - Scrapes all hashtags from 30 last posts of all the accounts that liked your posts,
-      - Sorts them and shows most used combinations of 1, 2 or 3 hashtags
-  - name: Accounting Jobs Scraper
-    details:
-      - Scrapes for companies in 50 industries by location and generates a CSV with their contact emails,
-      - Scans 5 largest UK job sites and generates a CSV and a histogram of all the salaries
-  - name: Google Maps and Meetup.com Scraper
-    details:
-      - Scrapes Meetup.com Calendar for the current day,
-      - Scrapes Google Maps Search results by simulating human behavior in the browser and analyzing screenshots
-  - name: Executing python code on a smartphone using NFC chips and code hosted on a public fiddle 
-    details:
-      - Root your smartphone and install a command-line tool or a Linux distro,
-      - Write python code and save it as text on a public feedle (use hackmd.io or similar)
-      - save a small bash script that downloads the code from hackmd.io and executes it on an NFC chip,
-  - name: Browser CCTV Streaming (JavaScript/PHP)
-    details:
-      - Allows you to stream any number smartphone/laptop cameras (no install needed),
-      - Open page A in your smartphone/laptop browser and allow access to the device camera,
-      - page B shows all current streams from page A
-  - name: Automatic Diary (JavaScript/PHP)
-    details:
-      - Generates a static diary that shows a diary entry and all photos with a similar date from a folder
 
 languages:
   - language: English
