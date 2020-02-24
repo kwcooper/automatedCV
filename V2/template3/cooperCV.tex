@@ -6,17 +6,28 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[9pt]{result/developercv} % Default font size, values from 8-12pt are recommended
+\documentclass[11pt]{result/developercv} % Default font size, values from 8-12pt are recommended
 
 \usepackage{fontawesome} % Required for FontAwesome icons
+\usepackage{fancyhdr} % Needed to make a pretty header & footer 
 
+%----------------------------------------------------------------------------------------
+%	Footer Configuration
+%----------------------------------------------------------------------------------------
 
+\fancyhf{} % Clear all header & footer fields
+\pagestyle{fancy} % Enable for footer 
+\renewcommand{\headrulewidth}{0pt} % Remove head rule
 
-\begin{document}
+\fancyfoot{}
+\fancyfoot[C]{\emph{\textcolor{gray}{Curriculum Vitae ~~~·~~~ K. W. Cooper}}}
+\fancyfoot[R]{\textcolor{gray}{\thepage}}
 
 %----------------------------------------------------------------------------------------
 %	Heading
 %----------------------------------------------------------------------------------------
+
+\begin{document}
 
 % \begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
 % 	\vspace{-\baselineskip} % Required for vertically aligning minipages
@@ -30,9 +41,7 @@
 % \end{minipage}
 
 \begin{center}
-% \HUGE\textcolor{gray}{\MakeUppercase{~{{ name }}~}} % For uppercase:
-% \HUGE\textcolor{black}{\textbf{\MakeUppercase{~{{ lastName }}~}}}
-\HUGE\textcolor{gray}{~{{ name }}~}
+\HUGE\textcolor{black}{~{{ name }}~}
 \HUGE\textcolor{black}{\textbf{~{{ lastName }}~}}
 \end{center}
 
@@ -41,14 +50,17 @@
 \textcolor{gray}{\line(1,0){400}}
 \end{center}
 
+% Define social media
 \begin{center}
-\href{https://kwcooper.xyz}{\faGlobe \hspace{0.05cm} kwcooper.xyz | \hspace{0.1cm}}
+\footnotesize 
+\href{https://kwcooper.xyz}{\faHome \hspace{0.05cm} kwcooper.xyz | \hspace{0.1cm}}
 \href{https://twitter.com/kwcooper}{\faTwitter \hspace{0.05cm} @keilandwcooper | \hspace{0.1cm}} 
-\href{mailto: ~{{ email }}~ }{\faAt \hspace{0.05cm} ~{{ email }}~ | \hspace{0.1cm}} 
+\href{mailto: ~{{ email }}~ }{\faEnvelope \hspace{0.05cm} ~{{ email }}~ | \hspace{0.1cm}} 
 \href{https://github.com/kwcooper}{\faGithub \hspace{0.05cm} kwcooper} 
 \end{center}
 
-\begin{center} \emph{\textcolor{gray}{Last updated ~{{ today }}~}} \end{center}
+% Define updated line
+\begin{center} \footnotesize \emph{\textcolor{gray}{Last updated ~{{ today }}~}} \end{center}
 \vspace{0.7cm}
 
 

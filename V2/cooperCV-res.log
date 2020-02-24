@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  22 FEB 2020 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  23 FEB 2020 20:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -14,8 +14,8 @@ LaTeX Warning: You have requested document class `result/developercv',
 Document Class: developercv 2019/01/28 Developer CV class v1.0
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/extsizes/size9.clo
-File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/exscale.sty
 Package: exscale 2014/09/29 v2.1h Standard LaTeX package exscale
@@ -1069,40 +1069,53 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count128
 \LT@p@ftn=\toks32
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
+)
 (./cooperCV-res.aux)
 \openout1 = `cooperCV-res.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 30.
  (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Try loading font information for T1+Raleway-TLF on input li
-ne 15.
+ne 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
 File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
 F.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 15.
+(Font)              scaled to size 10.95pt on input line 30.
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1112,9 +1125,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count129
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 
 (./cooperCV-res.out) (./cooperCV-res.out)
 \@outlinefile=\write4
@@ -1140,12 +1153,12 @@ LaTeX Info: Redefining \nameref on input line 15.
 * \topmargin=-58.0436pt
 * \headheight=21.33955pt
 * \headsep=14.22636pt
-* \topskip=9.0pt
+* \topskip=11.0pt
 * \footskip=28.45274pt
-* \marginparwidth=74.0pt
+* \marginparwidth=59.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=8.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1187,121 +1200,242 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 29.86pt on input line 35.
+(Font)              scaled to size 29.86pt on input line 44.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 29.86pt on input line 36.
+(Font)              scaled to size 29.86pt on input line 45.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 55.
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 45.
+line 56.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    Try loading font information for U+fontawesomethree on inpu
-t line 46.
+t line 57.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
-LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 47.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
-)
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 51.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 74.
+(Font)              scaled to size 9.0pt on input line 63.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 86.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
  []
 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 103.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 115.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 118.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 118.
+(Font)              <6> on input line 130.
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--298
+Underfull \hbox (badness 10000) in paragraph at lines 187--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
 
  []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--239
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+
+ []
+
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 272.
+LaTeX Font Info:    Try loading font information for OMS+Raleway-TLF on input l
+ine 272.
+LaTeX Font Info:    No file OMSRaleway-TLF.fd. on input line 272.
+
+LaTeX Font Warning: Font shape `OMS/Raleway-TLF/m/it' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textperiodcentered' on input line 272.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
-
- []
-
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <9> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 344.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--350
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--387
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
 
  []
 
@@ -1311,124 +1445,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 420--420
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--437
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--471
+Underfull \hbox (badness 10000) in paragraph at lines 436--436
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 481--481
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 504--504
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
-
- []
-
-
-Overfull \hbox (36.51563pt too wide) in alignment at lines 471--531
- [] [] 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 558--559
+Underfull \hbox (badness 10000) in paragraph at lines 471--472
 
  []
 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 562.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 475.
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--601
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 675--676
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--714
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 734--735
+Underfull \hbox (badness 10000) in paragraph at lines 632--633
 
  []
 
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 636.
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <5> on input line 636.
 
-Underfull \hbox (badness 1874) in paragraph at lines 739--740
-\T1/lmss/m/n/9 adip-isc-ing elit. Donec a diam lec-tus.Lorem
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 739--740
+Underfull \hbox (badness 10000) in paragraph at lines 653--654
 
  []
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 758.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 758.
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
+
+ []
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 677.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 677.
  (./cooperCV-res.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 758.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 758.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 677.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 677.
 Package rerunfilecheck Info: File `cooperCV-res.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 758.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 677.
  ) 
 Here is how much of TeX's memory you used:
- 20321 strings out of 492982
- 393592 string characters out of 6134896
- 481085 words of memory out of 5000000
- 23498 multiletter control sequences out of 15000+600000
- 83986 words of font info for 42 fonts, out of 8000000 for 9000
+ 20468 strings out of 492982
+ 395212 string characters out of 6134896
+ 480595 words of memory out of 5000000
+ 23640 multiletter control sequences out of 15000+600000
+ 110114 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,69p,591b,646s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,14n,69p,437b,646s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texlive/texmf-dist
 /fonts/enc/dvips/raleway/a_bzmckq.enc}{/usr/share/texlive/texmf-dist/fonts/enc/
-dvips/fontawesome/fontawesomeone.enc}{/usr/share/texlive/texmf-dist/fonts/enc/d
-vips/fontawesome/fontawesomethree.enc}{/usr/share/texlive/texmf-dist/fonts/enc/
-dvips/fontawesome/fontawesometwo.enc}</usr/share/texlive/texmf-dist/fonts/type1
-/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/i
-mpallari/raleway/Raleway-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-impallari/raleway/Raleway-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmsso9.pfb>
-Output written on cooperCV-res.pdf (3 pages, 232497 bytes).
+dvips/fontawesome/fontawesomethree.enc}{/usr/share/texlive/texmf-dist/fonts/enc
+/dvips/fontawesome/fontawesometwo.enc}</usr/share/texlive/texmf-dist/fonts/type
+1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+impallari/raleway/Raleway-Italic.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/impallari/raleway/Raleway-Regular.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmsso10.pfb>
+Output written on cooperCV-res.pdf (4 pages, 152507 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

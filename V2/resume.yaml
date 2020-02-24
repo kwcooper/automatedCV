@@ -17,8 +17,8 @@ email: kwcooper@uci.edu
 
 order:
   - [life_education, LIFE / EDUCATION]
-  - [industry, WORK EXPERIENCE]
-  - [research, RESEARCH EXPERIENCE]
+  #- [industry, WORK EXPERIENCE]
+  #- [research, RESEARCH EXPERIENCE]
   - [publications, PUBLICATIONS]
   - [honors, ACHIEVEMENTS]
   - [networks, NETWORKS]
@@ -40,9 +40,9 @@ life_education:
 
   - experience: Indiana University, Bloomington 
     location: b
-    dates: May the fourth, 2019
+    dates: May the Fourth, 2019
     degree: Cognitive Science B.S. \emph{with Honors}; Neuroscience Cert.
-    thesis: "Thesis: Cholanergic mode switching"
+    thesis: "Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
 
 research:
   - title: "Extensive Form$^{+}$ : Describing Games Linear Nature (Diploma Thesis, 52 pages)"
@@ -112,26 +112,39 @@ industry:
 honors:
   - honor: "National Science Foundation, GRFP: \\emph{Honorable Mention}"
     date: 2019
-  - honor: "Indiana University Cognitive Science Outstanding Research Award"
-    date: 2018
+  - honor: "Cognitive Science Outstanding Research Award, Indiana University"
+    date: 2019
   - honor: "Ewing Prize"
     date: 2018
-
+  - honor: "Cognitive Science Outstanding Contribution Award, Indiana University"
+    date: 2018
+  - honor: "Cognitive Science Research Project Award, Indiana University"
+    date: 2018
+  - honor: "Cognitive Science Research Project Award, Indiana University"
+    date: 2017
+              
 networks:
   - societies:
     - "Indiana Academy of Science"
     - "Psi Chi"
+    - "Sigma Xi"
+    - "Sigma Alpha Pi"
   - other:
     - "Continual AI"
+    - "Carboncopies, volunteer researcher"
+    - "Student Organization for Cognitive Science, President" 
+    - "ADAPT Consulting, VP of Project Management"
   - confCommittee:
     - "Learning: Fast, Deep, and Shallow"
+    - "Midwest Undergraduate Cognitive Science Conference"
 
 pedagogy:
   - ugcoinstruct:
-    - "Autonomous Robotics (CSCI-B355); Spring 2019"
-    - "Programming in the Cognitive and Info Sciences (COGS-Q 260); Spring 2018"
+    - "Autonomous Robotics (CSCI-B355); Indiana University, Spring 2019"
+    - "Programming in the Cognitive and Info Sciences (COGS-Q 260); Indiana University, Spring 2018"
   - ugta: 
-    - "Cognitive Psychology (PSY-P 355); Fall 2018"
+    - "Cognitive Psychology (PSY-P 355); Indiana University, Fall 2018"
+    - "Introduction to Neuroscience (PSY-P 346), Indiana University, Fall 2017"
   - commseats:
     - "Education Policy Committee; Indiana University"
     - "Faculty Council; Indiana University"
@@ -155,6 +168,12 @@ outreach:
     details: "Brain Club @ The Boys and Girls Club"
   - title:
     details: "Quora Top Writer"
+  - title:
+    details: "IU Science Fest"
+  - title:
+    details: "Kirkwood Observatory Guide"
+  - title:
+    details: "Celebrate Science Indiana"
 
 trainings:
   - title:
@@ -174,7 +193,7 @@ press:
 
 erdos:
   - title:
-    details: "Paul Erdos -> Ronald L. Graham -> Feng Zhou -> Mike -> Ehren -> Me"
+    details: "Paul Erdös $\\rightarrow$ Ronald L. Graham $\\rightarrow$ Feng Zhou $\\rightarrow$ Michael J. Kahana $\\rightarrow$ Ehren L. Newman"
 
 portfolios:
   - name: GitHub Portfolio
@@ -221,11 +240,16 @@ languages:
 
 publications:
   - preprints: 
-    - "pre, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
   - published:
     - "pub, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
-    - "pub, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
+    - "Cooper, K. W. (2018). Can the Machine Understand: An Evidence Based Approach to the Chinese Room. IU Journal of Undergraduate Research, 4(1), 82-85"
   - abstracts:
-    - "abs, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
-    - "abs, J. J. H., Cooper, K. W., and Newman, E. L. (2019). Medial entorhinal cortex activates in a traveling wave. BioRxiv, 632109."
+    - "Hernández J, Cooper K.W., Newman E.L. (2018) Is theta a traveling wave in the medial entorhinal cortex?. Program No. 330.10. Society for Neuroscience"
+    - "Cooper K. W, Dachapally P.R, Jones M.N (2018) Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models, Midwest CogSci"
+    - "Cooper K. W., Hernández J, Newman E.L. (2018) Is theta in the Medial Entorhinal Cortex a Traveling Wave? Society for Neuroscience, Greater Indiana Chapter."
+    - "Cooper K. W. (2018) 3D Brain Model Extraction and Virtual Applications. (Panelist) Media School Graduate Association Conference."
+    - "Cooper K. W. (2018) FlapAI: Genetically Evolved Neural Networks. Midwest Undergraduate Cognitive Science Conference"
+    - "Cooper K. W. (2017) Bridging the Gap: Natural Computation and Neural Systems. Indiana University Undergraduate Research Conference."
+    - "Cooper K. W., Osborn Z. (2016) Downstream Hippocampal Activity Prediction with Neural Networks. Midwest Undergraduate Cognitive Science Conference."
+
 
