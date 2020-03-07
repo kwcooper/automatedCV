@@ -9,9 +9,12 @@
 import re
 import yaml
 import sys
+import os
 
 from datetime import date
 from jinja2 import Environment, FileSystemLoader
+
+generate_pdf = True
 
 yaml_contents = yaml.load(open("resume.yaml", 'r')) #read data
 
@@ -43,3 +46,10 @@ def generate():
   result.close()
 
 generate() #finally, generate this beauty
+
+# Run the pdf2latex code to generate PDF
+if generate_pdf:
+  print('Building PDF (pdflatex)...') 
+  cmd = 'pdflatex result/cooperCV-res.tex'
+  os.system(cmd)
+
