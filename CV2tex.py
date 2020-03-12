@@ -21,12 +21,13 @@ from jinja2 import Environment, FileSystemLoader
 
 # General Params
 generate_pdf = 1
+mvPDF = 1
 
 # Path information
 yamlFile = "cooperCV.yaml"
 templateFile = "template3"
 sectionFile = "cooperCV-sections.tex"
-resultFile = "result/cooperCV.tex"
+resultFile = "outFiles/cooperCV.tex"
 resFile = "cooperCV.tex" # These can be concatonated
 
 yaml_contents = yaml.load(open(yamlFile, 'r')) # Read data
@@ -58,11 +59,14 @@ def generate():
 generate() #finally, generate 
 
 # Run the pdf2latex code to generate PDF
-# If pdfLatex complains that it can't find the file, switch off then rerun. 
 if generate_pdf:
   print('Building PDF (pdflatex)...') 
-  cmd = 'pdflatex ' + resFile
+  cmd = 'pdflatex -output-directory=outFiles ' + resultFile
   os.system(cmd)
+
+# move the PDF out of the result dir
+if mvPDF: 
+  os.system('mv outFiles/cooperCV.pdf cooperCV.pdf')
 
 # TODO: 
 #   Add code for automatic versioning
