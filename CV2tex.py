@@ -1,3 +1,8 @@
+# The ideal CV:
+# It shouldn't rely on software that isn't very well supported.
+# The data format should be standardized.
+# It should be really easy to make changes.
+
 # Requires pdflatex to compile the .tex output -> TODO: create function for this
 # ------------------------------------------------------------------------------
 # inspired by:
@@ -14,43 +19,49 @@ import os
 from datetime import date
 from jinja2 import Environment, FileSystemLoader
 
-generate_pdf = True
+# General Params
+generate_pdf = 1
 
-yaml_contents = yaml.load(open("resume.yaml", 'r')) #read data
+# Path information
+yamlFile = "cooperCV.yaml"
+templateFile = "template3"
+sectionFile = "cooperCV-sections.tex"
+resultFile = "result/cooperCV.tex"
+resFile = "cooperCV.tex" # These can be concatonated
 
-env = Environment(loader=FileSystemLoader("template3"),
+yaml_contents = yaml.load(open(yamlFile, 'r')) # Read data
+
+env = Environment(loader=FileSystemLoader(templateFile),
   block_start_string='~{',block_end_string='}~',
   variable_start_string='~{{', variable_end_string='}}~')
 
-this_loc = len(open("CV2tex.py", 'r').readlines()) #lets keep it at 42
-
 def generate():
   body = ""
-  for section in yaml_contents['order']: #generate sections 1 by 1
+  for section in yaml_contents['order']: # Iteratavly generate sections
     contents = yaml_contents[section[0]]
     name = section[1].title()
-    body += env.get_template("cooperCV-sections.tex").render(
+    body += env.get_template(sectionFile).render(
       name = name.upper(),
       contents = contents
     )
-  #and then generate the TeX wrapper and fill it with generated sections
-  result = open("result/cooperCV-res.tex", 'w')
-  result.write(env.get_template("cooperCV.tex").render(
+  # Generate the TeX wrapper and fill it with generated sections
+  result = open(resultFile, 'w')
+  result.write(env.get_template(resFile).render(
     name = yaml_contents['name'], #.upper(),
     lastName = yaml_contents['lastName'], #.upper(),
     email = yaml_contents['email'],
-    loc = this_loc, #lines of code in this very script :)
     body = body,
-    today = date.today().strftime("%b %d, %Y") #generation date
+    today = date.today().strftime("%b %d, %Y") #generation date (could move to LaTeX)
   ))
   result.close()
 
-generate() #finally, generate this beauty
+generate() #finally, generate 
 
 # Run the pdf2latex code to generate PDF
+# If pdfLatex complains that it can't find the file, switch off then rerun. 
 if generate_pdf:
   print('Building PDF (pdflatex)...') 
-  cmd = 'pdflatex result/cooperCV-res.tex'
+  cmd = 'pdflatex ' + resFile
   os.system(cmd)
 
 # TODO: 
