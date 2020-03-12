@@ -76,33 +76,6 @@ industry:
       - "Developed (both frontend and backend) websites/services based on Wordpress/Contao,"
       - "Built a job board (full stack, LAMP),"
       - "Designed CI's, posters, flyers, catalogues, business cards etc."
-  - place: WortBildTon, New Communication
-    location: Kiel, Germany
-    title: 'Contractor Designer / Jr. Project Manager / Web Developer'
-    languages: JavaScript
-    dates: 2012--2014
-    details:
-      - "Developed an analytics tool and a UI for a project (2000+ users as of Oct.2014)."
-  - place: "Raytrix"
-    location: Kiel, Germany
-    title: 'Internship (Research)'
-    dates: 2010
-    details:
-      - "Lazer path optimization using pythagorean-hodograph curves in $R^{4}$,"
-      - "Disproved given hypothesis and two of its generalized versions."
-  - place: "Christian-Albrechts-University"
-    location: Kiel, Germany
-    title: 'Scientific Assistant / Student Tutor / Programmer'
-    languages: C++, Java
-    dates: 2006--2010
-    details:
-      - "Proposed an algorithm for real-time matching of filmed objects with their 3D-models,"
-      - "Implemented several real-time pattern recognition and triangulation algorithms,"
-      - "Optimized image-recognition code so that it could be used in real-time video analysis,"
-      - "Implemented several sheduling algorithms and a GUI for their usage (J2EE + Swing),"
-      - "Tutored a lecture in cryptography, corrected students homework,"
-      - "Voluntarily gave a sneak peak into Zero-Knowledge Proofs and PCP Proofs to the students,"
-      - "Also did some boring stuff: wrote TYPO3 modules."
 
 honors:
   - honor: "National Science Foundation, GRFP: \\emph{Honorable Mention}"
@@ -146,15 +119,11 @@ pedagogy:
 
 skills:
   - title: Laboratory
-    details: JavaScript, Python, PHP
+    details: "Stereotaxic Rodent Neurosurgery, Histological Procedures/Sacrificial Perfusions, Signal Analysis, fMRI Analysis (Brain Voyager/MATLAB), Electrophoresis, Centrifucation, Cell Culturing"
   - title: Computational
-    details: "Node.js/ExpressJS/AngularJS/React/d3.js, Python/PHP, MySQL/MongoDB, Git"
+    details: "Python, MATLAB, HTML5/CSS, R, UNIX/Bash, Git, Adobe Creative Suite"
   - title: IT
-    details: "js/jQuery, PHP, MySQL, Wordpress/Contao"
-  - title: Teamwork
-    details: "Git, Linux, Slack/Hipchat, Asana/Pivotal Tracker, Dropbox/Evernote/Trello/Google Docs"
-  - title: Design
-    details: Adobe Creative Suite
+    details: "APACHE/Ubuntu Server, Computer Construction, HPSS/Parallel Programming, SQL"
 
 outreach:
   - title:
@@ -221,19 +190,7 @@ personal_projects:
   - name: VKontakte Playlist Downloader (Chrome Extension)
     url: "https://github.com/qutebits/vkpd/"
     details:
-      - Chrome Extension for batch download of audio tracks from social network VKontakte,
-  - name: Etsy Thug (Online Tool)
-    url: "https://github.com/qutebits/etsy\\_thug/"
-    details:
-      - Tool for quick creation of Etsy collections.
-  - name: Stackin (UI Concept)
-    url: "https://github.com/qutebits/stackin/"
-    details:
-      - Responsive UI concept for sorted value-assigned text data (like Hacker News posts).
-  - name: QR codes PDF generator (JavaScript)
-    url: "https://github.com/QuteBits/qr\\_pdf\\_generator"
-    details:
-      - In-browser QR codes generator which then builds and downloads a PDF with them.
+      - Chrome Extension for batch download of audio tracks from social network VKontakts
 
 languages:
   - language: English
@@ -251,7 +208,7 @@ languages:
 publications:
   - preprints: 
   - published:
-    - "Hernández-Pérez, J. J., Cooper, K. W., & Newman, E. L. (2020). Medial entorhinal cortex activates in a traveling wave in the rat. eLife, 9."
+    - "Hernandez-Perez, J. J., Cooper, K. W., Newman, E. L. (2020). Medial entorhinal cortex activates in a traveling wave in the rat. eLife, 9"
     - "Cooper, K. W. (2018). Can the Machine Understand: An Evidence Based Approach to the Chinese Room. IU Journal of Undergraduate Research, 4(1), 82-85"
   - abstracts:
     - "Hernández J, Cooper K.W., Newman E.L. (2018) Is theta a traveling wave in the medial entorhinal cortex?. Program No. 330.10. Society for Neuroscience"
