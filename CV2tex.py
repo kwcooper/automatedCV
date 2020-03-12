@@ -53,3 +53,9 @@ if generate_pdf:
   cmd = 'pdflatex result/cooperCV-res.tex'
   os.system(cmd)
 
+# TODO: 
+#   Add code for automatic versioning
+#   Add code for formatting options (long short, graphs etc) -> compute multiple versions with each call
+#   Add code for section order here? (Not just in the Yaml?)
+#   Compute stats here? 
+#   Create an automatic update log? 
