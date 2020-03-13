@@ -55,12 +55,12 @@
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
-\usepackage[default]{raleway}
+%\usepackage[default]{raleway} % This was the OG
 %\usepackage[defaultsans]{droidsans}
 %\usepackage{cmbright}
 %\usepackage{fetamont}
 %\usepackage[default]{gillius}
-%\usepackage{roboto}
+\usepackage{roboto}
 
 \renewcommand*\familydefault{\sfdefault} % Force the sans-serif version of any font used
 
@@ -160,7 +160,7 @@
 % Command to output section title headings
 \newcommand{\cvsect}[1]{% The only parameter is the section text
 	\vspace{\baselineskip} % Whitespace before the section title
-	\textcolor{black}{\textbf{#1}}\\% Section title. wrap textbf in \MakeUppercase{} for UC
+	\textcolor{black}{\large\textbf{#1} \hrulefill}\\ % Section title. wrap textbf in \MakeUppercase{} for UC
 }
 
 % Command to output section title subheadings
@@ -207,6 +207,24 @@
 
 % Command to output a separator slash between lists, e.g. '  /  '
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
+
+
+%----------------------------------------------------------------------------------------
+%	edu Formatting
+%----------------------------------------------------------------------------------------
+% TODO: fix the thesis overlapping with the date (make separate parbox's?)
+
+\newcommand{\eduentry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+	\parbox[t]{0.1\textwidth}{% 17.5% of the text width of the page
+		\hfill % Horizontal whitespace
+	}%
+	&\parbox[t]{0.8\textwidth}{% 82.5% of the text width of the page
+		#2% Entry heading text
+		\hfill% Horizontal whitespace
+		{\small\textbf{\textcolor{black}{#1}}}\\% Right-aligned date
+		#4 % Entry description text
+	}
+	\\\\}
 
 
 %----------------------------------------------------------------------------------------

@@ -21,7 +21,7 @@
 \renewcommand{\headrulewidth}{0pt} % Remove head rule
 
 \fancyfoot{}
-\fancyfoot[C]{\emph{\textcolor{gray}{curriculum vitae ~~~·~~~ K. W. Cooper}}}
+\fancyfoot[C]{\emph{\footnotesize\textcolor{gray}{curriculum vitae ~~~·~~~ K. W. Cooper}}}
 \fancyfoot[R]{\textcolor{gray}{\thepage}}
 
 %----------------------------------------------------------------------------------------
@@ -30,17 +30,7 @@
 
 \begin{document}
 
-% \begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
-% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	
-% 	% If your name is very short, use just one of the lines below
-% 	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
-% 	\HUGE\textcolor{black}{\textbf{\MakeUppercase{~{{ name }}~ ~{{ lastName }}~}}} % First name
-% 	%\HUGE\textcolor{black}{\textbf{\MakeUppercase{~{{ lastName }}~}}} % Last name
-	
-% 	\vspace{6pt}
-% \end{minipage}
-
+% TODO: Different font for heading? 
 \begin{center}
 \HUGE\textcolor{black}{~{{ name }}~}
 \HUGE\textcolor{black}{\textbf{~{{ lastName }}~}}
@@ -52,12 +42,13 @@
 \end{center}
 
 % Define social media
+% TODO: Move these to the yaml document
 \begin{center}
 \footnotesize 
 \href{https://kwcooper.xyz}{\faHome \hspace{0.05cm} kwcooper.xyz | \hspace{0.1cm}}
-\href{https://twitter.com/kwcooper}{\faTwitter \hspace{0.05cm} @keilandwcooper | \hspace{0.1cm}} 
 \href{mailto: ~{{ email }}~ }{\faEnvelope \hspace{0.05cm} ~{{ email }}~ | \hspace{0.1cm}} 
 \href{https://github.com/kwcooper}{\faGithub \hspace{0.05cm} kwcooper} 
+\href{https://twitter.com/kwcooper}{\faTwitter \hspace{0.05cm} @keilandwcooper | \hspace{0.1cm}} 
 \end{center}
 
 % Define updated line
