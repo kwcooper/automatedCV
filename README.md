@@ -6,6 +6,17 @@ Here is my approach:
 
 CV2tex.py converts the yaml structured data into a templated LaTeX script. PDFTex is then ran on the output. 
 
-On macOS, get pdflatex via: `$ brew cask install basictex`
+
+### How to install
+
+Copy the package from here. After that, only a few packages are needed. Python 3+ of course, including jinja2
+
+Then you have to grab a copy of LaTeX:
+
+On macOS, get pdflatex via: http://www.tug.org/mactex/ (Note: this is a big download, and their are lighter versions)
 
 You can confirm this installs what you need with: `which pdflatex` where you should see the path to the right file. 
+
+On linux, you can install it with ... `(to be added soon...)`
+
+
