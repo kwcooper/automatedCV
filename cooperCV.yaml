@@ -99,18 +99,24 @@ awards:
               
 networks:
   - societies:
-    - "Indiana Academy of Science"
-    - "Psi Chi"
-    - "Sigma Xi"
-    - "Sigma Alpha Pi"
+    - title: "Professional \\newline Societies"
+    - names:
+      - "Indiana Academy of Science"
+      - "Psi Chi"
+      - "Sigma Xi"
+      - "Sigma Alpha Pi"
   - other:
-    - "Continual AI"
-    - "Carboncopies, volunteer researcher"
-    - "Student Organization for Cognitive Science, President" 
-    - "ADAPT Consulting, VP of Project Management"
+    - title: "Other"
+    - names:
+      - "Continual AI"
+      - "Carboncopies, volunteer researcher"
+      - "Student Organization for Cognitive Science, President" 
+      - "ADAPT Consulting, VP of Project Management"
   - confCommittee:
-    - "Learning: Fast, Deep, and Shallow"
-    - "Midwest Undergraduate Cognitive Science Conference"
+    - title: "Conference \\newline Committee"
+    - names:
+      - "Learning: Fast, Deep, and Shallow"
+      - "Midwest Undergraduate Cognitive Science Conference"
 
 pedagogy:
   - ugcoinstruct:
