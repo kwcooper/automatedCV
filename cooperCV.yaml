@@ -106,7 +106,7 @@ networks:
       - "Sigma Xi"
       - "Sigma Alpha Pi"
   - other:
-    - title: "Other"
+    - title: "Other \\newline"
     - names:
       - "Continual AI"
       - "Carboncopies, volunteer researcher"
@@ -159,7 +159,7 @@ pedagogy:
 skills:
   - title: Laboratory
     details: "Stereotaxic Rodent Neurosurgery, Histological Procedures/Sacrificial Perfusions, Signal Analysis, fMRI Analysis (Brain Voyager/MATLAB), Electrophoresis, Centrifucation, Cell Culturing"
-  - title: Computational
+  - title: Computation
     details: "Python, MATLAB, HTML5/CSS, R, UNIX/Bash, Git, Adobe Creative Suite"
   - title: IT
     details: "APACHE/Ubuntu Server, Computer Construction, HPSS/Parallel Programming, SQL"
