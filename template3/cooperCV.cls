@@ -3,9 +3,9 @@
 %
 % Authors:
 % Keiland Cooper (kwcooper@uci.edu)
-% Based on a template by Jan Vorisek (jan@vorisek.me)
-% Which was based on a template by Jan Küster (info@jankuester.com)
-% And then modified by Vel (vel@LaTeXTemplates.com)
+%	 Based on a template by Jan Vorisek (jan@vorisek.me)
+% 	 Which was based on a template by Jan Küster (info@jankuester.com)
+% 	 And then modified by Vel (vel@LaTeXTemplates.com)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -14,7 +14,7 @@
 %----------------------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{cooperCV}[2019/01/28 CV class v1.0]
+\ProvidesClass{cooperCV}[2020/06/14 CV class v2.0]
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{extarticle}} % Pass through any options to the base class
 \ProcessOptions\relax % Process given options
 \LoadClass{extarticle} % Load the base class
@@ -177,7 +177,6 @@
 
 %----------------------------------------------------------------------------------------
 %	General Entry List
-% TODO: build separate entry class for each subtype (research; pub etc)
 %----------------------------------------------------------------------------------------
 
 \usepackage{longtable} % Required for tables that span multiple pages

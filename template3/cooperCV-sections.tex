@@ -96,6 +96,26 @@
 
 
 %----------------------------------------------------------------------------------------
+% Abstracts / talks
+% Will only create the sections for the parts of the CV that exist. 
+%
+% TODO: Create new \entry class
+% TODO: SOuce from a bibtex file? 
+%----------------------------------------------------------------------------------------
+
+~{ elif name == "ABSTRACTS" }~
+\cvsect{Abstracts / Talks}
+~{ for abstract in contents }~
+  \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                 p{0.8\textwidth} 
+                 p{0.1\textwidth}} % Keep this constant???
+  ~{ for ab in abstract.abstracts }~
+  \small\textcolor{gray}{{\emph{  }}} & {~{{ ab }}~} & {\hfill \small{ }} \\ \\
+  ~{ endfor }~
+  \end{tabular}
+~{ endfor }~
+
+%----------------------------------------------------------------------------------------
 % Awards
 %
 % TODO: Later in life I'll add a funded / non-funded section
@@ -227,7 +247,7 @@
 ~{ elif name == "TRAININGS" }~
 \cvsect{Trainings, Workshops, etc.}
 
-\begin{tabular}{ @{} p{0.15\textwidth} p{0.55\textwidth} @{} }
+\begin{tabular}{ @{} p{0.15\textwidth} p{0.80\textwidth} @{} }
   ~{ for trainings in contents }~
   \small \textcolor{gray}{{\emph{ }}} & {\small ~{{ trainings.details }}~} \\
   ~{ endfor }~
@@ -241,7 +261,7 @@
 ~{ elif name == "PRESS" }~
 \cvsect{Press}
 
-\begin{tabular}{ @{} p{0.15\textwidth} p{0.55\textwidth} @{} }
+\begin{tabular}{ @{} p{0.15\textwidth} p{0.80\textwidth} @{} }
   ~{ for press in contents }~
   \small \textcolor{gray}{{\emph{ }}} & {\small ~{{ press.details }}~} \\
   ~{ endfor }~
@@ -254,7 +274,7 @@
 ~{ elif name == "ERDOS" }~
 \cvsect{Erd\"{o}s Number: 5}
 
-\begin{tabular}{ @{} p{0.15\textwidth} p{0.55\textwidth} @{} }
+\begin{tabular}{ @{} p{0.15\textwidth} p{0.80\textwidth} @{} }
   ~{ for erdos in contents }~
   \small \textcolor{gray}{{\emph{ }}} & {\small ~{{ erdos.details }}~} \\
   ~{ endfor }~
