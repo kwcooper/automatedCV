@@ -209,6 +209,23 @@
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
 
 
+%----------------------------------------------------------------------------------------
+%	edu Formatting
+%----------------------------------------------------------------------------------------
+% TODO: fix the thesis overlapping with the date (make separate parbox's?)
+
+\newcommand{\eduentry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
+	\parbox[t]{0.1\textwidth}{% 17.5% of the text width of the page
+		\hfill % Horizontal whitespace
+	}%
+	&\parbox[t]{0.8\textwidth}{% 82.5% of the text width of the page
+		#2% Entry heading text
+		\hfill% Horizontal whitespace
+		{\small\textbf{\textcolor{black}{#1}}}\\% Right-aligned date
+		#4 % Entry description text
+	}
+	\\\\}
+
 
 %----------------------------------------------------------------------------------------
 %	Pubs Formatting

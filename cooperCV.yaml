@@ -11,7 +11,7 @@ email: kwcooper@uci.edu
 # - COMPILE TWICE when done - TeX is finiky
 
 order:
-  - [life_education, LIFE / EDUCATION]
+  - [education, EDUCATION]
   #- [industry, WORK EXPERIENCE]
   #- [research, RESEARCH EXPERIENCE]
   - [publications, PUBLICATIONS]
@@ -27,7 +27,7 @@ order:
   # - [languages, HUMAN LANGUAGES]
   # - [personal_projects, PERSONAL PROJECTS]
 
-life_education:
+education:
   - experience: University of California, Irvine
     location: b
     degree: Neuroscience, Ph.D.
@@ -36,7 +36,7 @@ life_education:
   - experience: Indiana University, Bloomington 
     location: b
     dates: May the Fourth, 2019
-    degree: Cognitive Science B.S. \emph{with Honors}; Neuroscience Cert.
+    degree: Cognitive Science B.S. \emph{Honors}; Neuroscience Cert.
     thesis: "Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
 
 research:
