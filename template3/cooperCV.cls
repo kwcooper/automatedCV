@@ -222,21 +222,6 @@
 		% {\small\textbf{\textcolor{black}{#1}}}\\% Right-aligned date
 	\\}
 	\\}
-
-%----------------------------------------------------------------------------------------
-%	Awards Formatting
-%----------------------------------------------------------------------------------------
-
-\newcommand{\awardentry}[2]{
-	\parbox[t]{0.1\textwidth}{% 17.5% of the text width of the page
-		\hfill% Horizontal whitespace
-	}%
-	&\parbox[t]{0.8\textwidth}{% 82.5% of the text width of the page
-		#1 % Entry heading text
-		\hfill% Horizontal whitespace
-		{\small\textbf{\textcolor{black}{#2}}}\\% Right-aligned date
-	}
-	\\}
     
 %----------------------------------------------------------------------------------------
 %	Networks Formatting

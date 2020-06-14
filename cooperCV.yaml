@@ -15,7 +15,7 @@ order:
   #- [industry, WORK EXPERIENCE]
   #- [research, RESEARCH EXPERIENCE]
   - [publications, PUBLICATIONS]
-  - [honors, ACHIEVEMENTS]
+  - [awards, AWARDS]
   - [networks, NETWORKS]
   - [pedagogy, PEDAGOGY]
   - [skills, SKILLS]
@@ -77,18 +77,24 @@ industry:
       - "Built a job board (full stack, LAMP),"
       - "Designed CI's, posters, flyers, catalogues, business cards etc."
 
-honors:
+awards:
   - honor: "National Science Foundation, GRFP: \\emph{Honorable Mention}"
+    funder: NSF
     date: 2019
-  - honor: "Cognitive Science Outstanding Research Award, Indiana University"
+  - honor: "Cognitive Science Outstanding Research Award"
+    funder: "Indiana University"
     date: 2019
   - honor: "Ewing Prize"
+    funder: "Indiana University"
     date: 2018
-  - honor: "Cognitive Science Outstanding Contribution Award, Indiana University"
+  - honor: "Cognitive Science Outstanding Contribution Award"
+    funder: "Indiana University"
     date: 2018
-  - honor: "Cognitive Science Research Project Award, Indiana University"
+  - honor: "Cognitive Science Research Project Award"
+    funder: "Indiana University"
     date: 2018
-  - honor: "Cognitive Science Research Project Award, Indiana University"
+  - honor: "Cognitive Science Research Project Award"
+    funder: "Indiana University"
     date: 2017
               
 networks:
