@@ -178,38 +178,20 @@
 
 ~{ elif name == "PEDAGOGY" }~
 \cvsect{Pedagogy \& Higher Education}
-~{ for pedagogy in contents }~
-  ~{ if (pedagogy.ugcoinstruct is defined) and pedagogy.ugcoinstruct }~
-  \cvsubsect{Undergraduate Co-Instructor}
-  \begin{entrylist}[.1]
-    ~{ for node in pedagogy.ugcoinstruct}~
-     \pedentry
-      {~{{ node }}~}
-    ~{ endfor }~
-  \end{entrylist}
-  ~{ endif }~
-
-  ~{ if (pedagogy.ugta is defined) and pedagogy.ugta }~
-  \cvsubsect{Undergraduate Teaching Assistant}
-  \begin{entrylist}[.1]
-    ~{ for node in pedagogy.ugta}~
-     \pedentry
-      {~{{ node }}~}
-    ~{ endfor }~
-  \end{entrylist}
-  ~{ endif }~
-
-  ~{ if (pedagogy.commseats is defined) and pedagogy.commseats }~
-  \cvsubsect{Committee Seats}
-  \begin{entrylist}[.1]
-    ~{ for node in pedagogy.commseats}~
-     \pedentry
-      {~{{ node }}~}
-    ~{ endfor }~
-  \end{entrylist}
-  ~{ endif }~
-~{ endfor }~
-
+~{for pedagog in contents}~
+  ~{ for key, value in pedagog.items() }~
+    ~{ for v in value }~
+        \textcolor{gray}{{\emph{~{{ v.title }}~}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+         
+        \small &  ~{{ v.name }}~ & {\hfill}\textcolor{gray}{\small{~{{ v.where }}~}} & {\hfill}\small{~{{ v.when }}~}\\ 
+        \end{tabular}
+      ~{ endfor }~
+  ~{ endfor }~
+~{ endfor }~ 
 
 %----------------------------------------------------------------------------------------
 % Skills

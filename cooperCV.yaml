@@ -120,14 +120,41 @@ networks:
 
 pedagogy:
   - ugcoinstruct:
-    - "Autonomous Robotics (CSCI-B355); Indiana University, Spring 2019"
-    - "Programming in the Cognitive and Info Sciences (COGS-Q 260); Indiana University, Spring 2018"
+    - title: "Co-Instructor"
+    - experience:
+      name: "Autonomous Robotics"
+      code: "(CSCI-B355)"
+      where: "Indiana University"
+      when: "Sp 2019" 
+    - experience:
+      name: "Programming in Cognitive and Info Sciences"
+      code: "(COGS-Q 260)"
+      where: "Indiana University"
+      when: "Sp 2018" 
   - ugta: 
-    - "Cognitive Psychology (PSY-P 355); Indiana University, Fall 2018"
-    - "Introduction to Neuroscience (PSY-P 346), Indiana University, Fall 2017"
+    - title: "Teaching \\newline Assistant"
+    - experience:
+      name: "Cognitive Psychology"
+      code: "(PSY-P 355)"
+      where: "Indiana University"
+      when: "Fa 2018" 
+    - experience:
+      name: "Introduction to Neuroscience"
+      code: "(PSY-P 346)"
+      where: "Indiana University"
+      when: "Fa 2017" 
   - commseats:
-    - "Education Policy Committee; Indiana University"
-    - "Faculty Council; Indiana University"
+    - title: "Committee"
+    - experience:
+      name: "Education Policy Committee"
+      code: " "
+      where: "Indiana University"
+      when: " "
+    - experience:
+      name: "Faculty Council"
+      code: " "
+      where: "Indiana University"
+      when:  " "
 
 skills:
   - title: Laboratory
