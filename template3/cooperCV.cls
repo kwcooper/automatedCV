@@ -209,20 +209,6 @@
 
 
 
-%----------------------------------------------------------------------------------------
-%	Pubs Formatting
-%----------------------------------------------------------------------------------------
-
-\newcommand{\pubentry}[1]{
-	\parbox[t]{0.1\textwidth}{\hfill}
-	&\parbox[t]{0.8\textwidth}{% 82.5% of the text width of the page
-		#1 % Entry text
-		\hfill% Horizontal whitespace
-		% {\small\textbf{\textcolor{black}{#1}}}\\% Right-aligned date
-	\\}
-	\\}
-    
-
 
 
 
