@@ -3,6 +3,8 @@ lastName: Cooper
 email: kwcooper@uci.edu 
 
 # Some Notes: 
+# - For more info on the syntax check out:
+#   https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
 # - quote the strings with : or - because these are YAML special chars
 # - avoid / symbol 
 # - if _ (underscore) is needed in PDF: TeX needs \_ so you write \\_ in YAML
@@ -246,12 +248,14 @@ languages:
     level: Native language
 
 publications:
-  - preprints: 
-  - published:
-    - "Valentina Parma, Kathrin Ohla, Maria G Veldhuizen, Masha Y Niv, Christine E Kelly, Alyssa J Bakke, Keiland W Cooper, GCCR Consortium (2020). More than just smell-COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses"
-    - "Robert Pellegrino, Keiland W Cooper, Antonella Di Pizio, Paule V Joseph, Surabhi Bhutani, Valentina Parma (2020). Corona viruses and the chemical senses: past, present, and future. Chemical Senses"
-    - "Hernandez-Perez, J. J., Cooper, K. W., Newman, E. L. (2020). Medial entorhinal cortex activates in a traveling wave in the rat. eLife, 9"
-    - "Cooper, K. W. (2018). Can the Machine Understand: An Evidence Based Approach to the Chinese Room. IU Journal of Undergraduate Research, 4(1), 82-85"
+  - title: "Preprints" 
+    pubs: 
+  - title: "Published"
+    pubs: 
+      - "Valentina Parma, Kathrin Ohla, Maria G Veldhuizen, Masha Y Niv, Christine E Kelly, Alyssa J Bakke, Keiland W Cooper, GCCR Consortium (2020). More than just smell-COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses"
+      - "Robert Pellegrino, Keiland W Cooper, Antonella Di Pizio, Paule V Joseph, Surabhi Bhutani, Valentina Parma (2020). Corona viruses and the chemical senses: past, present, and future. Chemical Senses"
+      - "Hernandez-Perez, J. J., Cooper, K. W., Newman, E. L. (2020). Medial entorhinal cortex activates in a traveling wave in the rat. eLife, 9"
+      - "Cooper, K. W. (2018). Can the Machine Understand: An Evidence Based Approach to the Chinese Room. IU Journal of Undergraduate Research, 4(1), 82-85"
 
 abstracts_talks:
   - abstracts:
