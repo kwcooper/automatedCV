@@ -1,6 +1,5 @@
 name: Keiland W. 
 lastName: Cooper
-email: kwcooper@uci.edu 
 
 # Some Notes: 
 # - For more info on the syntax check out:
@@ -13,6 +12,7 @@ email: kwcooper@uci.edu
 # - COMPILE TWICE when done - TeX is finiky
 
 order:
+  - [header, HEADER]
   - [education, EDUCATION]
   #- [industry, WORK EXPERIENCE]
   #- [research, RESEARCH EXPERIENCE]
@@ -30,6 +30,18 @@ order:
   # - [languages, HUMAN LANGUAGES]
   # - [personal_projects, PERSONAL PROJECTS]
 
+
+header:
+  - name: "Keiland W"
+    lastName: "Cooper"
+    email: "kwcooper@uci.edu"
+    website: "kwcooper.xyz"
+    websiteURL: "https://kwcooper.xyz"
+    github: "kwcooper"
+    githubURL: "https://github.com/kwcooper"
+    twitter: "keilandwcooper"
+    twitterURL: "https://twitter.com/keilandwcooper"
+
 education:
   - experience: University of California, Irvine
     location: b
@@ -46,16 +58,16 @@ research:
   - title: "Extensive Form$^{+}$ : Describing Games Linear Nature (Diploma Thesis, 52 pages)"
     link: "\\url{https://github.com/qutebits/final_thesis}"
     field: Game Theory
-    supervisor: Prof. Dr. Thomas Wilke, chair for theoretical informatics, University of Kiel.
+    supervisor: Dr. Mike Jones
     grade: "1.0 (best possible: 1.0)"
     description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
     dates: 2010-2011
   - title: "Theta modulation"
     link: "\\url{https://github.com/qutebits/final_thesis}"
     field: Game Theory
-    supervisor: Prof. Dr. Thomas Wilke
+    supervisor: Prof. Dr. Ehren Newman
     grade: "1.0 (best possible: 1.0)"
-    description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
+    description: "Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
 
 industry:
   - place: Synthace, Ravelin, nCube, Murat Diril etc.

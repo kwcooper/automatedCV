@@ -50,9 +50,7 @@ def generate():
   result.write(env.get_template(resFile).render(
     name = yaml_contents['name'], #.upper(),
     lastName = yaml_contents['lastName'], #.upper(),
-    email = yaml_contents['email'],
     body = body,
-    today = date.today().strftime("%b %d, %Y") #generation date (could move to LaTeX)
   ))
   result.close()
 
@@ -67,6 +65,9 @@ if generate_pdf:
 # move the PDF out of the result dir
 if mvPDF: 
   os.system('mv outFiles/cooperCV.pdf cooperCV.pdf')
+
+
+# date.today().strftime("%b %d, %Y")
 
 # TODO: 
 #   Add code for automatic versioning
