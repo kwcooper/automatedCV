@@ -181,17 +181,23 @@ skills:
 
 outreach:
   - title:
-    details: "Hoosier Stars (co-founding Director)"
+    details: "Hoosier Stars"
+    meta: "co-founding Director; K-12 science outreach to IN schools"
   - title:
     details: "Brain Club @ The Boys and Girls Club"
+    meta: "Taught primary school aged students about the brain"
   - title:
-    details: "Quora Top Writer"
+    details: "Quora Writer"
+    meta: "~500k views on mostly neuroscience and AI answers to user questions"
   - title:
     details: "IU Science Fest"
+    meta: "A booth where peole held sheep brains"
   - title:
     details: "Kirkwood Observatory Guide"
+    meta: "Volunteer astronomical guide at the local observatory"
   - title:
     details: "Celebrate Science Indiana"
+    meta: "Large scale outreach even, ran an EEG and sheep brain booth"
 
 trainings:
   - title:

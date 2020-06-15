@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Cooper CV LaTeX Class
 %
 % Authors:
@@ -7,7 +7,7 @@
 % 	 Which was based on a template by Jan Küster (info@jankuester.com)
 % 	 And then modified by Vel (vel@LaTeXTemplates.com)
 %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %----------------------------------------------------------------------------------------
 %	CLASS CONFIG
@@ -16,16 +16,16 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cooperCV}[2020/06/14 CV class v2.0]
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{extarticle}} % Pass through any options to the base class
-\ProcessOptions\relax % Process given options
+\ProcessOptions\relax  % Process given options
 \LoadClass{extarticle} % Load the base class
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\setlength{\parindent}{0mm} % Suppress paragraph indentation
-\usepackage[hidelinks]{hyperref} % Required for links but hide the default boxes around links
-\usepackage{moresize} % Provides more font size commands (\HUGE and \ssmall)
+\setlength{\parindent}{0mm}        % Suppress paragraph indentation
+\usepackage[hidelinks]{hyperref}   % hide the default boxes, but need for links
+\usepackage{moresize}              % Provides more font size commands (\HUGE and \ssmall)
 
 \newcommand{\lorem}{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.} % Dummy text
 
@@ -33,27 +33,27 @@
 %	PAGE LAYOUT
 %----------------------------------------------------------------------------------------
 
-\pagestyle{empty} % No headers or footers
-\usepackage{geometry} % Required for adjusting page dimensions and margins
+\pagestyle{empty}         % No headers or footers
+\usepackage{geometry}     % Required for adjusting page dimensions and margins
 
 \geometry{
-	paper=a4paper, % Paper size, change to letterpaper for US letter size
-	top=1.75cm, % Top margin
-	bottom=1.75cm, % Bottom margin
-	left=2cm, % Left margin
-	right=2cm, % Right margin
-	headheight=0.75cm, % Header height
-	footskip=1cm, % Space from the bottom margin to the baseline of the footer
-	headsep=0.5cm, % Space from the top margin to the baseline of the header
-	%showframe, % Uncomment to show how the type block is set on the page
+	paper=a4paper,        % Paper size, change to letterpaper for US letter size
+	top=1.75cm,           % Top margin
+	bottom=1.75cm,        % Bottom margin
+	left=2cm,             % Left margin
+	right=2cm,            % Right margin
+	headheight=0.75cm,    % Header height
+	footskip=1cm,         % Space from the bottom margin to the baseline of the footer
+	headsep=0.5cm,        % Space from the top margin to the baseline of the header
+	%showframe,           % Uncomment to show how the type block is set on the page
 }
 
 %----------------------------------------------------------------------------------------
 %	FONTS
 %----------------------------------------------------------------------------------------
 
-\usepackage[utf8]{inputenc} % Required for inputting international characters
-\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage[utf8]{inputenc}   % Required for inputting international characters
+\usepackage[T1]{fontenc}      % Output font encoding for international characters
 
 %\usepackage[default]{raleway} % This was the OG
 %\usepackage[defaultsans]{droidsans}
@@ -61,7 +61,6 @@
 %\usepackage{fetamont}
 %\usepackage[default]{gillius}
 \usepackage{roboto}
-
 \renewcommand*\familydefault{\sfdefault} % Force the sans-serif version of any font used
 
 %------------------------------------------------
@@ -69,22 +68,22 @@
 \usepackage{fontawesome} % Required for FontAwesome icons
 
 % Command to output an icon in a black square box with text to the right
-\newcommand{\icon}[3]{% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+\newcommand{\icon}[3]{% The first parameter is the FA icon name, the second is box size and the third is the text
 	\vcenteredhbox{\colorbox{black}{\makebox(#2, #2){\textcolor{white}{\large\csname fa#1\endcsname}}}}% Icon and box
-	\hspace{0.2cm}% Whitespace
-	\vcenteredhbox{\textcolor{black}{#3}}% Text
+	\hspace{0.2cm}                         % Whitespace
+	\vcenteredhbox{\textcolor{black}{#3}}  % Text
 }
 
 %----------------------------------------------------------------------------------------
 %	GRAPHICS DEFINITIONS
 %---------------------------------------------------------------------------------------- 
 
-\usepackage{tikz} % Required for creating the plots
+\usepackage{tikz}      % Required for creating the plots
 \usetikzlibrary{shapes, backgrounds}
 \tikzset{x=1cm, y=1cm} % Default tikz units
 
 % Command to vertically centre adjacent content
-\newcommand{\vcenteredhbox}[1]{% The only parameter is for the content to centre
+\newcommand{\vcenteredhbox}[1]{% Only parameter is for the content to centre
 	\begingroup%
 		\setbox0=\hbox{#1}\parbox{\wd0}{\box0}%
 	\endgroup%

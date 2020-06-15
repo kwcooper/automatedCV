@@ -1,3 +1,4 @@
+
 # The ideal CV:
 # It shouldn't rely on software that isn't very well supported.
 # The data format should be standardized.
@@ -32,26 +33,24 @@ resFile = "cooperCV.tex" # These can be concatonated
 
 yaml_contents = yaml.load(open(yamlFile, 'r')) # Read data
 
+# Define Jinja2 envirement and load in the LaTeX templates
+# Define new syntax for jinja code
 env = Environment(loader=FileSystemLoader(templateFile),
   block_start_string='~{',block_end_string='}~',
   variable_start_string='~{{', variable_end_string='}}~')
 
-def generate():
+def generate(): 
   body = ""
-  for section in yaml_contents['order']: # Iteratavly generate sections
-    contents = yaml_contents[section[0]]
-    name = section[1].title()
+  for section in yaml_contents['order']: # Iteratavly generate sections TODO: multiple versions
+    contents = yaml_contents[section[0]] # Append the section info to the 
+    name = section[1].title()            # Used to select which section template to use
     body += env.get_template(sectionFile).render(
       name = name.upper(),
       contents = contents
     )
   # Generate the TeX wrapper and fill it with generated sections
   result = open(resultFile, 'w')
-  result.write(env.get_template(resFile).render(
-    name = yaml_contents['name'], #.upper(),
-    lastName = yaml_contents['lastName'], #.upper(),
-    body = body,
-  ))
+  result.write(env.get_template(resFile).render( body=body ))
   result.close()
 
 generate() #finally, generate 
@@ -75,3 +74,8 @@ if mvPDF:
 #   Add code for section order here? (Not just in the Yaml?)
 #   Compute stats here? 
 #   Create an automatic update log? 
+
+
+# If you need to access any of the YAML code in this script:
+# result.write(env.get_template(resFile).render(
+    # name = yaml_contents['name'], #.upper(),
