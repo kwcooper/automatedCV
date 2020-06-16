@@ -67,6 +67,8 @@
 
 \usepackage{fontawesome} % Required for FontAwesome icons
 
+\newcommand{\orcid}{\includegraphics[width=10pt]{template3/img/orcid.png}} % cutom for orcidID
+
 % Command to output an icon in a black square box with text to the right
 \newcommand{\icon}[3]{% The first parameter is the FA icon name, the second is box size and the third is the text
 	\vcenteredhbox{\colorbox{black}{\makebox(#2, #2){\textcolor{white}{\large\csname fa#1\endcsname}}}}% Icon and box
