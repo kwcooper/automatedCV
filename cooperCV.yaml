@@ -39,8 +39,8 @@ header:
     websiteURL: "https://kwcooper.xyz"
     github: "kwcooper"
     githubURL: "https://github.com/kwcooper"
-    twitter: "keilandwcooper"
-    twitterURL: "https://twitter.com/keilandwcooper"
+    twitter: "kwc\\_tweets"
+    twitterURL: "https://twitter.com/kwc\\_tweets"
     orcid: "0000-0002-0358-9645"
     orcidURL: "https://orcid.org/0000-0002-0358-9645"
 
@@ -49,7 +49,6 @@ education:
     location: b
     degree: Neuroscience, Ph.D.
     dates: In progress
-
   - experience: Indiana University, Bloomington 
     location: b
     dates: May the Fourth, 2019

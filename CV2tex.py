@@ -22,7 +22,7 @@ from jinja2 import Environment, FileSystemLoader
 
 # General Params
 generate_pdf = 1
-mvPDF = 1
+mvPDF = 1         # won't work on windows
 
 # Path information
 yamlFile = "cooperCV.yaml"
