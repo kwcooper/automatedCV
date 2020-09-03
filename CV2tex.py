@@ -26,7 +26,7 @@ mvPDF = 1         # won't work on windows
 
 # Path information
 yamlFile = "cooperCV.yaml"
-templateFile = "template3"
+templateFile = "cooperCV_v1"
 sectionFile = "cooperCV-sections.tex"
 resultFile = "outFiles/cooperCV.tex"
 resFile = "cooperCV.tex" # These can be concatonated

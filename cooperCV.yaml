@@ -32,25 +32,25 @@ order:
 
 
 header:
-  - name: "Keiland W"
+  - name: "Keiland W."
     lastName: "Cooper"
     email: "kwcooper@uci.edu"
     website: "kwcooper.xyz"
     websiteURL: "https://kwcooper.xyz"
     github: "kwcooper"
     githubURL: "https://github.com/kwcooper"
-    twitter: "kwc\\_tweets"
-    twitterURL: "https://twitter.com/kwc\\_tweets"
+    twitter: "@kw\\_cooper"
+    twitterURL: "https://twitter.com/kw\\_cooper"
     orcid: "0000-0002-0358-9645"
     orcidURL: "https://orcid.org/0000-0002-0358-9645"
 
 education:
   - experience: University of California, Irvine
-    location: b
-    degree: Neuroscience, Ph.D.
+    location: CA
+    degree: Neurobiology and Behavior, Ph.D.
     dates: In progress
   - experience: Indiana University, Bloomington 
-    location: b
+    location: IN
     dates: May the Fourth, 2019
     degree: Cognitive Science B.S. \emph{Honors}; Neuroscience Cert.
     thesis: "Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
@@ -94,10 +94,13 @@ industry:
       - "Designed CI's, posters, flyers, catalogues, business cards etc."
 
 awards: 
+  - honor: "DTEI Pedagogical Fellowship"
+    funder: UC Irvine
+    date: 2020
   - honor: "UC Irvine Recruitment Fellowship"
     funder: UC Irvine
     date: 2019
-  - honor: "National Science Foundation, GRFP: \\emph{Honorable Mention}"
+  - honor: "National Science Foundation, GRFP \\emph{Honorable Mention}"
     funder: NSF
     date: 2019
   - honor: "Cognitive Science Outstanding Research Award"
@@ -120,6 +123,7 @@ networks:
   - societies:
     - title: "Professional \\newline Societies"
     - names:
+      - "Society for Neuroscience"
       - "Indiana Academy of Science"
       - "Psi Chi"
       - "Sigma Xi"
@@ -127,9 +131,12 @@ networks:
   - other:
     - title: "Other \\newline"
     - names:
-      - "Continual AI"
-      - "Carboncopies, volunteer researcher"
-      - "Student Organization for Cognitive Science, President" 
+      - "Continual AI \\emph{co-founder}"
+      - "Continual Learning AI Research (CLAIR)"
+      - "Carboncopies \\emph{volunteer researcher}"
+      - "AI for People"
+      - "Internet Society"
+      - "IU Student Organization for Cognitive Science, President" 
       - "ADAPT Consulting, VP of Project Management"
   - confCommittee:
     - title: "Conference \\newline Committee"
@@ -150,8 +157,18 @@ pedagogy:
       code: "(COGS-Q 260)"
       where: "Indiana University"
       when: "Sp 2018" 
-  - ugta: 
+  - ugta:  
     - title: "Teaching \\newline Assistant"
+    - experience:
+      name: "Neurobiology and Behavior Laboratory"
+      code: "(Bio Sci N113L)"
+      where: "UC Irvine"
+      when: "Fa 2020" 
+    - experience:
+      name: "Brain and Behavior"
+      code: "(Bio Sci 35)"
+      where: "UC Irvine"
+      when: "Fa 2020" 
     - experience:
       name: "Cognitive Psychology"
       code: "(PSY-P 355)"
@@ -183,33 +200,40 @@ skills:
   - title: IT
     details: "APACHE/Ubuntu Server, Computer Construction, HPSS/Parallel Programming, SQL"
 
-outreach:
+outreach: 
   - title:
     details: "AskANeuroscientist"
     meta: "Founder; Live Q/A via in class video-chat (>200 students) and newsletter"
   - title:
     details: "Hoosier STARS"
-    meta: "Co-founding Director; K-12 science outreach reaching >100 students"
+    meta: "Co-founding Director; K-12 science outreach reaching >300 students"
   - title:
     details: "Quora Writer"
-    meta: "Answers to neuroscience and AI questions; ~500k views"
+    meta: "Answers to neuroscience and AI questions; ~600k views"
   - title:
     details: "CNLM Ambassadors"
-    meta: "Area neuroscience outreach to K-12 Orange County schools"
+    meta: "Committee co-chair; Learning and memory outreach to Orange County"
+  # - title:
+  #   details: "CNLM Ambassadors"
+  #   meta: "Neuroscience of learning and memory outreach to Orange County"
   - title:
     details: "Brain Club @ The Boys and Girls Club"
     meta: "Taught primary school aged students about the brain"
   - title:
     details: "IU Science Fest"
-    meta: "Lead a booth where people held and learned about sheep brains"
+    meta: "Led a booth where people held and learned about sheep brains"
   - title:
     details: "Celebrate Science Indiana"
-    meta: "Large scale outreach event, lead an EEG and sheep brain booth"
+    meta: "Large scale outreach event, led an EEG and sheep brain booth"
   - title:
     details: "Kirkwood Observatory Guide"
     meta: "Volunteer astronomical guide at the Bloomington observatory"
 
-trainings:
+trainings: 
+  - title: 
+    details: "Estes Cognitive Electrophysiology Workshop"
+    where: "UPenn"
+    when: 200804
   - title:
     details: "NIH Grant Writing Workshop"
     where: "UC Irvine"
@@ -221,8 +245,8 @@ trainings:
     details: "Nonlinear Dynamics: Mathematical and Computational Approaches"
     where: "Santa Fe Institute"
   - title:
-    details: "Complexity Science Certificate, Santa Fe Institute"
-    where: "Indiana University"
+    details: "Complexity Science"
+    where: "Santa Fe Institute"
   - title:
     details: "Science Communication Workshop"
     where: "Indiana University"
@@ -232,59 +256,21 @@ trainings:
   - title:
     details: "Aseptic Surgery: Proper Practice Training"
     where: "Indiana University"
+  # - title:
+  #   details: "Viral Handling; Animal Handling; Institutional Animal Care Training"
+  #   where: "Indiana University"
   - title:
-    details: "Viral Handling; Animal Handling; Institutional Animal Care Training"
+    details: "Animal Handling and Animal Care Training"
     where: "Indiana University"
-  - title:
-    details: "FERPA; Data Protection and Privacy"
-    where: "Indiana University"
+  # - title:
+  #   details: "FERPA; Data Protection and Privacy"
+  #   where: "Indiana University"
   - title:
     details: "IUNI Network Science Workshop"
     where: "Indiana University"
   - title:
-    details: "Neurosurgery Shadowing"
+    details: "Pediatric Neurosurgery Shadowing"
     where: "Riley Hospital"
-
-press: 
-  - title:
-    details: "Katie Boateng (June 15, 2020) Episode 64 - An Interview with Some of the Authors. The Smell Podcast"
-    URL: "https://podcasts.apple.com/us/podcast/the-smell-podcast/id1429270582?i=1000477261620"
-  - title:
-    details: "Leslie Kay (June 13, 2020) Why COVID-19 Makes People Lose Their Sense of Smell. Scientific American"
-    URL: "https://www.scientificamerican.com/article/why-covid-19-makes-people-lose-their-sense-of-smell1/"
-  - title:
-    details: "John E Hayes, Valentina Parma (June 4, 2020) COVID-19, smell and taste – how is COVID-19 different from other respiratory diseases? The Smell Podcast"
-    URL: "https://theconversation.com/covid-19-smell-and-taste-how-is-covid-19-different-from-other-respiratory-diseases-139543"
-  - title:
-    details: "Anthony Cusumano (February 2, 2020) What a difference a decade makes. Katalys Tech"
-    URL: "https://katalysttech.com/blog/what-a-difference-a-decade-makes/"
-  - title:
-    details: "Kevin Casey (September 30, 2019)  5 AI fears and how to address them. The Enterprisers Project"
-    URL: "https://enterprisersproject.com/article/2019/9/artificial-intelligence-ai-fears-how-address"
-  - title:
-    details: "Kevin Casey (September 17, 2019) How to explain natural language processing (NLP) in plain English. The Enterprisers Project"
-    URL: "https://enterprisersproject.com/article/2019/9/natural-language-processing-nlp-explained-plain-english"
-  - title:
-    details: "David Roe (August 27, 2019) Is Augmented Artificial Intelligence Already Disrupting Artificial Intelligence? CMS Wire"
-    URL: "https://www.cmswire.com/digital-workplace/is-augmented-artificial-intelligence-already-disrupting-artificial-intelligence/"
-  - title:
-    details: "Kristine Fellizar (August 7, 2019) Why Is My Arm Asleep? 6 Reasons Your Limbs Go Numb When You're Sleeping. Bustle"
-    URL: "https://www.bustle.com/p/why-is-my-arm-asleep-6-reasons-your-limbs-go-numb-when-youre-sleeping-18552723"
-  - title:
-    details: "Lauren Wellbank (August 1, 2019) Neuralink Update: How far off is Elon Musk’s high tech vision for our brains? Parentology"
-    URL: "https://parentology.com/neuralink-how-far-off-is-elon-musks-high-tech-vision-for-our-brains/"
-  - title:
-    details: "Tina Arnoldi (July 19, 2019) Ready for Amazon to Read Human Emotions? Theravive"
-    URL: "https://www.theravive.com/today/post/ready-for-amazon-to-read-human-emotions-0003426.aspx"
-  - title:
-    details: "Ann Lewandowski (September 28th, 2018) IU undergraduates practice science outreach at Indiana high schools. IDS"
-    URL: "https://www.idsnews.com/article/2018/09/iu-undergraduates-practice-science-outreach-at-indiana-high-schools"
-  - title:
-    details: "Alexandra Moussa-Tooks (August 14, 2018) The art of dissemination part 3: Care to share? ScIU"
-    URL: "http://blogs.iu.edu/sciu/2018/08/14/dissemination-care-to-share/"
-  - title:
-    details: "Liz Rosdeitcher (2017) Community Partnerships. Psyugrad"
-    URL: "https://pbsugrad.indiana.edu/psych4u/community-partnerships/index.html"
 
                           
 erdos:
@@ -327,14 +313,22 @@ publications:
     pubs: 
   - title: "Published"
     pubs: 
+      - "Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W., 2020. COVID-19 and the chemical senses: supporting players take center stage. Neuron. 107(2), 219-233"
       - "Valentina Parma, Kathrin Ohla, Maria G Veldhuizen, Masha Y Niv, Christine E Kelly, Alyssa J Bakke, Keiland W Cooper, GCCR Consortium (2020). More than just smell-COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses"
-      - "Robert Pellegrino, Keiland W Cooper, Antonella Di Pizio, Paule V Joseph, Surabhi Bhutani, Valentina Parma (2020). Corona viruses and the chemical senses: past, present, and future. Chemical Senses"
+      - "Robert Pellegrino, Keiland W Cooper, Antonella Di Pizio, Paule V Joseph, Surabhi Bhutani, Valentina Parma (2020). Coronaviruses and the chemical senses: past, present, and future. Chemical Senses"
       - "Hernandez-Perez, J. J., Cooper, K. W., Newman, E. L. (2020). Medial entorhinal cortex activates in a traveling wave in the rat. eLife, 9"
       - "Cooper, K. W. (2018). Can the Machine Understand: An Evidence Based Approach to the Chinese Room. IU Journal of Undergraduate Research, 4(1), 82-85"
 
 abstracts_talks:
   - abstracts:
-    - "Hernández J, Cooper K.W., Newman E.L. (2018) Is theta a traveling wave in the medial entorhinal cortex?. Program No. 330.10. Society for Neuroscience"
+    - "Cooper K. W. (2020) The neuroscience \\& AI feedback loop: Catastrophic Forgetting and Sequences. UCI AGS Symposium"
+    - "Cooper K. W. (2020) The Art of Email. UCI GPS-STEM"
+    - "Cooper K. W. (2020) Dual processes of hippocampal mode switching. Neuromatch online Conference"
+    - "Cooper K. W. (2020) Continual Learning: neuroscience + AI. Contiual AI Meetup"
+    - "Cooper K. W. (2020) Cholinergic abolition disrupts encoding and retrieval mode switching. 11th Annual Emerging Scientists Symposium"
+    - "Cooper K. W. (2019) The neuroscience \\& AI feedback loop. UCI Brain"
+    - "Cooper K. W. (2019) On neuroscience and AI. IUJUR Research Slam"
+    - "Hernández J, Cooper K. W., Newman E.L. (2018) Is theta a traveling wave in the medial entorhinal cortex? Program No. 330.10. Society for Neuroscience"
     - "Cooper K. W, Dachapally P.R, Jones M.N (2018) Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models, Midwest CogSci"
     - "Cooper K. W., Hernández J, Newman E.L. (2018) Is theta in the Medial Entorhinal Cortex a Traveling Wave? Society for Neuroscience, Greater Indiana Chapter."
     - "Cooper K. W. (2018) 3D Brain Model Extraction and Virtual Applications. (Panelist) Media School Graduate Association Conference."
@@ -343,3 +337,49 @@ abstracts_talks:
     - "Cooper K. W., Osborn Z. (2016) Downstream Hippocampal Activity Prediction with Neural Networks. Midwest Undergraduate Cognitive Science Conference."
 
 
+press: 
+  - title:
+    details: "Bob Curley (July 7, 2020) Lifestyle Changes You Can Make to Help Lower the 19 Risk Factors for Alzheimer’s. Healthline"
+    URL: "https://www.healthline.com/health-news/alzheimers-risk-factors-lifestyle-changes\\#The-impact-of-lifestyle"
+  - title:
+    details: "Salynn Boyles (July 6, 2020) Majority of Patients with Mild Covid-19 Experience Altered Smell/Taste. Physicians Weekly"
+    URL: "https://www.physiciansweekly.com/majority-of-patients-with-mild-covid-19-experience-altered-smell-taste/"
+  - title:
+    details: "Katie Boateng (June 15, 2020) Episode 64 - An Interview with Some of the Authors. The Smell Podcast"
+    URL: "https://podcasts.apple.com/us/podcast/the-smell-podcast/id1429270582?i=1000477261620"
+  - title:
+    details: "Leslie Kay (June 13, 2020) Why COVID-19 Makes People Lose Their Sense of Smell. Scientific American"
+    URL: "https://www.scientificamerican.com/article/why-covid-19-makes-people-lose-their-sense-of-smell1/"
+  - title:
+    details: "John E Hayes, Valentina Parma (June 4, 2020) COVID-19, smell and taste – how is COVID-19 different from other respiratory diseases? The Conversation"
+    URL: "https://theconversation.com/covid-19-smell-and-taste-how-is-covid-19-different-from-other-respiratory-diseases-139543"
+  - title:
+    details: "Anthony Cusumano (February 2, 2020) What a difference a decade makes. Katalys Tech"
+    URL: "https://katalysttech.com/blog/what-a-difference-a-decade-makes/"
+  - title:
+    details: "Kevin Casey (September 30, 2019)  5 AI fears and how to address them. The Enterprisers Project"
+    URL: "https://enterprisersproject.com/article/2019/9/artificial-intelligence-ai-fears-how-address"
+  - title:
+    details: "Kevin Casey (September 17, 2019) How to explain natural language processing (NLP) in plain English. The Enterprisers Project"
+    URL: "https://enterprisersproject.com/article/2019/9/natural-language-processing-nlp-explained-plain-english"
+  - title:
+    details: "David Roe (August 27, 2019) Is Augmented Artificial Intelligence Already Disrupting Artificial Intelligence? CMS Wire"
+    URL: "https://www.cmswire.com/digital-workplace/is-augmented-artificial-intelligence-already-disrupting-artificial-intelligence/"
+  - title:
+    details: "Kristine Fellizar (August 7, 2019) Why Is My Arm Asleep? 6 Reasons Your Limbs Go Numb When You're Sleeping. Bustle"
+    URL: "https://www.bustle.com/p/why-is-my-arm-asleep-6-reasons-your-limbs-go-numb-when-youre-sleeping-18552723"
+  - title:
+    details: "Lauren Wellbank (August 1, 2019) Neuralink Update: How far off is Elon Musk’s high tech vision for our brains? Parentology"
+    URL: "https://parentology.com/neuralink-how-far-off-is-elon-musks-high-tech-vision-for-our-brains/"
+  - title:
+    details: "Tina Arnoldi (July 19, 2019) Ready for Amazon to Read Human Emotions? Theravive"
+    URL: "https://www.theravive.com/today/post/ready-for-amazon-to-read-human-emotions-0003426.aspx"
+  - title:
+    details: "Ann Lewandowski (September 28th, 2018) IU undergraduates practice science outreach at Indiana high schools. IDS"
+    URL: "https://www.idsnews.com/article/2018/09/iu-undergraduates-practice-science-outreach-at-indiana-high-schools"
+  - title:
+    details: "Alexandra Moussa-Tooks (August 14, 2018) The art of dissemination part 3: Care to share? ScIU"
+    URL: "http://blogs.iu.edu/sciu/2018/08/14/dissemination-care-to-share/"
+  - title:
+    details: "Liz Rosdeitcher (2017) Community Partnerships. Psyugrad"
+    URL: "https://pbsugrad.indiana.edu/psych4u/community-partnerships/index.html"
