@@ -6,7 +6,7 @@
 %       Add start and end dates throughout? 
 %-------------------------------------------------------------------------------
 
-\medskip
+%\smallskip
 
 \fontfamily{lmss}\selectfont
 
@@ -39,8 +39,8 @@
   ~{ for data in contents }~
 
     \begin{center} % TODO: Different font for heading? 
-    \HUGE\textcolor{black}{~{{ data.name }}~}
-    \HUGE\textcolor{black}{\textbf{~{{ data.lastName }}~}}
+    \huge\textcolor{black}{~{{ data.name }}~}
+    \huge\textcolor{black}{\textbf{~{{ data.lastName }}~}}
     \end{center}
 
     % Draw a line to divide the page
@@ -59,12 +59,13 @@
 
     \begin{center} 
     \footnotesize 
-    \href{~{{ data.orcidURL }}~}{\orcid \hspace{0.05cm} \footnotesize ~{{ data.orcid }}~ }  
+    \href{~{{ data.orcidURL }}~}{\orcid \hspace{0.05cm} \footnotesize ~{{ data.orcid }}~ } |
+    \footnotesize \emph{\textcolor{gray}{Last updated \today }}   
     \end{center}
 
     % Define updated line
-    \begin{center} \footnotesize \emph{\textcolor{gray}{Last updated \today }} \end{center}
-    \vspace{0.7cm}
+    %\begin{center} \end{center}
+    %\vspace{0.100cm}
 
   ~{ endfor }~
 

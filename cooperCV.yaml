@@ -19,11 +19,11 @@ order:
   - [publications, PUBLICATIONS] 
   - [abstracts_talks, ABSTRACTS]
   - [awards, AWARDS]
-  - [networks, NETWORKS]
   - [pedagogy, PEDAGOGY]
+  - [networks, NETWORKS]
   - [outreach, OUTREACH]
-  - [skills, SKILLS]
   - [trainings, TRAININGS]
+  #- [skills, SKILLS]
   - [press, PRESS]
   - [erdos, ERDOS]
   # - [portfolios, PORTFOLIO]
@@ -102,7 +102,7 @@ awards:
     date: 2019
   - honor: "National Science Foundation, GRFP \\emph{Honorable Mention}"
     funder: NSF
-    date: 2019
+    date: 2018
   - honor: "Cognitive Science Outstanding Research Award"
     funder: "Indiana University"
     date: 2019
@@ -203,7 +203,7 @@ skills:
 outreach: 
   - title:
     details: "AskANeuroscientist"
-    meta: "Founder; Live Q/A via in class video-chat (>200 students) and newsletter"
+    meta: "Founder; Live Q/A via in class video-chat (>400 students) and newsletter"
   - title:
     details: "Hoosier STARS"
     meta: "Co-founding Director; K-12 science outreach reaching >300 students"
@@ -212,10 +212,7 @@ outreach:
     meta: "Answers to neuroscience and AI questions; ~600k views"
   - title:
     details: "CNLM Ambassadors"
-    meta: "Committee co-chair; Learning and memory outreach to Orange County"
-  # - title:
-  #   details: "CNLM Ambassadors"
-  #   meta: "Neuroscience of learning and memory outreach to Orange County"
+    meta: "Co-chair; Learning and memory outreach to Southern California"
   - title:
     details: "Brain Club @ The Boys and Girls Club"
     meta: "Taught primary school aged students about the brain"
@@ -311,8 +308,11 @@ languages:
 publications:
   - title: "Preprints" 
     pubs: 
+      - "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J. (2020). Hippocampal ensembles represent sequential relationships among discrete nonspatial events. (Under review at Nature Communications) "     
+      - "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J.,  Cooper, K. W., ... Bouysset, C. (2020). The best COVID-19 predictor is recent smell loss: a cross-sectional study. medRxiv"
   - title: "Published"
     pubs: 
+      - "Pierron, D., Pereda-Loth, V., Mantel, M., Moranges, M., Bignon, E., Alva, O.,  Cooper, K. W., ... Dinnella, C. (2020). Smell and taste changes are early indicators of the COVID-19 pandemic and political decision effectiveness. Nature Communications, 11(1), 1-8."
       - "Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W., 2020. COVID-19 and the chemical senses: supporting players take center stage. Neuron. 107(2), 219-233"
       - "Valentina Parma, Kathrin Ohla, Maria G Veldhuizen, Masha Y Niv, Christine E Kelly, Alyssa J Bakke, Keiland W Cooper, GCCR Consortium (2020). More than just smell-COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses"
       - "Robert Pellegrino, Keiland W Cooper, Antonella Di Pizio, Paule V Joseph, Surabhi Bhutani, Valentina Parma (2020). Coronaviruses and the chemical senses: past, present, and future. Chemical Senses"
