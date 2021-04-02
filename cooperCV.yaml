@@ -14,11 +14,11 @@ lastName: Cooper
 order:
   - [header, HEADER]
   - [education, EDUCATION]
+  - [awards, AWARDS]
   #- [industry, WORK EXPERIENCE]
   #- [research, RESEARCH EXPERIENCE]
   - [publications, PUBLICATIONS] 
   - [abstracts_talks, ABSTRACTS]
-  - [awards, AWARDS]
   - [pedagogy, PEDAGOGY]
   - [networks, NETWORKS]
   - [outreach, OUTREACH]
@@ -94,6 +94,9 @@ industry:
       - "Designed CI's, posters, flyers, catalogues, business cards etc."
 
 awards: 
+  - honor: "National Science Foundation, GRFP"
+    funder: NSF
+    date: 2021
   - honor: "DTEI Pedagogical Fellowship"
     funder: UC Irvine
     date: 2020
@@ -123,6 +126,7 @@ networks:
   - societies:
     - title: "Professional \\newline Societies"
     - names:
+      - "Cognitive Science Society"
       - "Society for Neuroscience"
       - "Indiana Academy of Science"
       - "Psi Chi"
@@ -158,27 +162,43 @@ pedagogy:
       where: "Indiana University"
       when: "Sp 2018" 
   - ugta:  
-    - title: "Teaching \\newline Assistant"
+    - title: "Teaching \\newline Assistant" 
+    - experience:
+      name: "Mind, Memory, and the Brain"
+      code: "(Bio Sci 38)"
+      where: "UC Irvine"
+      when: "Sp 2021" 
+      prof: Dr. Lew
+    - experience:
+      name: "Neurobiology and Behavior Laboratory"
+      code: "(Bio Sci N113L)"
+      where: "UC Irvine"
+      when: "Wt 2020" 
+      prof: Dr. Lew
     - experience:
       name: "Neurobiology and Behavior Laboratory"
       code: "(Bio Sci N113L)"
       where: "UC Irvine"
       when: "Fa 2020" 
+      prof: Dr. Lew
     - experience:
       name: "Brain and Behavior"
       code: "(Bio Sci 35)"
       where: "UC Irvine"
-      when: "Fa 2020" 
+      when: "Fa 2020"
+      prof: Dr. Lew 
     - experience:
       name: "Cognitive Psychology"
       code: "(PSY-P 355)"
       where: "Indiana University"
-      when: "Fa 2018" 
+      when: "Fa 2018"
+      prof: Dr. Pestilli 
     - experience:
       name: "Introduction to Neuroscience"
       code: "(PSY-P 346)"
       where: "Indiana University"
       when: "Fa 2017" 
+      prof: Dr. Newman
   - commseats:
     - title: "Committee"
     - experience:
@@ -308,10 +328,11 @@ languages:
 publications:
   - title: "Preprints" 
     pubs: 
-      - "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J. (2020). Hippocampal ensembles represent sequential relationships among discrete nonspatial events. (Under review at Nature Communications) "     
-      - "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J.,  Cooper, K. W., ... Bouysset, C. (2020). The best COVID-19 predictor is recent smell loss: a cross-sectional study. medRxiv"
+      - "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni (2021) Avalanche: an End-to-End Library for Continual Learning (2021)  arXiv preprint 2104.00405 http://arxiv.org/abs/2104.00405 "
+      - "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J. (2020). Hippocampal ensembles represent sequential relationships among discrete nonspatial events. (Under review)"     
   - title: "Published"
     pubs: 
+      - "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... \\& Baguma, M. (2021). Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms. Chemical senses, 46."
       - "Pierron, D., Pereda-Loth, V., Mantel, M., Moranges, M., Bignon, E., Alva, O.,  Cooper, K. W., ... Dinnella, C. (2020). Smell and taste changes are early indicators of the COVID-19 pandemic and political decision effectiveness. Nature Communications, 11(1), 1-8."
       - "Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W., 2020. COVID-19 and the chemical senses: supporting players take center stage. Neuron. 107(2), 219-233"
       - "Valentina Parma, Kathrin Ohla, Maria G Veldhuizen, Masha Y Niv, Christine E Kelly, Alyssa J Bakke, Keiland W Cooper, GCCR Consortium (2020). More than just smell-COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses"
@@ -321,6 +342,7 @@ publications:
 
 abstracts_talks:
   - abstracts:
+    - "Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J. (2021). Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons. SFN Global Connectome"
     - "Cooper K. W. (2020) The neuroscience \\& AI feedback loop: Catastrophic Forgetting and Sequences. UCI AGS Symposium"
     - "Cooper K. W. (2020) The Art of Email. UCI GPS-STEM"
     - "Cooper K. W. (2020) Dual processes of hippocampal mode switching. Neuromatch online Conference"

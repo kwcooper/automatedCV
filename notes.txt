@@ -1,0 +1,19 @@
+
+Some template links: 
+
+RPI.edu carreer development latex resume's and CV's
+https://rpi.edu/dept/arc/training/latex/resumes/
+
+Add a timeline to your modernCV latex file
+https://tex.stackexchange.com/questions/29725/putting-a-timeline-for-dates-in-moderncv
+
+
+Rob Hyndman's CV
+https://robjhyndman.com/hyndsight/cv/
+and it's on github:
+https://github.com/robjhyndman/CV
+
+
+
+init 19XXXX
+ud 19xxxx

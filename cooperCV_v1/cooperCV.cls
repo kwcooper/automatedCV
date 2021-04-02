@@ -19,6 +19,8 @@
 \ProcessOptions\relax  % Process given options
 \LoadClass{extarticle} % Load the base class
 
+
+
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
