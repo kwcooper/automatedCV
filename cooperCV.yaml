@@ -229,7 +229,7 @@ outreach:
     meta: "Co-founding Director; K-12 science outreach reaching >300 students"
   - title:
     details: "Quora Writer"
-    meta: "Answers to neuroscience and AI questions; ~600k views"
+    meta: "Answers to neuroscience and AI questions; ~800k views"
   - title:
     details: "CNLM Ambassadors"
     meta: "Co-chair; Learning and memory outreach to Southern California"
@@ -328,15 +328,15 @@ languages:
 publications:
   - title: "Preprints" 
     pubs: 
-      - "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni (2021) Avalanche: an End-to-End Library for Continual Learning (2021)  arXiv preprint 2104.00405 http://arxiv.org/abs/2104.00405 "
+      - "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni (2021) Avalanche: an End-to-End Library for Continual Learning  arXiv preprint 2104.00405 http://arxiv.org/abs/2104.00405 "
       - "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J. (2020). Hippocampal ensembles represent sequential relationships among discrete nonspatial events. (Under review)"     
   - title: "Published"
     pubs: 
       - "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... \\& Baguma, M. (2021). Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms. Chemical senses, 46."
       - "Pierron, D., Pereda-Loth, V., Mantel, M., Moranges, M., Bignon, E., Alva, O.,  Cooper, K. W., ... Dinnella, C. (2020). Smell and taste changes are early indicators of the COVID-19 pandemic and political decision effectiveness. Nature Communications, 11(1), 1-8."
       - "Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W., 2020. COVID-19 and the chemical senses: supporting players take center stage. Neuron. 107(2), 219-233"
-      - "Valentina Parma, Kathrin Ohla, Maria G Veldhuizen, Masha Y Niv, Christine E Kelly, Alyssa J Bakke, Keiland W Cooper, GCCR Consortium (2020). More than just smell-COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses"
-      - "Robert Pellegrino, Keiland W Cooper, Antonella Di Pizio, Paule V Joseph, Surabhi Bhutani, Valentina Parma (2020). Coronaviruses and the chemical senses: past, present, and future. Chemical Senses"
+      - "Parma, V., Ohla, K., Veldhuizen, M. G., Niv, M. Y., Kelly, C. E., Bakke, A. J., Cooper. K. W., ..., Hayes, J. E. (2020). More than smell—COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses, 45(7), 609-622."
+      - "Pellegrino, R., Cooper, K. W., Di Pizio, A., Joseph, P. V., Bhutani, S., & Parma, V. (2020). Coronaviruses and the chemical senses: past, present, and future. Chemical senses, 45(6), 415-422."
       - "Hernandez-Perez, J. J., Cooper, K. W., Newman, E. L. (2020). Medial entorhinal cortex activates in a traveling wave in the rat. eLife, 9"
       - "Cooper, K. W. (2018). Can the Machine Understand: An Evidence Based Approach to the Chinese Room. IU Journal of Undergraduate Research, 4(1), 82-85"
 

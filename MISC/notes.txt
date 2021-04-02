@@ -13,6 +13,8 @@ https://robjhyndman.com/hyndsight/cv/
 and it's on github:
 https://github.com/robjhyndman/CV
 
+Ted's CV is also pretty cool. Has some other useful info
+http://www.tedpavlic.com/TPCV.php
 
 
 init 19XXXX
