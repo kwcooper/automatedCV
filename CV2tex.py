@@ -76,6 +76,8 @@ if mvPDF:
 #   Create an automatic update log? 
 # 	Add support for bibfile parsing? 
 
+# 	What about a resume? Coverletter? ETC...
+
 # If you need to access any of the YAML code in this script:
 # result.write(env.get_template(resFile).render(
     # name = yaml_contents['name'], #.upper(),
