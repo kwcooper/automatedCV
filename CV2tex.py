@@ -1,5 +1,5 @@
 
-# The ideal CV:
+# The ideal CV manifesto:
 # It shouldn't rely on software that isn't very well supported.
 # The data format should be standardized.
 # It should be really easy to make changes.
@@ -72,9 +72,9 @@ if mvPDF:
 #   Add code for automatic versioning
 #   Add code for formatting options (long short, graphs etc) -> compute multiple versions with each call
 #   Add code for section order here? (Not just in the Yaml?)
-#   Compute stats here? 
+#   Compute stats here? -> Add to either last page or seperate document
 #   Create an automatic update log? 
-
+# 	Add support for bibfile parsing? 
 
 # If you need to access any of the YAML code in this script:
 # result.write(env.get_template(resFile).render(

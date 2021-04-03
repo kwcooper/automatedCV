@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  2 APR 2021 07:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  2 APR 2021 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,45 +352,45 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 357.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 359.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 359.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 457.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 459.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in alignment at lines 752--756
+Underfull \hbox (badness 10000) in alignment at lines 755--759
 [][][]
  []
 
 [2] 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1537.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1537.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1540.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1540.
 (./cooper_simple_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1537.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1537.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1540.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1540.
 
 Package rerunfilecheck Info: File `cooper_simple_cv.out' has not changed.
 (rerunfilecheck)             Checksum: 2B834FD4381D641A8F7BBDB28C9A4063;404.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1537.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1540.
  ) 
 Here is how much of TeX's memory you used:
  7602 strings out of 492982
- 109893 string characters out of 6134896
- 203645 words of memory out of 5000000
+ 109899 string characters out of 6134896
+ 204645 words of memory out of 5000000
  11085 multiletter control sequences out of 15000+600000
  21253 words of font info for 26 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 28i,13n,43p,325b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,13n,43p,325b,464s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
 e/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texlive
 /texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/helvetic/uhvro8a.pfb>
-Output written on cooper_simple_cv.pdf (2 pages, 42171 bytes).
+Output written on cooper_simple_cv.pdf (2 pages, 42207 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
