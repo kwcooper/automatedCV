@@ -17,5 +17,17 @@ Ted's CV is also pretty cool. Has some other useful info
 http://www.tedpavlic.com/TPCV.php
 
 
+
+Planning: 
+
+
+
 init 19XXXX
 ud 19xxxx
+
+
+MISC Notes
+---------------------------------
+The automated optical recognition software used to digitize resume
+information works best with fonts that do not have serifs.
+

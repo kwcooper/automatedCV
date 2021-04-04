@@ -22,7 +22,7 @@ from jinja2 import Environment, FileSystemLoader
 
 # General Params
 generate_pdf = 1
-mvPDF = 1         # won't work on windows
+mvPDF = 1         # TODO: platform independant pls
 
 # Path information
 yamlFile = "cooperCV.yaml"
@@ -75,6 +75,8 @@ if mvPDF:
 #   Compute stats here? -> Add to either last page or seperate document
 #   Create an automatic update log? 
 # 	Add support for bibfile parsing? 
+
+#   Support for google scholar / semantic scholar api for citations, etc? 
 
 # 	What about a resume? Coverletter? ETC...
 
