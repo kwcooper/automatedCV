@@ -1,8 +1,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%% Simple LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%   Cooper's LaTeX CV Template %%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% KWC Modified on 210402 from http://www.tedpavlic.com/TPCV.php
+% Keiland W Cooper
+% init 210402  
+% Last modified on 210402 
+
+% Some inspiration and adaptations from: 
+% Ted Pavlic (http://www.tedpavlic.com/TPCV.php)
+% Jan Vorisek (jan@vorisek.me)
+% Jan Küster (info@jankuester.com)
+
 %%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -13,33 +21,34 @@
 %	FONTS
 %----------------------------------------------------------------------------------------
 
-% Fonts 
-\usepackage{times}
+% Fonts
+%\usepackage{helvetica} 
+\usepackage{roboto}
+%\usepackage{times}
 \renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{moresize}              % Provides more font size commands (\HUGE and \ssmall)
-\usepackage[utf8]{inputenc}   % Required for inputting international characters
-\usepackage[T1]{fontenc}      % Output font encoding for international characters
+\usepackage[utf8]{inputenc}   	 % Required for inputting international characters
+\usepackage[T1]{fontenc}      	 % Output font encoding for international characters
+\usepackage{fontawesome}           % Required for FontAwesome icons
 
 \renewcommand\emph[1]{#1}
 %\renewcommand\textit[1]{\underline{#1}}
+\usepackage{calc}                  % Puts math inside length specifications
+\usepackage[shortcuts]{extdash}    % Helps LaTeX auto-hyphenate hyphenated words 
 
-% Puts math inside length specifications
-\usepackage{calc}
+\newcommand{\orcid}{\includegraphics[width=10pt]{cooperCV_v1/img/orcid.png}} % cutom for orcidID
 
-% Helps LaTeX auto-hyphenate hyphenated words 
-\usepackage[shortcuts]{extdash}
 
-% Layout: Puts the section titles on left side of page
-\reversemarginpar
+%----------------------------------------------------------------------------------------
+%	LAYOUT
+%----------------------------------------------------------------------------------------
 
-%
-%         PAPER SIZE, PAGE NUMBER, AND DOCUMENT LAYOUT :
-%
-% The next \usepackage line changes the layout for CV style section
-% headings as marginal notes. 
+\reversemarginpar                  % Layout: Puts the section titles on left side of page
+
+% changes the layout for CV style section headings as marginal notes. 
 \usepackage[paper=letterpaper,
-            %includefoot, % Uncomment to put page number above margin
+            %includefoot,             % Uncomment to put page number above margin
             marginparwidth=1.2in,     % Length of section titles
             marginparsep=.05in,       % Space between titles and text
             margin=1in,               % 1 inch margins
@@ -268,13 +277,19 @@
 %%%%%%%%%%%%%%%%%%%%%
 % Stuff I added
 
-\usepackage{fontawesome} % Required for FontAwesome icons
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Begin CV Document %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%               %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN CV DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%               %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{document}
 \thispagestyle{plain}
