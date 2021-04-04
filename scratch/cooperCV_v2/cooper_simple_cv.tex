@@ -21,10 +21,10 @@
 %	FONTS
 %----------------------------------------------------------------------------------------
 
-% Fonts
 %\usepackage{helvetica} 
 \usepackage{roboto}
-%\usepackage{times}
+%\usepackage[default]{raleway} % OG
+%\usepackage{times} % OG
 \renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{moresize}              % Provides more font size commands (\HUGE and \ssmall)
@@ -40,8 +40,16 @@
 \newcommand{\orcid}{\includegraphics[width=10pt]{cooperCV_v1/img/orcid.png}} % cutom for orcidID
 
 
+\usepackage{xcolor}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+\definecolor{silver}{RGB}{128,128,128}
+\definecolor{ultramarine}{RGB}{0,32,96}
+\definecolor{grey}{RGB}{70,70,70}
+
+
+
 %----------------------------------------------------------------------------------------
-%	LAYOUT
+%	DOCUMENT LAYOUT
 %----------------------------------------------------------------------------------------
 
 \reversemarginpar                  % Layout: Puts the section titles on left side of page
@@ -54,27 +62,10 @@
             margin=1in,               % 1 inch margins
             includemp]{geometry}
 
-% Get rid of indenting throughout entire document
-\setlength{\parindent}{0in}
-
-% Provides special list environments and macros to create new ones
-\usepackage[shortlabels]{enumitem}
+\setlength{\parindent}{0in}           % Get rid of indenting throughout entire document
+\usepackage[shortlabels]{enumitem}    % Provides special list environments and macros to create new ones
 
 % Simple bibsections for CV sections
-%
-% * For lists of references with hanging indents and no numbers:
-%
-%   \begin{bibsection}
-%       \item ...
-%   \end{bibsection}
-%
-% * For numbered lists of references (with hanging indents):
-%
-%   \begin{bibenum}
-%       \item ...
-%   \end{bibenum}
-
-
 \makeatletter
 \newlength{\bibhang}
 \setlength{\bibhang}{1em}
@@ -96,11 +87,14 @@
 \def\endbibsection{\oldendbibsection\vspace{-.6\baselineskip}}
 \makeatother
 
-%%% Setup header and footer (with page number and possible last page)
-
-\usepackage{fancyhdr,lastpage}
+% Setup header and footer and adjust for margin
+\usepackage{fancyhdr, lastpage}
 \pagestyle{fancy}
-%\pagestyle{empty}      % Uncomment this to get rid of page numbers
+\fancyfoot{}
+%\fancyfoot[C]{\emph{\footnotesize\textcolor{grey}{curriculum vitae ~~~·~~~ K. W. Cooper}}}
+
+
+%\pagestyle{empty}      % Uncomment to get rid of page numbers
 \fancyhf{}\renewcommand{\headrulewidth}{0pt}
 \fancyfootoffset{\marginparsep+\marginparwidth}
 \newlength{\footpageshift}
@@ -109,24 +103,28 @@
 
 %%%% PAGES 2--9 NUMBERING:
 %% These lines put page number in bottom (center) of pages 2--end
-\lfoot{\hspace{\footpageshift}%
-       \parbox{4in}{\, \hfill %
-                    \arabic{page} of \protect\pageref*{LastPage} % +LP
-%                    \arabic{page}                               % -LP
-                    \hfill \,}}
+\cfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill \emph{\footnotesize\textcolor{grey}{curriculum vitae ~~~·~~~ K. W. Cooper}} \hfill \, }}
+
+\rfoot{\hspace{\footpageshift}%
+       \parbox{4in}{\, \hfill \small\textcolor{grey}{\arabic{page}} \hfill \, }
+	 }
 
 
-%%%% PAGE 1 NUMBERING:
+
+%  \emph{\footnotesize\textcolor{grey}{curriculum vitae ~~~·~~~ K. W. Cooper}}
+
+% first page can have a special numbering:
 \makeatletter
 \let\oldps@plain\ps@plain
 \renewcommand{\ps@plain}{\oldps@plain%
 \renewcommand{\@evenfoot}{\hspace*{-\footpageshift}\hfil %
-   Page~\arabic{page} of \protect\pageref*{LastPage} |  \textit{Last updated \today} % +LP
-%    p.~\arabic{page}                               % -LP
-    \hfil }%
+   \small\textcolor{grey}{Page~\arabic{page} of \protect\pageref*{LastPage}} \hfil \,}%
+
 \renewcommand{\@oddfoot}{\@evenfoot}}
 \makeatother
-%%%% END PAGE 1 NUMBERING
+
+
 
 % Finally, give us PDF bookmarks and colored links
 %
@@ -138,7 +136,6 @@
 % (to enable hyperlinks and bookmarks, comment out ``draft'' line;
 %  to disable hyperlinks and bookmarks, uncomment ``draft'' line)
 \usepackage{color,hyperref}
-\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
 \hypersetup{breaklinks,colorlinks,
             linkcolor=black,urlcolor=black,
             anchorcolor=black,citecolor=black,

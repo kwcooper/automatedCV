@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  4 APR 2021 03:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  4 APR 2021 04:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -581,6 +581,27 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (/usr/share/texlive/texmf-dist/tex/latex/ncctools/extdash.sty
 Package: extdash 2005/01/29 v1.2 Extended Dash Package (NCC)
 )
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -639,17 +660,6 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 \footpageshift=\skip58
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
@@ -760,8 +770,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip59
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 143.
-Package hyperref Info: Option `colorlinks' set `true' on input line 143.
+Package hyperref Info: Option `breaklinks' set `true' on input line 145.
+Package hyperref Info: Option `colorlinks' set `true' on input line 145.
 \enitdp@outerlist=\count110
 \enitdp@lonelist=\count111
 \enitdp@innerlist=\count112
@@ -772,39 +782,53 @@ Package: doi 2007/07/24 handle doi numbers
 ) (./cooper_simple_cv.aux)
 \openout1 = `cooper_simple_cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 289.
-LaTeX Font Info:    ... okay on input line 289.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 289.
-LaTeX Font Info:    ... okay on input line 289.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 289.
-LaTeX Font Info:    ... okay on input line 289.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 289.
-LaTeX Font Info:    ... okay on input line 289.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 289.
-LaTeX Font Info:    ... okay on input line 289.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 289.
-LaTeX Font Info:    ... okay on input line 289.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 289.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 289.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 291.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 291.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 289.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 289.
-LaTeX Font Info:    ... okay on input line 289.
+LaTeX Font Info:    ... okay on input line 291.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 291.
+LaTeX Font Info:    ... okay on input line 291.
 LaTeX Font Info:    Try loading font information for T1+Roboto-LF on input line
- 289.
+ 291.
 
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/T1Roboto-LF.fd
 File: T1Roboto-LF.fd 2015/09/15 (autoinst) Font definitions for T1/Roboto-LF.
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 289.
+(Font)              scaled to size 10.0pt on input line 291.
 \c@mv@tabular=\count114
 \c@mv@boldtabular=\count115
 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count116
+\scratchdimen=\dimen118
+\scratchbox=\box27
+\nofMPsegments=\count117
+\nofMParguments=\count118
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count119
+\MPscratchDim=\dimen119
+\MPnumerator=\count120
+\makeMPintoPDFobject=\count121
+\everyMPtoPDFconversion=\toks22
+)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -841,24 +865,10 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 289.
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
-\scratchdimen=\dimen118
-\scratchbox=\box27
-\nofMPsegments=\count117
-\nofMParguments=\count118
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count119
-\MPscratchDim=\dimen119
-\MPnumerator=\count120
-\makeMPintoPDFobject=\count121
-\everyMPtoPDFconversion=\toks22
-)
+(lastpage)             ! on input line 291.
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring ON on input line 289.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring ON on input line 291.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -866,71 +876,85 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count122
 )
-LaTeX Info: Redefining \ref on input line 289.
-LaTeX Info: Redefining \pageref on input line 289.
-LaTeX Info: Redefining \nameref on input line 289.
+LaTeX Info: Redefining \ref on input line 291.
+LaTeX Info: Redefining \pageref on input line 291.
+LaTeX Info: Redefining \nameref on input line 291.
 
 (./cooper_simple_cv.out) (./cooper_simple_cv.out)
 \@outlinefile=\write3
 \openout3 = `cooper_simple_cv.out'.
 
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 296.
+line 298.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 296.
+(Font)              <7> on input line 298.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 296.
+(Font)              <5> on input line 298.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 298.
+(Font)              scaled to size 10.0pt on input line 300.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 298.
+(Font)              scaled to size 20.74pt on input line 300.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 389.
+(Font)              scaled to size 10.0pt on input line 391.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 398.
+(Font)              scaled to size 10.0pt on input line 400.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 625.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in alignment at lines 694--698
+Underfull \hbox (badness 10000) in alignment at lines 696--700
 [][][]
  []
 
-[2] 
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 705.
+LaTeX Font Info:    Try loading font information for TS1+Roboto-LF on input lin
+e 705.
+(/usr/share/texlive/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
+File: TS1Roboto-LF.fd 2015/09/15 (autoinst) Font definitions for TS1/Roboto-LF.
+
+)
+LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 705.
+ [2]
+
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1479.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1479.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1481.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1481.
 (./cooper_simple_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1479.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1479.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1481.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1481.
 
 Package rerunfilecheck Info: File `cooper_simple_cv.out' has not changed.
 (rerunfilecheck)             Checksum: 2B834FD4381D641A8F7BBDB28C9A4063;404.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1479.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1481.
  ) 
 Here is how much of TeX's memory you used:
- 8934 strings out of 492982
- 130349 string characters out of 6134896
- 219233 words of memory out of 5000000
- 12363 multiletter control sequences out of 15000+600000
- 28742 words of font info for 26 fonts, out of 8000000 for 9000
+ 9372 strings out of 492982
+ 135668 string characters out of 6134896
+ 228220 words of memory out of 5000000
+ 12792 multiletter control sequences out of 15000+600000
+ 39814 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,13n,68p,325b,484s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_idpkzy.enc}{/usr/s
-hare/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_v5svcm.enc}{/usr/share/texl
-ive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texli
-ve/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/google/roboto/Roboto-Italic.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/google/roboto/Roboto-Regular.pfb>
-Output written on cooper_simple_cv.pdf (2 pages, 84351 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_bergpl.enc}{/usr/s
+hare/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_idpkzy.enc}{/usr/share/texl
+ive/texmf-dist/fonts/enc/dvips/roboto/rbto_v5svcm.enc}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/share/texlive/texmf-
+dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/google/roboto/Roboto-Italic.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/google/roboto/Roboto-Regular.pfb>
+Output written on cooper_simple_cv.pdf (2 pages, 84587 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 100 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  28 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
