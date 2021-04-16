@@ -31,13 +31,14 @@
 \usepackage[utf8]{inputenc}   	 % Required for inputting international characters
 \usepackage[T1]{fontenc}      	 % Output font encoding for international characters
 \usepackage{fontawesome}           % Required for FontAwesome icons
+\usepackage{graphicx}                     % for images and the orcid logo
 
 \renewcommand\emph[1]{#1}
 %\renewcommand\textit[1]{\underline{#1}}
 \usepackage{calc}                  % Puts math inside length specifications
 \usepackage[shortcuts]{extdash}    % Helps LaTeX auto-hyphenate hyphenated words 
 
-\newcommand{\orcid}{\includegraphics[width=10pt]{cooperCV_v1/img/orcid.png}} % cutom for orcidID
+\newcommand{\orcid}{\includegraphics[width=10pt]{img/orcid.png}} % cutom for orcidID
 
 
 \usepackage{xcolor}
@@ -144,8 +145,8 @@
             %draft
             }
 
-
-% Define colors 
+% Define a helper command for the rule, pass color if wish to change
+\newcommand{\myRule}[3][silver]{\textcolor{#1}{\rule{#2}{#3}}}
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -271,123 +272,94 @@
 
 
 
-%%%%%%%%%%%%%%%%%%%%%
-% Stuff I added
+%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%               %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN CV DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN CV DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%               %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%           HEADER         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 \thispagestyle{plain}
 
-% Heading. Use a period now to trick Hfill... maybe use a table or something else? 
 \hspace*{-\marginparsep minus \marginparwidth}%
  \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
 
-\hfill \emph{\faEnvelope} \email{kwcooper@uci.edu}\\
-. \hfill \emph{\faHome} \href{http://www.kwcooper.com/}{www.kwcooper.com}\\ 
+% Socials
+%\hfill \href{mailto:kwcooper@uci.edu}{\faEnvelope \hspace{0.05cm} kwcooper@uci.edu} \\
+%\null \hfill \href{http://www.kwcooper.com/}{\faHome \hspace{0.05cm} www.kwcooper.com}\\
+%\null \hfill \href{https://orcid.org/0000-0002-0358-9645}{\orcid \hspace{0.05cm} 0002-0358-9645}\\
+%\null \hfill \href{http://www.kwcooper.com/}{\faTwitter \hspace{0.05cm} @kw\_cooper}\\
+%\null \hfill \href{http://www.kwcooper.com/}{\faGithub \hspace{0.05cm} kwcooper}\\
+% Name
 \textbf{\huge{Keiland W. Cooper}} \hfill \\ 
 [-0.15\baselineskip]%
 \rule{\columnwidth}{1pt}%
 \end{minipage}
 
+\vspace{1\baselineskip}
 
-%\makeheading[]{Keiland W. Cooper} % NAME
 
 %\section{Contact Information}
-
-% NOTE: Mind where the & separators and \\ breaks are in the following
-%       table. Table is one row made up of three parboxes. The left
-%       parbox has address info, the middle parbox has a vertical bar,
-%       and the right parbox has phone and electronic contact
-%       information.
-%
 % MACROS: \rcollength is the width of the right column of the table
 %             (adjust it to your liking; default is 1.85in).
 %         \spacewidth is width of area between left and right boxes.
 %
-%\newlength{\rcollength}\setlength{\rcollength}{1.85in}%
-%\newlength{\spacewidth}\setlength{\spacewidth}{20pt}
-%%
+\newlength{\rcollength}\setlength{\rcollength}{1.45in}%
+\newlength{\spacewidth}\setlength{\spacewidth}{20pt}
+%
 
-%\begin{tabular}[t]{@{}p{\textwidth-\rcollength-\spacewidth}@{}p{\spacewidth}@{}p{\rcollength}}%
-%
-%% Address box
-%\parbox{\textwidth-\rcollength-\spacewidth}{%
-%%Assistant Professor\\
-%\href{http://www.uci.edu/}{Department of Neurobiology and Behavior}\\
-%\href{http://www.uci.edu/}{University of California, Irvine}}
-%
-%&
-%% Uncomment to add a vertical bar in middle of contact information
-%%{\vrule width 0.5pt}
-%\parbox[m][4\baselineskip]{\spacewidth}{} &
-%
-%% Non-snail-mail contact information
-%\parbox{\rcollength}{%
-%\emph{\faEnvelope} \email{kwcooper@uci.edu}\\
-%\emph{\faHome} \href{http://www.kwcooper.com/}{www.kwcooper.com}}
-%
-%\end{tabular}
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength-\spacewidth}@{}p{\spacewidth}@{}p{\rcollength}}%
 
-%%
-%% In modern CV's, it seems like ``Objective'' is frowned upon. Instead,
-%% incorporate it into a well-constructed cover letter. The ``More
-%% information'' can go at the end of the CV, but it should not distract
-%% from the section giving references available to contact.
-%%
-%
-% \section{Objective}
-%
-% Full-time position that allows for advanced research in electrical and
-% computer engineering (communications, control, software, electronics,
-% and sustainability), with a particular focus on complex distributed
-% systems (i.e., modeling, analysis, design, and verification)
+% Address box
+\parbox{\textwidth-\rcollength-\spacewidth}{%
+Graduate Scholar\\
+\href{http://www.uci.edu/}{Department of Neurobiology and Behavior}\\
+\href{http://www.uci.edu/}{University of California, Irvine}}
+
+&
+\parbox[m][4\baselineskip]{\spacewidth}{} &
+
+% Non-snail-mail contact information
+\parbox{\rcollength}{%
+\null \href{mailto:kwcooper@uci.edu}{\faEnvelope \hspace{0.05cm} kwcooper@uci.edu} \\
+\null \href{http://www.kwcooper.com/}{\faHome \hspace{0.05cm} www.kwcooper.com}\\
+\null \href{https://orcid.org/0000-0002-0358-9645}{\orcid \hspace{0.05cm} 0002-0358-9645}\\
+%\null \href{http://www.kwcooper.com/}{\faTwitter \hspace{0.05cm} @kw\_cooper}\\
+%\null \href{http://www.kwcooper.com/}{\faGithub \hspace{0.05cm} kwcooper}\\
+}
+\end{tabular}
+
+
+\myRule{\columnwidth}{1pt}
+
+
+
 % \begin{innerlist}
 %     \item For more information, see \url{http://www.tedpavlic.com/engjobsearch/}
 % \end{innerlist}
-
-%\section{Qualifications and Interests}
+%
+%\section{Academic Interests}
 %
 %Advanced control systems, complex adaptive systems, computational
 %agent-based modeling, hybrid dynamic systems, distributed algorithms,
 %decentralized decision making, emergence and self organization,
-%amorphous computing, autonomous systems and vehicles, networks,
-%communications, verification, cooperation, optimization, game theory,
-%parallel computation, robotics, sustainability in the built environment,
-%energy systems, analog electronics, behavioral ecology, bio-mimicry
 
-%\section{Availability}
-%
-%\begin{loneinnerlist}
-%    \item Start time is negotiable; may be possible to start immediately
-%    \item Geographic location is flexible, but there is preference
-%        for Tempe, AZ
-%\end{loneinnerlist}
-%
-%\section{Security Clearance}
-%
-%Department of Defense Top Secret SCI with polygraph (expired: 2002)
 
-% \section{Citizenship}
-%
-% USA
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%    EDUCATION         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{1\baselineskip}
+
 \section{Education} 
 
 \href{http://www.uci.edu/}{\textbf{University of California, Irvine}} \\
@@ -430,62 +402,8 @@ Advisors: Dr. Ehren Newman, Dr. Mike Jones
 %                    making and organization.
 %            \end{innerlist}
 %
-%    \item[] \textit{Associate Research Scientist}%
-%            \hfill \textbf{August 2014 to July 2015}\\
-%            \textit{Postdoctoral Scholar}%
-%            \hfill \textbf{July 2012 to August 2014}
-%            \begin{innerlist}
-%                \item Supervisor:
-%                        \href{http://www.public.asu.edu/~spratt1/}%
-%                             {Professor Stephen C.~Pratt}
-%
-%                \item Novel application of sophisticated quantitative
-%                    analysis and modeling techniques to animals, with
-%                    social insects as a particular focus.
-%
-%                \item Development of new algorithms for robotics and
-%                    other autonomous systems based on animal behavior,
-%                    with focus on distributed decision making.
-%
-%                \item Supervision of graduate and undergraduate students
-%                    in engineering, computer science, and biology in
-%                    tasks related to biological analysis and modeling as
-%                    well as technological bio\-/mimetic design.
-%            \end{innerlist}
-%
 %\end{outerlist}
 %
-%\halfblankline
-%
-%\href{http://www.osu.edu/}{\textbf{The Ohio State University}},
-%Columbus, OH
-%\begin{outerlist}
-%
-%    \item[] \textit{Postdoctoral Researcher}%
-%            \hfill \textbf{September 2010 to June 2012}
-%            \begin{innerlist}
-%                \item Funding:~\href{http://www.nfs.gov/}{National Science Foundation} Cyber\-/Physical Systems (ENG, \href{http://www.nsf.gov/div/index.jsp?div=eccs}{ECCS})
-%                \begin{innerlist}
-%                    \item[$-$] ``Autonomous Driving in Mixed\-/Traffic Urban Environments''
-%                        (grant~\href{http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0931669}{\#0931669})
-%                    \item[$-$] Supervisor (co\-/PI):
-%                        \href{http://www.cse.ohio-state.edu/~paolo/}%
-%                             {Professor Paolo A.~G.~Sivilotti}
-%                    \item[$-$] PI:
-%                        \href{http://www.ece.ohio-state.edu/~umit/}%
-%                             {Professor \"{U}mit \"{O}zg\"{u}ner}
-%                \end{innerlist}
-%
-%                \item Development of new approaches to software
-%                    verification in the context of hybrid\-/state and
-%                    hybrid\-/time dynamical systems.
-%
-%                \item Supervision of student design project for
-%                    novel vehicle\-/to\-/vehicle communications
-%                    systems to assist in adaptive cruise control.
-%            \end{innerlist}
-%
-%\end{outerlist}
 %
 %\halfblankline
 %
@@ -513,79 +431,16 @@ Advisors: Dr. Ehren Newman, Dr. Mike Jones
 %\end{innerlist}
 %
 %\end{outerlist}
-%
-%\halfblankline
-%
-%\textbf{\href{http://www.ibm.com/}{IBM} Network Storage},
-%Research Triangle Park, NC
-%\begin{outerlist}
-%
-%\item[] \textit{Core Systems Software Developer for FlexNAS}%
-%        \hfill \textbf{June 2001 to September 2001}
-%\begin{innerlist}
-%\item Designed and implemented highly available multihop communications
-%        subsystem.
-%\item Participated in software development of various vital box
-%        services.
-%\end{innerlist}
-%
-%\end{outerlist}
-%
-%\halfblankline
-%
-%\href{http://www.calltech.com/}{\textbf{CallTech Communications}},
-%Columbus, OH
-%\begin{outerlist}
-%
-%\item[] \textit{Information Technology Systems Engineer}%
-%        \hfill \textbf{June 1997 to May 2001}
-%\begin{innerlist}
-%\item Responsible for the acquisition, setup, and administration of all
-%        hardware and software systems supporting
-%        \href{http://www.netwalk.com/}{NetWalk} Internet service and web
-%        presence provider.
-%\item Designed and implemented state\-/of\-/the\-/art open\-/source
-%        highly available load\-/balancing system supporting thousands of
-%        virtual servers.
-%\item Developed call\-/center software for clients such as
-%        CompuServe, AOL, and Priceline.
-%\end{innerlist}
-%
-%\end{outerlist}
-%
-%\halfblankline
-%
-%\textbf{MegaLinx Communications}, Dublin, OH
-%\begin{outerlist}
-%
-%\item[] \textit{Web Developer and Support Representative}%
-%        \hfill \textbf{June 1995 to May 1997}
-%\begin{innerlist}
-%\item Produced web content for commercial clients.
-%\item Assisted in administration of UltraSPARC, x86, 680x0, and PowerPC
-%        systems.
-%\item Developed multi\-/platform open\-/source file\-/sharing solution.
-%\item Provided technical support for Internet and web presence
-%        customers.
-%\end{innerlist}
-%
-%\end{outerlist}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%    PUBLICATIONS        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-% \section{Submitted Journal Publications}
-%
-% % Add a little space to nudge next ``Ref'd Journal Publications'' marginpar
-% % down to make room for tall ``Submitted Journal Publications''
-% % marginpar. If there are enough submitted journal publications, this
-% % space will not be needed (and should be removed).
-% \vspace{0.1in}
-
 \vspace{0.1in}
-\rule{\columnwidth}{1pt}\\
+\myRule{\columnwidth}{1pt}\\
+ \section{Publications}
+
+
 \section{Thesis} 
 
 \begin{bibenum}
