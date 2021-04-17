@@ -58,8 +58,8 @@
 % changes the layout for CV style section headings as marginal notes. 
 \usepackage[paper=letterpaper,
             %includefoot,             % Uncomment to put page number above margin
-            marginparwidth=1.2in,     % Length of section titles
-            marginparsep=.05in,       % Space between titles and text
+            marginparwidth=1.0in,     % Length of section titles
+            marginparsep=.06in,       % Space between titles and text
             margin=1in,               % 1 inch margins
             includemp]{geometry}
 
@@ -147,6 +147,13 @@
 
 % Define a helper command for the rule, pass color if wish to change
 \newcommand{\myRule}[3][silver]{\textcolor{#1}{\rule{#2}{#3}}}
+
+% Use for page breaking section tables  
+% instead of moving them to the next page
+\usepackage{longtable} 
+\setlength\LTleft{0pt} \setlength\LTright{0pt} % Define table margins
+\setlength\LTpre{0pt} \setlength\LTpost{0pt}  % Define table margins
+
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -515,8 +522,8 @@ http://arxiv.org/abs/2104.00405
 \rule{\columnwidth}{1pt}\\
 \section{Teaching}
 
-%\begin{tabular}{l l l}
-\begin{tabular*}{\textwidth}{@{} l l l@{\extracolsep{\fill}}  r @{}}
+
+\begin{longtable}{@{} l l l@{\extracolsep{\fill}}  r @{}}
 	Autonomous Robotics & Co-instructor & \textit{Indiana University} &  2019 \\
 	Programming in Cognitive Sciences & Co-instructor & \textit{Indiana University} & 2018 \\
 	Mind, Memory, and the Brain & Teaching Assistant & \textit{UC Irvine} & 2021  \\
@@ -525,7 +532,7 @@ http://arxiv.org/abs/2104.00405
 	Cognitive Psychology & Teaching Assistant & \textit{Indiana University} & 2018  \\
 	Introduction to Neuroscience & Teaching Assistant & \textit{Indiana University} & 2017  \\
 
-\end{tabular*}
+\end{longtable}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%        SERVICE                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -535,17 +542,38 @@ http://arxiv.org/abs/2104.00405
 \rule{\columnwidth}{1pt}\\
 \section{Selected Outreach + Service}
 
-%\begin{tabular}{l l l}
-\begin{tabular*}{\textwidth}{ l @{\extracolsep{\fill}}  l @{}}
-	AskANeuroscientist & \textit{Founder; K-12 class Q/A (reached >400 students)} \\
-	Hoosier STARS & \textit{Co-founder; K-12 class neuro demos (reached >300 students)} \\
-	CNLM Ambassadors & \textit{Co-chair; SoCal Learning and memory outreach} \\
-	UCI End Racism  & \textit{Working group contributer addressing systemic racism}\\	
-	Quora Writer & \textit{Answers to neuroscience and AI questions; 800k+ views} \\
-	Peer reviewer& \textit{Physiological Reviews; CVPR} \\
-	
-& \textit{} \\
-\end{tabular*}
+
+\begin{longtable}{ l @{\extracolsep{\fill}}  l @{}}
+	AskANeuroscientist & \textcolor{grey}{ \textit{Founder; K-12 class Q/A (reached >400 students)}} \\
+	Hoosier STARS &\textcolor{grey}{ \textit{Co-founder; K-12 class neuro demos (reached >300 students)}} \\
+	CNLM Ambassadors & \textcolor{grey}{\textit{Co-chair; SoCal Learning and memory outreach}} \\
+	UCI End Racism  & \textcolor{grey}{\textit{Working group contributer addressing systemic racism}}\\	
+	Quora Writer &\textcolor{grey}{ \textit{Answers to neuroscience and AI questions; 800k+ views}} \\
+	Peer reviewer& \textcolor{grey}{\textit{Physiological Reviews; CVPR}} \\
+\end{longtable}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%        AWARDS                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{1\baselineskip}
+\rule{\columnwidth}{1pt}\\
+\section{Awards}
+
+
+
+\begin{longtable}{ l l @{\extracolsep{\fill}}  l @{}} 
+	Graduate Research Fellow & \textcolor{grey}{National Science Foundation}  & \textit{2021} \\
+	Pedagogical Fellow &  \textcolor{grey}{UC Irvine DTEI} & \textit{2020} \\
+	UC Irvine Recruitment Fellowship &  \textcolor{grey}{UC Irvine } & \textit{2020} \\
+	Graduate Research Fellow, Honorable Mention & \textcolor{grey}{National Science Foundation}  & \textit{2021} \\
+	Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+	Ewing Prize in Philosophy & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+	Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+\end{longtable}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%         NETWORKS          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
