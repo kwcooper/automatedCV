@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  17 APR 2021 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  17 APR 2021 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -967,72 +967,79 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 328--348
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 370.
+(Font)              scaled to size 10.0pt on input line 369.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 379.
+(Font)              scaled to size 10.0pt on input line 378.
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
 
  []
 
 
-Overfull \hbox (4.35736pt too wide) in paragraph at lines 479--480
+Overfull \hbox (4.35736pt too wide) in paragraph at lines 478--479
 \T1/Roboto-LF/m/n/10 Coro-n-aviruses and the chem-i-cal senses: past, present, 
 and fu-ture. Chem-i-cal senses,
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 483.
+(Font)              scaled to size 9.0pt on input line 482.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/orcid.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 494.
+(hyperref)                removing `\\' on input line 493.
 
 
-Overfull \hbox (4.19313pt too wide) in paragraph at lines 506--507
+Overfull \hbox (4.19313pt too wide) in paragraph at lines 505--506
 []\T1/Roboto-LF/m/n/10 Cooper K. W. (2020) Cholin-er-gic abo-li-tion dis-rupts 
 en-cod-ing and re-trieval mode switch-
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 574.
+(Font)              scaled to size 8.0pt on input line 571.
 LaTeX Font Info:    Try loading font information for TS1+Roboto-LF on input lin
-e 574.
+e 571.
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 File: TS1Roboto-LF.fd 2015/09/15 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 574.
+(Font)              scaled to size 8.0pt on input line 571.
  [2]
-Underfull \hbox (badness 10000) in alignment at lines 588--592
+Underfull \hbox (badness 10000) in alignment at lines 585--589
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--604
+Underfull \hbox (badness 10000) in paragraph at lines 601--603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 605--607
+Underfull \hbox (badness 10000) in paragraph at lines 604--606
 
  []
 
 
 AED: lastpage setting LastPage
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1381.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1381.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1380.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1380.
  (./cooperCV2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1381.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1381.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1380.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1380.
 
-Package rerunfilecheck Info: File `cooperCV2.out' has not changed.
-(rerunfilecheck)             Checksum: FBBFC5C055EC7114AB63FBC167411849;494.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1381.
+
+
+Package rerunfilecheck Warning: File `cooperCV2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cooperCV2.out':
+(rerunfilecheck)             Before: FBBFC5C055EC7114AB63FBC167411849;494
+(rerunfilecheck)             After:  C68366603F7D2B2D5B4C91A3BB9914EA;494.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1380.
  ) 
 Here is how much of TeX's memory you used:
  9794 strings out of 492982
