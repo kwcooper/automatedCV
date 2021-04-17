@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  17 APR 2021 09:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  17 APR 2021 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,36 +817,36 @@ Package: doi 2007/07/24 handle doi numbers
 ) (./cooperCV2.aux)
 \openout1 = `cooperCV2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 295.
-LaTeX Font Info:    ... okay on input line 295.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 295.
-LaTeX Font Info:    ... okay on input line 295.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 295.
-LaTeX Font Info:    ... okay on input line 295.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 295.
-LaTeX Font Info:    ... okay on input line 295.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 295.
-LaTeX Font Info:    ... okay on input line 295.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 295.
-LaTeX Font Info:    ... okay on input line 295.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 295.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 295.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 298.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 298.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 295.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 295.
-LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    ... okay on input line 298.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 298.
+LaTeX Font Info:    ... okay on input line 298.
 LaTeX Font Info:    Try loading font information for T1+Roboto-LF on input line
- 295.
+ 298.
 
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/T1Roboto-LF.fd
 File: T1Roboto-LF.fd 2015/09/15 (autoinst) Font definitions for T1/Roboto-LF.
 )
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 295.
+(Font)              scaled to size 10.0pt on input line 298.
 \c@mv@tabular=\count119
 \c@mv@boldtabular=\count120
 
@@ -916,9 +916,9 @@ e
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 295.
+(lastpage)             ! on input line 298.
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 295.
+Package hyperref Info: Link coloring ON on input line 298.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -927,108 +927,118 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 295.
-LaTeX Info: Redefining \pageref on input line 295.
-LaTeX Info: Redefining \nameref on input line 295.
+LaTeX Info: Redefining \ref on input line 298.
+LaTeX Info: Redefining \pageref on input line 298.
+LaTeX Info: Redefining \nameref on input line 298.
 
 (./cooperCV2.out) (./cooperCV2.out)
 \@outlinefile=\write3
 \openout3 = `cooperCV2.out'.
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 308.
+(Font)              scaled to size 10.0pt on input line 311.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 308.
+(Font)              scaled to size 20.74pt on input line 311.
 \rcollength=\skip64
 \spacewidth=\skip65
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 325.
+(Font)              <7> on input line 328.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 325.
+(Font)              <5> on input line 328.
 LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 343.
+line 346.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-<img/orcid.png, id=45, 128.48pt x 128.48pt>
+<img/orcid.png, id=49, 128.48pt x 128.48pt>
 File: img/orcid.png Graphic file (type png)
 <use img/orcid.png>
-Package pdftex.def Info: img/orcid.png  used on input line 343.
+Package pdftex.def Info: img/orcid.png  used on input line 346.
 (pdftex.def)             Requested size: 10.0pt x 9.99826pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--343
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 325--345
+Overfull \hbox (6.0pt too wide) in paragraph at lines 328--348
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 367.
+(Font)              scaled to size 10.0pt on input line 370.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 376.
+(Font)              scaled to size 10.0pt on input line 379.
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
 
  []
 
 
-Overfull \hbox (4.35736pt too wide) in paragraph at lines 476--477
+Overfull \hbox (4.35736pt too wide) in paragraph at lines 479--480
 \T1/Roboto-LF/m/n/10 Coro-n-aviruses and the chem-i-cal senses: past, present, 
 and fu-ture. Chem-i-cal senses,
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 480.
+(Font)              scaled to size 9.0pt on input line 483.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/orcid.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 491.
+(hyperref)                removing `\\' on input line 494.
 
 
-Overfull \hbox (4.19313pt too wide) in paragraph at lines 503--504
+Overfull \hbox (4.19313pt too wide) in paragraph at lines 506--507
 []\T1/Roboto-LF/m/n/10 Cooper K. W. (2020) Cholin-er-gic abo-li-tion dis-rupts 
 en-cod-ing and re-trieval mode switch-
  []
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 571.
+(Font)              scaled to size 8.0pt on input line 574.
 LaTeX Font Info:    Try loading font information for TS1+Roboto-LF on input lin
-e 571.
+e 574.
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 File: TS1Roboto-LF.fd 2015/09/15 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 571.
+(Font)              scaled to size 8.0pt on input line 574.
  [2]
-Underfull \hbox (badness 10000) in alignment at lines 585--589
+Underfull \hbox (badness 10000) in alignment at lines 588--592
 [][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 602--604
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--607
+
  []
 
 
 AED: lastpage setting LastPage
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1370.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1370.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1381.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1381.
  (./cooperCV2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1370.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1370.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1381.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1381.
 
 Package rerunfilecheck Info: File `cooperCV2.out' has not changed.
-(rerunfilecheck)             Checksum: 718BD11AE93A9AB1B589AF5841961A84;444.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1370.
+(rerunfilecheck)             Checksum: FBBFC5C055EC7114AB63FBC167411849;494.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1381.
  ) 
 Here is how much of TeX's memory you used:
- 9792 strings out of 492982
- 141617 string characters out of 6134896
+ 9794 strings out of 492982
+ 141641 string characters out of 6134896
  236998 words of memory out of 5000000
- 13180 multiletter control sequences out of 15000+600000
+ 13181 multiletter control sequences out of 15000+600000
  39814 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,14n,68p,318b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1039,11 +1049,12 @@ ive/texmf-dist/fonts/enc/dvips/roboto/rbto_v5svcm.enc}{/usr/share/texlive/texmf
 dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/google/roboto/Roboto-Italic.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/google/roboto/Roboto-Regular.pfb>
-Output written on cooperCV2.pdf (3 pages, 88027 bytes).
+type1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on cooperCV2.pdf (3 pages, 98075 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
