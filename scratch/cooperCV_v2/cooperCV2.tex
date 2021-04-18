@@ -17,6 +17,8 @@
 \documentclass[10pt]{article}
 \RequirePackage[T1]{fontenc}
 
+
+
 %----------------------------------------------------------------------------------------
 %	FONTS
 %----------------------------------------------------------------------------------------
@@ -27,7 +29,7 @@
 %\usepackage{times} % OG
 \renewcommand{\familydefault}{\sfdefault}
 
-\usepackage{moresize}              % Provides more font size commands (\HUGE and \ssmall)
+\usepackage{moresize}                    % Provides more font size commands (\HUGE and \ssmall)
 \usepackage[utf8]{inputenc}   	 % Required for inputting international characters
 \usepackage[T1]{fontenc}      	 % Output font encoding for international characters
 \usepackage{fontawesome}           % Required for FontAwesome icons
@@ -152,8 +154,10 @@
 % instead of moving them to the next page
 \usepackage{longtable} 
 \setlength\LTleft{0pt} \setlength\LTright{0pt} % Define table margins
-\setlength\LTpre{0pt} \setlength\LTpost{0pt}  % Define table margins
+\setlength\LTpre{0pt} \setlength\LTpost{-1pt}  % Define table margins
 
+\usepackage{\needspace} 
+%\needspace{5\BaseLineSkip}
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -277,7 +281,16 @@
 \providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em \TeX}}
 \providecommand\Matlab{\textsc{Matlab}}
 
-
+%% Function that checks for n lines remaining, else fills page
+%% Used to prevent hanging section headers
+%\define[1]\FillPage{
+%\par
+%\getnoflines{\the\dimexpr\pagegoal-\pagetotal\relax}
+%\ifnum\number\noflines>#1\relax
+%  \vfill
+%\fi
+%\page[yes]
+%}
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -298,10 +311,11 @@
 \begin{document}
 \thispagestyle{plain}
 
+
 \hspace*{-\marginparsep minus \marginparwidth}%
  \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
 
-% Socials
+% Socials upper top corner
 %\hfill \href{mailto:kwcooper@uci.edu}{\faEnvelope \hspace{0.05cm} kwcooper@uci.edu} \\
 %\null \hfill \href{http://www.kwcooper.com/}{\faHome \hspace{0.05cm} www.kwcooper.com}\\
 %\null \hfill \href{https://orcid.org/0000-0002-0358-9645}{\orcid \hspace{0.05cm} 0002-0358-9645}\\
@@ -323,8 +337,6 @@
 %
 \newlength{\rcollength}\setlength{\rcollength}{1.45in}%
 \newlength{\spacewidth}\setlength{\spacewidth}{20pt}
-%
-
 \begin{tabular}[t]{@{}p{\textwidth-\rcollength-\spacewidth}@{}p{\spacewidth}@{}p{\rcollength}}%
 
 % Address box
@@ -350,10 +362,6 @@ Graduate Scholar\\
 \myRule{\columnwidth}{1pt}
 
 
-% \begin{innerlist}
-%     \item For more information, see \url{http://www.tedpavlic.com/engjobsearch/}
-% \end{innerlist}
-%
 %\section{Academic Interests}
 %
 %Advanced control systems, complex adaptive systems, computational
@@ -585,12 +593,28 @@ http://arxiv.org/abs/2104.00405
 \rule{\columnwidth}{1pt}\\
 \section{Networks}
 
-%\begin{tabular}{l l l}
-\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l}
+\begin{longtable}{l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l}
 	Cognitive Science Society & Psi Chi & ContinualAI (\textit{co-founder})\\
 	Society for Neuroscience & Sigma Xi &  Carboncopies Foundation \\
 	Indiana Academy of Science & Sigma Alpha Pi & AI for People\\ 
-\end{tabular*}
+\end{longtable}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%            SERVICE             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{1\baselineskip}
+\rule{\columnwidth}{1pt}\\
+\section{Service}
+
+\begin{longtable}{l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l}
+	Physiological Reviews &   &  \\
+	CVPR & & \\
+
+\end{longtable}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -605,7 +629,7 @@ http://arxiv.org/abs/2104.00405
 	Estes Cognitive Electrophysiology Workshop & \textcolor{grey}{University of Pennsilvania}  & \textit{2021} \\
 	NIH Grant Writing Workshop &  \textcolor{grey}{UC Irvine } & \textit{2020} \\
 	HHMI Productivity Workshop &  \textcolor{grey}{UC Irvine } & \textit{2020} \\
-	Graduate Research Fellow, Honorable Mention & \textcolor{grey}{National Science Foundation}  & \textit{2021} \\
+	Nonlinear Dynamics: Math and Comp Approaches & \textcolor{grey}{Santa Fe Institute}  & \textit{2021} \\
 	Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
 	Ewing Prize in Philosophy & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
 	Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
@@ -644,6 +668,8 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%             ERDOS              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\needspace{5\BaseLineSkip}
 
 \vspace{1\baselineskip}
 \rule{\columnwidth}{1pt}\\
