@@ -164,24 +164,29 @@
 %%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%% HEADING AT TOP OF CURRICULUM VITAE
-\newcommand{\makeheading}[2][]%
-        {\hspace*{-\marginparsep minus \marginparwidth}%
-         \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
-             {\large \bfseries #2 \hfill #1}\\[-0.15\baselineskip]%
-                 \rule{\columnwidth}{1pt}%
-         \end{minipage}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%% SECTION HEADINGS
 
-% The section headings. Flush left in small caps down pseudo-margin.
+% The section headings. Flush left in small caps down pseudo-margin. Draw rule
 \renewcommand{\section}[1]{\pagebreak[3]%
+    \vspace{1.2\baselineskip}%
+
+	\needspace{\headerpush}
+	\myRule{\columnwidth}{1pt}\\
+
+    \phantomsection\addcontentsline{toc}{section}{#1}%
+    \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\hyphenpenalty=10000\raggedright #1}}}%
+    \vspace{-.5\baselineskip}\par}
+
+% The section headings. Flush left in small caps down pseudo-margin.
+\renewcommand{\subsection}[1]{\pagebreak[3]%
     \vspace{1.3\baselineskip}%
+
     \phantomsection\addcontentsline{toc}{section}{#1}%
     \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\hyphenpenalty=10000\raggedright #1}}}%
     \vspace{-\baselineskip}\par}
+
 
 %%% LISTS
 
@@ -269,30 +274,6 @@
 % Provides a linked \url{#1} that doesn't require escape characters
 \usepackage{url}
 
-% You can adjust the style \url{} uses here:
-% (options are: same, rm, sf, tt; defaults to tt)
-\urlstyle{same}
-
-% For \email{ADDRESS}, links ADDRESS to the url mailto:ADDRESS
-% (uncomment to typeset the e\-/mail address in typewriter font;
-%  otherwise, will be typeset in the \urlstyle above)
-%\DeclareUrlCommand\emaillink{\urlstyle{tt}}
-\providecommand*\emaillink[1]{\nolinkurl{#1}}
-\providecommand*\email[1]{\href{mailto:#1}{\emaillink{#1}}}
-
-\providecommand\BibTeX{{B\kern-.05em{\sc i\kern-.025em b}\kern-.08em \TeX}}
-\providecommand\Matlab{\textsc{Matlab}}
-
-%% Function that checks for n lines remaining, else fills page
-%% Used to prevent hanging section headers
-%\define[1]\FillPage{
-%\par
-%\getnoflines{\the\dimexpr\pagegoal-\pagetotal\relax}
-%\ifnum\number\noflines>#1\relax
-%  \vfill
-%\fi
-%\page[yes]
-%}
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -361,7 +342,7 @@ Graduate Scholar\\
 \end{tabular}
 
 
-\myRule{\columnwidth}{1pt}
+%\myRule{\columnwidth}{1pt}
 
 
 %\section{Academic Interests}
@@ -452,9 +433,9 @@ Advisors: Dr. Ehren Newman, Dr. Mike Jones
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%    PUBLICATIONS        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\needspace{\headerpush}
-\vspace{0.1in}
-\myRule{\columnwidth}{1pt}\\
+%\needspace{\headerpush}
+%\vspace{0.1in}
+%\myRule{\columnwidth}{1pt}\\
 
 \section{Thesis} 
 
@@ -464,7 +445,7 @@ Advisors: Dr. Ehren Newman, Dr. Mike Jones
 \end{bibenum}
 
 
-\section{Preprints} 
+\subsection{Preprints} 
 \begin{bibenum}
     \item Lomonaco V., Pellegrini L., Cossu A., Carta A., Graffieti G., ... Cooper K. W., ... Bacciu D., Maltoni D. 
  (2021) Avalanche: an End-to-End Library for Continual Learning  arXiv preprint 2104.00405 
@@ -475,7 +456,7 @@ http://arxiv.org/abs/2104.00405
 \end{bibenum}
 
 \vspace{0.1in}
-\section{Refereed Publications}
+\subsection{Refereed Publications}
 
 \begin{bibenum}
     \item   Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K. W. ..., Baguma, M. (2020). Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms. Chemical senses, 46.
@@ -501,9 +482,9 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%      ABSTRACTS            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{0.1in}
-
-\rule{\columnwidth}{1pt}\\
+%\vspace{0.1in}
+%
+%\rule{\columnwidth}{1pt}\\
 \section{Selected Abstracts +  \\Talks}
 
 \restartlist{bibenum}
@@ -530,8 +511,8 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%        AWARDS                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\vspace{1\baselineskip}
-\rule{\columnwidth}{1pt}\\
+%\vspace{1\baselineskip}
+%\rule{\columnwidth}{1pt}\\
 \section{Awards}
 
 \begin{longtable}{ l l @{\extracolsep{\fill}}  l @{}} 
@@ -549,9 +530,6 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%             TEACHING        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\needspace{\headerpush}
-\vspace{1\baselineskip}
-\rule{\columnwidth}{1pt}\\
 \section{Teaching}
 
 
@@ -570,9 +548,6 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%        SCICOM                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\needspace{\headerpush}
-\vspace{1\baselineskip}
-\rule{\columnwidth}{1pt}\\
 \section{SciComm + Outreach}
 
 
@@ -592,9 +567,6 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%         NETWORKS          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\needspace{\headerpush}
-\vspace{1\baselineskip}
-\rule{\columnwidth}{1pt}\\
 \section{Networks}
 
 \begin{longtable}{l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l}
@@ -608,9 +580,6 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%            SERVICE             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\needspace{\headerpush}
-\vspace{1\baselineskip}
-\rule{\columnwidth}{1pt}\\
 \section{Service}
 
 \begin{longtable}{l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l}
@@ -625,9 +594,6 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%        WORKSHOPS                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\needspace{\headerpush}
-\vspace{1\baselineskip}
-\rule{\columnwidth}{1pt}\\
 \section{Trainings + Workshops}
 
 \begin{longtable}{ l l @{\extracolsep{\fill}}  l @{}} 
@@ -644,10 +610,6 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%          PRESS                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\needspace{\headerpush}
-\vspace{0.1in}
-
-\rule{\columnwidth}{1pt}\\
 \section{Press}
 
 \restartlist{bibenum}
@@ -675,10 +637,6 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%             ERDOS              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-\needspace{\headerpush}
-\vspace{1\baselineskip}
-\rule{\columnwidth}{1pt}\\
 \section{Erdös N=4}
 
 % https://www.csauthors.net/distance/paul-erdos/keiland-cooper
