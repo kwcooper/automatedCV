@@ -156,8 +156,10 @@
 \setlength\LTleft{0pt} \setlength\LTright{0pt} % Define table margins
 \setlength\LTpre{0pt} \setlength\LTpost{-1pt}  % Define table margins
 
-\usepackage{\needspace} 
-%\needspace{5\BaseLineSkip}
+% Use to push the section headings to a new page if none of the entries can make it
+% under the heading. May need to figit with the push length a bit
+\usepackage{needspace} 
+\newlength\headerpush\setlength\headerpush{2em}
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -374,6 +376,7 @@ Graduate Scholar\\
 %%%%%%%%%%%%    EDUCATION         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 \section{Education} 
 
 \href{http://www.uci.edu/}{\textbf{University of California, Irvine}} \\
@@ -449,7 +452,7 @@ Advisors: Dr. Ehren Newman, Dr. Mike Jones
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%    PUBLICATIONS        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\needspace{\headerpush}
 \vspace{0.1in}
 \myRule{\columnwidth}{1pt}\\
 
@@ -546,7 +549,7 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%             TEACHING        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\needspace{\headerpush}
 \vspace{1\baselineskip}
 \rule{\columnwidth}{1pt}\\
 \section{Teaching}
@@ -567,6 +570,7 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%        SCICOM                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\needspace{\headerpush}
 \vspace{1\baselineskip}
 \rule{\columnwidth}{1pt}\\
 \section{SciComm + Outreach}
@@ -588,7 +592,7 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%         NETWORKS          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\needspace{\headerpush}
 \vspace{1\baselineskip}
 \rule{\columnwidth}{1pt}\\
 \section{Networks}
@@ -604,7 +608,7 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%            SERVICE             %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\needspace{\headerpush}
 \vspace{1\baselineskip}
 \rule{\columnwidth}{1pt}\\
 \section{Service}
@@ -621,6 +625,7 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%        WORKSHOPS                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\needspace{\headerpush}
 \vspace{1\baselineskip}
 \rule{\columnwidth}{1pt}\\
 \section{Trainings + Workshops}
@@ -639,6 +644,7 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%          PRESS                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\needspace{\headerpush}
 \vspace{0.1in}
 
 \rule{\columnwidth}{1pt}\\
@@ -669,8 +675,8 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%             ERDOS              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\needspace{5\BaseLineSkip}
 
+\needspace{\headerpush}
 \vspace{1\baselineskip}
 \rule{\columnwidth}{1pt}\\
 \section{Erdös N=4}
