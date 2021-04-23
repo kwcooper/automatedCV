@@ -71,6 +71,10 @@
 \setlength{\parindent}{0in}                       % Get rid of indenting throughout entire document
 \usepackage[shortlabels]{enumitem}    % Provides special list environments and macros to create new ones
 
+%----------------------------------------------------------------------------------------
+%	BIB LAYOUT
+%----------------------------------------------------------------------------------------
+
 \usepackage{etaremune} % reverse numbering
 \renewcommand{\labelenumi}{[\theenumi]}
 
@@ -80,6 +84,7 @@
 \setlength{\bibhang}{1em}
 \newlength{\bibsep}
  {\@listi \global\bibsep\itemsep \global\advance\bibsep by\parsep}
+
 \newlist{bibsection}{itemize}{3}
 \setlist[bibsection]{label=,leftmargin=\bibhang,%
         itemindent=-\bibhang,
@@ -96,6 +101,56 @@
 \let\oldendbibsection\endbibsection
 \def\endbibsection{\oldendbibsection\vspace{-.6\baselineskip}}
 \makeatother
+
+% Code to break and resume a reverse ennumerated list
+% I get the function is like almost 50 years old, but come on mannn
+% https://tex.stackexchange.com/a/438744
+\usepackage{etoolbox} %% For \AtEndEnvironment
+
+\makeatletter %% <- change @ so that it can be used in macro names
+  %% Define the resume key for etaremune:
+  \define@boolkey[EM]{etaremune}{resume}[true]{}
+  \presetkeys[EM]{etaremune}{resume=false}{} %% <- false by default
+
+  %% Increase starting value of previous etaremune environment if resuming
+  \AtEndEnvironment{etaremune}{%
+    \ifEM@etaremune@resume
+      \EM@resumewrite{\csname EM@prevlist@\@roman{\@enumdepth}\endcsname}{\EM@currlist}%
+    \fi
+    \expandafter\xdef\csname EM@prevlist@\@roman{\@enumdepth}\endcsname{\EM@currlist}%
+  }
+  \newcommand*\EM@resumewrite[2]{% %% Expand arguments and then call EM@resume@write@
+    \begingroup
+      \edef\temp{\noexpand\EM@resumewrite@
+        {\expandafter\string\csname etaremune@#1\endcsname}%
+        {\expandafter\string\csname etaremune@#2\endcsname}}%
+      \temp
+    \endgroup
+  }
+  \newcommand*\EM@resumewrite@[2]{% %% Write to aux file
+    \immediate\write\@auxout{\xdef#1{\string\noexpand\string\the\numexpr#1+\string\noexpand#2 }}%
+  }
+\makeatother %% <- change @ back
+
+
+
+%% add the reversed environment
+%% https://tex.stackexchange.com/a/154300
+%\newenvironment{bibenum*}
+%  {\renewcommand\labelenumi{[\theenumi]}%
+%   \etaremune[resume,
+%     topsep=0pt,
+%     itemsep=\bibsep,
+%     parsep=0pt,partopsep=0pt,
+%     itemindent=-\bibhang,
+%     leftmargin={\bibhang+\widthof{[999]}}]}
+%  {\endetaremune}
+
+
+
+%----------------------------------------------------------------------------------------
+%	FOOTER LAYOUT
+%----------------------------------------------------------------------------------------
 
 % Setup header and footer and adjust for margin
 \usepackage{fancyhdr, lastpage}
@@ -131,6 +186,9 @@
 \renewcommand{\@oddfoot}{\@evenfoot}}
 \makeatother
 
+%----------------------------------------------------------------------------------------
+%	MISC LAYOUT
+%----------------------------------------------------------------------------------------
 
 % Finally, give us PDF bookmarks and colored links
 \usepackage{color,hyperref}
@@ -357,15 +415,19 @@ Graduate Scholar\\
 
 \href{http://www.uci.edu/}{\textbf{University of California, Irvine}} \\
 Ph.D., Neuroscience \hfill \textit{In progress}\\
-Advisor: Dr. Norbert Fortin
+\textcolor{grey}{Advisor: Dr. Norbert Fortin}\\
 
-\vspace{1\baselineskip}
+
+%\href{http://www.uci.edu/}{\textbf{Quantic School of Buisness and Technology}} \\
+%MA, Buisness Administration \hfill \textit{In progress}\\
+
 
 \href{http://www.iu.edu/}{\textbf{Indiana University, Bloomington}} \\
 B.S., Cognitive Science, \textit{with Honors} \hfill \textit{May 4th 2019} \\
 Computation specialization \\
 Certificate in Neuroscience; Minor in Psychology\\
-Advisors: Dr. Ehren Newman, Dr. Mike Jones
+\textcolor{grey}{Advisors: Dr. Ehren Newman, Dr. Mike Jones}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%    EXPIRIENCE         %%%%%%%%%%%%%%%%%%%
@@ -430,50 +492,31 @@ Advisors: Dr. Ehren Newman, Dr. Mike Jones
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\section{Test} 
+%\begin{etaremune}[itemindent=-10pt, topsep=0pt,itemsep=0pt,partopsep=0pt,parsep=0pt,] 
+%\begin{bibenum*}
+%[resume,
+%     topsep=0pt,
+%     itemsep=\bibsep,
+%     parsep=0pt,partopsep=0pt,
+%     itemindent=-\bibhang,
+%     leftmargin={\bibhang+\widthof{[999]}}]
 
-\begin{etaremune}[itemindent=-10pt, topsep=0pt,itemsep=0pt,partopsep=0pt,parsep=0pt,] 
-
- \item COVID-19 and the chemical senses: supporting players take center stage.\\ 
-\textit{Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W.,} \\ 
- 2020 Neuron 107(2), 219-233\\
-
-
-
-  \item More than smell- COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. \\
-Parma, V., Ohla, K., Veldhuizen, M. G., Niv, M. Y., Kelly, C. E., Bakke, A. J., Cooper K. W. ..., Hayes, J. E. \\
-2020. Chemical Senses, 45(7), 609-622.\\
-
-   \item Coronaviruses and the chemical senses: past, present, and future.\\
-Pellegrino, R., Cooper, K. W., Di Pizio, A., Joseph, P. V., Bhutani, S., Parma, V. \\
-2020 Chemical senses, 45(6), 415-422.\\
-
- \item Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W., 2020. COVID-19 and the chemical senses: supporting players take center stage. Neuron. 107(2), 219-233\\
-
-\end{etaremune}
-
-\section{Thesis} 
-
-\begin{bibenum}
-    \item Cooper K. W. (2019) Cholinergic modulation may explain hippocampal encoding and retrieval mode switching. Indiana University, Bloomington Undergraduate Thesis. 
-
-\end{bibenum}
-
-
-\subsection{Preprints} 
-\begin{bibenum}
+\section{Preprints} 
+\begin{etaremune}[ itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     \item Lomonaco V., Pellegrini L., Cossu A., Carta A., Graffieti G., ... Cooper K. W., ... Bacciu D., Maltoni D. 
  (2021) Avalanche: an End-to-End Library for Continual Learning  arXiv preprint 2104.00405 
 http://arxiv.org/abs/2104.00405
 
     \item  Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J. (2020). Hippocampal ensembles represent sequential relationships among discrete nonspatial events. (Under review)
+\end{etaremune}
 
-\end{bibenum}
 
 \vspace{0.1in}
 \subsection{Refereed Publications}
 
-\begin{bibenum}
+\begin{etaremune}[ resume, itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     \item   Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K. W. ..., Baguma, M. (2020). Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms. Chemical senses, 46.
 
     \item   Pierron, D., Pereda-Loth, V., Mantel, M., Moranges, M., Bignon, E., Alva, O.,  Cooper, K. W., ... Dinnella, C. (2020). Smell and taste changes are early indicators of the COVID-19 pandemic and political decision effectiveness. Nature Communications, 11(1), 1-8.
@@ -491,19 +534,26 @@ http://arxiv.org/abs/2104.00405
 
     \item Cooper, K. W. (2018). Can the Machine Understand: An Evidence Based Approach to the Chinese Room. IU Journal of Undergraduate Research, 4(1), 82-85
 
-\end{bibenum}
+\end{etaremune}
+
+
+\vspace{0.1in}
+\subsection{Thesis} 
+
+\begin{etaremune}[resume,  itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
+    \item Cooper K. W. (2019) Cholinergic modulation may explain hippocampal encoding and retrieval mode switching. Indiana University, Bloomington Undergraduate Thesis. 
+
+\end{etaremune}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%      ABSTRACTS            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\vspace{0.1in}
-%
-%\rule{\columnwidth}{1pt}\\
 \section{Selected Abstracts +  \\Talks}
 
-\restartlist{bibenum}
-\begin{bibenum}
+\begin{etaremune}[itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     \item  Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J. (2021). Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons. Society for Neuroscience Global Connectome
 
 
@@ -520,14 +570,12 @@ http://arxiv.org/abs/2104.00405
 
     \item Cooper K. W. (2017) Bridging the Gap: Natural Computation and Neural Systems. Indiana University Undergraduate Research Conference.
 
-\end{bibenum}
+\end{etaremune}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%        AWARDS                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\vspace{1\baselineskip}
-%\rule{\columnwidth}{1pt}\\
 \section{Awards}
 
 \begin{longtable}{ l l @{\extracolsep{\fill}}  l @{}} 
@@ -546,7 +594,6 @@ http://arxiv.org/abs/2104.00405
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Teaching}
-
 
 \begin{longtable}{@{} l l l@{\extracolsep{\fill}}  r @{}}
 	Autonomous Robotics & \textcolor{grey}{\textit{Co-instructor}} & \textcolor{grey}{\textit{Indiana University}} &  2019 \\
@@ -627,8 +674,8 @@ http://arxiv.org/abs/2104.00405
 
 \section{Press}
 
-\restartlist{bibenum}
-\begin{bibenum}
+\begin{etaremune}[itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     \item  Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J. (2021). Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons. Society for Neuroscience Global Connectome
 
 
@@ -645,7 +692,7 @@ http://arxiv.org/abs/2104.00405
 
     \item Cooper K. W. (2017) Bridging the Gap: Natural Computation and Neural Systems. Indiana University Undergraduate Research Conference.
 
-\end{bibenum}
+\end{etaremune}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
