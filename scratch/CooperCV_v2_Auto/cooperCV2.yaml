@@ -358,7 +358,7 @@ publications:
     pubs: 
       - title: "Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms."
         authors: "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... and Baguma, M. "
-        year: 2021
+        year: 2020
         journal: "Chemical senses"
         nums: "46"
         link: ""
@@ -406,40 +406,127 @@ publications:
         journal: "IU Journal of Undergraduate Research"
         nums: "4(1), 82-85"
         link: ""
+  - type: "Thesis"
+    pubs: 
+      - title: "Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
+        authors: "Cooper K. W."
+        year: 2019
+        journal: "Indiana University, Bloomington Undergraduate Thesis"
+        nums: " "
+        link: ""
 
 
-publications2:
-  - title: "Preprints" 
-    pubs: 
-      - "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni (2021) Avalanche: an End-to-End Library for Continual Learning  arXiv preprint 2104.00405 http://arxiv.org/abs/2104.00405 "
-      - "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J. (2020). Hippocampal ensembles represent sequential relationships among discrete nonspatial events. (Under review)"     
-  - title: "Published"
-    pubs: 
-      - "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... and Baguma, M. (2021). Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms. Chemical senses, 46."
-      - "Pierron, D., Pereda-Loth, V., Mantel, M., Moranges, M., Bignon, E., Alva, O.,  Cooper, K. W., ... Dinnella, C. (2020). Smell and taste changes are early indicators of the COVID-19 pandemic and political decision effectiveness. Nature Communications, 11(1), 1-8."
-      - "Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W., 2020. COVID-19 and the chemical senses: supporting players take center stage. Neuron. 107(2), 219-233"
-      - "Parma, V., Ohla, K., Veldhuizen, M. G., Niv, M. Y., Kelly, C. E., Bakke, A. J., Cooper. K. W., ..., Hayes, J. E. (2020). More than smell—COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses, 45(7), 609-622."
-      - "Pellegrino, R., Cooper, K. W., Di Pizio, A., Joseph, P. V., Bhutani, S., & Parma, V. (2020). Coronaviruses and the chemical senses: past, present, and future. Chemical senses, 45(6), 415-422."
-      - "Hernandez-Perez, J. J., Cooper, K. W., Newman, E. L. (2020). Medial entorhinal cortex activates in a traveling wave in the rat. eLife, 9"
-      - "Cooper, K. W. (2018). Can the Machine Understand: An Evidence Based Approach to the Chinese Room. IU Journal of Undergraduate Research, 4(1), 82-85"
 
 abstracts_talks:
   - abstracts:
-    - "Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J. (2021). Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons. SFN Global Connectome"
-    - "Cooper K. W. (2020) The neuroscience and AI feedback loop: Catastrophic Forgetting and Sequences. UCI AGS Symposium"
-    - "Cooper K. W. (2020) The Art of Email. UCI GPS-STEM"
-    - "Cooper K. W. (2020) Dual processes of hippocampal mode switching. Neuromatch online Conference"
-    - "Cooper K. W. (2020) Continual Learning: neuroscience + AI. Contiual AI Meetup"
-    - "Cooper K. W. (2020) Cholinergic abolition disrupts encoding and retrieval mode switching. 11th Annual Emerging Scientists Symposium"
-    - "Cooper K. W. (2019) The neuroscience amd AI feedback loop. UCI Brain"
-    - "Cooper K. W. (2019) On neuroscience and AI. IUJUR Research Slam"
-    - "Hernández J, Cooper K. W., Newman E.L. (2018) Is theta a traveling wave in the medial entorhinal cortex? Program No. 330.10. Society for Neuroscience"
-    - "Cooper K. W, Dachapally P.R, Jones M.N (2018) Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models, Midwest CogSci"
-    - "Cooper K. W., Hernández J, Newman E.L. (2018) Is theta in the Medial Entorhinal Cortex a Traveling Wave? Society for Neuroscience, Greater Indiana Chapter."
-    - "Cooper K. W. (2018) 3D Brain Model Extraction and Virtual Applications. (Panelist) Media School Graduate Association Conference."
-    - "Cooper K. W. (2018) FlapAI: Genetically Evolved Neural Networks. Midwest Undergraduate Cognitive Science Conference"
-    - "Cooper K. W. (2017) Bridging the Gap: Natural Computation and Neural Systems. Indiana University Undergraduate Research Conference."
-    - "Cooper K. W., Osborn Z. (2016) Downstream Hippocampal Activity Prediction with Neural Networks. Midwest Undergraduate Cognitive Science Conference."
+    - title: "Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons"
+      authors: "Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J."
+      year: 2021
+      venue: "SFN Global Connectome"
+      link: ""
+      nums: ""
+
+    - title: "The neuroscience and AI feedback loop: Catastrophic Forgetting and Sequences"
+      authors: "Cooper K. W."
+      year: 2020
+      venue: "UCI AGS Symposium"
+      link: ""
+      nums: ""
+
+    - title: "The Art of Email"
+      authors: "Cooper K. W."
+      year: 2020
+      venue: "UCI GPS-STEM"
+      link: ""
+      nums: ""
+
+    - title: "Dual processes of hippocampal mode switching"
+      authors: "Cooper K. W."
+      year: 2020
+      venue: "Neuromatch online Conference"
+      link: ""
+      nums: ""
+
+    - title: "Continual Learning: neuroscience + AI."
+      authors: "Cooper K. W."
+      year: 2020
+      venue: "Contiual AI Meetup"
+      link: ""
+      nums: ""
+
+    - title: "Cholinergic abolition disrupts encoding and retrieval mode switching"
+      authors: "Cooper K. W."
+      year: 2020
+      venue: "11th Annual Emerging Scientists Symposium"
+      link: ""
+      nums: ""
+
+    - title: "The neuroscience amd AI feedback loop"
+      authors: "Cooper K. W."
+      year: 2019
+      venue: "UCI Brain"
+      link: ""
+      nums: ""
+    
+    - title: "On neuroscience and AI"
+      authors: "Cooper K. W."
+      year: 2019
+      venue: "IUJUR Research Slam"
+      link: ""
+      nums: ""
+
+    - title: "Is theta a traveling wave in the medial entorhinal cortex?"
+      authors: "Hernández J, Cooper K. W., Newman E.L."
+      year: 2018
+      venue: "Program No. 330.10. Society for Neuroscience"
+      link: ""
+      nums: ""
+
+    - title: "Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models"
+      authors: "Cooper K. W, Dachapally P.R, Jones M.N"
+      year: 2018
+      venue: "Midwest CogSci"
+      link: ""
+      nums: ""
+      highlights:
+        - h: "Best poster award"
+
+    - title: "Is theta in the Medial Entorhinal Cortex a Traveling Wave?"
+      authors: "Cooper K. W., Hernández J, Newman E.L."
+      year: 2018
+      venue: "Society for Neuroscience, Greater Indiana Chapter"
+      link: ""
+      nums: ""
+
+    - title: "3D Brain Model Extraction and Virtual Applications"
+      authors: "Cooper K. W."
+      year: 2018
+      venue: "(Panelist) Media School Graduate Association Conference"
+      link: ""
+      nums: ""
+
+    - title: "FlapAI: Genetically Evolved Neural Networks"
+      authors: "Cooper K. W."
+      year: 2018 
+      venue: "Midwest Undergraduate Cognitive Science Conference"
+      link: ""
+      nums: ""
+
+    - title: "Bridging the Gap: Natural Computation and Neural Systems"
+      authors: "Cooper K. W."
+      year: 2017 
+      venue: "Indiana University Undergraduate Research Conference"
+      link: ""
+      nums: ""
+
+    - title: "Downstream Hippocampal Activity Prediction with Neural Networks"
+      authors: "Cooper K. W., Osborn Z."
+      year: 2016 
+      venue: "Midwest Undergraduate Cognitive Science Conference"
+      link: ""
+      nums: ""
+
+
 
 
 press: 

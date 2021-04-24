@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  24 APR 2021 04:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  24 APR 2021 05:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -967,7 +967,7 @@ line 64.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
 File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
-<img/orcid.png, id=61, 128.48pt x 128.48pt>
+<img/orcid.png, id=57, 128.48pt x 128.48pt>
 File: img/orcid.png Graphic file (type png)
 <use img/orcid.png>
 Package pdftex.def Info: img/orcid.png  used on input line 64.
@@ -1015,95 +1015,95 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/orcid.png>]
 LaTeX Font Info:    Try loading font information for TS1+Roboto-LF on input lin
-e 278.
+e 273.
 
 (/usr/share/texlive/texmf-dist/tex/latex/roboto/TS1Roboto-LF.fd
 File: TS1Roboto-LF.fd 2015/09/15 (autoinst) Font definitions for TS1/Roboto-LF.
 
 )
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 278.
+(Font)              scaled to size 10.0pt on input line 273.
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--346
+Overfull \hbox (3.16919pt too wide) in paragraph at lines 329--332
+[]\T1/Roboto-LF/m/n/10 Cholinergic mod-u-la-tion may ex-plain hip-pocam-pal en-
+cod-ing and re-trieval mode switch-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 346.
-
-
-Overfull \hbox (4.19313pt too wide) in paragraph at lines 358--359
-[]\T1/Roboto-LF/m/n/10 Cooper K. W. (2020) Cholin-er-gic abo-li-tion dis-rupts 
-en-cod-ing and re-trieval mode switch-
- []
+(hyperref)                removing `\\' on input line 362.
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 364.
+(Font)              scaled to size 8.0pt on input line 393.
 LaTeX Font Info:    Font shape `TS1/Roboto-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 364.
+(Font)              scaled to size 8.0pt on input line 393.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 389--389
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 424--424
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 487--487
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 520--520
+Underfull \hbox (badness 10000) in paragraph at lines 474--474
 
  []
 
 [3]
-Overfull \hbox (4.19313pt too wide) in paragraph at lines 532--533
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
+
+ []
+
+
+Overfull \hbox (4.19313pt too wide) in paragraph at lines 617--618
 []\T1/Roboto-LF/m/n/10 Cooper K. W. (2020) Cholin-er-gic abo-li-tion dis-rupts 
 en-cod-ing and re-trieval mode switch-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 566--568
+Underfull \hbox (badness 10000) in paragraph at lines 651--653
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 569--571
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 654--656
 
  []
 
 
 AED: lastpage setting LastPage
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 589.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 589.
+[5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 674.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 674.
  (outFiles/cooperCV2_2_w.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 589.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 589.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 674.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 674.
 Package rerunfilecheck Info: File `cooperCV2_2_w.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 10191 strings out of 492982
- 147606 string characters out of 6134896
- 244527 words of memory out of 5000000
- 13568 multiletter control sequences out of 15000+600000
+ 10189 strings out of 492982
+ 147576 string characters out of 6134896
+ 244521 words of memory out of 5000000
+ 13566 multiletter control sequences out of 15000+600000
  40680 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,14n,70p,807b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1117,10 +1117,10 @@ dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/google/roboto/Roboto-Italic.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb>
-Output written on outFiles/cooperCV2_2_w.pdf (4 pages, 104240 bytes).
+Output written on outFiles/cooperCV2_2_w.pdf (5 pages, 105230 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 113 compressed objects within 2 object streams
  23 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 words of extra memory for PDF output out of 10000 (max. 10000000)
 
