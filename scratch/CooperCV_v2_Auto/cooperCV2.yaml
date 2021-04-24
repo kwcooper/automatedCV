@@ -22,6 +22,7 @@ order:
   - [outreach, OUTREACH]
   - [trainings, TRAININGS]
   #- [skills, SKILLS]
+  - [myarticles, MYARTICLES]
   - [press, PRESS]
   - [erdos, ERDOS]
   # - [portfolios, PORTFOLIO]
@@ -253,7 +254,7 @@ outreach:
 
 trainings: 
   - name: "Estes Cognitive Electrophysiology Workshop"
-    where: "University of Pennsilvania"
+    where: "University of Pennsylvania"
     when: 200804
     year: 2020
 
@@ -535,6 +536,61 @@ abstracts_talks:
       venue: "Midwest Undergraduate Cognitive Science Conference"
       link: ""
       nums: ""
+
+
+myarticles:
+  - articles:
+    - title: "The Art of Email"
+      author: "Keiland Cooper"
+      date_published: "Febuary 18, 2020"
+      year_published: 2020
+      publisher: "GPS-STEM"
+      URL: "https://gps.bio.uci.edu/the-art-of-email/"
+
+    - title: "The Psychology of Risky Business"
+      author: "Keiland Cooper"
+      date_published: "July 23, 2018"
+      year_published: 2018
+      publisher: "Medium"
+      URL: "https://medium.com/@kwcooper/the-psychology-of-risky-business-2d8ddcd07d17" 
+
+    - title: "Save Money, Close Deals, Clip Coupons: the Science of Decision Making"
+      author: "Keiland Cooper"
+      date_published: "July 11, 2018"
+      year_published: 2018
+      publisher: "Medium"
+      URL: "https://medium.com/@kwcooper/save-money-close-deals-clip-coupons-the-science-of-decision-making-1ba38181fb71" 
+
+    - title: "The <Art> of Biting your Tongue"
+      author: "Keiland Cooper"
+      date_published: "October 19, 2017"
+      year_published: 2017
+      publisher: "LinkedIn Publishing"
+      URL: "https://www.linkedin.com/pulse/art-biting-your-tounge-keiland-w-cooper/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3BssEMVNXITpiY3gWfgISVsw%3D%3D" 
+
+    - title: "What Is Undergraduate Research And Why Is It Important?"
+      author: "Keiland Cooper"
+      date_published: "September 7, 2017"
+      year_published: 2017
+      publisher: "We Are IU"
+      URL: "https://weareiu.com/academics/finding-your-path/what-is-undergraduate-research-and-why-is-it-important/" 
+
+    - title: "The Silent Battle for the Web May Change Everything as We Know It."
+      author: "Keiland Cooper"
+      date_published: "Dec 5, 2016"
+      year_published: 2016
+      publisher: "Medium"
+      URL: "https://medium.com/@kwcooper/the-silent-battle-for-the-web-may-change-everything-as-we-know-it-cb545b020d73" 
+
+
+    - title: "The What’s and Why’s of Schools App"
+      author: "Keiland Cooper"
+      date_published: "Aug 5, 2015"
+      year_published: 2015
+      publisher: "We Are IU"
+      URL: "https://weareiu.com/college-prep/tips-for-admits/the-whats-and-whys-of-schools-app/" 
+    
+
 
 
 
