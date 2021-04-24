@@ -13,8 +13,6 @@ order:
   - [header, HEADER]
   - [education, EDUCATION]
   - [awards, AWARDS]
-  #- [industry, WORK EXPERIENCE]
-  #- [research, RESEARCH EXPERIENCE]
   - [publications, PUBLICATIONS] 
   - [abstracts_talks, ABSTRACTS]
   - [pedagogy, PEDAGOGY]
@@ -25,9 +23,6 @@ order:
   - [myarticles, MYARTICLES]
   - [press, PRESS]
   - [erdos, ERDOS]
-  # - [portfolios, PORTFOLIO]
-  # - [languages, HUMAN LANGUAGES]
-  # - [personal_projects, PERSONAL PROJECTS]
 
 # General info and whatnot
 header:
@@ -60,43 +55,6 @@ education:
     degree: Cognitive Science B.S. \emph{Honors}; Neuroscience Cert.
     thesis: "Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
 
-# research:
-#   - title: "Extensive Form$^{+}$ : Describing Games Linear Nature (Diploma Thesis, 52 pages)"
-#     link: "\\url{https://github.com/qutebits/final_thesis}"
-#     field: Game Theory
-#     supervisor: Dr. Mike Jones
-#     grade: "1.0 (best possible: 1.0)"
-#     description: "Studied games with betting structures present in Poker. Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
-#     dates: 2010-2011
-#   - title: "Theta modulation"
-#     link: "\\url{https://github.com/qutebits/final_thesis}"
-#     field: Game Theory
-#     supervisor: Prof. Dr. Ehren Newman
-#     grade: "1.0 (best possible: 1.0)"
-#     description: "Proposed a new way to describe such structures, a strategy space and a set of equilibria on it. Proved the existence of such equilibria for finite Extensive Form$^{+}$ games satisfying perfect recall. Submitted in 2011."
-
-# industry:
-#   - place: Synthace, Ravelin, nCube, Murat Diril etc.
-#     location: London, UK
-#     title: 'Contractor Developer / Designer'
-#     languages: JavaScript, Python, PHP
-#     dates: 2014--Present
-#     details:
-#       - "Hybrid app UI for a cool home automation system (AngularJS/Ionic),"
-#       - "Switched to full stack (MongoDB/ExpressJS/AngularJS/Node.js + Ionic),"
-#       - "Built a CRM and an inventory system in 8 months (full stack, LAMP),"
-#       - "Developed an in-browser QR code PDF generator and QR code scanner (JavaScript),"
-#       - "Built and deployed a sitemap with 150 million URLs (Python),"
-#       - "Full redesign of CI for Murat Diril, produced full advertisement package (print)."
-#   - place: H19 Produktion
-#     location: Kiel, Germany
-#     title: 'Lead Designer / Web Developer'
-#     languages: JavaScript, Python, PHP
-#     dates: 2007--2014
-#     details:
-#       - "Developed (both frontend and backend) websites/services based on Wordpress/Contao,"
-#       - "Built a job board (full stack, LAMP),"
-#       - "Designed CI's, posters, flyers, catalogues, business cards etc."
 
 awards: 
   - name: "Graduate Research Fellowship (GRFP)"
@@ -109,12 +67,12 @@ awards:
   - name: "UC Irvine Recruitment Fellowship"
     funder: UC Irvine
     date_awarded: 2019
-  - name: "GRFP \\emph{Honorable Mention}"
-    funder: National Science Foundation
-    date_awarded: 2018
   - name: "Cognitive Science Outstanding Research"
     funder: "Indiana University"
     date_awarded: 2019
+  - name: "GRFP (Honorable Mention)"
+    funder: National Science Foundation
+    date_awarded: 2018
   - name: "Ewing Prize in Philosophy"
     funder: "Indiana University"
     date_awarded: 2018
@@ -310,37 +268,6 @@ erdos:
   - title:
     details: "Paul Erdös $\\rightarrow$ Ronald L. Graham $\\rightarrow$ Feng Zhou $\\rightarrow$ Michael J. Kahana $\\rightarrow$ Ehren L. Newman"
 
-portfolios:
-  - name: GitHub Portfolio
-    url: "https://github.com/qutebits/"
-  - name: Graphical Portfolio
-    url: "http://www.coroflot.com/qutepixels/"
-
-personal_projects:
-  - name: YAML to PDF Resume Generator (Python Script)
-    url: "https://github.com/qutebits/resume\\_42/"
-    details:
-      - Generates a small and nice PDF Resume out of YAML data,
-      - Main script is written in {\bf Python}, translates {\bf YAML} data into \TeX\hspace{1mm} using {\bf Jinja} templating engine.
-      - This whole Resume is generated with it :)
-  - name: VKontakte Playlist Downloader (Chrome Extension)
-    url: "https://github.com/qutebits/vkpd/"
-    details:
-      - Chrome Extension for batch download of audio tracks from social network VKontakts
-
-languages:
-  - language: English
-    level: Fluently speaking and writing
-    certified: IELTS 7.5/9.0, GMAT 730/800
-  - language: German
-    level: Fluently speaking and writing
-    certified: TestDaF 17/20
-  - language: Estonian
-    level: Speaking and writing
-    certified: Kesktase 89/100
-  - language: Russian
-    level: Native language
-
 
 publications:
   - type: "Preprints" 
@@ -381,7 +308,7 @@ publications:
         nums: "11(1), 1-8."
         link: ""
         highlights:
-          - h: "\\#4 of Top 2020 Nature Communications papers"    
+          - h: "\\#4 of Top 100 Nature Communications papers of 2020"    
 
       - title: "COVID-19 and the chemical senses: supporting players take center stage."
         authors: "Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W.,"
@@ -389,6 +316,8 @@ publications:
         journal: "Neuron"
         nums: "107(2), 219-233"
         link: ""
+        highlights:
+          - h: "Top ten Neuron papers of 2020" 
 
       - title: "More than smell—COVID-19 is associated with severe impairment of smell, taste, and chemesthesis."
         authors: "Parma, V., Ohla, K., Veldhuizen, M. G., Niv, M. Y., Kelly, C. E., Bakke, A. J., Cooper. K. W., ..., Hayes, J. E."
@@ -577,7 +506,7 @@ myarticles:
 
     - title: "The Silent Battle for the Web May Change Everything as We Know It."
       author: "Keiland Cooper"
-      date_published: "Dec 5, 2016"
+      date_published: "December 5, 2016"
       year_published: 2016
       publisher: "Medium"
       URL: "https://medium.com/@kwcooper/the-silent-battle-for-the-web-may-change-everything-as-we-know-it-cb545b020d73" 
@@ -585,7 +514,7 @@ myarticles:
 
     - title: "The What’s and Why’s of Schools App"
       author: "Keiland Cooper"
-      date_published: "Aug 5, 2015"
+      date_published: "August 5, 2015"
       year_published: 2015
       publisher: "We Are IU"
       URL: "https://weareiu.com/college-prep/tips-for-admits/the-whats-and-whys-of-schools-app/" 
