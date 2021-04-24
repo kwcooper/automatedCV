@@ -530,48 +530,109 @@ abstracts_talks:
 
 
 press: 
-  - title:
-    details: "Bob Curley (July 7, 2020) Lifestyle Changes You Can Make to Help Lower the 19 Risk Factors for Alzheimer’s. Healthline"
-    URL: "https://www.healthline.com/health-news/alzheimers-risk-factors-lifestyle-changes\\#The-impact-of-lifestyle"
-  - title:
-    details: "Salynn Boyles (July 6, 2020) Majority of Patients with Mild Covid-19 Experience Altered Smell/Taste. Physicians Weekly"
-    URL: "https://www.physiciansweekly.com/majority-of-patients-with-mild-covid-19-experience-altered-smell-taste/"
-  - title:
-    details: "Katie Boateng (June 15, 2020) Episode 64 - An Interview with Some of the Authors. The Smell Podcast"
-    URL: "https://podcasts.apple.com/us/podcast/the-smell-podcast/id1429270582?i=1000477261620"
-  - title:
-    details: "Leslie Kay (June 13, 2020) Why COVID-19 Makes People Lose Their Sense of Smell. Scientific American"
-    URL: "https://www.scientificamerican.com/article/why-covid-19-makes-people-lose-their-sense-of-smell1/"
-  - title:
-    details: "John E Hayes, Valentina Parma (June 4, 2020) COVID-19, smell and taste – how is COVID-19 different from other respiratory diseases? The Conversation"
-    URL: "https://theconversation.com/covid-19-smell-and-taste-how-is-covid-19-different-from-other-respiratory-diseases-139543"
-  - title:
-    details: "Anthony Cusumano (February 2, 2020) What a difference a decade makes. Katalys Tech"
-    URL: "https://katalysttech.com/blog/what-a-difference-a-decade-makes/"
-  - title:
-    details: "Kevin Casey (September 30, 2019)  5 AI fears and how to address them. The Enterprisers Project"
-    URL: "https://enterprisersproject.com/article/2019/9/artificial-intelligence-ai-fears-how-address"
-  - title:
-    details: "Kevin Casey (September 17, 2019) How to explain natural language processing (NLP) in plain English. The Enterprisers Project"
-    URL: "https://enterprisersproject.com/article/2019/9/natural-language-processing-nlp-explained-plain-english"
-  - title:
-    details: "David Roe (August 27, 2019) Is Augmented Artificial Intelligence Already Disrupting Artificial Intelligence? CMS Wire"
-    URL: "https://www.cmswire.com/digital-workplace/is-augmented-artificial-intelligence-already-disrupting-artificial-intelligence/"
-  - title:
-    details: "Kristine Fellizar (August 7, 2019) Why Is My Arm Asleep? 6 Reasons Your Limbs Go Numb When You're Sleeping. Bustle"
-    URL: "https://www.bustle.com/p/why-is-my-arm-asleep-6-reasons-your-limbs-go-numb-when-youre-sleeping-18552723"
-  - title:
-    details: "Lauren Wellbank (August 1, 2019) Neuralink Update: How far off is Elon Musk’s high tech vision for our brains? Parentology"
-    URL: "https://parentology.com/neuralink-how-far-off-is-elon-musks-high-tech-vision-for-our-brains/"
-  - title:
-    details: "Tina Arnoldi (July 19, 2019) Ready for Amazon to Read Human Emotions? Theravive"
-    URL: "https://www.theravive.com/today/post/ready-for-amazon-to-read-human-emotions-0003426.aspx"
-  - title:
-    details: "Ann Lewandowski (September 28th, 2018) IU undergraduates practice science outreach at Indiana high schools. IDS"
-    URL: "https://www.idsnews.com/article/2018/09/iu-undergraduates-practice-science-outreach-at-indiana-high-schools"
-  - title:
-    details: "Alexandra Moussa-Tooks (August 14, 2018) The art of dissemination part 3: Care to share? ScIU"
-    URL: "http://blogs.iu.edu/sciu/2018/08/14/dissemination-care-to-share/"
-  - title:
-    details: "Liz Rosdeitcher (2017) Community Partnerships. Psyugrad"
-    URL: "https://pbsugrad.indiana.edu/psych4u/community-partnerships/index.html"
+  - article:
+    - title: "Lifestyle Changes You Can Make to Help Lower the 19 Risk Factors for Alzheimer’s"
+      author: "Bob Curley"
+      date_published: "July 7, 2020"
+      year_published: 2020
+      publisher: "Healthline"
+      URL: "https://www.healthline.com/health-news/alzheimers-risk-factors-lifestyle-changes\\#The-impact-of-lifestyle"
+
+    - title: "Majority of Patients with Mild Covid-19 Experience Altered Smell/Taste"
+      author: "Salynn Boyles"
+      date_published: "July 6, 2020"
+      year_published: 2020
+      publisher: "Physicians Weekly"
+      URL: "https://www.physiciansweekly.com/majority-of-patients-with-mild-covid-19-experience-altered-smell-taste/"
+
+    - title: "Episode 64 - An Interview with Some of the Authors"
+      author: "Katie Boateng"
+      date_published: "June 15, 2020"
+      year_published: 2020
+      publisher: "The Smell Podcast"
+      URL: "https://podcasts.apple.com/us/podcast/the-smell-podcast/id1429270582?i=1000477261620"
+
+    - title: "Why COVID-19 Makes People Lose Their Sense of Smell"
+      author: "Leslie Kay"
+      date_published: "June 13, 2020"
+      year_published: 2020
+      publisher: "Scientific American"
+      URL: "https://www.scientificamerican.com/article/why-covid-19-makes-people-lose-their-sense-of-smell1/"
+
+    - title: "COVID-19, smell and taste – how is COVID-19 different from other respiratory diseases? "
+      author: "John E Hayes, Valentina Parma"
+      date_published: "June 4, 2020"
+      year_published: 2020
+      publisher: "The Conversation"
+      URL: "https://theconversation.com/covid-19-smell-and-taste-how-is-covid-19-different-from-other-respiratory-diseases-139543"            
+
+    - title: "What a difference a decade makes."
+      author: "Anthony Cusumano"
+      date_published: "February 2, 2020"
+      year_published: 2020
+      publisher: "Katalys Tech"
+      URL: "https://katalysttech.com/blog/what-a-difference-a-decade-makes/"
+
+    - title: "5 AI fears and how to address them."
+      author: "Kevin Casey"
+      date_published: "September 30, 2019"
+      year_published: 2019
+      publisher: "The Enterprisers Project"
+      URL: "https://enterprisersproject.com/article/2019/9/artificial-intelligence-ai-fears-how-address"
+
+    - title: "How to explain natural language processing (NLP) in plain English"
+      author: "Kevin Casey"
+      date_published: "September 17, 2019"
+      year_published: 2019
+      publisher: "The Enterprisers Project"
+      URL: "https://enterprisersproject.com/article/2019/9/natural-language-processing-nlp-explained-plain-english"      
+
+
+    - title: "Is Augmented Artificial Intelligence Already Disrupting Artificial Intelligence?"
+      author: "David Roe"
+      date_published: "August 27, 2019"
+      year_published: 2019
+      publisher: "CMS Wire"
+      URL: "https://www.cmswire.com/digital-workplace/is-augmented-artificial-intelligence-already-disrupting-artificial-intelligence/"
+
+    - title: "Why Is My Arm Asleep? 6 Reasons Your Limbs Go Numb When You're Sleeping"
+      author: "Kristine Fellizar"
+      date_published: "August 7, 2019"
+      year_published: 2019
+      publisher: "Bustle"
+      URL: "https://www.bustle.com/p/why-is-my-arm-asleep-6-reasons-your-limbs-go-numb-when-youre-sleeping-18552723"
+
+    - title: "Neuralink Update: How far off is Elon Musk’s high tech vision for our brains?"
+      author: "Lauren Wellbank"
+      date_published: "August 1, 2019"
+      year_published: 2019
+      publisher: "Parentology"
+      URL: "https://parentology.com/neuralink-how-far-off-is-elon-musks-high-tech-vision-for-our-brains/"
+
+    - title: "Ready for Amazon to Read Human Emotions?"
+      author: "Tina Arnoldi"
+      date_published: "July 19, 2019"
+      year_published: 2019
+      publisher: "Theravive"
+      URL: "https://www.theravive.com/today/post/ready-for-amazon-to-read-human-emotions-0003426.aspx"
+
+    - title: "IU undergraduates practice science outreach at Indiana high schools"
+      author: "Ann Lewandowski"
+      date_published: "September 28th, 2018"
+      year_published: 2018
+      publisher: "IDS"
+      URL: "https://www.idsnews.com/article/2018/09/iu-undergraduates-practice-science-outreach-at-indiana-high-schools"
+
+    - title: "The art of dissemination part 3: Care to share?"
+      author: "Alexandra Moussa-Tooks"
+      date_published: "August 14, 2018"
+      year_published: 2018
+      publisher: "ScIU"
+      URL: "http://blogs.iu.edu/sciu/2018/08/14/dissemination-care-to-share/"
+
+    - title: "Community Partnerships."
+      author: "Liz Rosdeitcher"
+      date_published: "2017"
+      year_published: 2017
+      publisher: "Psyugrad"
+      URL: "https://pbsugrad.indiana.edu/psych4u/community-partnerships/index.html"
