@@ -120,10 +120,10 @@ awards:
   - name: "Outstanding Contribution in Cognitive Science"
     funder: "Indiana University"
     date_awarded: 2018
-  - name: "Cognitive Science Research Project"
+  - name: "Cognitive Science Research Project Award"
     funder: "Indiana University"
     date_awarded: 2018
-  - name: "Cognitive Science Research Project"
+  - name: "Cognitive Science Research Project Award"
     funder: "Indiana University"
     date_awarded: 2017
               
@@ -252,47 +252,57 @@ outreach:
     meta: "Volunteer astronomical guide at the Bloomington observatory"
 
 trainings: 
-  - title: 
-    details: "Estes Cognitive Electrophysiology Workshop"
-    where: "UPenn"
+  - name: "Estes Cognitive Electrophysiology Workshop"
+    where: "University of Pennsilvania"
     when: 200804
-  - title:
-    details: "NIH Grant Writing Workshop"
+    year: 2020
+
+  - name: "NIH Grant Writing Workshop"
     where: "UC Irvine"
-  - title:
-    details: "HHMI Productivity Workshop"
+    year: 2020
+
+  - name: "HHMI Productivity Workshop"
     where: "UC Irvine"
     when:  200424
-  - title:
-    details: "Nonlinear Dynamics: Mathematical and Computational Approaches"
+    year: 2020
+
+  - name: "Nonlinear Dynamics: Math. and Comp. Approaches"
     where: "Santa Fe Institute"
-  - title:
-    details: "Complexity Science"
+    year: 2019
+
+  - name: "Complexity Science"
     where: "Santa Fe Institute"
-  - title:
-    details: "Science Communication Workshop"
+    year: 2018
+
+  - name: "Science Communication Workshop"
     where: "Indiana University"
-  - title:
-    details: "High Performance Computing and Supercomputing Workshop, UITS"
+    year: 2017
+
+  - name: "High Performance / Supercomputing Workshop"
     where: "Indiana University"
-  - title:
-    details: "Aseptic Surgery: Proper Practice Training"
+    year: 2017
+
+  - name: "Aseptic Surgery: Proper Practice Training"
     where: "Indiana University"
+    year: 2016
   # - title:
   #   details: "Viral Handling; Animal Handling; Institutional Animal Care Training"
   #   where: "Indiana University"
-  - title:
-    details: "Animal Handling and Animal Care Training"
+
+  - name: "Animal Handling and Animal Care Training"
     where: "Indiana University"
+    year: 2016
   # - title:
   #   details: "FERPA; Data Protection and Privacy"
   #   where: "Indiana University"
-  - title:
-    details: "IUNI Network Science Workshop"
+
+  - name: "IUNI Network Science Workshop"
     where: "Indiana University"
-  - title:
-    details: "Pediatric Neurosurgery Shadowing"
+    year: 2016
+
+  - name: "Pediatric Neurosurgery Shadowing"
     where: "Riley Hospital"
+    year: 2014
 
                           
 erdos:
@@ -531,6 +541,13 @@ abstracts_talks:
 
 press: 
   - articles:
+    - title: "AI Weekly: Continual learning offers a path toward more humanlike AI"
+      author: "Kyle Wiggers"
+      date_published: "April 9, 2021"
+      year_published: 2021
+      publisher: "VentureBeat"
+      URL: "https://venturebeat.com/2021/04/09/ai-weekly-continual-learning-offers-a-path-toward-more-humanlike-ai/"
+
     - title: "Lifestyle Changes You Can Make to Help Lower the 19 Risk Factors for Alzheimer’s"
       author: "Bob Curley"
       date_published: "July 7, 2020"

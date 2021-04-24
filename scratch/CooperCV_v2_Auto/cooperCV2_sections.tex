@@ -102,13 +102,7 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 \begin{longtable}{ l l @{\extracolsep{\fill}}  l @{}}
 	~{ for award in contents }~ 
-	~{{ award.name }}~ & \textcolor{grey}{~{{ award.funder }}~}  & \textit{~{{ award.date_awarded }}~} \\
-	% Pedagogical Fellow &  \textcolor{grey}{UC Irvine DTEI} & \textit{2020} \\
-	% UC Irvine Recruitment Fellowship &  \textcolor{grey}{UC Irvine } & \textit{2020} \\
-	% Graduate Research Fellow, Honorable Mention & \textcolor{grey}{National Science Foundation}  & \textit{2021} \\
-	% Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
-	% Ewing Prize in Philosophy & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
-	% Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+	~{{ award.name }}~ & \textit{\textcolor{grey}{~{{ award.funder }}~}}  & \textcolor{grey}{~{{ award.date_awarded }}~} \\
 	~{ endfor }~
 \end{longtable}
 
@@ -134,12 +128,11 @@ Certificate in Neuroscience; Minor in Psychology\\
 	~{ set rev = "resume," }~
 ~{ endif }~
 \subsection{~{{pubobj.type}}~} 
-\begin{etaremune}[~{{ rev }}~itemindent=-\bibhang, topsep=0pt,
+\begin{etaremune}[~{{ rev }}~itemindent=-1.5\bibhang, topsep=0pt,
 				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     ~{ for pub in pubobj.pubs  }~
     \item ~{{ pub.title }}~ \\
-     \textit{~{{ pub.authors }}~}\\
-     (~{{ pub.year }}~) ~{{ pub.journal }}~, ~{{ pub.numbers }}~
+     ~{{ pub.authors }}~. (~{{ pub.year }}~) ~{{ pub.journal }}~ ~{{ pub.numbers }}~
      ~{ if pub.highlights }~
      	\begin{innerlist}
      	~{ for hlt in pub.highlights }~
@@ -165,12 +158,10 @@ Certificate in Neuroscience; Minor in Psychology\\
 \section{Selected Abstracts +  \\Talks}
 
 ~{ for abstobj in contents }~ 
-\begin{etaremune}[itemindent=-\bibhang, topsep=0pt,
+\begin{etaremune}[itemindent=-1.5\bibhang, topsep=0pt,
 				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     ~{ for abst in abstobj.abstracts  }~
-    \item ~{{ abst.title }}~ \\
-     \textit{~{{ abst.authors }}~}\\
-     (~{{ abst.year }}~) ~{{ abst.venue }}~
+    \item ~{{ abst.title }}~\\ ~{{ abst.authors }}~. (~{{ abst.year }}~) ~{{ abst.venue }}~. ~{{ abst.nums }}~
      ~{ if abst.highlights }~
      	\begin{innerlist}
      	~{ for hlt in abst.highlights }~
@@ -257,13 +248,9 @@ Certificate in Neuroscience; Minor in Psychology\\
 \section{Trainings + Workshops}
 
 \begin{longtable}{ l l @{\extracolsep{\fill}}  l @{}} 
-	Estes Cognitive Electrophysiology Workshop & \textcolor{grey}{University of Pennsilvania}  & \textit{2021} \\
-	NIH Grant Writing Workshop &  \textcolor{grey}{UC Irvine } & \textit{2020} \\
-	HHMI Productivity Workshop &  \textcolor{grey}{UC Irvine } & \textit{2020} \\
-	Nonlinear Dynamics: Math and Comp Approaches & \textcolor{grey}{Santa Fe Institute}  & \textit{2021} \\
-	Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
-	Ewing Prize in Philosophy & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
-	Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+	~{ for trainobj in contents }~ 
+	~{{ trainobj.name }}~ & \textcolor{grey}{~{{ trainobj.where }}~}  & \textit{~{{ trainobj.year }}~} \\
+	~{ endfor }~
 \end{longtable}
 
 
@@ -278,7 +265,7 @@ Certificate in Neuroscience; Minor in Psychology\\
 \section{Press}
 
 ~{ for pressobj in contents }~ 
-\begin{etaremune}[itemindent=-\bibhang, topsep=0pt,
+\begin{etaremune}[itemindent=-1.5\bibhang, topsep=0pt,
 				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     
     ~{ for arti in pressobj.articles }~
