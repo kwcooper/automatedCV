@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+ ~{ for con in contents }~
+ 	~{{ con.name }}~
+ ~{ endfor }~
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%           HEADER         %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+~{ if name == "HEADER" }~
+
+\hspace*{-\marginparsep minus \marginparwidth}%
+ \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
+
+% Socials upper top corner
+%\hfill \href{mailto:kwcooper@uci.edu}{\faEnvelope \hspace{0.05cm} kwcooper@uci.edu} \\
+%\null \hfill \href{http://www.kwcooper.com/}{\faHome \hspace{0.05cm} www.kwcooper.com}\\
+%\null \hfill \href{https://orcid.org/0000-0002-0358-9645}{\orcid \hspace{0.05cm} 0002-0358-9645}\\
+%\null \hfill \href{http://www.kwcooper.com/}{\faTwitter \hspace{0.05cm} @kw\_cooper}\\
+%\null \hfill \href{http://www.kwcooper.com/}{\faGithub \hspace{0.05cm} kwcooper}\\
+% Name
+\textbf{\huge{Keiland W. Cooper}} \hfill \\ 
+[-0.15\baselineskip]%
+\rule{\columnwidth}{1pt}%
+\end{minipage}
+
+\vspace{1\baselineskip}
+
+
+%\section{Contact Information}
+% MACROS: \rcollength is the width of the right column of the table
+%             (adjust it to your liking; default is 1.85in).
+%         \spacewidth is width of area between left and right boxes.
+%
+\newlength{\rcollength}\setlength{\rcollength}{1.45in}%
+\newlength{\spacewidth}\setlength{\spacewidth}{20pt}
+\begin{tabular}[t]{@{}p{\textwidth-\rcollength-\spacewidth}@{}p{\spacewidth}@{}p{\rcollength}}%
+
+% Address box
+\parbox{\textwidth-\rcollength-\spacewidth}{%
+Graduate Scholar\\
+\href{http://www.uci.edu/}{Department of Neurobiology and Behavior}\\
+\href{http://www.uci.edu/}{University of California, Irvine}\\
+\textit{\textcolor{grey}{CV last updated \today}}}
+
+&
+\parbox[m][4\baselineskip]{\spacewidth}{} &
+
+% Non-snail-mail contact information
+\parbox{\rcollength}{%
+\null \href{mailto:kwcooper@uci.edu}{\faEnvelope \hspace{0.05cm} kwcooper@uci.edu} \\
+\null \href{http://www.kwcooper.com/}{\faHome \hspace{0.05cm} www.kwcooper.com}\\
+\null \href{https://orcid.org/0000-0002-0358-9645}{\orcid \hspace{0.05cm} 0002-0358-9645}\\
+\null \href{http://www.kwcooper.com/}{\faTwitter \hspace{0.05cm} @kw\_cooper}\\
+%\null \href{http://www.kwcooper.com/}{\faGithub \hspace{0.05cm} kwcooper}\\
+}
+\end{tabular}
+
+~{ endif }~
+
+
+
+
+
+
+
+
+%\section{Academic Interests}
+%
+%Advanced control systems, complex adaptive systems, computational
+%agent-based modeling, hybrid dynamic systems, distributed algorithms,
+%decentralized decision making, emergence and self organization,
+
+

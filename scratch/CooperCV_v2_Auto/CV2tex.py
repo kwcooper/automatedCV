@@ -4,6 +4,8 @@
 # The data format should be standardized.
 # It should be really easy to make changes.
 
+# V2.0 KWC
+
 # Requires pdflatex to compile the .tex output -> TODO: create function for this
 # ------------------------------------------------------------------------------
 # inspired by:
@@ -25,11 +27,11 @@ generate_pdf = 1
 mvPDF = 1         # TODO: platform independant pls
 
 # Path information
-yamlFile = "cooperCV.yaml"
-templateFile = "cooperCV_v1"
-sectionFile = "cooperCV-sections.tex"
-resultFile = "outFiles/cooperCV.tex"
-resFile = "cooperCV.tex" # These can be concatonated
+yamlFile = "cooperCV2.yaml"
+templateFile = "."
+sectionFile = "/cooperCV2_sections.tex"
+resultFile = "cooperCV2_2_w.tex"
+resFile = "cooperCV_2_w2.tex" # These can be concatonated
 
 yaml_contents = yaml.load(open(yamlFile, 'r')) # Read data
 
@@ -42,6 +44,7 @@ env = Environment(loader=FileSystemLoader(templateFile),
 def generate(): 
   body = ""
   for section in yaml_contents['order']: # Iteratavly generate sections TODO: multiple versions
+    print(section)
     contents = yaml_contents[section[0]] # Append the section info to the 
     name = section[1].title()            # Used to select which section template to use
     body += env.get_template(sectionFile).render(
@@ -55,15 +58,15 @@ def generate():
 
 generate() #finally, generate 
 
-# Run the pdf2latex code to generate PDF
-if generate_pdf:
-  print('Building PDF (pdflatex)...') 
-  cmd = 'pdflatex -output-directory=outFiles ' + resultFile
-  os.system(cmd)
+# # Run the pdf2latex code to generate PDF
+# if generate_pdf:
+#   print('Building PDF (pdflatex)...') 
+#   cmd = 'pdflatex -output-directory=outFiles ' + resultFile
+#   os.system(cmd)
 
-# move the PDF out of the result dir
-if mvPDF: 
-  os.system('mv outFiles/cooperCV.pdf cooperCV.pdf')
+# # move the PDF out of the result dir
+# if mvPDF: 
+#   os.system('mv outFiles/cooperCV.pdf cooperCV.pdf')
 
 
 # date.today().strftime("%b %d, %Y")
