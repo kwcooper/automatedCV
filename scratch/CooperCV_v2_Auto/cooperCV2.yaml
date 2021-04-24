@@ -1,6 +1,4 @@
-name: Keiland W. 
-lastName: Cooper
-
+# V2.0
 # Some Notes: 
 # - For more info on the syntax check out:
 #   https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
@@ -30,19 +28,25 @@ order:
   # - [languages, HUMAN LANGUAGES]
   # - [personal_projects, PERSONAL PROJECTS]
 
-
+# General info and whatnot
 header:
   - name: "Keiland W."
     lastName: "Cooper"
     email: "kwcooper@uci.edu"
-    website: "kwcooper.xyz"
-    websiteURL: "https://kwcooper.xyz"
+    emailURL: "mailto:kwcooper@uci.edu"
+    website: "kwcooper.com"
+    websiteURL: "https://kwcooper.com"
     github: "kwcooper"
     githubURL: "https://github.com/kwcooper"
     twitter: "@kw\\_cooper"
     twitterURL: "https://twitter.com/kw\\_cooper"
-    orcid: "0000-0002-0358-9645"
+    orcid: "0002-0358-9645"
     orcidURL: "https://orcid.org/0000-0002-0358-9645"
+    currentPosition: "Graduate Scholar"
+    department: "Department of Neurobiology and Behavior"
+    departmentURL: "https://neurobiology.uci.edu/"
+    workplace: "University of California, Irvine"
+    workplaceURL: "http://www.uci.edu/"
 
 education:
   - experience: University of California, Irvine
@@ -94,33 +98,34 @@ education:
 #       - "Designed CI's, posters, flyers, catalogues, business cards etc."
 
 awards: 
-  - honor: "National Science Foundation, GRFP"
-    funder: NSF
-    date: 2021
-  - honor: "DTEI Pedagogical Fellowship"
+  - name: "Graduate Research Fellowship (GRFP)"
+    funder: "National Science Foundation"
+    amount: 
+    date_awarded: 2021
+  - name: "DTEI Pedagogical Fellowship"
     funder: UC Irvine
-    date: 2020
-  - honor: "UC Irvine Recruitment Fellowship"
+    date_awarded: 2020
+  - name: "UC Irvine Recruitment Fellowship"
     funder: UC Irvine
-    date: 2019
-  - honor: "National Science Foundation, GRFP \\emph{Honorable Mention}"
-    funder: NSF
-    date: 2018
-  - honor: "Cognitive Science Outstanding Research Award"
+    date_awarded: 2019
+  - name: "GRFP \\emph{Honorable Mention}"
+    funder: National Science Foundation
+    date_awarded: 2018
+  - name: "Cognitive Science Outstanding Research"
     funder: "Indiana University"
-    date: 2019
-  - honor: "Ewing Prize in Philosophy"
+    date_awarded: 2019
+  - name: "Ewing Prize in Philosophy"
     funder: "Indiana University"
-    date: 2018
-  - honor: "Cognitive Science Outstanding Contribution Award"
+    date_awarded: 2018
+  - name: "Outstanding Contribution in Cognitive Science"
     funder: "Indiana University"
-    date: 2018
-  - honor: "Cognitive Science Research Project Award"
+    date_awarded: 2018
+  - name: "Cognitive Science Research Project"
     funder: "Indiana University"
-    date: 2018
-  - honor: "Cognitive Science Research Project Award"
+    date_awarded: 2018
+  - name: "Cognitive Science Research Project"
     funder: "Indiana University"
-    date: 2017
+    date_awarded: 2017
               
 networks:
   - societies:
@@ -325,14 +330,92 @@ languages:
   - language: Russian
     level: Native language
 
+
 publications:
+  - type: "Preprints" 
+    pubs:
+      # - title: " "
+        # authors: ""
+        # year: 20
+        # journal: " "
+        # nums: ""
+        # link: ""
+      - title: "Avalanche: an End-to-End Library for Continual Learning"
+        authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni"
+        year: 2021
+        journal: "arXiv preprint"
+        nums: "2104.00405"
+        link: "http://arxiv.org/abs/2104.00405"
+
+      - title: "Hippocampal ensembles represent sequential relationships among discrete nonspatial events"
+        authors: "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J."
+        year: 2021
+        journal: "Under Review"
+        nums: " "
+        link: " "
+
+  - type: "Published"
+    pubs: 
+      - title: "Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms."
+        authors: "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... and Baguma, M. "
+        year: 2021
+        journal: "Chemical senses"
+        nums: "46"
+        link: ""
+
+      - title: "Smell and taste changes are early indicators of the COVID-19 pandemic and political decision effectiveness."
+        authors: "Pierron, D., Pereda-Loth, V., Mantel, M., Moranges, M., Bignon, E., Alva, O.,  Cooper, K. W., ... Dinnella, C. "
+        year: 2020
+        journal: "Nature Communications"
+        nums: "11(1), 1-8."
+        link: ""
+        highlights:
+          - h: "\\#4 of Top 2020 Nature Communications papers"    
+
+      - title: "COVID-19 and the chemical senses: supporting players take center stage."
+        authors: "Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W.,"
+        year: 2020
+        journal: "Neuron"
+        nums: "107(2), 219-233"
+        link: ""
+
+      - title: "More than smell—COVID-19 is associated with severe impairment of smell, taste, and chemesthesis."
+        authors: "Parma, V., Ohla, K., Veldhuizen, M. G., Niv, M. Y., Kelly, C. E., Bakke, A. J., Cooper. K. W., ..., Hayes, J. E."
+        year: 2020
+        journal: "Chemical Senses"
+        nums: "45(7), 609-622"
+        link: ""
+
+      - title: "Coronaviruses and the chemical senses: past, present, and future"
+        authors: "Pellegrino, R., Cooper, K. W., Di Pizio, A., Joseph, P. V., Bhutani, S., and Parma, V. "
+        year: 2020
+        journal: "Chemical senses"
+        nums: "45(6), 415-422"
+        link: ""
+
+      - title: "Medial entorhinal cortex activates in a traveling wave in the rat"
+        authors: "Hernandez-Perez, J. J., Cooper, K. W., Newman, E. L."
+        year: 2020
+        journal: "eLife"
+        nums: "9"
+        link: ""
+
+      - title: "Can the Machine Understand: An Evidence Based Approach to the Chinese Room"
+        authors: "Cooper, K. W."
+        year: 2018
+        journal: "IU Journal of Undergraduate Research"
+        nums: "4(1), 82-85"
+        link: ""
+
+
+publications2:
   - title: "Preprints" 
     pubs: 
       - "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni (2021) Avalanche: an End-to-End Library for Continual Learning  arXiv preprint 2104.00405 http://arxiv.org/abs/2104.00405 "
       - "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J. (2020). Hippocampal ensembles represent sequential relationships among discrete nonspatial events. (Under review)"     
   - title: "Published"
     pubs: 
-      - "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... \\& Baguma, M. (2021). Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms. Chemical senses, 46."
+      - "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... and Baguma, M. (2021). Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms. Chemical senses, 46."
       - "Pierron, D., Pereda-Loth, V., Mantel, M., Moranges, M., Bignon, E., Alva, O.,  Cooper, K. W., ... Dinnella, C. (2020). Smell and taste changes are early indicators of the COVID-19 pandemic and political decision effectiveness. Nature Communications, 11(1), 1-8."
       - "Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W., 2020. COVID-19 and the chemical senses: supporting players take center stage. Neuron. 107(2), 219-233"
       - "Parma, V., Ohla, K., Veldhuizen, M. G., Niv, M. Y., Kelly, C. E., Bakke, A. J., Cooper. K. W., ..., Hayes, J. E. (2020). More than smell—COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses, 45(7), 609-622."
@@ -343,12 +426,12 @@ publications:
 abstracts_talks:
   - abstracts:
     - "Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J. (2021). Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons. SFN Global Connectome"
-    - "Cooper K. W. (2020) The neuroscience \\& AI feedback loop: Catastrophic Forgetting and Sequences. UCI AGS Symposium"
+    - "Cooper K. W. (2020) The neuroscience and AI feedback loop: Catastrophic Forgetting and Sequences. UCI AGS Symposium"
     - "Cooper K. W. (2020) The Art of Email. UCI GPS-STEM"
     - "Cooper K. W. (2020) Dual processes of hippocampal mode switching. Neuromatch online Conference"
     - "Cooper K. W. (2020) Continual Learning: neuroscience + AI. Contiual AI Meetup"
     - "Cooper K. W. (2020) Cholinergic abolition disrupts encoding and retrieval mode switching. 11th Annual Emerging Scientists Symposium"
-    - "Cooper K. W. (2019) The neuroscience \\& AI feedback loop. UCI Brain"
+    - "Cooper K. W. (2019) The neuroscience amd AI feedback loop. UCI Brain"
     - "Cooper K. W. (2019) On neuroscience and AI. IUJUR Research Slam"
     - "Hernández J, Cooper K. W., Newman E.L. (2018) Is theta a traveling wave in the medial entorhinal cortex? Program No. 330.10. Society for Neuroscience"
     - "Cooper K. W, Dachapally P.R, Jones M.N (2018) Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models, Midwest CogSci"

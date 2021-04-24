@@ -1,22 +1,12 @@
 
-
-
-
-
-
-
- ~{ for con in contents }~
- 	~{{ con.name }}~
- ~{ endfor }~
-
-
-
+~{ if name == "HEADER" }~
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%           HEADER         %%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-~{ if name == "HEADER" }~
 
+
+ ~{ for con in contents }~
 \hspace*{-\marginparsep minus \marginparwidth}%
  \begin{minipage}[t]{\textwidth+\marginparwidth+\marginparsep}%
 
@@ -27,7 +17,9 @@
 %\null \hfill \href{http://www.kwcooper.com/}{\faTwitter \hspace{0.05cm} @kw\_cooper}\\
 %\null \hfill \href{http://www.kwcooper.com/}{\faGithub \hspace{0.05cm} kwcooper}\\
 % Name
-\textbf{\huge{Keiland W. Cooper}} \hfill \\ 
+
+
+\textbf{\huge{ ~{{ con.name }}~ ~{{ con.lastName }}~ }} \hfill \\ 
 [-0.15\baselineskip]%
 \rule{\columnwidth}{1pt}%
 \end{minipage}
@@ -46,9 +38,9 @@
 
 % Address box
 \parbox{\textwidth-\rcollength-\spacewidth}{%
-Graduate Scholar\\
-\href{http://www.uci.edu/}{Department of Neurobiology and Behavior}\\
-\href{http://www.uci.edu/}{University of California, Irvine}\\
+~{{ con.currentPosition }}~\\
+\href{~{{ con.departmentURL }}~}{ ~{{ con.department }}~ }\\
+\href{~{{ con.workplaceURL }}~}{ ~{{ con.workplace }}~ }\\
 \textit{\textcolor{grey}{CV last updated \today}}}
 
 &
@@ -56,13 +48,304 @@ Graduate Scholar\\
 
 % Non-snail-mail contact information
 \parbox{\rcollength}{%
-\null \href{mailto:kwcooper@uci.edu}{\faEnvelope \hspace{0.05cm} kwcooper@uci.edu} \\
-\null \href{http://www.kwcooper.com/}{\faHome \hspace{0.05cm} www.kwcooper.com}\\
-\null \href{https://orcid.org/0000-0002-0358-9645}{\orcid \hspace{0.05cm} 0002-0358-9645}\\
-\null \href{http://www.kwcooper.com/}{\faTwitter \hspace{0.05cm} @kw\_cooper}\\
+\null \href{~{{ con.emailURL }}~}{\faEnvelope \hspace{0.05cm} ~{{ con.email }}~} \\
+\null \href{~{{ con.websiteURL }}~}{\faHome \hspace{0.05cm} ~{{ con.website }}~}\\
+\null \href{~{{ con.orcidURL }}~}{\orcid \hspace{0.05cm} ~{{ con.orcid }}~}\\
+\null \href{~{{ con.twitterURL }}~}{\faTwitter \hspace{0.05cm} ~{{ con.twitter }}~}\\
 %\null \href{http://www.kwcooper.com/}{\faGithub \hspace{0.05cm} kwcooper}\\
 }
 \end{tabular}
+~{ endfor }~
+
+~{ elif name == "INTERESTS" }~
+%\section{Academic Interests}
+%
+%Advanced control systems, complex adaptive systems, computational
+%agent-based modeling, hybrid dynamic systems, distributed algorithms,
+%decentralized decision making, emergence and self organization,
+
+
+~{ elif name == "EDUCATION" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%    EDUCATION         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Education} 
+
+\href{http://www.uci.edu/}{\textbf{University of California, Irvine}} \\
+Ph.D., Neuroscience \hfill \textit{In progress}\\
+\textcolor{grey}{Advisor: Dr. Norbert Fortin}\\
+
+
+%\href{http://www.uci.edu/}{\textbf{Quantic School of Buisness and Technology}} \\
+%MA, Buisness Administration \hfill \textit{In progress}\\
+
+
+\href{http://www.iu.edu/}{\textbf{Indiana University, Bloomington}} \\
+B.S., Cognitive Science, \textit{with Honors} \hfill \textit{May 4th 2019} \\
+Computation specialization \\
+Certificate in Neuroscience; Minor in Psychology\\
+\textcolor{grey}{Advisors: Dr. Ehren Newman, Dr. Mike Jones}
+
+
+
+
+
+
+~{ elif name == "AWARDS" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%        AWARDS        %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+
+\begin{longtable}{ l l @{\extracolsep{\fill}}  l @{}}
+	~{ for award in contents }~ 
+	~{{ award.name }}~ & \textcolor{grey}{~{{ award.funder }}~}  & \textit{~{{ award.date_awarded }}~} \\
+	% Pedagogical Fellow &  \textcolor{grey}{UC Irvine DTEI} & \textit{2020} \\
+	% UC Irvine Recruitment Fellowship &  \textcolor{grey}{UC Irvine } & \textit{2020} \\
+	% Graduate Research Fellow, Honorable Mention & \textcolor{grey}{National Science Foundation}  & \textit{2021} \\
+	% Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+	% Ewing Prize in Philosophy & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+	% Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+	~{ endfor }~
+\end{longtable}
+
+
+~{ elif name == "PUBLICATIONS" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%    PUBLICATIONS        %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+~{ for pubobj in contents }~ 
+
+
+~{ if pubobj.type == "Preprints"}~
+\section{Preprints} 
+\begin{etaremune}[ itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
+    ~{ for pub in pubobj.pubs  }~
+    \item ~{{ pub.title }}~ \\
+     \textit{~{{ pub.authors }}~}\\
+     (~{{ pub.year }}~) ~{{ pub.journal }}~, ~{{ pub.numbers }}~
+     ~{ if pub.highlights }~
+     	\begin{innerlist}
+     	~{ for hlt in pub.highlights }~
+	     \item  \textcolor{grey}{\textit{~{{ hlt.h }}~} }
+     	~{ endfor }~
+     	\end{innerlist}
+     ~{ endif }~
+	~{ endfor }~
+
+
+\end{etaremune}
+~{ endif }~
+
+
+~{ if pubobj.type == "Published"}~
+\vspace{0.1in}
+\subsection{Refereed Publications}
+
+\begin{etaremune}[ resume, itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
+    ~{ for pub in pubobj.pubs  }~
+    \item ~{{ pub.title }}~ \\
+     \textit{~{{ pub.authors }}~}\\
+     (~{{ pub.year }}~) ~{{ pub.journal }}~, ~{{ pub.numbers }}~
+     ~{ if pub.highlights }~
+     	\begin{innerlist}
+     	~{ for hlt in pub.highlights }~
+	     \item  \textcolor{grey}{\textit{~{{ hlt.h }}~} }
+     	~{ endfor }~
+     	\end{innerlist}
+     ~{ endif }~
+	~{ endfor }~
+
+\end{etaremune}
+~{ endif }~
+
+\vspace{0.1in}
+\subsection{Thesis} 
+
+\begin{etaremune}[resume,  itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
+    \item Cooper K. W. (2019) Cholinergic modulation may explain hippocampal encoding and retrieval mode switching. Indiana University, Bloomington Undergraduate Thesis. 
+
+\end{etaremune}
+
+~{ endfor }~
+
+
+
+
+
+
+~{ elif name == "ABSTRACTS" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%      ABSTRACTS            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Selected Abstracts +  \\Talks}
+
+\begin{etaremune}[itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
+    \item  Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J. (2021). Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons. Society for Neuroscience Global Connectome
+
+
+    \item  Cooper K. W. (2020) The neuroscience / AI feedback loop: Catastrophic Forgetting and Sequences. UCI AGS Symposium
+
+
+    \item Cooper K. W. (2020) Dual processes of hippocampal mode switching. Neuromatch Conference
+
+    \item Cooper K. W. (2020) Cholinergic abolition disrupts encoding and retrieval mode switching. 11th Annual Emerging Scientists Symposium
+
+    \item Hernandez J, Cooper K. W., Newman E.L. (2018) Is theta a traveling wave in the medial entorhinal cortex? Program No. 330.10. Society for Neuroscience
+
+    \item Cooper K. W, Dachapally P.R, Jones M.N (2018) Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models, Midwest Cognitive Science Conference
+
+    \item Cooper K. W. (2017) Bridging the Gap: Natural Computation and Neural Systems. Indiana University Undergraduate Research Conference.
+
+\end{etaremune}
+
+
+
+
+
+~{ elif name == "PEDAGOGY" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%             TEACHING        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Teaching}
+
+\begin{longtable}{@{} l l l@{\extracolsep{\fill}}  r @{}}
+	Autonomous Robotics & \textcolor{grey}{\textit{Co-instructor}} & \textcolor{grey}{\textit{Indiana University}} &  2019 \\
+	Programming in Cognitive Sciences & \textcolor{grey}{\textit{ Co-instructor }} & \textcolor{grey}{\textit{Indiana University}} & 2018 \\
+	Mind, Memory, and the Brain & Teaching Assistant & \textit{UC Irvine} & 2021  \\
+	Neurobiology and Behavior Lab & Teaching Assistant & \textit{UC Irvine} & 2020  \\
+	Brain and Behavior & Teaching Assistant & \textit{UC Irvine} & 2020  \\
+	Cognitive Psychology & Teaching Assistant & \textit{Indiana University} & 2018  \\
+	Introduction to Neuroscience & Teaching Assistant & \textit{Indiana University} & 2017  \\
+
+\end{longtable}
+
+
+
+
+
+
+~{ elif name == "NETWORKS" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%         NETWORKS          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Networks}
+
+\begin{longtable}{l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l}
+	Cognitive Science Society & Psi Chi & ContinualAI (\textit{co-founder})\\
+	Society for Neuroscience & Sigma Xi &  Carboncopies Foundation \\
+	Indiana Academy of Science & Sigma Alpha Pi & AI for People\\ 
+\end{longtable}
+
+
+
+
+
+~{ elif name == "OUTREACH" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%        SCICOM                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{SciComm + Outreach}
+
+
+\begin{longtable}{ l @{\extracolsep{\fill}}  l @{}}
+	AskANeuroscientist & \textcolor{grey}{ \textit{Founder; K-12 class Q/A (reached >400 students)}} \\
+	Hoosier STARS &\textcolor{grey}{ \textit{Co-founder; K-12 class neuro demos (reached >300 students)}} \\
+	CNLM Ambassadors & \textcolor{grey}{\textit{Co-chair; SoCal Learning and memory outreach}} \\
+	UCI End Racism  & \textcolor{grey}{\textit{Working group contributer addressing systemic racism}}\\	
+	Quora Writer &\textcolor{grey}{ \textit{Answers to neuroscience and AI questions; 800k+ views}} \\
+	Peer reviewer& \textcolor{grey}{\textit{Physiological Reviews; CVPR}} \\
+\end{longtable}
+
+
+
+
+
+
+~{ elif name == "TRAININGS" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%        WORKSHOPS                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Trainings + Workshops}
+
+\begin{longtable}{ l l @{\extracolsep{\fill}}  l @{}} 
+	Estes Cognitive Electrophysiology Workshop & \textcolor{grey}{University of Pennsilvania}  & \textit{2021} \\
+	NIH Grant Writing Workshop &  \textcolor{grey}{UC Irvine } & \textit{2020} \\
+	HHMI Productivity Workshop &  \textcolor{grey}{UC Irvine } & \textit{2020} \\
+	Nonlinear Dynamics: Math and Comp Approaches & \textcolor{grey}{Santa Fe Institute}  & \textit{2021} \\
+	Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+	Ewing Prize in Philosophy & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+	Cognitive Science Outstanding Research Award & \textcolor{grey}{Indiana Unversity}  & \textit{2021} \\
+\end{longtable}
+
+
+
+
+
+~{ elif name == "PRESS" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%          PRESS                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Press}
+
+\begin{etaremune}[itemindent=-\bibhang, topsep=0pt,
+				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
+    \item  Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J. (2021). Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons. Society for Neuroscience Global Connectome
+
+
+    \item  Cooper K. W. (2020) The neuroscience / AI feedback loop: Catastrophic Forgetting and Sequences. UCI AGS Symposium
+
+
+    \item Cooper K. W. (2020) Dual processes of hippocampal mode switching. Neuromatch Conference
+
+    \item Cooper K. W. (2020) Cholinergic abolition disrupts encoding and retrieval mode switching. 11th Annual Emerging Scientists Symposium
+
+    \item Hernandez J, Cooper K. W., Newman E.L. (2018) Is theta a traveling wave in the medial entorhinal cortex? Program No. 330.10. Society for Neuroscience
+
+    \item Cooper K. W, Dachapally P.R, Jones M.N (2018) Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models, Midwest Cognitive Science Conference
+
+    \item Cooper K. W. (2017) Bridging the Gap: Natural Computation and Neural Systems. Indiana University Undergraduate Research Conference.
+
+\end{etaremune}
+
+
+
+
+
+~{ elif name == "ERDOS" }~
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%             ERDOS              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Erdös N=4}
+
+% https://www.csauthors.net/distance/paul-erdos/keiland-cooper
+\textit{\textcolor{grey}{as of 2021:}}\\
+Paul Erdös $\rightarrow$ Noga Alon $\rightarrow$ Nicolò Cesa-Bianchi $\rightarrow$ Fabio Cuzzolin\\
+
+\textit{\textcolor{grey}{as of 2019:}}\\
+Paul Erdös $\rightarrow$ Ronald L. Graham $\rightarrow$ Feng Zhou $\rightarrow$ Michael J. Kahana $\rightarrow$ Ehren L. Newman\\
+
+
+
+
+
+~{ else }~
+SECTION NAME NOT FOUND!!!
+
 
 ~{ endif }~
 
@@ -73,10 +356,6 @@ Graduate Scholar\\
 
 
 
-%\section{Academic Interests}
-%
-%Advanced control systems, complex adaptive systems, computational
-%agent-based modeling, hybrid dynamic systems, distributed algorithms,
-%decentralized decision making, emergence and self organization,
+
 
 

@@ -58,11 +58,12 @@ def generate():
 
 generate() #finally, generate 
 
-# # Run the pdf2latex code to generate PDF
-# if generate_pdf:
-#   print('Building PDF (pdflatex)...') 
-#   cmd = 'pdflatex -output-directory=outFiles ' + resultFile
-#   os.system(cmd)
+# Run the pdf2latex code to generate PDF
+if generate_pdf:
+  print('Building PDF (pdflatex)...') 
+  cmd = 'pdflatex -output-directory=outFiles ' + resultFile
+  os.system(cmd)
+  os.system(cmd) # compile twice? 
 
 # # move the PDF out of the result dir
 # if mvPDF: 
