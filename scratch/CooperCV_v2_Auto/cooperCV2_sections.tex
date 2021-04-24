@@ -220,19 +220,16 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 ~{ elif name == "OUTREACH" }~
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%        SCICOM                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%        SCICOM        %%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{SciComm + Outreach}
 
 
 \begin{longtable}{ l @{\extracolsep{\fill}}  l @{}}
-	AskANeuroscientist & \textcolor{grey}{ \textit{Founder; K-12 class Q/A (reached >400 students)}} \\
-	Hoosier STARS &\textcolor{grey}{ \textit{Co-founder; K-12 class neuro demos (reached >300 students)}} \\
-	CNLM Ambassadors & \textcolor{grey}{\textit{Co-chair; SoCal Learning and memory outreach}} \\
-	UCI End Racism  & \textcolor{grey}{\textit{Working group contributer addressing systemic racism}}\\	
-	Quora Writer &\textcolor{grey}{ \textit{Answers to neuroscience and AI questions; 800k+ views}} \\
-	Peer reviewer& \textcolor{grey}{\textit{Physiological Reviews; CVPR}} \\
+	~{ for scicomobj in contents }~ 
+	~{{ scicomobj.name }}~ & \textcolor{grey}{ \textit{~{{ scicomobj.meta }}~}} \\
+	~{ endfor }~
 \end{longtable}
 
 
@@ -242,7 +239,7 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 ~{ elif name == "TRAININGS" }~
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%        WORKSHOPS                 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%        WORKSHOPS        %%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Trainings + Workshops}
@@ -331,15 +328,16 @@ Certificate in Neuroscience; Minor in Psychology\\
 %%%%%%%%%%%%             ERDOS              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Erdös N=4}
 
+~{ for edobj in contents }~
+\section{Erdös N=~{{ edobj.eN }}~}
 % https://www.csauthors.net/distance/paul-erdos/keiland-cooper
-\textit{\textcolor{grey}{as of 2021:}}\\
-Paul Erdös $\rightarrow$ Noga Alon $\rightarrow$ Nicolò Cesa-Bianchi $\rightarrow$ Fabio Cuzzolin\\
+~{ for echain in edobj.graphs }~
+\textit{\textcolor{grey}{as of ~{{ echain.date }}~:}}\\
+~{{ echain.chain }}~\\
 
-\textit{\textcolor{grey}{as of 2019:}}\\
-Paul Erdös $\rightarrow$ Ronald L. Graham $\rightarrow$ Feng Zhou $\rightarrow$ Michael J. Kahana $\rightarrow$ Ehren L. Newman\\
-
+~{ endfor }~
+~{ endfor }~
 
 
 

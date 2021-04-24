@@ -185,30 +185,43 @@ skills:
     details: "APACHE/Ubuntu Server, Computer Construction, HPSS/Parallel Programming, SQL"
 
 outreach: 
-  - title:
-    details: "AskANeuroscientist"
+  
+  - name: "AskANeuroscientist"
     meta: "Founder; Live Q/A via in class video-chat (>400 students) and newsletter"
-  - title:
-    details: "Hoosier STARS"
-    meta: "Co-founding Director; K-12 science outreach reaching >300 students"
-  - title:
-    details: "Quora Writer"
-    meta: "Answers to neuroscience and AI questions; ~800k views"
-  - title:
-    details: "CNLM Ambassadors"
-    meta: "Co-chair; Learning and memory outreach to Southern California"
-  - title:
-    details: "Brain Club @ The Boys and Girls Club"
+    year:
+
+  - name: "UCI End Racism"
+    meta: "Working group contributer addressing systemic racism"
+    year:
+
+  - name: "Hoosier STARS"
+    meta: "Co-founder; K-12 class neuro demos (reached >300 students)"
+    year:
+
+  - name: "Quora Writer"
+    meta: "Answers to neuroscience and AI questions (800k+ views)"
+    year:
+
+  - name: "CNLM Ambassadors"
+    meta: "Co-chair; SoCal Learning and memory outreach"
+    year:
+
+  - name: "The Boys and Girls Club"
     meta: "Taught primary school aged students about the brain"
-  - title:
-    details: "IU Science Fest"
+    year:
+
+  - name: "IU Science Fest"
     meta: "Led a booth where people held and learned about sheep brains"
-  - title:
-    details: "Celebrate Science Indiana"
+    year:
+
+  - name: "Celebrate Science Indiana"
     meta: "Large scale outreach event, led an EEG and sheep brain booth"
-  - title:
-    details: "Kirkwood Observatory Guide"
+    year:
+
+  - name: "Kirkwood Observatory Guide"
     meta: "Volunteer astronomical guide at the Bloomington observatory"
+    year:
+
 
 trainings: 
   - name: "Estes Cognitive Electrophysiology Workshop"
@@ -265,8 +278,12 @@ trainings:
 
                           
 erdos:
-  - title:
-    details: "Paul Erdös $\\rightarrow$ Ronald L. Graham $\\rightarrow$ Feng Zhou $\\rightarrow$ Michael J. Kahana $\\rightarrow$ Ehren L. Newman"
+  - eN: 4
+    graphs:
+      - date: 2021
+        chain: "Paul Erdös $\\rightarrow$ Noga Alon $\\rightarrow$ Nicolò Cesa-Bianchi $\\rightarrow$ Fabio Cuzzolin"
+      - date: 2019
+        chain: "Paul Erdös $\\rightarrow$ Ronald L. Graham $\\rightarrow$ Feng Zhou $\\rightarrow$ Michael J. Kahana $\\rightarrow$ Ehren L. Newman"
 
 
 publications:
