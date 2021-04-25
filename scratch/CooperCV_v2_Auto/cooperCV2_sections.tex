@@ -240,6 +240,36 @@
 ~{ endfor }~
 \end{longtable}
 
+
+~{ elif name == "MENTEE" }~
+%------------------------------------------------------------------------------
+%	MENTEES
+%------------------------------------------------------------------------------
+
+\section{Mentored Students}
+\begin{longtable}{@{} l  l @{}}
+~{ for mentobj in contents }~ 
+~{{ mentobj.name }}~ & ~{ if mentobj.now }~ \textcolor{gray}{\textit{ now ~{{ mentobj.now }}~}} ~{ endif }~ \\
+~{ endfor }~
+\end{longtable}
+
+
+
+~{ elif name == "UNISERV" }~
+%------------------------------------------------------------------------------
+%	UNIVERSITY SERVICE
+%------------------------------------------------------------------------------
+
+\section{UNIVERSITY SERVICE}
+\begin{longtable}{@{} l  l @{\extracolsep{\fill}} l @{}}
+~{ for uniservobj in contents }~ 
+~{{ uniservobj.name }}~ & \textcolor{gray}{\textit{~{{ uniservobj.uni }}~}} & \textit{~{{ uniservobj.year }}~} \\
+~{ endfor }~
+\end{longtable}
+
+
+
+
 ~{ elif name == "TRAININGS" }~
 %------------------------------------------------------------------------------
 %	TRAININGS -n- WORKSHOPS
@@ -249,7 +279,7 @@
 
 \begin{longtable}{@{} l l @{\extracolsep{\fill}}  l @{}} 
 	~{ for trainobj in contents }~ 
-	~{{ trainobj.name }}~ & \textcolor{grey}{~{{ trainobj.where }}~}  & \textit{~{{ trainobj.year }}~} \\
+	~{{ trainobj.name }}~ & \textcolor{gray}{~{{ trainobj.where }}~}  & \textit{~{{ trainobj.year }}~} \\
 	~{ endfor }~
 \end{longtable}
 

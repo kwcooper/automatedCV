@@ -20,6 +20,7 @@ order:
   - [outreach, OUTREACH]
   - [referee, REFEREE]
   - [mentee, MENTEE]
+  - [uniserv, UNISERV]
   - [trainings, TRAININGS]
   #- [skills, SKILLS]
   - [myarticles, MYARTICLES]
@@ -206,9 +207,9 @@ outreach:
     meta: "Founder; Live Q/A via in class video-chat (>400 students)"
     year:
 
-  - name: "UCI End Racism"
-    meta: "Working group contributer addressing systemic racism"
-    year:
+  # - name: "UCI End Racism"
+  #   meta: "Working group contributer addressing systemic racism"
+  #   year:
 
   - name: "Hoosier STARS"
     meta: "Co-founder; K-12 class neuro demos (reached >300 students)"
@@ -253,8 +254,22 @@ mentee:
     now: 
 
   - name: Troy Good
-    year:
-    now:
+    year: 
+    now: Amazon
+
+
+uniserv:
+  - name: End Racism Initiative
+    uni: University of California, Irvine
+    year: 2020 - 
+
+  - name: Education Policy Committee
+    uni: Indiana University
+    year: 2016 - 2017
+
+  - name: Faculty Council
+    uni: Indiana University
+    year: 2016 - 2017
 
 
 trainings: 
