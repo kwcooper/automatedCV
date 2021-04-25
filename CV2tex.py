@@ -1,18 +1,14 @@
 
 # The ideal CV manifesto:
-# It shouldn't rely on software that isn't very well supported.
-# The data format should be standardized.
-# It should be really easy to make changes.
+# - It shouldn't rely on software that isn't very well supported.
+# - The data format should be standardized.
+# - It should be really easy to make changes.
+# - It should provide more than just a list of your past life
 
 # V2.0 KWC
 
-# Requires pdflatex to compile the .tex output -> TODO: create function for this
+# Requires pdflatex to compile the .tex output 
 # ------------------------------------------------------------------------------
-# inspired by:
-# https://github.com/qutebits
-# https://github.com/bamos/cv
-# https://github.com/craffel/craffel.github.io/blob/master/src/compile.py
-# https://timsainburg.com/curriculum-vitae-in-python-html-jinja.html
 
 import re
 import yaml
@@ -27,11 +23,11 @@ generate_pdf = 1
 mvPDF = 1         # TODO: platform independant pls
 
 # Path information
-yamlFile = "cooperCV2.yaml"
-templateFile = "."
-sectionFile = "/cooperCV2_sections.tex"
-resultFile = "cooperCV2_2_w.tex"
-resFile = "cooperCV_2_w2.tex" # These can be concatonated
+yamlFile = "cooperCV2.yaml"              # The text database
+templateFile = "."                       # templating directory
+sectionFile = "/cooperCV2_sections.tex"  # CV section logic
+resFile = "cooperCV2_.tex"               # Latex structure
+resultFile = "cooperCV.tex"              # Final built file 
 
 yaml_contents = yaml.load(open(yamlFile, 'r')) # Read data
 
@@ -65,9 +61,9 @@ if generate_pdf:
   os.system(cmd)
   os.system(cmd) # compile twice? 
 
-# # move the PDF out of the result dir
-# if mvPDF: 
-#   os.system('mv outFiles/cooperCV.pdf cooperCV.pdf')
+# move the PDF out of the result dir
+if mvPDF: 
+  os.system('mv outFiles/cooperCV.pdf cooperCV.pdf')
 
 
 # date.today().strftime("%b %d, %Y")
@@ -87,3 +83,12 @@ if generate_pdf:
 # If you need to access any of the YAML code in this script:
 # result.write(env.get_template(resFile).render(
     # name = yaml_contents['name'], #.upper(),
+
+
+# inspired by:
+# https://github.com/qutebits
+# https://github.com/bamos/cv
+# https://github.com/craffel/craffel.github.io/blob/master/src/compile.py
+# https://timsainburg.com/curriculum-vitae-in-python-html-jinja.html
+
+
