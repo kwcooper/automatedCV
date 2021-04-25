@@ -116,14 +116,14 @@ pedagogy:
   - courses:
     - name: "Autonomous Robotics"
       code: "(CSCI-B355)"
-      where: "Indiana University"
+      where: "Indiana Univ."
       title: "Co-Instructor" 
       sem: "Sp"
       when: "2019" 
       
     - name: "Programming in Cognitive Sciences"
       code: "(COGS-Q 260)"
-      where: "Indiana University"
+      where: "Indiana Univ."
       title: "Co-Instructor"
       sem: "Sp"
       when: "2018"
@@ -162,7 +162,7 @@ pedagogy:
 
     - name: "Cognitive Psychology"
       code: "(PSY-P 355)"
-      where: "Indiana University"
+      where: "Indiana Univ."
       title: "Teaching Assistant"
       sem: "Fa"
       when: "2018"
@@ -170,7 +170,7 @@ pedagogy:
 
     - name: "Introduction to Neuroscience"
       code: "(PSY-P 346)"
-      where: "Indiana University"
+      where: "Indiana Univ."
       title: "Teaching Assistant"
       sem: "Fa"
       when: "2017" 

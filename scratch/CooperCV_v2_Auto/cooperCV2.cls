@@ -203,7 +203,7 @@
 % instead of moving them to the next page
 \usepackage{longtable} 
 \setlength\LTleft{0pt} \setlength\LTright{0pt} % Define table margins
-\setlength\LTpre{0pt} \setlength\LTpost{-1pt}  % Define table margins
+\setlength\LTpre{0pt} \setlength\LTpost{0pt}  % Define table margins
 
 % Use to push the section headings to a new page if none of the entries can make it
 % under the heading. May need to figit with the push length a bit

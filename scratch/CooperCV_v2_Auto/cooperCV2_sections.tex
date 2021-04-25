@@ -185,21 +185,13 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 \section{Teaching}
 
-\begin{longtable}{@{} l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l @{\extracolsep{\fill}}  l @{}}
+\begin{longtable}{@{} l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l @{}}
 	~{ for courseobj in contents }~ 
 	~{ for course in courseobj.courses }~
 
-	~{{ course.name }}~ & \textcolor{grey}{\textit{~{{ course.title }}~}} & \textcolor{grey}{\textit{~{{ course.where }}~}} &  ~{{ course.when }}~\\
+	~{{ course.name }}~ & \textcolor{grey}{\textit{~{{ course.title }}~}} & \textcolor{grey}{\textit{~{{ course.where }}~}} &   \textcolor{grey}{\textit{~{{ course.sem }}~}} ~{{ course.when }}~\\
 	
 	~{ endfor }~
-	%Autonomous Robotics & \textcolor{grey}{\textit{Co-instructor}} & \textcolor{grey}{\textit{Indiana University}} &  2019 \\
-	
-	% Programming in Cognitive Sciences & \textcolor{grey}{\textit{Co-instructor }} & \textcolor{grey}{\textit{Indiana University}} & 2018 \\
-	% Mind, Memory, and the Brain & Teaching Assistant & \textit{UC Irvine} & 2021  \\
-	% Neurobiology and Behavior Lab & Teaching Assistant & \textit{UC Irvine} & 2020  \\
-	% Brain and Behavior & Teaching Assistant & \textit{UC Irvine} & 2020  \\
-	% Cognitive Psychology & Teaching Assistant & \textit{Indiana University} & 2018  \\
-	% Introduction to Neuroscience & Teaching Assistant & \textit{Indiana University} & 2017  \\
 	~{ endfor }~
 \end{longtable}
 
