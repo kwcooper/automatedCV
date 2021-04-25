@@ -220,7 +220,6 @@
 
 \section{SciComm + Outreach}
 
-
 \begin{longtable}{@{} l @{\extracolsep{\fill}}  l @{}}
 	~{ for scicomobj in contents }~ 
 	~{{ scicomobj.name }}~ & \textcolor{grey}{ \textit{~{{ scicomobj.meta }}~}} \\
@@ -229,8 +228,17 @@
 
 
 
+~{ elif name == "REFEREE" }~
+%------------------------------------------------------------------------------
+%	REFEREE SERVICE
+%------------------------------------------------------------------------------
 
-
+\section{Referee Service}
+\begin{longtable}{@{} l @{\extracolsep{\fill}}  l @{}}
+~{ for refobj in contents }~ 
+~{{ refobj.name }}~ & \\
+~{ endfor }~
+\end{longtable}
 
 ~{ elif name == "TRAININGS" }~
 %------------------------------------------------------------------------------

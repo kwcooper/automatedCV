@@ -18,6 +18,8 @@ order:
   - [pedagogy, PEDAGOGY]
   - [networks, NETWORKS]
   - [outreach, OUTREACH]
+  - [referee, REFEREE]
+  - [mentee, MENTEE]
   - [trainings, TRAININGS]
   #- [skills, SKILLS]
   - [myarticles, MYARTICLES]
@@ -235,6 +237,24 @@ outreach:
   - name: "Observatory Guide"
     meta: "Volunteer astronomical guide at the Kirkwood Observatory"
     year:
+
+
+referee:
+  - name: Physiological Reviews
+    year: 
+
+  - name: Computer Vision and Pattern Recognition
+    year: 
+
+
+mentee:
+  - name: Chelsea Pan 
+    year: 
+    now: 
+
+  - name: Troy Good
+    year:
+    now:
 
 
 trainings: 
