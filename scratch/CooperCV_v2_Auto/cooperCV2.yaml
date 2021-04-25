@@ -113,68 +113,80 @@ networks:
       - "Midwest Undergraduate Cognitive Science Conference"
 
 pedagogy:
-  - ugcoinstruct:
-    - title: "Co-Instructor"
-    - experience:
-      name: "Autonomous Robotics"
+  - courses:
+    - name: "Autonomous Robotics"
       code: "(CSCI-B355)"
       where: "Indiana University"
-      when: "Sp 2019" 
-    - experience:
-      name: "Programming in Cognitive and Info Sciences"
+      title: "Co-Instructor" 
+      sem: "Sp"
+      when: "2019" 
+      
+    - name: "Programming in Cognitive Sciences"
       code: "(COGS-Q 260)"
       where: "Indiana University"
-      when: "Sp 2018" 
-  - ugta:  
-    - title: "Teaching \\newline Assistant" 
-    - experience:
-      name: "Mind, Memory, and the Brain"
+      title: "Co-Instructor"
+      sem: "Sp"
+      when: "2018"
+
+    - name: "Mind, Memory, and the Brain"
       code: "(Bio Sci 38)"
       where: "UC Irvine"
-      when: "Sp 2021" 
+      title: "Teaching Assistant"
+      sem: "Sp"
+      when: "2021" 
       prof: Dr. Lew
-    - experience:
-      name: "Neurobiology and Behavior Laboratory"
+
+    - name: "Neurobiology and Behavior Laboratory"
       code: "(Bio Sci N113L)"
       where: "UC Irvine"
-      when: "Wt 2020" 
+      title: "Teaching Assistant"
+      sem: "Wt"
+      when: "2020" 
       prof: Dr. Lew
-    - experience:
-      name: "Neurobiology and Behavior Laboratory"
+
+    - name: "Neurobiology and Behavior Laboratory"
       code: "(Bio Sci N113L)"
       where: "UC Irvine"
-      when: "Fa 2020" 
+      title: "Teaching Assistant"
+      sem: "Fa"
+      when: "2020" 
       prof: Dr. Lew
-    - experience:
-      name: "Brain and Behavior"
+
+    - name: "Brain and Behavior"
       code: "(Bio Sci 35)"
       where: "UC Irvine"
-      when: "Fa 2020"
-      prof: Dr. Lew 
-    - experience:
-      name: "Cognitive Psychology"
+      title: "Teaching Assistant"
+      sem: "Fa"
+      when: "2020"
+      prof: Dr. Lew
+
+    - name: "Cognitive Psychology"
       code: "(PSY-P 355)"
       where: "Indiana University"
-      when: "Fa 2018"
-      prof: Dr. Pestilli 
-    - experience:
-      name: "Introduction to Neuroscience"
+      title: "Teaching Assistant"
+      sem: "Fa"
+      when: "2018"
+      prof: Dr. Pestilli
+
+    - name: "Introduction to Neuroscience"
       code: "(PSY-P 346)"
       where: "Indiana University"
-      when: "Fa 2017" 
+      title: "Teaching Assistant"
+      sem: "Fa"
+      when: "2017" 
       prof: Dr. Newman
-  - commseats:
-    - title: "Committee"
-    - experience:
-      name: "Education Policy Committee"
-      code: " "
-      where: "Indiana University"
-      when: " "
-    - experience:
-      name: "Faculty Council"
-      code: " "
-      where: "Indiana University"
-      when:  " "
+  # - commseats:
+  #   - title: "Committee"
+  #   - experience:
+  #     name: "Education Policy Committee"
+  #     code: " "
+  #     where: "Indiana University"
+  #     when: " "
+  #   - experience:
+  #     name: "Faculty Council"
+  #     code: " "
+  #     where: "Indiana University"
+  #     when:  " "
 
 skills:
   - title: Laboratory
@@ -187,7 +199,7 @@ skills:
 outreach: 
   
   - name: "AskANeuroscientist"
-    meta: "Founder; Live Q/A via in class video-chat (>400 students) and newsletter"
+    meta: "Founder; Live Q/A via in class video-chat (>400 students)"
     year:
 
   - name: "UCI End Racism"
@@ -215,11 +227,11 @@ outreach:
     year:
 
   - name: "Celebrate Science Indiana"
-    meta: "Large scale outreach event, led an EEG and sheep brain booth"
+    meta: "Large scale outreach event, led an EEG and brain booth"
     year:
 
-  - name: "Kirkwood Observatory Guide"
-    meta: "Volunteer astronomical guide at the Bloomington observatory"
+  - name: "Observatory Guide"
+    meta: "Volunteer astronomical guide at the Kirkwood Observatory"
     year:
 
 

@@ -208,7 +208,7 @@
 % Use to push the section headings to a new page if none of the entries can make it
 % under the heading. May need to figit with the push length a bit
 \usepackage{needspace} 
-\newlength\headerpush\setlength\headerpush{2em}
+\newlength\headerpush\setlength\headerpush{6em}
 
 %%%%%%%%%%%%%%%%%%%%%%%% End Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
