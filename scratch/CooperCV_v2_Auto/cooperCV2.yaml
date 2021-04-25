@@ -95,29 +95,24 @@ awards:
               
 networks:
   - societies:
-    - title: "Professional \\newline Societies"
-    - names:
-      - "Cognitive Science Society"
-      - "Society for Neuroscience"
-      - "Indiana Academy of Science"
-      - "Psi Chi"
-      - "Sigma Xi"
-      - "Sigma Alpha Pi"
-  - other:
-    - title: "Other \\newline"
-    - names:
-      - "Continual AI \\emph{co-founder}"
-      - "Continual Learning AI Research (CLAIR)"
-      - "Carboncopies \\emph{volunteer researcher}"
-      - "AI for People"
-      - "Internet Society"
-      - "IU Student Organization for Cognitive Science, President" 
-      - "ADAPT Consulting, VP of Project Management"
-  - confCommittee:
-    - title: "Conference \\newline Committee"
-    - names:
-      - "Learning: Fast, Deep, and Shallow"
-      - "Midwest Undergraduate Cognitive Science Conference"
+    - "Cognitive Science Society"
+    - "Society for Neuroscience"
+    - "Indiana Academy of Science"
+    - "Psi Chi"
+    - "Sigma Xi"
+    - "Sigma Alpha Pi"
+    - "Continual AI (co-founder)"
+    #- "Continual Learning AI Research (CLAIR)"
+    - "Carboncopies"
+    - "AI for People"
+    - "Internet Society"
+    - "IU Student Org. for Cog Sci (President)" 
+    - "ADAPT Consulting (VP)"
+  # - confCommittee:
+  #   - title: "Conference \\newline Committee"
+  #   - names:
+  #     - "Learning: Fast, Deep, and Shallow"
+  #     - "Midwest Undergraduate Cognitive Science Conference"
 
 pedagogy:
   - courses:
