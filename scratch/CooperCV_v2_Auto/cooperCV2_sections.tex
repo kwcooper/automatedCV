@@ -67,27 +67,22 @@
 
 ~{ elif name == "EDUCATION" }~
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%    EDUCATION         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%    EDUCATION         %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \section{Education} 
 
-\href{http://www.uci.edu/}{\textbf{University of California, Irvine}} \\
-Ph.D., Neuroscience \hfill \textit{In progress}\\
-\textcolor{grey}{Advisor: Dr. Norbert Fortin}\\
+~{ for eduobj in contents }~  
+
+\href{http://www.iu.edu/}{\textbf{~{{ eduobj.uni }}~}} \\
+ ~{{ eduobj.degree }}~ \hfill \textit{~{{ eduobj.dates }}~}
+
+~{ if eduobj.specialize }~ ~{{ eduobj.specialize }}~ \\ ~{ endif }~
+~{ if eduobj.minor }~ ~{{ eduobj.minor }}~\\  ~{ endif }~
+~{ if eduobj.advisor }~ \textit{Advisors: ~{{ eduobj.advisor }}~}\\ ~{ else }~ \null \hfil ~{ endif }~
 
 
-%\href{http://www.uci.edu/}{\textbf{Quantic School of Buisness and Technology}} \\
-%MA, Buisness Administration \hfill \textit{In progress}\\
-
-
-\href{http://www.iu.edu/}{\textbf{Indiana University, Bloomington}} \\
-B.S., Cognitive Science, \textit{with Honors} \hfill \textit{May 4th 2019} \\
-Computation specialization \\
-Certificate in Neuroscience; Minor in Psychology\\
-\textcolor{grey}{Advisors: Dr. Ehren Newman, Dr. Mike Jones}
-
+~{ endfor }~
 
 
 
@@ -102,7 +97,7 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 \begin{longtable}{ l l @{\extracolsep{\fill}}  l @{}}
 	~{ for award in contents }~ 
-	~{{ award.name }}~ & \textit{\textcolor{grey}{~{{ award.funder }}~}}  & \textcolor{grey}{~{{ award.date_awarded }}~} \\
+	~{{ award.name }}~ & \textit{\textcolor{gray}{~{{ award.funder }}~}}  & \textcolor{grey}{~{{ award.date_awarded }}~} \\
 	~{ endfor }~
 \end{longtable}
 
@@ -202,7 +197,7 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 ~{ elif name == "NETWORKS" }~
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%         NETWORKS          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%         NETWORKS          %%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Networks}
@@ -219,7 +214,7 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 ~{ elif name == "OUTREACH" }~
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%        SCICOM        %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%        SCICOM        %%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{SciComm + Outreach}
@@ -254,9 +249,9 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 
 ~{ elif name == "MYARTICLES" }~
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%    nonpeer pub        %%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Add the rule here so that we can use varrying subsections 
 
 \needspace{\headerpush}
@@ -286,7 +281,7 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 ~{ elif name == "PRESS" }~
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%          PRESS                   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%          PRESS         %%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Press}
@@ -316,17 +311,10 @@ Certificate in Neuroscience; Minor in Psychology\\
 
 
 
-
-
-
-
-
-
 ~{ elif name == "ERDOS" }~
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%             ERDOS              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%             ERDOS              %%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 ~{ for edobj in contents }~
 \section{Erdös N=~{{ edobj.eN }}~}

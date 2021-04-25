@@ -45,16 +45,23 @@ header:
     workplaceURL: "http://www.uci.edu/"
 
 education:
-  - experience: University of California, Irvine
+  - uni: University of California, Irvine
     location: CA
-    degree: Neurobiology and Behavior, Ph.D.
+    degree: Ph.D., Neuroscience
     dates: In progress
-  - experience: Indiana University, Bloomington 
+    advisor: Dr. Norbert Fortin
+  # - uni: Quantic School of Business and Technology
+  #   location: D.C. 
+  #   degree: Masters in Business Administration
+  #   dates: In progress 
+  - uni: Indiana University, Bloomington 
     location: IN
     dates: May the Fourth, 2019
-    degree: Cognitive Science B.S. \emph{Honors}; Neuroscience Cert.
+    degree: B.S., Cognitive Science \textit{with Honors}; 
+    specialize: Computation specialization
+    minor: Certificate in Neuroscience; Minor in Psychology  
     thesis: "Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
-
+    advisor: Dr. Ehren Newman, Dr. Mike Jones
 
 awards: 
   - name: "Graduate Research Fellowship (GRFP)"

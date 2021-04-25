@@ -128,22 +128,6 @@
   }
 \makeatother %% <- change @ back
 
-
-
-%% add the reversed environment
-%% https://tex.stackexchange.com/a/154300
-%\newenvironment{bibenum*}
-%  {\renewcommand\labelenumi{[\theenumi]}%
-%   \etaremune[resume,
-%     topsep=0pt,
-%     itemsep=\bibsep,
-%     parsep=0pt,partopsep=0pt,
-%     itemindent=-\bibhang,
-%     leftmargin={\bibhang+\widthof{[999]}}]}
-%  {\endetaremune}
-
-
-
 %----------------------------------------------------------------------------------------
 %	FOOTER LAYOUT
 %----------------------------------------------------------------------------------------
@@ -215,7 +199,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%% Helper Commands %%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%% SECTION HEADINGS
+%----------------------------------------------------------------------------------------
+% SECTION HEADINGS
+%----------------------------------------------------------------------------------------
 
 % The section headings. Flush left in small caps down pseudo-margin. Draw rule
 \renewcommand{\section}[1]{\pagebreak[3]%
@@ -236,8 +222,9 @@
     \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\hyphenpenalty=10000\raggedright #1}}}%
     \vspace{-\baselineskip}\par}
 
-
-%%% LISTS
+%----------------------------------------------------------------------------------------
+% LISTS
+%----------------------------------------------------------------------------------------
 
 % This macro alters a list by removing some of the space that follows the list
 % (is used by lists below)
@@ -305,7 +292,11 @@
     \fixendlist{loneinnerlist}
     \fixinnerlist{loneinnerlist}
 
-%%% EXTRA SPACE
+
+
+%----------------------------------------------------------------------------------------
+%  EXTRA SPACE & MISC 
+%----------------------------------------------------------------------------------------
 
 % To add some paragraph space between lines.
 % This also tells LaTeX to preferably break a page on one of these gaps
