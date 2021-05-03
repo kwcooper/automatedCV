@@ -18,8 +18,8 @@ order:
   - [pedagogy, PEDAGOGY]
   - [networks, NETWORKS]
   - [outreach, OUTREACH]
-  - [referee, REFEREE]
   - [mentee, MENTEE]
+  - [referee, REFEREE]
   - [uniserv, UNISERV]
   - [trainings, TRAININGS]
   #- [skills, SKILLS]
@@ -96,7 +96,7 @@ awards:
     funder: "Indiana University"
     date_awarded: 2017
               
-networks:
+networks: # add active and inactive?
   - societies:
     - "Cognitive Science Society"
     - "Society for Neuroscience"
@@ -273,6 +273,17 @@ uniserv:
 
 
 trainings: 
+
+  - name: "Certified Peer Reviewer Course"
+    where: "Elsevier"
+    when: 201220
+    year: 2020 
+
+  - name: "Computational Psychiatry Course"
+    where: "University of Zurich"
+    when: 200907
+    year: 2020
+
   - name: "Estes Cognitive Electrophysiology Workshop"
     where: "University of Pennsylvania"
     when: 200804
@@ -425,6 +436,14 @@ publications:
 
 abstracts_talks:
   - abstracts:
+
+    - title: "Avalanche: an End-to-End Library for Continual Learning"
+      authors: "Cooper K.W., Lomonaco, V., Pellegrini, L., Carta, A., Cossu, A., Graffieti, G."
+      year: 2021
+      venue: ContinualAI Meetup
+      link: "https://www.youtube.com/watch?v=EyO1eM0-Hi8&t=190s"
+      nums: 
+
     - title: "Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons"
       authors: "Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J."
       year: 2021
@@ -592,12 +611,53 @@ myarticles:
 
 press: 
   - articles:
+    - title: "Scientists Working on Continual Learning to Overcome ‘Catastrophic Forgetting’"
+      author: "John Desmond"
+      date_published: "April 15, 2021"
+      year_published: 2021
+      publisher: "AI Trends"
+      URL: "https://www.aitrends.com/ai-research/scientists-working-on-continual-learning-to-overcome-catastrophic-forgetting/"
+
     - title: "AI Weekly: Continual learning offers a path toward more humanlike AI"
       author: "Kyle Wiggers"
       date_published: "April 9, 2021"
       year_published: 2021
       publisher: "VentureBeat"
       URL: "https://venturebeat.com/2021/04/09/ai-weekly-continual-learning-offers-a-path-toward-more-humanlike-ai/"
+
+    - title: "Millions of COVID-19 survivors have lost senses of smell and taste. Researchers don't know if they'll come back"
+      author: "Grace Hauck"
+      date_published: "January 31,2021"
+      year_published: 2021
+      publisher: "USA Today"
+      URL: "https://www.usatoday.com/story/news/health/2021/01/31/covid-19-survivors-smell-taste-symptoms-coronavirus/4292727001/?utm_source=feedblitz&utm_medium=FeedBlitzRss&utm_campaign=usatoday-newstopstories"
+
+    - title: "What Can Covid-19 Teach Us About the Mysteries of Smell?"
+      author: "Brooke Jarvis"
+      date_published: "January 28, 2021"
+      year_published: 2021
+      publisher: "The New York Times Magazine"
+      URL: "https://www.nytimes.com/2021/01/28/magazine/covid-smell-science.html"
+
+    - title: "Is Losing Your Sense Of Smell And Taste The First Sign Of Covid-19? More Research Says Yes"
+      author: "Misha Gajewski"
+      date_published: "December 9, 2020" 
+      year_published: 2020
+      publisher: "Forbs"
+      URL: "https://www.forbes.com/sites/mishagajewski/2020/12/09/is-losing-your-sense-of-smell-and-taste-the-first-symptom-of-covid-19-more-research-says-yes/?sh=213ace6736ef"
+
+    - title: "TWiV 673: Wake up and smell the pandemic"
+      author: "Vincent Racaniello"
+      date_published: "October 18, 2020"
+      year_published: 2020
+      publisher: "This Week In Virology"
+
+    - title: "Many COVID-19 patients lost their sense of smell. Will they get it back?"
+      author: Sara Harrison
+      date_published: "August 5, 2020" 
+      year_published: 2020
+      publisher: "National Geographic"
+      URL: "https://www.nationalgeographic.com/science/article/thousands-covid-19-patients-lost-sense-smell-will-get-back-cvd"
 
     - title: "Lifestyle Changes You Can Make to Help Lower the 19 Risk Factors for Alzheimer’s"
       author: "Bob Curley"
