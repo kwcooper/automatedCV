@@ -31,3 +31,54 @@ MISC Notes
 The automated optical recognition software used to digitize resume
 information works best with fonts that do not have serifs.
 
+
+
+
+
+
+
+Structure as of 210503
+
+├── cooperCV2.cls
+├── cooperCV2_sections.tex
+├── cooperCV2_.tex
+├── cooperCV2.yaml
+├── cooperCV.pdf
+├── cooperCV.tex
+├── CV2tex.py
+├── fonts
+│   ├── FontAwesome.ttf
+│   ├── Roboto-BoldItalic.ttf
+│   ├── Roboto-Bold.ttf
+│   ├── Roboto-Italic.ttf
+│   ├── Roboto-LightItalic.ttf
+│   ├── Roboto-Light.ttf
+│   ├── Roboto-MediumItalic.ttf
+│   ├── Roboto-Medium.ttf
+│   ├── Roboto-Regular.ttf
+│   ├── Roboto-ThinItalic.ttf
+│   └── Roboto-Thin.ttf
+├── img
+│   └── orcid.png
+├── MISC
+│   ├── BU
+│   │   ├── BU_200613.zip
+│   │   ├── BU_200831.zip
+│   │   ├── cooperCV_autoV1_BU210425.zip
+│   │   ├── CooperCV_v2_Auto_BU210425.zip
+│   │   ├── cooper_simpCV.zip
+│   │   └── scratch_210425.zip
+│   ├── notes.txt
+│   └── old_cvs
+│       └── cooperCV_200831.pdf
+├── outFiles
+│   ├── cooperCV2_2_w.aux
+│   ├── cooperCV2_2_w.log
+│   ├── cooperCV2_2_w.out
+│   ├── cooperCV2_2_w.pdf
+│   ├── cooperCV.aux
+│   ├── cooperCV.log
+│   └── cooperCV.out
+└── README.md
+
+6 directories, 35 files
