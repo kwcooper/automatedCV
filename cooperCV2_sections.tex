@@ -170,6 +170,26 @@
 
 
 
+~{ elif name == "DATASETS" }~
+%------------------------------------------------------------------------------
+%   DATASETS
+%------------------------------------------------------------------------------
+
+\section{Open\\Datasets}
+
+~{ for dataobj in contents }~ 
+\begin{etaremune}[itemindent=-1.5\bibhang, topsep=0pt,
+                   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
+    ~{ for datset in dataobj.data  }~
+    \item ~{{ datset.name }}~ (~{{ datset.year }}~) ~{{ datset.platform }}~
+    ~{ endfor }~
+
+
+\end{etaremune}
+~{ endfor }~
+
+
+
 
 ~{ elif name == "PEDAGOGY" }~
 %------------------------------------------------------------------------------

@@ -22,6 +22,7 @@ order:
   - [referee, REFEREE]
   - [uniserv, UNISERV]
   - [trainings, TRAININGS]
+  - [datasets, DATASETS]
   #- [skills, SKILLS]
   - [myarticles, MYARTICLES]
   - [press, PRESS]
@@ -71,6 +72,9 @@ awards:
     funder: "National Science Foundation"
     amount: 
     date_awarded: 2021
+  - name: "Best International AI Research Organization"
+    funder: "Wealth \\& Finance"
+    date_awarded: 2020
   - name: "DTEI Pedagogical Fellowship"
     funder: UC Irvine
     date_awarded: 2020
@@ -344,6 +348,22 @@ erdos:
         chain: "Paul Erdös $\\rightarrow$ Noga Alon $\\rightarrow$ Nicolò Cesa-Bianchi $\\rightarrow$ Fabio Cuzzolin"
       - date: 2019
         chain: "Paul Erdös $\\rightarrow$ Ronald L. Graham $\\rightarrow$ Feng Zhou $\\rightarrow$ Michael J. Kahana $\\rightarrow$ Ehren L. Newman"
+
+
+datasets:
+  - data:
+
+      - name: "GCCR COVID-19 Questionnaire"
+        year: 2020
+        platform: OSF
+        link: "https://osf.io/a3vkw/"
+      
+      - name: "Extracellular recordings from across the dorsoventral axis of the medial entorhinal cortex of the rat. hc-27"
+        year: 2020
+        platform: CRCNS
+        link: "https://crcns.org/data-sets/hc/hc-27/about-hc-27"
+
+
 
 
 publications:
@@ -714,7 +734,6 @@ press:
       year_published: 2019
       publisher: "The Enterprisers Project"
       URL: "https://enterprisersproject.com/article/2019/9/natural-language-processing-nlp-explained-plain-english"      
-
 
     - title: "Is Augmented Artificial Intelligence Already Disrupting Artificial Intelligence?"
       author: "David Roe"
