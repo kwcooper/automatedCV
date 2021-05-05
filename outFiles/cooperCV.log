@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  5 MAY 2021 03:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  5 MAY 2021 03:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,12 +1160,12 @@ zlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
 \pgf@layerbox@background=\box62
 \pgf@layerboxsaved@background=\box63
-)
+) (./texplts/latexcharts.tex
 \c@barcount=\count141
 \c@a=\count142
 \c@b=\count143
 \c@c=\count144
-)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
@@ -1480,30 +1480,30 @@ Overfull \hbox (40.65224pt too wide) in paragraph at lines 908--909
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--921
+Underfull \hbox (badness 10000) in paragraph at lines 915--916
 
  []
 
 
-Overfull \hbox (76.606pt too wide) in paragraph at lines 919--923
+Overfull \hbox (76.606pt too wide) in paragraph at lines 914--918
 [][] 
  []
 
 
 AED: lastpage setting LastPage
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 927.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 927.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 922.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 922.
  (outFiles/cooperCV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 927.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 927.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 922.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 922.
 Package rerunfilecheck Info: File `cooperCV.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 21867 strings out of 492982
- 416373 string characters out of 6134896
- 512672 words of memory out of 5000000
+ 21871 strings out of 492982
+ 416444 string characters out of 6134896
+ 512724 words of memory out of 5000000
  24987 multiletter control sequences out of 15000+600000
  51064 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
