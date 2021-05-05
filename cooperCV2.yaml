@@ -288,6 +288,11 @@ trainings:
     when: 200907
     year: 2020
 
+  - name: "The Meaning and History of the Constitution"
+    where: "Hillsdale College"
+    when: 201221
+    year: 2020
+
   - name: "Estes Cognitive Electrophysiology Workshop"
     where: "University of Pennsylvania"
     when: 200804
