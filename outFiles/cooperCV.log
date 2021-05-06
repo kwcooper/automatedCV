@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  5 MAY 2021 03:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.2.14)  6 MAY 2021 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1426,88 +1426,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 578--578
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 631--631
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 631.
+(hyperref)                removing `\\' on input line 633.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 665--666
+Underfull \hbox (badness 10000) in paragraph at lines 667--668
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 722--722
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 828--828
+Underfull \hbox (badness 10000) in paragraph at lines 830--830
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 831--833
+Underfull \hbox (badness 10000) in paragraph at lines 833--835
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 835--837
+Underfull \hbox (badness 10000) in paragraph at lines 837--839
 
- []
-
-[6]
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 861.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 868.
-
-Underfull \hbox (badness 10000) in paragraph at lines 868--872
-
- []
-
-
-Overfull \hbox (76.606pt too wide) in paragraph at lines 867--881
-[][] 
- []
-
-
-Overfull \hbox (40.65224pt too wide) in paragraph at lines 908--909
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 915--916
-
- []
-
-
-Overfull \hbox (76.606pt too wide) in paragraph at lines 914--918
-[][] 
  []
 
 
 AED: lastpage setting LastPage
-[7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 922.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 922.
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 924.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 924.
  (outFiles/cooperCV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 922.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 922.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 924.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 924.
 Package rerunfilecheck Info: File `cooperCV.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 21871 strings out of 492982
- 416444 string characters out of 6134896
- 512724 words of memory out of 5000000
- 24987 multiletter control sequences out of 15000+600000
- 51064 words of font info for 39 fonts, out of 8000000 for 9000
+ 21538 strings out of 492982
+ 409682 string characters out of 6134896
+ 505723 words of memory out of 5000000
+ 24657 multiletter control sequences out of 15000+600000
+ 40680 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,70p,802b,679s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,14n,70p,802b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_bergpl.enc}{/usr/s
 hare/texlive/texmf-dist/fonts/enc/dvips/roboto/rbto_v5svcm.enc}{/usr/share/texl
 ive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{/usr/share/tex
@@ -1518,10 +1488,10 @@ dist/fonts/type1/google/roboto/Roboto-Bold.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/google/roboto/Roboto-Italic.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/google/roboto/Roboto-Regular.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmsy10.pfb>
-Output written on outFiles/cooperCV.pdf (7 pages, 119001 bytes).
+Output written on outFiles/cooperCV.pdf (6 pages, 114302 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 147 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
  154 words of extra memory for PDF output out of 10000 (max. 10000000)
 

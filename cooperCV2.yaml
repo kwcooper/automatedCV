@@ -278,6 +278,11 @@ uniserv:
 
 trainings: 
 
+  - name: "FFASt Workshop on Scientific Leadership"
+    where: "UC Irvine"
+    when: 210429
+    year: 2021
+
   - name: "Certified Peer Reviewer Course"
     where: "Elsevier"
     when: 201220
