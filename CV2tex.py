@@ -55,9 +55,11 @@ def generate():
 generate() #finally, generate 
 
 # Run the pdf2latex code to generate PDF
+# TODO: update to add support for XeTeX or LuaTeX
 if generate_pdf:
   print('Building PDF (pdflatex)...') 
-  cmd = 'pdflatex -output-directory=outFiles ' + resultFile
+  cmd = 'xelatex --output-directory=outFiles ' + resultFile
+  #cmd = 'pdflatex -output-directory=outFiles ' + resultFile
   os.system(cmd)
   os.system(cmd) # compile twice? 
 

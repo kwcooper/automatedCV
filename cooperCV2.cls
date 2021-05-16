@@ -16,25 +16,32 @@
 %----------------------------------------------------------------------------------------
 %	FONTS
 %----------------------------------------------------------------------------------------
+% to find avaliable fonts on unix system, use `fc-list : family`
 
 %\usepackage{helvetica} 
-\usepackage{roboto}
+%\usepackage{roboto} 
+\usepackage{helvet}
 %\usepackage[default]{raleway} % OG
 %\usepackage{times} % OG
 \renewcommand{\familydefault}{\sfdefault}
 
-\usepackage{moresize}                    % Provides more font size commands (\HUGE and \ssmall)
-\usepackage[utf8]{inputenc}   	 % Required for inputting international characters
-\usepackage[T1]{fontenc}      	 % Output font encoding for international characters
-\usepackage{fontawesome}           % Required for FontAwesome icons
-\usepackage{graphicx}                     % for images and the orcid logo
+\usepackage{moresize}             % Provides more font size commands (\HUGE and \ssmall)
+\usepackage[utf8]{inputenc}       % Required for inputting international characters
+\usepackage[T1]{fontenc}          % Output font encoding for international characters
+\usepackage{fontawesome}          % Required for FontAwesome icons
+\usepackage{graphicx}             % for images and the orcid logo
 
 \renewcommand\emph[1]{#1}
 %\renewcommand\textit[1]{\underline{#1}}
 \usepackage{calc}                  % Puts math inside length specifications
 \usepackage[shortcuts]{extdash}    % Helps LaTeX auto-hyphenate hyphenated words 
 
-\newcommand{\orcid}{\includegraphics[width=10pt]{img/orcid.png}} % cutom for orcidID
+
+% \usepackage{academicons}
+% \definecolor{orcidlogocol}{HTML}{A6CE39}
+
+% My old command directly importing the image...
+\newcommand{\orcid}{{\includegraphics[width=10pt]{img/orcid.png}}} % cutom for orcidID
 
 
 
@@ -149,7 +156,7 @@
 %% These lines put page number in bottom (center) of pages 2--end
 \cfoot{\hspace{\footpageshift}%
        \parbox{4in}{\hspace*{-2\footpageshift} \hfil
-	\emph{\footnotesize\textcolor{grey}{curriculum vitae ~~~·~~~ K. W. Cooper}} \hfill }}
+	\textit{\footnotesize\textcolor{grey}{curriculum vitae ~~~·~~~ K. W. Cooper}} \hfill }}
 
 \rfoot{\hspace{\footpageshift}%
        \parbox{4in}{\hspace*{2\footpageshift}\hfil \small\textcolor{grey}{\arabic{page}} \hfil}
@@ -161,7 +168,7 @@
 \let\oldps@plain\ps@plain
 \renewcommand{\ps@plain}{\oldps@plain%
 \renewcommand{\@evenfoot}{\hspace*{-\footpageshift}\hfil %
-   \small\textcolor{grey}{Page~\arabic{page} of \protect\pageref*{LastPage}} \hfil \,}%
+   {\small\textcolor{grey}{Page~\arabic{page} of \protect\pageref*{LastPage}} \hfil \,}}%
 
 \renewcommand{\@oddfoot}{\@evenfoot}}
 \makeatother

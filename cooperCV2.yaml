@@ -68,6 +68,10 @@ education:
     advisor: Dr. Ehren Newman, Dr. Mike Jones
 
 awards: 
+  - name: "Norman Weinberger Award"
+    funder: "UCI CNLM"
+    amount:
+    date_awarded: 2021
   - name: "Graduate Research Fellowship (GRFP)"
     funder: "National Science Foundation"
     amount: 
@@ -345,6 +349,10 @@ trainings:
   - name: "IUNI Network Science Workshop"
     where: "Indiana University"
     year: 2016
+
+  - name: "First Aid and CPR Certified"
+    where: "American Red Cross"
+    year: 2014
 
   - name: "Pediatric Neurosurgery Shadowing"
     where: "Riley Hospital"
