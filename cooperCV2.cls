@@ -17,8 +17,8 @@
 %	FONTS
 %----------------------------------------------------------------------------------------
 % to find avaliable fonts on unix system, use `fc-list : family`
+% see also: https://www.overleaf.com/learn/latex/Font_typefaces#:~:text=Computer%20Modern%20(default%20in%20standard,Palatino%2C%20Bookman%2C%20Helvetica%2C%20Courier
 
-%\usepackage{helvetica} 
 %\usepackage{roboto} 
 \usepackage{helvet}
 %\usepackage[default]{raleway} % OG
@@ -37,10 +37,11 @@
 \usepackage[shortcuts]{extdash}    % Helps LaTeX auto-hyphenate hyphenated words 
 
 
-% \usepackage{academicons}
+
+% \usepackage{academicons} % requires xelatex
 % \definecolor{orcidlogocol}{HTML}{A6CE39}
 
-% My old command directly importing the image...
+% My old command directly importing the image... 
 \newcommand{\orcid}{{\includegraphics[width=10pt]{img/orcid.png}}} % cutom for orcidID
 
 

@@ -20,6 +20,7 @@ from jinja2 import Environment, FileSystemLoader
 
 # General Params
 generate_pdf = 1
+engine = 'XeTeX' # pdflatex
 mvPDF = 1         # TODO: platform independant pls
 
 # Path information
@@ -55,11 +56,15 @@ def generate():
 generate() #finally, generate 
 
 # Run the pdf2latex code to generate PDF
-# TODO: update to add support for XeTeX or LuaTeX
+# TODO: update to add support for LuaTeX
 if generate_pdf:
-  print('Building PDF (pdflatex)...') 
-  cmd = 'xelatex --output-directory=outFiles ' + resultFile
-  #cmd = 'pdflatex -output-directory=outFiles ' + resultFile
+
+  if engine == 'pdflatex':
+    cmd = 'pdflatex -output-directory=outFiles ' + resultFile
+  elif engine == 'XeTeX': 
+    cmd = 'xelatex --output-directory=outFiles ' + resultFile
+
+  print(f'Building PDF ({engine})...') 
   os.system(cmd)
   os.system(cmd) # compile twice? 
 
