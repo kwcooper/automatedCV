@@ -20,7 +20,9 @@
 % see also: https://www.overleaf.com/learn/latex/Font_typefaces#:~:text=Computer%20Modern%20(default%20in%20standard,Palatino%2C%20Bookman%2C%20Helvetica%2C%20Courier
 
 %\usepackage{roboto} 
-\usepackage{helvet}
+%\usepackage{helvet}
+\usepackage{courier}
+%\usepackage{tgadventor}
 %\usepackage[default]{raleway} % OG
 %\usepackage{times} % OG
 \renewcommand{\familydefault}{\sfdefault}
