@@ -42,7 +42,9 @@ env = Environment(loader=FileSystemLoader(templateFile),
 
 
 # Grab the academic metrics for cv stats
-metrics = grab_metrics()
+print('Computing metrics... Please wait')
+gsID = 'nCEUdSoAAAAJ'
+metrics = grab_metrics(gsID=gsID)
 
 def generate(): 
   body = ""
