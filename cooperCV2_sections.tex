@@ -212,7 +212,10 @@
 ~{ endfor }~
 
 
-
+% networks: # add active and inactive?
+%   - societies:
+%     - whenName: present
+%     - names: 
 
 
 ~{ elif name == "NETWORKS" }~
@@ -223,14 +226,16 @@
 
 \section{Networks}
 
-~{ for socobj in contents }~
 \begin{longtable}{@{} l @{\extracolsep{\fill}} l}
-~{ for nn in range(0,socobj.societies| length,2) }~
-	~{{ socobj.societies[nn] }}~ & ~{{ socobj.societies[nn+1] }}~\\
-~{ endfor }~
-\end{longtable}
+~{ for socobj in contents }~
+
+\textcolor{grey}{\textit{~{{ socobj.societies[0].whenName }}~:}}\\
+~{ for nn in range(0,socobj.societies[1].names| length,2) }~
+	~{{ socobj.societies[1].names[nn] }}~ & ~{{ socobj.societies[1].names[nn+1] }}~\\
 ~{ endfor }~
 
+\\~{ endfor }~
+\end{longtable}
 
 
 
