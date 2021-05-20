@@ -1012,84 +1012,89 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 314.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 389--395
-[] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--454
-
- []
-
-
-Overfull \hbox (5.19545pt too wide) in alignment at lines 456--474
+Underfull \hbox (badness 10000) in alignment at lines 432--438
 [] []
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 493--493
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--518
+Underfull \hbox (badness 10000) in paragraph at lines 497--497
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 547--547
+Overfull \hbox (5.19545pt too wide) in alignment at lines 499--517
+[] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 604--604
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 604.
+(hyperref)                removing `\\' on input line 647.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--639
+Underfull \hbox (badness 10000) in paragraph at lines 681--682
 
  []
 
-[4]
 Missing character: There is no ’ ("2019) in font phvr8t!
 Missing character: There is no ’ ("2019) in font phvr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 695--695
+Underfull \hbox (badness 10000) in paragraph at lines 738--738
 
  []
 
 Missing character: There is no ‘ ("2018) in font phvro8t!
 Missing character: There is no ’ ("2019) in font phvro8t!
 Missing character: There is no ’ ("2019) in font phvro8t!
+[5]
 Missing character: There is no – ("2013) in font phvro8t!
 Missing character: There is no ’ ("2019) in font phvro8t!
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 801--801
+
+Underfull \hbox (badness 10000) in paragraph at lines 844--844
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--806
+Underfull \hbox (badness 10000) in paragraph at lines 847--849
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 808--810
+Underfull \hbox (badness 10000) in paragraph at lines 851--853
 
  []
 
@@ -1097,13 +1102,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 808--810
 AED: lastpage setting LastPage
 [6] (outFiles/cooperCV.aux)
 Package rerunfilecheck Info: File `cooperCV.out' has not changed.
-(rerunfilecheck)             Checksum: E7953B79C448507808E73BE13D2C4084;1724.
+(rerunfilecheck)             Checksum: 10CAA002235F9DEE08041039684882A6;1810.
  ) 
 Here is how much of TeX's memory you used:
- 26086 strings out of 476765
- 534333 string characters out of 5820652
- 913619 words of memory out of 5000000
- 45762 multiletter control sequences out of 15000+600000
+ 26087 strings out of 476765
+ 534340 string characters out of 5820652
+ 913792 words of memory out of 5000000
+ 45763 multiletter control sequences out of 15000+600000
  420372 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,13n,95p,456b,495s stack positions out of 5000i,500n,10000p,200000b,80000s
