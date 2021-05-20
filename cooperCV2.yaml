@@ -19,8 +19,8 @@ order:
   - [mentee, MENTEE]
   - [networks, NETWORKS]
   - [outreach, OUTREACH]
-  - [referee, REFEREE]
   - [uniserv, UNISERV]
+  - [referee, REFEREE]
   - [trainings, TRAININGS]
   - [datasets, DATASETS]
   #- [skills, SKILLS]
@@ -236,7 +236,7 @@ outreach:
   #   year:
 
   - name: "Hoosier STARS"
-    meta: "Co-founder; K-12 class neuro demos (reached >300 students)"
+    meta: "Co-founder; K-12 neuro demos reaching >300 students"
     year:
 
   - name: "Quora Writer"
@@ -252,11 +252,11 @@ outreach:
     year:
 
   - name: "IU Science Fest"
-    meta: "Led a booth where people held and learned about sheep brains"
+    meta: "Led a booth with hands on sheep brain interaction"
     year:
 
   - name: "Celebrate Science Indiana"
-    meta: "Large scale outreach event, led an EEG and brain booth"
+    meta: "Led an EEG and brain booth > 500 people"
     year:
 
   - name: "Observatory Guide"
@@ -275,7 +275,7 @@ referee:
 mentee:
   - name: Chelsea Pan 
     year: 
-    now: 
+    now: Zendesk
 
   - name: Troy Good
     year: 

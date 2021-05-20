@@ -201,7 +201,7 @@
 ~{ for courseobj in contents }~ 
 \begin{longtable}{@{} l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l @{}}
 ~{ for courseBlock in courseobj.instructBlock }~
-\textit{~{{ courseBlock.instructType[0].title }}~:} & & \textcolor{grey}{enrollment:} & \\
+\textcolor{grey}{\textit{~{{ courseBlock.instructType[0].title }}~:}} & & \textcolor{grey}{\textit{enrollment:}} & \\
 ~{ for course in courseBlock.instructType[1].courses}~
 
  ~{{ course.name }}~ & \textcolor{grey}{\textit{~{{ course.where }}~}} &  \textcolor{grey}{\textit{~{{ course.enroll }}~}} & \textcolor{grey}{\textit{~{{ course.sem }}~}} \hspace{0.05cm} ~{{ course.when }}~\\

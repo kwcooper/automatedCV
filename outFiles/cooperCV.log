@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  20 MAY 2021 01:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  20 MAY 2021 01:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,11 +939,6 @@ LaTeX Info: Redefining \nameref on input line 8.
 \@outlinefile=\write4
 \openout4 = `cooperCV.out'.
 
-LaTeX Font Info:    Trying to load font information for TU+academicons on input
- line 11.
-
-(/home/k/texlive/2021/texmf-dist/tex/latex/academicons/tuacademicons.fd)
-Missing character: There is no   (U+0020) in font [academicons.ttf]:!
 \rcollength=\skip71
 \spacewidth=\skip72
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -952,6 +947,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 47.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 54.
+LaTeX Font Info:    Trying to load font information for TU+academicons on input
+ line 54.
+
+(/home/k/texlive/2021/texmf-dist/tex/latex/academicons/tuacademicons.fd)
+Missing character: There is no   (U+0020) in font [academicons.ttf]:!
 
 Underfull \hbox (badness 10000) in paragraph at lines 66--66
 
@@ -1037,17 +1037,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 497--497
  []
 
 
-Overfull \hbox (5.19545pt too wide) in alignment at lines 499--517
-[] []
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 536--536
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 
  []
 
@@ -1102,7 +1097,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 851--853
 AED: lastpage setting LastPage
 [6] (outFiles/cooperCV.aux)
 Package rerunfilecheck Info: File `cooperCV.out' has not changed.
-(rerunfilecheck)             Checksum: 10CAA002235F9DEE08041039684882A6;1810.
+(rerunfilecheck)             Checksum: C56784A6ED41CB9260B2B4F4194233DA;1810.
  ) 
 Here is how much of TeX's memory you used:
  26087 strings out of 476765
