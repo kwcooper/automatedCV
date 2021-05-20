@@ -307,7 +307,7 @@ trainings:
     when: 210429
     year: 2021
 
-  - name: "Certified Peer Reviewer Course"
+  - name: "Certified Peer Reviewer"
     where: "Elsevier"
     when: 201220
     year: 2020 
