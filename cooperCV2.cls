@@ -41,6 +41,7 @@
 \usepackage{calc}                  % Puts math inside length specifications
 \usepackage[shortcuts]{extdash}    % Helps LaTeX auto-hyphenate hyphenated words 
 
+\usepackage{mathabx}               % use for curved arrows for comments
 
 % sudo apt-get install texlive-fonts-recommended
 

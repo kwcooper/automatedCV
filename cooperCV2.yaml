@@ -69,7 +69,46 @@ education:
     advisor: Dr. Ehren Newman, Dr. Mike Jones
 
 researchtl:
-  - bla: 
+  - pi: 
+    area: 
+    when:
+    bullets: 
+
+  - pi: 
+    area: 
+    when:
+    bullets: 
+
+  - pi: 
+    area: 
+    when:
+    bullets: 
+
+  - pi: 
+    area: 
+    when:
+    bullets: 
+
+  - pi: 
+    area: 
+    when:
+    bullets: 
+
+  - pi: 
+    area: 
+    when:
+    bullets: 
+
+  - pi: 
+    area: 
+    when:
+    bullets: 
+
+  - pi: 
+    area: 
+    when:
+    bullets: 
+
 
 awards: 
   - name: "Norman Weinberger Award"
