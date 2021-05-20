@@ -12,6 +12,7 @@
 order:
   - [header, HEADER]
   - [education, EDUCATION]
+  - [researchtl, RESEARCHTL]
   - [awards, AWARDS]
   - [publications, PUBLICATIONS] 
   - [abstracts_talks, ABSTRACTS]
@@ -66,6 +67,9 @@ education:
     minor: Certificate in Neuroscience; Minor in Psychology  
     thesis: "Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
     advisor: Dr. Ehren Newman, Dr. Mike Jones
+
+researchtl:
+  - bla: 
 
 awards: 
   - name: "Norman Weinberger Award"

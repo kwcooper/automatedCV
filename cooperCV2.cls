@@ -345,6 +345,17 @@
 \input{./texplts/latexcharts.tex}
 
 
+%----------------------------------------------------------------------------------------
+% TIMELINE COMMAND
+%---------------------------------------------------------------------------------------- 
+
+\usepackage{dblfloatfix}
+
+% Command used to make a timeline
+% Adapted from https://tex.stackexchange.com/a/198372
+\newcommand\mytl[2]{
+\parbox[b]{8em}{\hfill{\color{black}\bfseries\sffamily #1}~$\cdots\cdots$~}\makebox[0pt][c]{$\bullet$}\vrule\quad 
+\parbox[c]{11cm}{\vspace{7pt}\color{black}\raggedright\sffamily #2\\[7pt]}\\[-3pt]}
 
 
 
