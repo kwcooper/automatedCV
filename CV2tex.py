@@ -18,6 +18,8 @@ import os
 from datetime import date
 from jinja2 import Environment, FileSystemLoader
 
+from getmetrics import grab_metrics
+
 # General Params
 generate_pdf = 1
 engine = 'XeTeX' # pdflatex
@@ -38,6 +40,10 @@ env = Environment(loader=FileSystemLoader(templateFile),
   block_start_string='~{',block_end_string='}~',
   variable_start_string='~{{', variable_end_string='}}~')
 
+
+# Grab the academic metrics for cv stats
+metrics = grab_metrics()
+
 def generate(): 
   body = ""
   for section in yaml_contents['order']: # Iteratavly generate sections TODO: multiple versions
@@ -46,7 +52,8 @@ def generate():
     name = section[1].title()            # Used to select which section template to use
     body += env.get_template(sectionFile).render(
       name = name.upper(),
-      contents = contents
+      contents = contents,
+      metrics = metrics
     )
   # Generate the TeX wrapper and fill it with generated sections
   result = open(resultFile, 'w')
