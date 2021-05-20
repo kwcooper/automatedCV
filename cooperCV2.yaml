@@ -69,45 +69,57 @@ education:
     advisor: Dr. Ehren Newman, Dr. Mike Jones
 
 researchtl:
-  - pi: 
-    area: 
-    when:
+  - pi: Dr. Norbert Fortin
+    area: Neuroscience
+    when: 2019-now
     bullets: 
+      - Non-spatial theta sequences and precession
+      - 11 brain region electrophysiology
 
-  - pi: 
-    area: 
-    when:
+  - pi: the GCCR
+    area: Neuroscience
+    when: 2020-now
     bullets: 
+      - COVID-19 and the chemical senses
 
-  - pi: 
-    area: 
-    when:
+  - pi: ContinualAI Research
+    area: Artificial Intelligence
+    when: 2020-now
     bullets: 
+      - Building tools to aid AI research
 
-  - pi: 
-    area: 
-    when:
+  - pi: Dr. Bruce McNaughton
+    area: Neuroscience
+    when: 2019-2020
     bullets: 
+      - Hippocampal and cortical replay during sleep
 
-  - pi: 
-    area: 
-    when:
+  - pi: Dr. Ehren Newman
+    area: Neuroscience
+    when: 2016-2019
     bullets: 
+      - Computational modeling of ACh + brain oscilations
+      - Enthorinal region electrophysiology
+      - Hippocampal imaging with Miniscopes
+      - Theta + optic flow rodent behavior
 
-  - pi: 
-    area: 
-    when:
+  - pi: Dr. Mike Jones
+    area: Cognitive Science
+    when: 2018-2019
     bullets: 
+      - Catastrophic Forgetting in connectionist language models
 
-  - pi: 
-    area: 
-    when:
+  - pi: Dr. Amit Hagar
+    area: Philosophy + Physics
+    when: 2017-2018
     bullets: 
+      - The natural computation of the brain
 
-  - pi: 
-    area: 
-    when:
-    bullets: 
+  - pi: Dr. Susane Ressl
+    area: Microbiology
+    when: 2015-2016
+    bullets:
+      - Structural biochemistry of synaptic proteins 
 
 
 awards: 
