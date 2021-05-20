@@ -18,7 +18,7 @@ import os
 from datetime import date
 from jinja2 import Environment, FileSystemLoader
 
-from getmetrics import grab_metrics
+from getmetrics import grab_metrics, print_gscholar_stats
 
 # General Params
 generate_pdf = 1
@@ -81,6 +81,9 @@ if generate_pdf:
 if mvPDF: 
   os.system('mv outFiles/cooperCV.pdf cooperCV.pdf')
 
+# Just so we can get a bit of insight since we're 
+# thinking about all of this stuff
+print_gscholar_stats(gsID)
 
 # date.today().strftime("%b %d, %Y")
 
