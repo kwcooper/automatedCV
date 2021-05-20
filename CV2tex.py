@@ -69,9 +69,11 @@ generate() #finally, generate
 if generate_pdf:
 
   if engine == 'pdflatex':
-    cmd = 'pdflatex -output-directory=outFiles ' + resultFile
+    cmd = f'pdflatex -output-directory=outFiles {resultFile}'
   elif engine == 'XeTeX': 
-    cmd = 'xelatex --output-directory=outFiles ' + resultFile
+    # Note, batchmode supresses output, but that also means you don't see warnings... 
+    # Check cooperCV.log in outfiles to get a better view
+    cmd = f'xelatex --interaction=batchmode --halt-on-error --output-directory=outFiles {resultFile} '
 
   print(f'Building PDF ({engine})...') 
   os.system(cmd)
@@ -95,7 +97,7 @@ print_gscholar_stats(gsID)
 #   Create an automatic update log? 
 # 	Add support for bibfile parsing? 
 
-#   Support for google scholar / semantic scholar api for citations, etc? 
+#   Support for google scholar / semantic scholar api for citations, etc? -> working!
 
 # 	What about a resume? Coverletter? ETC...
 
