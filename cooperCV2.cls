@@ -45,7 +45,7 @@
 
 % sudo apt-get install texlive-fonts-recommended
 
-%\newfontfamily{\AI}{academicons.ttf}
+% https://mirrors.concertpass.com/tex-archive/fonts/academicons/academicons.pdf
 \usepackage{academicons} % requires xelatex / lualatex
 
 %\definecolor{orcidlogocol}{HTML}{A6CE39}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  20 MAY 2021 03:55
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  20 MAY 2021 04:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,141 +1124,175 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--103
  []
 
 
-Overfull \hbox (10.23128pt too wide) in paragraph at lines 129--138
+Overfull \hbox (10.23128pt too wide) in paragraph at lines 131--132
 [][][]| $[]$ 
  []
 
 
-Overfull \hbox (10.23128pt too wide) in paragraph at lines 129--138
-[][]| $[]$ 
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
  []
 
 
-Overfull \hbox (10.23128pt too wide) in paragraph at lines 129--138
-[][]| $[]$ 
+Overfull \hbox (10.23128pt too wide) in paragraph at lines 133--134
+[][][]| $[]$ 
  []
 
 
-Overfull \hbox (10.23128pt too wide) in paragraph at lines 129--138
-[][]| $[]$ 
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
  []
 
 
-Overfull \hbox (10.23128pt too wide) in paragraph at lines 129--138
-[][]| $[]$ 
+Overfull \hbox (10.23128pt too wide) in paragraph at lines 135--136
+[][][]| $[]$ 
  []
 
 
-Overfull \hbox (10.23128pt too wide) in paragraph at lines 129--138
-[][]| $[]$ 
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
  []
 
 
-Overfull \hbox (10.23128pt too wide) in paragraph at lines 129--138
-[][]| $[]$ 
+Overfull \hbox (10.23128pt too wide) in paragraph at lines 137--138
+[][][]| $[]$ 
  []
 
 
-Overfull \hbox (10.23128pt too wide) in paragraph at lines 129--138
-[][]| $[]$ 
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--138
+Overfull \hbox (10.23128pt too wide) in paragraph at lines 139--140
+[][][]| $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Overfull \hbox (10.23128pt too wide) in paragraph at lines 141--142
+[][][]| $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Overfull \hbox (10.23128pt too wide) in paragraph at lines 143--144
+[][][]| $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Overfull \hbox (10.23128pt too wide) in paragraph at lines 145--146
+[][][]| $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
 Missing character: There is no — ("2014) in font phvr8t!
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 273.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 296.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 273.
+(Font)              <8> on input line 296.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 273.
+(Font)              <6> on input line 296.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 311.
+(hyperref)                removing `\\' on input line 339.
 
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-50.
+78.
 (/home/k/texlive/2021/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 ) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 393--393
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--462
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 463--469
+Underfull \hbox (badness 10000) in alignment at lines 491--497
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 489--489
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 563--563
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 574--574
+Underfull \hbox (badness 10000) in paragraph at lines 602--602
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--628
+Underfull \hbox (badness 10000) in paragraph at lines 656--656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
+Underfull \hbox (badness 10000) in paragraph at lines 713--713
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 685.
+(hyperref)                removing `\\' on input line 713.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 719--720
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
 
  []
 
-[5]
 Missing character: There is no ’ ("2019) in font phvr8t!
 Missing character: There is no ’ ("2019) in font phvr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 776--776
+Underfull \hbox (badness 10000) in paragraph at lines 804--804
 
  []
 
@@ -1266,19 +1300,20 @@ Missing character: There is no ‘ ("2018) in font phvro8t!
 Missing character: There is no ’ ("2019) in font phvro8t!
 Missing character: There is no ’ ("2019) in font phvro8t!
 Missing character: There is no – ("2013) in font phvro8t!
-Missing character: There is no ’ ("2019) in font phvro8t!
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 882--882
+Missing character: There is no ’ ("2019) in font phvro8t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--910
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 885--887
+Underfull \hbox (badness 10000) in paragraph at lines 913--915
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 889--891
+Underfull \hbox (badness 10000) in paragraph at lines 917--919
 
  []
 
