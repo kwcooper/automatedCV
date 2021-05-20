@@ -16,9 +16,9 @@ order:
   - [publications, PUBLICATIONS] 
   - [abstracts_talks, ABSTRACTS]
   - [pedagogy, PEDAGOGY]
+  - [mentee, MENTEE]
   - [networks, NETWORKS]
   - [outreach, OUTREACH]
-  - [mentee, MENTEE]
   - [referee, REFEREE]
   - [uniserv, UNISERV]
   - [trainings, TRAININGS]
@@ -126,68 +126,84 @@ networks: # add active and inactive?
   #     - "Midwest Undergraduate Cognitive Science Conference"
 
 pedagogy:
-  - courses:
-    - name: "Autonomous Robotics"
-      code: "(CSCI-B355)"
-      where: "Indiana Univ."
-      title: "Co-Instructor" 
-      sem: "Sp"
-      when: "2019" 
+  - instructBlock:
+
+    - instructType: 
+      - title: "as Co-Instructor"
+      - courses: 
+        - name: "Autonomous Robotics"
+          code: "(CSCI-B355)"
+          where: "Indiana Univ."
+          title: "Co-Instructor" 
+          sem: "Sp"
+          when: "2019" 
+          enroll: 18 
+          
+        - name: "Programming in Cognitive Sciences"
+          code: "(COGS-Q 260)"
+          where: "Indiana Univ."
+          title: "Co-Instructor"
+          sem: "Sp"
+          when: "2018"
+          enroll: 27
+
+    - instructType: 
+      - title: "as Teaching Assistant"
+      - courses: 
       
-    - name: "Programming in Cognitive Sciences"
-      code: "(COGS-Q 260)"
-      where: "Indiana Univ."
-      title: "Co-Instructor"
-      sem: "Sp"
-      when: "2018"
+        - name: "Mind, Memory, and the Brain"
+          code: "(Bio Sci 38)"
+          where: "UC Irvine"
+          title: "Teaching Assistant"
+          sem: "Sp"
+          when: "2021" 
+          prof: Dr. Lew
+          enroll: 142 
 
-    - name: "Mind, Memory, and the Brain"
-      code: "(Bio Sci 38)"
-      where: "UC Irvine"
-      title: "Teaching Assistant"
-      sem: "Sp"
-      when: "2021" 
-      prof: Dr. Lew
+        - name: "Neurobiology and Behavior Laboratory"
+          code: "(Bio Sci N113L)"
+          where: "UC Irvine"
+          title: "Teaching Assistant"
+          sem: "Wt"
+          when: "2020" 
+          prof: Dr. Lew
+          enroll: 196
 
-    - name: "Neurobiology and Behavior Laboratory"
-      code: "(Bio Sci N113L)"
-      where: "UC Irvine"
-      title: "Teaching Assistant"
-      sem: "Wt"
-      when: "2020" 
-      prof: Dr. Lew
+        - name: "Neurobiology and Behavior Laboratory"
+          code: "(Bio Sci N113L)"
+          where: "UC Irvine"
+          title: "Teaching Assistant"
+          sem: "Fa"
+          when: "2020" 
+          prof: Dr. Lew
+          enroll: 93
 
-    - name: "Neurobiology and Behavior Laboratory"
-      code: "(Bio Sci N113L)"
-      where: "UC Irvine"
-      title: "Teaching Assistant"
-      sem: "Fa"
-      when: "2020" 
-      prof: Dr. Lew
+        - name: "Brain and Behavior"
+          code: "(Bio Sci 35)"
+          where: "UC Irvine"
+          title: "Teaching Assistant"
+          sem: "Fa"
+          when: "2020"
+          prof: Dr. Lew
+          enroll: 366
 
-    - name: "Brain and Behavior"
-      code: "(Bio Sci 35)"
-      where: "UC Irvine"
-      title: "Teaching Assistant"
-      sem: "Fa"
-      when: "2020"
-      prof: Dr. Lew
+        - name: "Cognitive Psychology"
+          code: "(PSY-P 335)"
+          where: "Indiana Univ."
+          title: "Teaching Assistant"
+          sem: "Fa"
+          when: "2018"
+          prof: Dr. Pestilli
+          enroll: 80
 
-    - name: "Cognitive Psychology"
-      code: "(PSY-P 355)"
-      where: "Indiana Univ."
-      title: "Teaching Assistant"
-      sem: "Fa"
-      when: "2018"
-      prof: Dr. Pestilli
-
-    - name: "Introduction to Neuroscience"
-      code: "(PSY-P 346)"
-      where: "Indiana Univ."
-      title: "Teaching Assistant"
-      sem: "Fa"
-      when: "2017" 
-      prof: Dr. Newman
+        - name: "Introduction to Neuroscience"
+          code: "(PSY-P 346)"
+          where: "Indiana Univ."
+          title: "Teaching Assistant"
+          sem: "Fa"
+          when: "2017" 
+          prof: Dr. Newman
+          enroll: 106
   # - commseats:
   #   - title: "Committee"
   #   - experience:
@@ -480,7 +496,7 @@ abstracts_talks:
       year: 2021
       venue: ContinualAI Meetup
       link: "https://www.youtube.com/watch?v=EyO1eM0-Hi8&t=190s"
-      nums: 
+      nums: ""
 
     - title: "Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons"
       authors: "Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J."

@@ -39,7 +39,7 @@
 ~{{ con.currentPosition }}~\\
 \href{~{{ con.departmentURL }}~}{ ~{{ con.department }}~ }\\
 \href{~{{ con.workplaceURL }}~}{ ~{{ con.workplace }}~ }\\
-\textit{\textcolor{grey}{CV last updated \today}}}
+\textit{\textcolor{grey}{\aiCV \hspace{0.05cm} last updated \today}}}
 
 &
 \parbox[m][4\baselineskip]{\spacewidth}{} &
@@ -48,7 +48,7 @@
 \parbox{\rcollength}{%
 \null \href{~{{ con.emailURL }}~}{\faEnvelope \hspace{0.05cm} ~{{ con.email }}~} \\
 \null \href{~{{ con.websiteURL }}~}{\faHome \hspace{0.05cm} ~{{ con.website }}~}\\
-\null \href{~{{ con.orcidURL }}~}{\orcid \hspace{0.05cm} ~{{ con.orcid }}~}\\
+\null \href{~{{ con.orcidURL }}~}{\aiOrcid \hspace{0.05cm} ~{{ con.orcid }}~}\\
 \null \href{~{{ con.twitterURL }}~}{\faTwitter \hspace{0.05cm} ~{{ con.twitter }}~}\\
 %\null \href{http://www.kwcooper.com/}{\faGithub \hspace{0.05cm} kwcooper}\\
 }
@@ -195,17 +195,8 @@
 %	TEACHING
 %------------------------------------------------------------------------------
 
-\section{Teaching}
 
-\begin{longtable}{@{} l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l @{\extracolsep{\fill}} l @{}}
-	~{ for courseobj in contents }~ 
-	~{ for course in courseobj.courses }~
 
-	~{{ course.name }}~ & \textcolor{grey}{\textit{~{{ course.title }}~}} & \textcolor{grey}{\textit{~{{ course.where }}~}} &   \textcolor{grey}{\textit{~{{ course.sem }}~}} ~{{ course.when }}~\\
-	
-	~{ endfor }~
-	~{ endfor }~
-\end{longtable}
 
 
 

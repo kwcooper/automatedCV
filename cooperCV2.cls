@@ -19,13 +19,16 @@
 % to find avaliable fonts on unix system, use `fc-list : family`
 % see also: https://www.overleaf.com/learn/latex/Font_typefaces#:~:text=Computer%20Modern%20(default%20in%20standard,Palatino%2C%20Bookman%2C%20Helvetica%2C%20Courier
 
+\usepackage{fontspec}
+
 %\usepackage{roboto} 
-%\usepackage{helvet}
-\usepackage{courier}
+\usepackage{helvet}
+%\usepackage{courier}
 %\usepackage{tgadventor}
 %\usepackage[default]{raleway} % OG
 %\usepackage{times} % OG
 \renewcommand{\familydefault}{\sfdefault}
+
 
 \usepackage{moresize}             % Provides more font size commands (\HUGE and \ssmall)
 \usepackage[utf8]{inputenc}       % Required for inputting international characters
@@ -39,9 +42,12 @@
 \usepackage[shortcuts]{extdash}    % Helps LaTeX auto-hyphenate hyphenated words 
 
 
+% sudo apt-get install texlive-fonts-recommended
 
-% \usepackage{academicons} % requires xelatex
-% \definecolor{orcidlogocol}{HTML}{A6CE39}
+%\newfontfamily{\AI}{academicons.ttf}
+\usepackage{academicons} % requires xelatex / lualatex
+
+%\definecolor{orcidlogocol}{HTML}{A6CE39}
 
 % My old command directly importing the image... 
 \newcommand{\orcid}{{\includegraphics[width=10pt]{img/orcid.png}}} % cutom for orcidID
@@ -159,7 +165,7 @@
 %% These lines put page number in bottom (center) of pages 2--end
 \cfoot{\hspace{\footpageshift}%
        \parbox{4in}{\hspace*{-2\footpageshift} \hfil
-	\textit{\footnotesize\textcolor{grey}{curriculum vitae ~~~·~~~ K. W. Cooper}} \hfill }}
+	\textit{\footnotesize\textcolor{grey}{Keiland W. Cooper $\cdot$ curriculum vitae}} \hfill }}
 
 \rfoot{\hspace{\footpageshift}%
        \parbox{4in}{\hspace*{2\footpageshift}\hfil \small\textcolor{grey}{\arabic{page}} \hfil}
