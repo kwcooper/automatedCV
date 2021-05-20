@@ -21,9 +21,10 @@ from jinja2 import Environment, FileSystemLoader
 from getmetrics import grab_metrics, print_gscholar_stats
 
 # General Params
-generate_pdf = 1
+generate_pdf = True
 engine = 'XeTeX' # pdflatex
-mvPDF = 1         # TODO: platform independant pls
+mvPDF = True         # TODO: platform independant pls
+compileTwice = True
 
 # Path information
 yamlFile = "cooperCV2.yaml"              # The text database
@@ -77,7 +78,7 @@ if generate_pdf:
 
   print(f'Building PDF ({engine})...') 
   os.system(cmd)
-  os.system(cmd) # compile twice? 
+  if compileTwice: os.system(cmd) # compile twice? 
 
 # move the PDF out of the result dir
 if mvPDF: 

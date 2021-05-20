@@ -53,10 +53,10 @@ def parse_gscholar_citations(gsID):
 
 
 def print_gscholar_stats(gsID):
-
+	''' pretty print function for scholar stats'''
 	author = load_scholar_author(gsID)
 
-	print('Google Scholar Stats:')
+	print('\nGoogle Scholar Stats:')
 	print("------------------------")
 	print(author['name'])
 	print(author['affiliation'])
@@ -66,7 +66,8 @@ def print_gscholar_stats(gsID):
 
 
 def grab_metrics(gsID=None):
-	""" """
+	""" grabs all metrics of interest and packages them in a dict 
+		Top level function, in the future should support more than scholar """
 
 	if gsID != None:
 		scholar_cites = parse_gscholar_citations(gsID)

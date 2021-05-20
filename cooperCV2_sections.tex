@@ -142,10 +142,6 @@
 \needspace{\headerpush}
 \myRule{\columnwidth}{1pt}\\
 
-\textit{Total citations as of last update:}\\
-\aiGoogleScholar \hspace{0.05cm} Google Scholar: ~{{ metrics.gs_citations }}~
-% \aiSemanticScholar \hspace{0.05cm} Semantic Scholar: XX\\
-% \aiPublons \hspace{0.05cm} Publons: XX\\
 
 ~{ for pubobj in contents }~ 
 ~{ if loop.index0 == 0 }~ 
@@ -172,7 +168,10 @@
 
 ~{ endfor }~
 
-
+\vspace{0.5cm}
+\textit{Total citations (as of last update):} \aiGoogleScholar \hspace{0.05cm} Google Scholar: \textbf{~{{ metrics.gs_citations }}~}
+% \aiSemanticScholar \hspace{0.05cm} Semantic Scholar: XX\\
+% \aiPublons \hspace{0.05cm} Publons: XX\\
 
 
 

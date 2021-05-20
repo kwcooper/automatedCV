@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  20 MAY 2021 07:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  20 MAY 2021 08:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1140,82 +1140,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
 Missing character: There is no — ("2014) in font phvr8t!
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 296.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 297.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 296.
+(Font)              <8> on input line 297.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 296.
+(Font)              <6> on input line 297.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 339.
+(hyperref)                removing `\\' on input line 338.
 
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 3
-78.
+77.
 (/home/k/texlive/2021/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 ) [3]
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--490
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 491--497
+Underfull \hbox (badness 10000) in alignment at lines 490--496
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--517
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
+Underfull \hbox (badness 10000) in paragraph at lines 562--562
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 601--601
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 631--631
+Underfull \hbox (badness 10000) in paragraph at lines 630--630
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 656--656
+Underfull \hbox (badness 10000) in paragraph at lines 655--655
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 713--713
+Underfull \hbox (badness 10000) in paragraph at lines 712--712
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 713.
+(hyperref)                removing `\\' on input line 712.
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 747--748
+Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
  []
 
 Missing character: There is no ’ ("2019) in font phvr8t!
 Missing character: There is no ’ ("2019) in font phvr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 804--804
+Underfull \hbox (badness 10000) in paragraph at lines 803--803
 
  []
 
@@ -1226,17 +1226,17 @@ Missing character: There is no – ("2013) in font phvro8t!
 [6]
 Missing character: There is no ’ ("2019) in font phvro8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 910--910
+Underfull \hbox (badness 10000) in paragraph at lines 909--909
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 913--915
+Underfull \hbox (badness 10000) in paragraph at lines 912--914
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--919
+Underfull \hbox (badness 10000) in paragraph at lines 916--918
 
  []
 
@@ -1244,12 +1244,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 917--919
 AED: lastpage setting LastPage
 [7] (outFiles/cooperCV.aux)
 Package rerunfilecheck Info: File `cooperCV.out' has not changed.
-(rerunfilecheck)             Checksum: F24FF5F15ACBEC4C6668F1797B6DDB03;1944.
+(rerunfilecheck)             Checksum: 82CCAC9CF00DD275A05FA2025BE7A37A;1967.
  ) 
 Here is how much of TeX's memory you used:
  27099 strings out of 476765
  545212 string characters out of 5820652
- 915768 words of memory out of 5000000
+ 915791 words of memory out of 5000000
  46750 multiletter control sequences out of 15000+600000
  425604 words of font info for 69 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
