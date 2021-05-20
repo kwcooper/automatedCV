@@ -17,6 +17,6 @@ On macOS, get pdflatex via: http://www.tug.org/mactex/ (Note: this is a big down
 
 You can confirm this installs what you need with: `which pdflatex` where you should see the path to the right file. 
 
-On linux, you can install it with ... `(to be added soon...)`
+On linux, you can install it with the steps outlined [here](https://www.tug.org/texlive/quickinstall.html). The full install of TeX Live is recomended, and for full functionality, XeTeX is reccomended. 
 
 
