@@ -95,7 +95,7 @@ researchtl:
       - Hippocampal and cortical replay during sleep
 
   - pi: Dr. Ehren Newman
-    area: Neuroscience
+    area: Neuroscience / Cognitive Science
     when: 2016-2019
     bullets: 
       - Computational modeling of ACh + brain oscilations
@@ -553,7 +553,7 @@ abstracts_talks:
     - title: "Deep neural network models learn distinguishable features from hippocampal local field potential and ensemble data"
       authors: "Pan, C. J., Cooper, K. W., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Baldi, P.,  Shahbaba, B., Fortin, N. J."
       year: 2021
-      venue: "UROP"
+      venue: "UROP Symposium"
       link: ""
       nums: ""
 
