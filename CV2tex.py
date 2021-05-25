@@ -47,9 +47,11 @@ print('Computing metrics... Please wait')
 gsID = 'nCEUdSoAAAAJ'
 metrics = grab_metrics(gsID=gsID)
 
+
+
 def generate(): 
   body = ""
-  for section in yaml_contents['order']: # Iteratavly generate sections TODO: multiple versions
+  for section in yaml_contents['order']: # iterate and generate sections TODO: multiple versions
     print(section)
     contents = yaml_contents[section[0]] # Append the section info to the 
     name = section[1].title()            # Used to select which section template to use

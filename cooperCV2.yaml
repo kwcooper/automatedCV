@@ -99,7 +99,7 @@ researchtl:
     when: 2016-2019
     bullets: 
       - Computational modeling of ACh + brain oscilations
-      - Enthorinal region electrophysiology
+      - Entorhinal region electrophysiology
       - Hippocampal imaging with Miniscopes
       - Theta + optic flow rodent behavior
 
@@ -469,7 +469,7 @@ publications:
         # nums: ""
         # link: ""
       - title: "Avalanche: an End-to-End Library for Continual Learning"
-        authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni"
+        authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... \\textbf{Keiland Cooper}, ... Davide Bacciu, Davide Maltoni"
         year: 2021
         journal: "arXiv preprint"
         nums: "2104.00405"
@@ -549,6 +549,13 @@ publications:
 
 abstracts_talks:
   - abstracts:
+
+    - title: "Deep neural network models learn distinguishable features from hippocampal local field potential and ensemble data"
+      authors: "Pan, C. J., Cooper, K. W., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Baldi, P.,  Shahbaba, B., Fortin, N. J."
+      year: 2021
+      venue: "UROP"
+      link: ""
+      nums: ""
 
     - title: "Avalanche: an End-to-End Library for Continual Learning"
       authors: "Cooper K.W., Lomonaco, V., Pellegrini, L., Carta, A., Cossu, A., Graffieti, G."
