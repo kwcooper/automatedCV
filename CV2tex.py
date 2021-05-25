@@ -18,7 +18,7 @@ import os
 from datetime import date
 from jinja2 import Environment, FileSystemLoader
 
-from getmetrics import grab_metrics, print_gscholar_stats
+from getmetrics import grab_metrics, print_stats
 from utils import format_authors
 
 # General Params
@@ -91,7 +91,7 @@ if mvPDF:
 
 # Just so we can get a bit of insight since we're 
 # thinking about all of this stuff
-print_gscholar_stats(gsID)
+print_stats(gsID, ssID)
 
 # date.today().strftime("%b %d, %Y")
 

@@ -75,12 +75,14 @@ def print_gscholar_stats(gsID):
 #--------------------------------------------
 
 def fetch_semantic_papers(author):
-    filled_papers = []
-    for pi in range(len(author['papers'])):
-        paper_link = author['papers'][pi]['paperId']
-        paper = sch.paper(paper_link, timeout=2)
-        filled_papers.append(paper)
-    return filled_papers
+	'''Queries semantic scholar to download info for all papers 
+	named in a given author object'''
+	filled_papers = []
+	for pi in range(len(author['papers'])):
+		paper_link = author['papers'][pi]['paperId']
+		paper = sch.paper(paper_link, timeout=2)
+		filled_papers.append(paper)
+	return filled_papers
 
 
 def fetch_semantic_author(ssID, fillpapers=True):
@@ -125,17 +127,17 @@ def load_semantic_author(ssID):
 	return author
 
 def parse_semantic_citations(ssID):
-    """ Compute the total number of citations
-    for a filled semantic scholar author """
-    author = load_semantic_author(ssID)
-    try:
-        total_citations = 0
-        for pi in range(len(author['filledpapers'])):
-            total_citations += author['filledpapers'][pi]['numCitedBy']
-        return total_citations
-    except KeyError:
-        print('Need to fill papers')
-        # TODO: add logic to fill papers if needed
+	""" Compute the total number of citations
+	for a filled semantic scholar author """
+	author = load_semantic_author(ssID)
+	try:
+		total_citations = 0
+		for pi in range(len(author['filledpapers'])):
+			total_citations += author['filledpapers'][pi]['numCitedBy']
+		return total_citations
+	except KeyError:
+		print('Need to fill papers')
+		# TODO: add logic to fill papers if needed
 
 
 
@@ -165,3 +167,26 @@ def grab_metrics(gsID=None, ssID=None):
 	metrics['ss_citations'] = semantic_cites
 
 	return metrics
+
+
+def print_stats(gsID=None, ssID=None):
+	''' pretty print function for scholar stats'''
+	if gsID is not None:
+		author = load_scholar_author(gsID)
+
+		print(f"\n{author['name']}")
+		print(author['affiliation'])
+		print('\nGoogle Scholar Stats:')
+		print("------------------------")
+		print("citedby:", author['citedby'])
+		print("hindex:", author['hindex'])
+		print("n publications:", len(author['publications']))
+
+	if ssID is not None:
+		sauthor = load_semantic_author(ssID)
+		semantic_cites = parse_semantic_citations(ssID)
+		print('\nSemantic Scholar Stats:')
+		print("------------------------")
+		print("citedby:", semantic_cites)
+
+
