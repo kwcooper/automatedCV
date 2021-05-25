@@ -1,4 +1,4 @@
-# curriculumVitae
+# Automated Curriculum Vitae
 
 CV's are a great source of structured data, and automating the process seems like a logical next step. 
 
@@ -10,6 +10,7 @@ Here is my approach:
 
 If all that seems too complicated, and you don't want the added metric functionality or structured data, you could still use my template by just taking the output tex file and class file, editing it manually, and running it through your favorite tex engine.  
 
+![A picture of the first four pages of Keiland Cooper s automated curriculum Vitae](img/automatedCV_pdf_alpha2.0.png)
 
 ### How to install LaTeX
 
