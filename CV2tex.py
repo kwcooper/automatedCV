@@ -46,7 +46,8 @@ env = Environment(loader=FileSystemLoader(templateFile),
 # Grab the academic metrics for cv stats
 print('Computing metrics... Please wait')
 gsID = 'nCEUdSoAAAAJ'
-metrics = grab_metrics(gsID=gsID)
+ssID = 89510954
+metrics = grab_metrics(gsID=gsID, ssID=ssID)
 
 
 

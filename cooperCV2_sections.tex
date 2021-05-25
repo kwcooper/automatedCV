@@ -170,10 +170,11 @@
 ~{ endfor }~
 
 \vspace{0.5cm}
-\textit{Total citations (as of last update):} \aiGoogleScholar \hspace{0.05cm} Google Scholar: \textbf{~{{ metrics.gs_citations }}~}
-% \aiSemanticScholar \hspace{0.05cm} Semantic Scholar: XX\\
+\textcolor{grey}{
+\textit{Total citations (as of last update):} \\
+\textbf{\aiGoogleScholar} \hspace{0.05cm} Google Scholar: \textbf{~{{ metrics.gs_citations }}~} | \textbf{\aiSemanticScholar} \hspace{0.05cm} Semantic Scholar: \textbf{~{{ metrics.ss_citations }}~}\\
 % \aiPublons \hspace{0.05cm} Publons: XX\\
-
+}
 
 
 ~{ elif name == "ABSTRACTS" }~
