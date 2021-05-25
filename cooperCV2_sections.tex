@@ -154,7 +154,7 @@
 				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     ~{ for pub in pubobj.pubs  }~
     \item ~{{ pub.title }}~ \\
-     ~{{ pub.authors }}~. (~{{ pub.year }}~) ~{{ pub.journal }}~ ~{{ pub.numbers }}~
+     ~{{ bold_author(pub.authors) }}~. (~{{ pub.year }}~) ~{{ pub.journal }}~ ~{{ pub.numbers }}~
      ~{ if pub.highlights }~
      	\begin{list}{$\drsh$}{}
      	~{ for hlt in pub.highlights }~
@@ -186,7 +186,7 @@
 \begin{etaremune}[itemindent=-1.5\bibhang, topsep=0pt,
 				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     ~{ for abst in abstobj.abstracts  }~
-    \item ~{{ abst.title }}~\\ ~{{ abst.authors }}~. (~{{ abst.year }}~) ~{{ abst.venue }}~. ~{{ abst.nums }}~
+    \item ~{{ abst.title }}~\\ ~{{ bold_author(abst.authors) }}~. (~{{ abst.year }}~) ~{{ abst.venue }}~. ~{{ abst.nums }}~
      ~{ if abst.highlights }~
      	\begin{innerlist}
      	~{ for hlt in abst.highlights }~

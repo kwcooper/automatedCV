@@ -469,7 +469,7 @@ publications:
         # nums: ""
         # link: ""
       - title: "Avalanche: an End-to-End Library for Continual Learning"
-        authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... \\textbf{Keiland Cooper}, ... Davide Bacciu, Davide Maltoni"
+        authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni"
         year: 2021
         journal: "arXiv preprint"
         nums: "2104.00405"
@@ -539,7 +539,7 @@ publications:
   - type: "Thesis"
     pubs: 
       - title: "Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
-        authors: "Cooper K. W."
+        authors: "Cooper, K. W."
         year: 2019
         journal: "Indiana University, Bloomington Undergraduate Thesis"
         nums: " "
@@ -558,7 +558,7 @@ abstracts_talks:
       nums: ""
 
     - title: "Avalanche: an End-to-End Library for Continual Learning"
-      authors: "Cooper K.W., Lomonaco, V., Pellegrini, L., Carta, A., Cossu, A., Graffieti, G."
+      authors: "Cooper K. W., Lomonaco, V., Pellegrini, L., Carta, A., Cossu, A., Graffieti, G."
       year: 2021
       venue: ContinualAI Meetup
       link: "https://www.youtube.com/watch?v=EyO1eM0-Hi8&t=190s"
@@ -572,7 +572,7 @@ abstracts_talks:
       nums: ""
 
     - title: "The neuroscience and AI feedback loop: Catastrophic Forgetting and Sequences"
-      authors: "Cooper K. W."
+      authors: "Cooper, K. W."
       year: 2020
       venue: "UCI AGS Symposium"
       link: ""
@@ -586,49 +586,49 @@ abstracts_talks:
       nums: ""
 
     - title: "Dual processes of hippocampal mode switching"
-      authors: "Cooper K. W."
+      authors: "Cooper, K. W."
       year: 2020
       venue: "Neuromatch online Conference"
       link: ""
       nums: ""
 
     - title: "Continual Learning: neuroscience + AI."
-      authors: "Cooper K. W."
+      authors: "Cooper, K. W."
       year: 2020
       venue: "Contiual AI Meetup"
       link: ""
       nums: ""
 
     - title: "Cholinergic abolition disrupts encoding and retrieval mode switching"
-      authors: "Cooper K. W."
+      authors: "Cooper, K. W."
       year: 2020
       venue: "11th Annual Emerging Scientists Symposium"
       link: ""
       nums: ""
 
     - title: "The neuroscience amd AI feedback loop"
-      authors: "Cooper K. W."
+      authors: "Cooper, K. W."
       year: 2019
       venue: "UCI Brain"
       link: ""
       nums: ""
     
     - title: "On neuroscience and AI"
-      authors: "Cooper K. W."
+      authors: "Cooper, K. W."
       year: 2019
       venue: "IUJUR Research Slam"
       link: ""
       nums: ""
 
     - title: "Is theta a traveling wave in the medial entorhinal cortex?"
-      authors: "Hernández J, Cooper K. W., Newman E.L."
+      authors: "Hernández J, Cooper, K. W., Newman E.L."
       year: 2018
       venue: "Program No. 330.10. Society for Neuroscience"
       link: ""
       nums: ""
 
     - title: "Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models"
-      authors: "Cooper K. W, Dachapally P.R, Jones M.N"
+      authors: "Cooper, K. W, Dachapally P.R, Jones M.N"
       year: 2018
       venue: "Midwest CogSci"
       link: ""
@@ -637,35 +637,35 @@ abstracts_talks:
         - h: "Best poster award"
 
     - title: "Is theta in the Medial Entorhinal Cortex a Traveling Wave?"
-      authors: "Cooper K. W., Hernández J, Newman E.L."
+      authors: "Cooper, K. W., Hernández, J., Newman, E.L."
       year: 2018
       venue: "Society for Neuroscience, Greater Indiana Chapter"
       link: ""
       nums: ""
 
     - title: "3D Brain Model Extraction and Virtual Applications"
-      authors: "Cooper K. W."
+      authors: "Cooper, K. W."
       year: 2018
       venue: "(Panelist) Media School Graduate Association Conference"
       link: ""
       nums: ""
 
     - title: "FlapAI: Genetically Evolved Neural Networks"
-      authors: "Cooper K. W."
+      authors: "Cooper, K. W."
       year: 2018 
       venue: "Midwest Undergraduate Cognitive Science Conference"
       link: ""
       nums: ""
 
     - title: "Bridging the Gap: Natural Computation and Neural Systems"
-      authors: "Cooper K. W."
+      authors: "Cooper, K. W."
       year: 2017 
       venue: "Indiana University Undergraduate Research Conference"
       link: ""
       nums: ""
 
     - title: "Downstream Hippocampal Activity Prediction with Neural Networks"
-      authors: "Cooper K. W., Osborn Z."
+      authors: "Cooper, K. W., Osborn, Z."
       year: 2016 
       venue: "Midwest Undergraduate Cognitive Science Conference"
       link: ""

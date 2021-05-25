@@ -19,6 +19,7 @@ from datetime import date
 from jinja2 import Environment, FileSystemLoader
 
 from getmetrics import grab_metrics, print_gscholar_stats
+from utils import bold_author
 
 # General Params
 generate_pdf = True
@@ -58,7 +59,8 @@ def generate():
     body += env.get_template(sectionFile).render(
       name = name.upper(),
       contents = contents,
-      metrics = metrics
+      metrics = metrics,
+      bold_author = bold_author
     )
   # Generate the TeX wrapper and fill it with generated sections
   result = open(resultFile, 'w')
