@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  25 MAY 2021 03:51
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  25 MAY 2021 04:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1170,58 +1170,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--428
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 497--497
+Underfull \hbox (badness 10000) in paragraph at lines 501--501
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 498--504
+Underfull \hbox (badness 10000) in alignment at lines 502--508
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 570--570
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 609--609
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 638--638
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 663--663
+Underfull \hbox (badness 10000) in paragraph at lines 669--669
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 720--720
+Underfull \hbox (badness 10000) in paragraph at lines 726--726
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 720.
+(hyperref)                removing `\\' on input line 726.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 754--755
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
 Missing character: There is no ’ ("2019) in font phvr8t!
 Missing character: There is no ’ ("2019) in font phvr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 811--811
+Underfull \hbox (badness 10000) in paragraph at lines 817--817
 
  []
 
@@ -1232,17 +1232,17 @@ Missing character: There is no ’ ("2019) in font phvro8t!
 Missing character: There is no – ("2013) in font phvro8t!
 Missing character: There is no ’ ("2019) in font phvro8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 917--917
+Underfull \hbox (badness 10000) in paragraph at lines 923--923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--922
+Underfull \hbox (badness 10000) in paragraph at lines 926--928
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 924--926
+Underfull \hbox (badness 10000) in paragraph at lines 930--932
 
  []
 
@@ -1250,12 +1250,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 924--926
 AED: lastpage setting LastPage
 [7] (outFiles/cooperCV.aux)
 Package rerunfilecheck Info: File `cooperCV.out' has not changed.
-(rerunfilecheck)             Checksum: 217402F6A37413B3E9A37C93592400E5;1977.
+(rerunfilecheck)             Checksum: 28A8542ABF9CCBD000AA55BB3E6DD87A;1969.
  ) 
 Here is how much of TeX's memory you used:
  27065 strings out of 476765
  544721 string characters out of 5820652
- 915801 words of memory out of 5000000
+ 915793 words of memory out of 5000000
  46720 multiletter control sequences out of 15000+600000
  425291 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

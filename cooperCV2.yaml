@@ -190,6 +190,13 @@ pedagogy:
     - instructType: 
       - title: "as Co-Instructor"
       - courses: 
+        - name: "Continual Learning"
+          code: ""
+          where: "Neuromatch"
+          sem: "Su"
+          when: "2021"
+          enroll: "TBD"
+
         - name: "Autonomous Robotics"
           code: "(CSCI-B355)"
           where: "Indiana Univ."
@@ -354,6 +361,10 @@ uniserv:
     uni: Indiana University
     year: 2016 - 2017
 
+  - name: Office of First Year Experience
+    uni: Indiana University
+    year: 2015 - 2016
+    
 
 trainings: 
 
