@@ -479,12 +479,12 @@ publications:
         # journal: " "
         # nums: ""
         # link: ""
-      - title: "Avalanche: an End-to-End Library for Continual Learning"
-        authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni"
-        year: 2021
-        journal: "arXiv preprint"
-        nums: "2104.00405"
-        link: "http://arxiv.org/abs/2104.00405"
+      # - title: "Avalanche: an End-to-End Library for Continual Learning"
+      #   authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni"
+      #   year: 2021
+      #   journal: "arXiv preprint"
+      #   nums: "2104.00405"
+      #   link: "http://arxiv.org/abs/2104.00405"
 
       - title: "Hippocampal ensembles represent sequential relationships among discrete nonspatial events"
         authors: "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J."
@@ -495,6 +495,13 @@ publications:
 
   - type: "Peer Reviewed"
     pubs: 
+      - title: "Avalanche: an End-to-End Library for Continual Learning"
+        authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni"
+        year: 2021
+        journal: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+        nums: "3600-3610"
+        link: "https://openaccess.thecvf.com/content/CVPR2021W/CLVision/papers/Lomonaco_Avalanche_An_End-to-End_Library_for_Continual_Learning_CVPRW_2021_paper.pdf"
+
       - title: "Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms."
         authors: "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... and Baguma, M. "
         year: 2020
