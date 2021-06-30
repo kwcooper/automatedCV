@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  25 JUN 2021 15:22
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.19)  29 JUN 2021 04:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1145,83 +1145,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
 Missing character: There is no — ("2014) in font phvr8t!
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 294.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 298.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 294.
+(Font)              <8> on input line 298.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 294.
+(Font)              <6> on input line 298.
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 342--342
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 342.
+(hyperref)                removing `\\' on input line 348.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 428--428
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 502--508
+Underfull \hbox (badness 10000) in alignment at lines 508--514
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
+Underfull \hbox (badness 10000) in paragraph at lines 534--534
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 574--574
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--613
+Underfull \hbox (badness 10000) in paragraph at lines 619--619
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 644--644
+Underfull \hbox (badness 10000) in paragraph at lines 650--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 669--669
+Underfull \hbox (badness 10000) in paragraph at lines 675--675
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 726--726
+Underfull \hbox (badness 10000) in paragraph at lines 732--732
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 726.
+(hyperref)                removing `\\' on input line 732.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--761
+Underfull \hbox (badness 10000) in paragraph at lines 766--767
 
  []
 
 Missing character: There is no ’ ("2019) in font phvr8t!
 Missing character: There is no ’ ("2019) in font phvr8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 817--817
+Underfull \hbox (badness 10000) in paragraph at lines 823--823
 
  []
 
@@ -1232,17 +1232,17 @@ Missing character: There is no ’ ("2019) in font phvro8t!
 Missing character: There is no – ("2013) in font phvro8t!
 Missing character: There is no ’ ("2019) in font phvro8t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 923--923
+Underfull \hbox (badness 10000) in paragraph at lines 929--929
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 926--928
+Underfull \hbox (badness 10000) in paragraph at lines 932--934
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--932
+Underfull \hbox (badness 10000) in paragraph at lines 936--938
 
  []
 
@@ -1255,7 +1255,7 @@ Package rerunfilecheck Info: File `cooperCV.out' has not changed.
 Here is how much of TeX's memory you used:
  27065 strings out of 476765
  544721 string characters out of 5820652
- 915793 words of memory out of 5000000
+ 915792 words of memory out of 5000000
  46720 multiletter control sequences out of 15000+600000
  425291 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

@@ -501,6 +501,8 @@ publications:
         journal: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
         nums: "3600-3610"
         link: "https://openaccess.thecvf.com/content/CVPR2021W/CLVision/papers/Lomonaco_Avalanche_An_End-to-End_Library_for_Continual_Learning_CVPRW_2021_paper.pdf"
+        highlights:
+          - h: "Won CLVision WB Best Library Award"
 
       - title: "Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms."
         authors: "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... and Baguma, M. "
