@@ -1,0 +1,986 @@
+%-------------------------------------------------------------------------------
+% CooperCV.tex: Top level structure file for the LaTeX template
+% Created by K.W.Cooper | 200214     
+%-------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{cooperCV_v1/cooperCV} % Default font size, values from 8-12pt are recommended
+
+\usepackage{fontawesome}           % Required for FontAwesome icons
+\usepackage{fancyhdr}              % Needed to make a pretty header & footer 
+
+% Block hyphens 
+\hyphenpenalty=10000
+
+%----------------------------------------------------------------------------------------
+%	Footer Configuration
+%----------------------------------------------------------------------------------------
+
+\fancyhf{}                         % Clear all header & footer fields
+\pagestyle{fancy}                  % Enable for footer 
+\renewcommand{\headrulewidth}{0pt} % Remove head rule
+
+\fancyfoot{}
+\fancyfoot[C]{\emph{\footnotesize\textcolor{gray}{curriculum vitae ~~~·~~~ K. W. Cooper}}}
+\fancyfoot[R]{\textcolor{gray}{\thepage}}
+
+
+%----------------------------------------------------------------------------------------
+%	Compute the rest of the sections
+%   These are defined in the sections.tex script
+%   Order defined by the CV2tex script 
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%main color
+\definecolor{maincolor}{RGB}{118,13,112}
+\definecolor{maingrey}{RGB}{150,150,150}
+
+\begin{flushright}
+\vspace{3.5mm}
+
+\end{flushright}
+\vspace{-18mm}
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+  
+
+    \begin{center} % TODO: Different font for heading? 
+    \huge\textcolor{black}{Keiland W.}
+    \huge\textcolor{black}{\textbf{Cooper}}
+    \end{center}
+
+    % Draw a line to divide the page
+    \begin{center}
+    \textcolor{gray}{\line(1,0){400}}
+    \end{center}
+
+    % Define links
+    \begin{center}
+    \footnotesize 
+    \href{https://kwcooper.xyz}{\faHome \hspace{0.05cm} kwcooper.xyz | \hspace{0.1cm}}
+    \href{mailto: kwcooper@uci.edu }{\faEnvelope \hspace{0.05cm} kwcooper@uci.edu | \hspace{0.1cm}} 
+    \href{https://github.com/kwcooper}{\faGithub \hspace{0.05cm} kwcooper | \hspace{0.1cm}}
+    \href{https://twitter.com/kw\_cooper}{\faTwitter \hspace{0.05cm} @kw\_cooper }  
+    \end{center}
+
+    \begin{center} 
+    \footnotesize 
+    \href{https://orcid.org/0000-0002-0358-9645}{\orcid \hspace{0.05cm} \footnotesize 0000-0002-0358-9645 } |
+    \footnotesize \emph{\textcolor{gray}{Last updated \today }}   
+    \end{center}
+
+    % Define updated line
+    %\begin{center} \end{center}
+    %\vspace{0.100cm}
+
+  
+
+
+%----------------------------------------------------------------------------------------
+% Education
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+  \cvsect{Education}
+
+  \begin{tabular}{ p{0.15\textwidth} 
+                   p{0.55\textwidth} 
+                   p{0.27\textwidth}}
+  
+  \small\textcolor{gray}{{\emph{  }}} & \textbf{\textcolor{black}{University of California, Irvine}} & {\hfill \small{In progress}}\\
+   \small & {Neurobiology and Behavior, Ph.D.} & {\hfill} \newline\\
+  \small\textcolor{gray}{{\emph{  }}} & \textbf{\textcolor{black}{Indiana University, Bloomington}} & {\hfill \small{May the Fourth, 2019}}\\\small & {Cognitive Science B.S. \emph{Honors}; Neuroscience Cert.} & {\hfill} \\
+   & \small{\textcolor{gray}{Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching}} & {\hfill} \newline \\
+  
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+% Publications
+% Will only create the sections for the parts of the CV that exist. 
+%
+% TODO: Souce from a bibtex file? 
+%  ? 
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Publications}
+
+   
+  \textcolor{gray}{{\emph{Preprints}}} 
+  
+   
+    \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                     p{0.8\textwidth} 
+                     p{0.1\textwidth}} % Keep this constant???
+    
+      \small\textcolor{gray}{{\emph{  }}} & {Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J. (2020). Hippocampal ensembles represent sequential relationships among discrete nonspatial events. (Under review at Nature Communications) } & {\hfill \small{ }} \\ \\
+    
+      \small\textcolor{gray}{{\emph{  }}} & {Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J.,  Cooper, K. W., ... Bouysset, C. (2020). The best COVID-19 predictor is recent smell loss: a cross-sectional study. medRxiv} & {\hfill \small{ }} \\ \\
+     
+    \end{tabular}
+  
+
+   
+  \textcolor{gray}{{\emph{Published}}} 
+  
+   
+    \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                     p{0.8\textwidth} 
+                     p{0.1\textwidth}} % Keep this constant???
+    
+      \small\textcolor{gray}{{\emph{  }}} & {Pierron, D., Pereda-Loth, V., Mantel, M., Moranges, M., Bignon, E., Alva, O.,  Cooper, K. W., ... Dinnella, C. (2020). Smell and taste changes are early indicators of the COVID-19 pandemic and political decision effectiveness. Nature Communications, 11(1), 1-8.} & {\hfill \small{ }} \\ \\
+    
+      \small\textcolor{gray}{{\emph{  }}} & {Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W., 2020. COVID-19 and the chemical senses: supporting players take center stage. Neuron. 107(2), 219-233} & {\hfill \small{ }} \\ \\
+    
+      \small\textcolor{gray}{{\emph{  }}} & {Valentina Parma, Kathrin Ohla, Maria G Veldhuizen, Masha Y Niv, Christine E Kelly, Alyssa J Bakke, Keiland W Cooper, GCCR Consortium (2020). More than just smell-COVID-19 is associated with severe impairment of smell, taste, and chemesthesis. Chemical Senses} & {\hfill \small{ }} \\ \\
+    
+      \small\textcolor{gray}{{\emph{  }}} & {Robert Pellegrino, Keiland W Cooper, Antonella Di Pizio, Paule V Joseph, Surabhi Bhutani, Valentina Parma (2020). Coronaviruses and the chemical senses: past, present, and future. Chemical Senses} & {\hfill \small{ }} \\ \\
+    
+      \small\textcolor{gray}{{\emph{  }}} & {Hernandez-Perez, J. J., Cooper, K. W., Newman, E. L. (2020). Medial entorhinal cortex activates in a traveling wave in the rat. eLife, 9} & {\hfill \small{ }} \\ \\
+    
+      \small\textcolor{gray}{{\emph{  }}} & {Cooper, K. W. (2018). Can the Machine Understand: An Evidence Based Approach to the Chinese Room. IU Journal of Undergraduate Research, 4(1), 82-85} & {\hfill \small{ }} \\ \\
+     
+    \end{tabular}
+  
+
+
+%----------------------------------------------------------------------------------------
+% Abstracts / talks
+% Will only create the sections for the parts of the CV that exist. 
+%
+% TODO: Create new \entry class
+% TODO: SOuce from a bibtex file? 
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Abstracts + Talks}
+
+  \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                   p{0.8\textwidth} 
+                   p{0.1\textwidth}} % Keep this constant???
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2020) The neuroscience \& AI feedback loop: Catastrophic Forgetting and Sequences. UCI AGS Symposium} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2020) The Art of Email. UCI GPS-STEM} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2020) Dual processes of hippocampal mode switching. Neuromatch online Conference} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2020) Continual Learning: neuroscience + AI. Contiual AI Meetup} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2020) Cholinergic abolition disrupts encoding and retrieval mode switching. 11th Annual Emerging Scientists Symposium} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2019) The neuroscience \& AI feedback loop. UCI Brain} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2019) On neuroscience and AI. IUJUR Research Slam} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Hernández J, Cooper K. W., Newman E.L. (2018) Is theta a traveling wave in the medial entorhinal cortex? Program No. 330.10. Society for Neuroscience} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W, Dachapally P.R, Jones M.N (2018) Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models, Midwest CogSci} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W., Hernández J, Newman E.L. (2018) Is theta in the Medial Entorhinal Cortex a Traveling Wave? Society for Neuroscience, Greater Indiana Chapter.} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2018) 3D Brain Model Extraction and Virtual Applications. (Panelist) Media School Graduate Association Conference.} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2018) FlapAI: Genetically Evolved Neural Networks. Midwest Undergraduate Cognitive Science Conference} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W. (2017) Bridging the Gap: Natural Computation and Neural Systems. Indiana University Undergraduate Research Conference.} & {\hfill \small{ }} \\ \\
+  
+  \small\textcolor{gray}{{\emph{  }}} & {Cooper K. W., Osborn Z. (2016) Downstream Hippocampal Activity Prediction with Neural Networks. Midwest Undergraduate Cognitive Science Conference.} & {\hfill \small{ }} \\ \\
+  
+  \end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+% Awards
+%
+% TODO: Later in life I'll add a funded / non-funded section
+%       Fix bolded dates -> make grey? 
+%       Add amounts? Add funder? (maybe in the future...)
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Awards}
+
+\begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                 p{0.55\textwidth} 
+                 p{0.27\textwidth}} % Keep this constant???
+  
+  \small\textcolor{gray}{{\emph{  }}} & DTEI Pedagogical Fellowship & {\hfill \small{2020}}\\
+  
+  \small\textcolor{gray}{{\emph{  }}} & UC Irvine Recruitment Fellowship & {\hfill \small{2019}}\\
+  
+  \small\textcolor{gray}{{\emph{  }}} & National Science Foundation, GRFP \emph{Honorable Mention} & {\hfill \small{2018}}\\
+  
+  \small\textcolor{gray}{{\emph{  }}} & Cognitive Science Outstanding Research Award & {\hfill \small{2019}}\\
+  
+  \small\textcolor{gray}{{\emph{  }}} & Ewing Prize in Philosophy & {\hfill \small{2018}}\\
+  
+  \small\textcolor{gray}{{\emph{  }}} & Cognitive Science Outstanding Contribution Award & {\hfill \small{2018}}\\
+  
+  \small\textcolor{gray}{{\emph{  }}} & Cognitive Science Research Project Award & {\hfill \small{2018}}\\
+  
+  \small\textcolor{gray}{{\emph{  }}} & Cognitive Science Research Project Award & {\hfill \small{2017}}\\
+  
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+% Work
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Higher Education + Pedagogy}
+
+  
+    
+        \textcolor{gray}{{\emph{Co-Instructor}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &   & {\hfill}\textcolor{gray}{\small{}} & {\hfill}\small{}\\ 
+        \end{tabular}
+      
+        \textcolor{gray}{{\emph{}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &  Autonomous Robotics & {\hfill}\textcolor{gray}{\small{Indiana University}} & {\hfill}\small{Sp 2019}\\ 
+        \end{tabular}
+      
+        \textcolor{gray}{{\emph{}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &  Programming in Cognitive and Info Sciences & {\hfill}\textcolor{gray}{\small{Indiana University}} & {\hfill}\small{Sp 2018}\\ 
+        \end{tabular}
+      
+  
+
+  
+    
+        \textcolor{gray}{{\emph{Teaching \newline Assistant}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &   & {\hfill}\textcolor{gray}{\small{}} & {\hfill}\small{}\\ 
+        \end{tabular}
+      
+        \textcolor{gray}{{\emph{}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &  Neurobiology and Behavior Laboratory & {\hfill}\textcolor{gray}{\small{UC Irvine}} & {\hfill}\small{Fa 2020}\\ 
+        \end{tabular}
+      
+        \textcolor{gray}{{\emph{}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &  Brain and Behavior & {\hfill}\textcolor{gray}{\small{UC Irvine}} & {\hfill}\small{Fa 2020}\\ 
+        \end{tabular}
+      
+        \textcolor{gray}{{\emph{}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &  Cognitive Psychology & {\hfill}\textcolor{gray}{\small{Indiana University}} & {\hfill}\small{Fa 2018}\\ 
+        \end{tabular}
+      
+        \textcolor{gray}{{\emph{}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &  Introduction to Neuroscience & {\hfill}\textcolor{gray}{\small{Indiana University}} & {\hfill}\small{Fa 2017}\\ 
+        \end{tabular}
+      
+  
+
+  
+    
+        \textcolor{gray}{{\emph{Committee}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &   & {\hfill}\textcolor{gray}{\small{}} & {\hfill}\small{}\\ 
+        \end{tabular}
+      
+        \textcolor{gray}{{\emph{}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &  Education Policy Committee & {\hfill}\textcolor{gray}{\small{Indiana University}} & {\hfill}\small{ }\\ 
+        \end{tabular}
+      
+        \textcolor{gray}{{\emph{}}} 
+        \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.45\textwidth}
+                        p{0.2\textwidth} 
+                        p{0.16\textwidth}} % Keep this constant???
+        \small &  Faculty Council & {\hfill}\textcolor{gray}{\small{Indiana University}} & {\hfill}\small{ }\\ 
+        \end{tabular}
+      
+  
+ 
+
+%----------------------------------------------------------------------------------------
+% Skills
+%
+%----------------------------------------------------------------------------------------
+ 
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Networks}
+
+  
+    
+       \textcolor{gray}{{\emph{Professional \newline Societies}}} 
+       \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.55\textwidth} 
+                        p{0.27\textwidth}} % Keep this constant???
+      
+      \end{tabular}
+    
+       \textcolor{gray}{{\emph{}}} 
+       \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.55\textwidth} 
+                        p{0.27\textwidth}} % Keep this constant???
+       
+      \small &  Society for Neuroscience & {\hfill}\\ 
+       
+      \small &  Indiana Academy of Science & {\hfill}\\ 
+       
+      \small &  Psi Chi & {\hfill}\\ 
+       
+      \small &  Sigma Xi & {\hfill}\\ 
+       
+      \small &  Sigma Alpha Pi & {\hfill}\\ 
+      
+      \end{tabular}
+    
+  
+
+  
+    
+       \textcolor{gray}{{\emph{Other \newline}}} 
+       \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.55\textwidth} 
+                        p{0.27\textwidth}} % Keep this constant???
+      
+      \end{tabular}
+    
+       \textcolor{gray}{{\emph{}}} 
+       \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.55\textwidth} 
+                        p{0.27\textwidth}} % Keep this constant???
+       
+      \small &  Continual AI \emph{co-founder} & {\hfill}\\ 
+       
+      \small &  Continual Learning AI Research (CLAIR) & {\hfill}\\ 
+       
+      \small &  Carboncopies \emph{volunteer researcher} & {\hfill}\\ 
+       
+      \small &  AI for People & {\hfill}\\ 
+       
+      \small &  Internet Society & {\hfill}\\ 
+       
+      \small &  IU Student Organization for Cognitive Science, President & {\hfill}\\ 
+       
+      \small &  ADAPT Consulting, VP of Project Management & {\hfill}\\ 
+      
+      \end{tabular}
+    
+  
+
+  
+    
+       \textcolor{gray}{{\emph{Conference \newline Committee}}} 
+       \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.55\textwidth} 
+                        p{0.27\textwidth}} % Keep this constant???
+      
+      \end{tabular}
+    
+       \textcolor{gray}{{\emph{}}} 
+       \begin{tabular}{ p{0.15\textwidth} % Keep this constant
+                        p{0.55\textwidth} 
+                        p{0.27\textwidth}} % Keep this constant???
+       
+      \small &  Learning: Fast, Deep, and Shallow & {\hfill}\\ 
+       
+      \small &  Midwest Undergraduate Cognitive Science Conference & {\hfill}\\ 
+      
+      \end{tabular}
+    
+  
+ 
+
+
+%----------------------------------------------------------------------------------------
+% Pedagogy & Higher Education
+%
+% todo: add enrollment? 
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Outreach + Service}
+
+\begin{tabular}{ @{} p{0.15\textwidth} p{0.85\textwidth} @{} }
+  
+  \small \textcolor{gray}{{\emph{ }}} & AskANeuroscientist \small{\textcolor{gray}{{\emph{Founder; Live Q/A via in class video-chat (>400 students) and newsletter}}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & Hoosier STARS \small{\textcolor{gray}{{\emph{Co-founding Director; K-12 science outreach reaching >300 students}}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & Quora Writer \small{\textcolor{gray}{{\emph{Answers to neuroscience and AI questions; ~600k views}}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & CNLM Ambassadors \small{\textcolor{gray}{{\emph{Co-chair; Learning and memory outreach to Southern California}}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & Brain Club @ The Boys and Girls Club \small{\textcolor{gray}{{\emph{Taught primary school aged students about the brain}}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & IU Science Fest \small{\textcolor{gray}{{\emph{Led a booth where people held and learned about sheep brains}}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & Celebrate Science Indiana \small{\textcolor{gray}{{\emph{Large scale outreach event, led an EEG and sheep brain booth}}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & Kirkwood Observatory Guide \small{\textcolor{gray}{{\emph{Volunteer astronomical guide at the Bloomington observatory}}}} \\
+  
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+% Trainings, Workshops, etc.
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Trainings, Workshops, etc.}
+
+\begin{tabular}{ @{} p{0.15\textwidth} p{0.60\textwidth} p{0.20\textwidth} @{} }
+  
+  \small & {\small Estes Cognitive Electrophysiology Workshop} & \hfill {\small \textcolor{gray}{{\emph{UPenn}}}} \\
+  
+  \small & {\small NIH Grant Writing Workshop} & \hfill {\small \textcolor{gray}{{\emph{UC Irvine}}}} \\
+  
+  \small & {\small HHMI Productivity Workshop} & \hfill {\small \textcolor{gray}{{\emph{UC Irvine}}}} \\
+  
+  \small & {\small Nonlinear Dynamics: Mathematical and Computational Approaches} & \hfill {\small \textcolor{gray}{{\emph{Santa Fe Institute}}}} \\
+  
+  \small & {\small Complexity Science} & \hfill {\small \textcolor{gray}{{\emph{Santa Fe Institute}}}} \\
+  
+  \small & {\small Science Communication Workshop} & \hfill {\small \textcolor{gray}{{\emph{Indiana University}}}} \\
+  
+  \small & {\small High Performance Computing and Supercomputing Workshop, UITS} & \hfill {\small \textcolor{gray}{{\emph{Indiana University}}}} \\
+  
+  \small & {\small Aseptic Surgery: Proper Practice Training} & \hfill {\small \textcolor{gray}{{\emph{Indiana University}}}} \\
+  
+  \small & {\small Animal Handling and Animal Care Training} & \hfill {\small \textcolor{gray}{{\emph{Indiana University}}}} \\
+  
+  \small & {\small IUNI Network Science Workshop} & \hfill {\small \textcolor{gray}{{\emph{Indiana University}}}} \\
+  
+  \small & {\small Pediatric Neurosurgery Shadowing} & \hfill {\small \textcolor{gray}{{\emph{Riley Hospital}}}} \\
+  
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+% Press
+%----------------------------------------------------------------------------------------
+% TODO: add link section. 
+% TODO: format better, maybe space out more? 
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Press}
+
+\begin{tabular}{ @{} p{0.15\textwidth} p{0.80\textwidth} @{} }
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Bob Curley (July 7, 2020) Lifestyle Changes You Can Make to Help Lower the 19 Risk Factors for Alzheimer’s. Healthline } \footnotesize \textcolor{gray}{\href{https://www.healthline.com/health-news/alzheimers-risk-factors-lifestyle-changes\#The-impact-of-lifestyle}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Salynn Boyles (July 6, 2020) Majority of Patients with Mild Covid-19 Experience Altered Smell/Taste. Physicians Weekly } \footnotesize \textcolor{gray}{\href{https://www.physiciansweekly.com/majority-of-patients-with-mild-covid-19-experience-altered-smell-taste/}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Katie Boateng (June 15, 2020) Episode 64 - An Interview with Some of the Authors. The Smell Podcast } \footnotesize \textcolor{gray}{\href{https://podcasts.apple.com/us/podcast/the-smell-podcast/id1429270582?i=1000477261620}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Leslie Kay (June 13, 2020) Why COVID-19 Makes People Lose Their Sense of Smell. Scientific American } \footnotesize \textcolor{gray}{\href{https://www.scientificamerican.com/article/why-covid-19-makes-people-lose-their-sense-of-smell1/}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small John E Hayes, Valentina Parma (June 4, 2020) COVID-19, smell and taste – how is COVID-19 different from other respiratory diseases? The Conversation } \footnotesize \textcolor{gray}{\href{https://theconversation.com/covid-19-smell-and-taste-how-is-covid-19-different-from-other-respiratory-diseases-139543}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Anthony Cusumano (February 2, 2020) What a difference a decade makes. Katalys Tech } \footnotesize \textcolor{gray}{\href{https://katalysttech.com/blog/what-a-difference-a-decade-makes/}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Kevin Casey (September 30, 2019)  5 AI fears and how to address them. The Enterprisers Project } \footnotesize \textcolor{gray}{\href{https://enterprisersproject.com/article/2019/9/artificial-intelligence-ai-fears-how-address}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Kevin Casey (September 17, 2019) How to explain natural language processing (NLP) in plain English. The Enterprisers Project } \footnotesize \textcolor{gray}{\href{https://enterprisersproject.com/article/2019/9/natural-language-processing-nlp-explained-plain-english}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small David Roe (August 27, 2019) Is Augmented Artificial Intelligence Already Disrupting Artificial Intelligence? CMS Wire } \footnotesize \textcolor{gray}{\href{https://www.cmswire.com/digital-workplace/is-augmented-artificial-intelligence-already-disrupting-artificial-intelligence/}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Kristine Fellizar (August 7, 2019) Why Is My Arm Asleep? 6 Reasons Your Limbs Go Numb When You're Sleeping. Bustle } \footnotesize \textcolor{gray}{\href{https://www.bustle.com/p/why-is-my-arm-asleep-6-reasons-your-limbs-go-numb-when-youre-sleeping-18552723}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Lauren Wellbank (August 1, 2019) Neuralink Update: How far off is Elon Musk’s high tech vision for our brains? Parentology } \footnotesize \textcolor{gray}{\href{https://parentology.com/neuralink-how-far-off-is-elon-musks-high-tech-vision-for-our-brains/}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Tina Arnoldi (July 19, 2019) Ready for Amazon to Read Human Emotions? Theravive } \footnotesize \textcolor{gray}{\href{https://www.theravive.com/today/post/ready-for-amazon-to-read-human-emotions-0003426.aspx}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Ann Lewandowski (September 28th, 2018) IU undergraduates practice science outreach at Indiana high schools. IDS } \footnotesize \textcolor{gray}{\href{https://www.idsnews.com/article/2018/09/iu-undergraduates-practice-science-outreach-at-indiana-high-schools}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Alexandra Moussa-Tooks (August 14, 2018) The art of dissemination part 3: Care to share? ScIU } \footnotesize \textcolor{gray}{\href{http://blogs.iu.edu/sciu/2018/08/14/dissemination-care-to-share/}{\emph{(Link)}}} \\
+  
+  \small \textcolor{gray}{{\emph{ }}} & 
+  - {\small Liz Rosdeitcher (2017) Community Partnerships. Psyugrad } \footnotesize \textcolor{gray}{\href{https://pbsugrad.indiana.edu/psych4u/community-partnerships/index.html}{\emph{(Link)}}} \\
+  
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+% Erdos Number: 5
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+%-------------------------------------------------------------------------------
+% cooperCV-sections.tex: Section templates which source info from yaml file
+% Created by K.W.Cooper | 200214  
+%
+% TODO: move to cooperCV?
+%       Add start and end dates throughout? 
+%-------------------------------------------------------------------------------
+
+%\smallskip
+
+\fontfamily{lmss}\selectfont
+
+
+\begin{minipage}{\textwidth}
+
+%----------------------------------------------------------------------------------------
+% Example Section
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% Header
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Erd\"{o}s Number: 5}
+
+\begin{tabular}{ @{} p{0.15\textwidth} p{0.80\textwidth} @{} }
+  
+  \small \textcolor{gray}{{\emph{ }}} & {\small Paul Erdös $\rightarrow$ Ronald L. Graham $\rightarrow$ Feng Zhou $\rightarrow$ Michael J. Kahana $\rightarrow$ Ehren L. Newman} \\
+  
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+% Languages
+%----------------------------------------------------------------------------------------
+
+
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+% Boneyard
+%----------------------------------------------------------------------------------------
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	Intro paragraph and charts
+%----------------------------------------------------------------------------------------
+
+% \cvsect{Who Am I?}
+
+% \begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+% 	\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+% \end{minipage}
+% \hfill % Whitespace between
+% \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+% 	\begin{barchart}{5.5}
+% 		\baritem{JavaScript}{60}
+% 		\baritem{PHP}{100}
+% 		\baritem{SASS/LESS}{70}
+% 		\baritem{Bootstrap}{70}
+% 		\baritem{Git}{40}
+% 		\baritem{LaTeX}{60}
+% 	\end{barchart}
+% \end{minipage}
+
+% \begin{center}
+% 	\bubbles{5/Eclipse, 6/git, 4/Office, 3/Inkscape, 3/Blender}
+% \end{center}
+
+\end{document}
