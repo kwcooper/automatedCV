@@ -21,12 +21,12 @@ order:
   - [networks, NETWORKS]
   - [outreach, OUTREACH]
   - [uniserv, UNISERV]
-  - [referee, REFEREE]
-  - [trainings, TRAININGS]
-  - [datasets, DATASETS]
-  #- [skills, SKILLS]
-  - [myarticles, MYARTICLES]
-  - [press, PRESS]
+  #- [referee, REFEREE]
+  #- [trainings, TRAININGS]
+  #- [datasets, DATASETS]
+  ##- [skills, SKILLS]
+  #- [myarticles, MYARTICLES]
+  #- [press, PRESS]
   - [erdos, ERDOS]
 
 # General info and whatnot
@@ -137,27 +137,27 @@ awards:
   - name: "DTEI Pedagogical Fellowship"
     funder: UC Irvine
     date_awarded: 2020
-  - name: "UC Irvine Recruitment Fellowship"
-    funder: UC Irvine
-    date_awarded: 2019
+  # - name: "UC Irvine Recruitment Fellowship"
+  #   funder: UC Irvine
+  #   date_awarded: 2019
   - name: "Cognitive Science Outstanding Research"
     funder: "Indiana University"
     date_awarded: 2019
   - name: "GRFP (Honorable Mention)"
     funder: National Science Foundation
     date_awarded: 2018
-  - name: "Ewing Prize in Philosophy"
-    funder: "Indiana University"
+  # - name: "Ewing Prize in Philosophy"
+  #   funder: "Indiana University"
     date_awarded: 2018
   - name: "Outstanding Contribution in Cognitive Science"
     funder: "Indiana University"
     date_awarded: 2018
-  - name: "Cognitive Science Research Project Award"
-    funder: "Indiana University"
-    date_awarded: 2018
-  - name: "Cognitive Science Research Project Award"
-    funder: "Indiana University"
-    date_awarded: 2017
+  # - name: "Cognitive Science Research Project Award"
+  #   funder: "Indiana University"
+  #   date_awarded: 2018
+  # - name: "Cognitive Science Research Project Award"
+  #   funder: "Indiana University"
+  #   date_awarded: 2017
               
 networks: # add active and inactive?
   - societies:
@@ -195,7 +195,7 @@ pedagogy:
           where: "Neuromatch"
           sem: "Su"
           when: "2021"
-          enroll: "TBD"
+          enroll: "5000+"
 
         - name: "Autonomous Robotics"
           code: "(CSCI-B355)"
@@ -339,6 +339,14 @@ referee:
 
 
 mentee:
+  - name: Tien Lam
+    year: 
+    now: preparing for medical school 
+
+  - name: Brandon McIntosh 
+    year: 
+    now: preparing for medical school 
+
   - name: Chelsea Pan 
     year: 
     now: Zendesk

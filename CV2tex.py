@@ -49,8 +49,6 @@ gsID = 'nCEUdSoAAAAJ'
 ssID = 89510954
 metrics = grab_metrics(gsID=gsID, ssID=ssID)
 
-
-
 def generate(): 
   body = ""
   for section in yaml_contents['order']: # iterate and generate sections TODO: multiple versions
