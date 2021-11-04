@@ -24,4 +24,10 @@ On linux, you can install it with the steps outlined [here](https://www.tug.org/
 
 You can confirm this installs what you need with: `which pdflatex` where you should see the path to the right file. 
 
-For windows, you may have to Google the instructions for now... 
+For windows, you may have to Google the instructions yourself for now... ¯\_(ツ)_/¯ 
+
+
+### Packages
+
+* For the [fontawesome](https://fontawesome.com/) icons, you should check out [this great github repo](https://github.com/wusticality/fontawesome-latex)
+* Head over to academic icons's page to grab those
