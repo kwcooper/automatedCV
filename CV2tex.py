@@ -24,7 +24,7 @@ from utils import format_authors
 # General Params
 generate_pdf = True
 engine = 'XeTeX' # pdflatex
-mvPDF = True         # TODO: platform independant pls
+mvPDF = False         # TODO: platform independant pls
 compileTwice = True
 
 # Path information
@@ -34,7 +34,7 @@ sectionFile = "/cooperCV2_sections.tex"  # CV section logic
 resFile = "cooperCV2_.tex"               # Latex structure
 resultFile = "cooperCV.tex"              # Final built file 
 
-yaml_contents = yaml.load(open(yamlFile, 'r')) # Read data
+yaml_contents = yaml.safe_load(open(yamlFile, 'r')) # Read data (updated to safe_load)
 
 # Define Jinja2 envirement and load in the LaTeX templates
 # Define new syntax for jinja code
@@ -85,6 +85,7 @@ if generate_pdf:
 
 # move the PDF out of the result dir
 if mvPDF: 
+  # if something breaks, this will throw an error since there will be no PDF to move
   os.system('mv outFiles/cooperCV.pdf cooperCV.pdf')
 
 # Just so we can get a bit of insight since we're 
