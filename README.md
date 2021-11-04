@@ -24,7 +24,7 @@ On linux, you can install it with the steps outlined [here](https://www.tug.org/
 
 You can confirm this installs what you need with: `which pdflatex` where you should see the path to the right file. 
 
-For windows, you may have to Google the instructions yourself for now... ¯\_(ツ)_/¯ 
+For windows, you may have to Google the instructions yourself for now... ¯\\_(ツ)_/¯ 
 
 
 ### Packages
