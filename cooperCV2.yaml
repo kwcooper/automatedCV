@@ -124,7 +124,7 @@ researchtl:
 
 awards: 
   - name: "School of Biological Sciences Travel Award"
-    funder: "UC BioSci"
+    funder: "UC Irvine BioSci"
     amount:
     date_awarded: 2021
   - name: "Norman Weinberger Award"
@@ -171,6 +171,7 @@ networks: # add active and inactive?
       - "Society for Neuroscience"
       - "Continual AI (co-founder)"
       - "Indiana Academy of Science"
+      - "Global Consortium for Chemosensory Research"
       - "Psi Chi"
       - "Sigma Xi"
       - "Sigma Alpha Pi"
