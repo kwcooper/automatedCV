@@ -3,7 +3,7 @@
 
 author_alias = ['Cooper, K. W.', 'Keiland Cooper', 'Keiland W. Cooper.', 'Cooper, K.W.', 
 				'Cooper. K. W.,', 'Cooper K. W.', 'Cooper K. W.', 'Cooper K. W.', 'Cooper K. W.', 
-				'Cooper, K. W']
+				'Cooper, K. W', 'Cooper KW']
 
 def bold_author(authors):
 	for tag in author_alias:

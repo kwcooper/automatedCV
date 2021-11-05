@@ -24,7 +24,7 @@ from utils import format_authors
 # General Params
 generate_pdf = True
 engine = 'XeTeX' # pdflatex
-mvPDF = False         # TODO: platform independant pls
+mvPDF = True         # TODO: platform independant pls
 compileTwice = True
 
 # Path information

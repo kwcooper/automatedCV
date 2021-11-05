@@ -21,12 +21,12 @@ order:
   - [networks, NETWORKS]
   - [outreach, OUTREACH]
   - [uniserv, UNISERV]
-  #- [referee, REFEREE]
-  #- [trainings, TRAININGS]
-  #- [datasets, DATASETS]
-  ##- [skills, SKILLS]
+  - [referee, REFEREE]
+  - [trainings, TRAININGS]
+  - [datasets, DATASETS]
+  #- [skills, SKILLS]
   #- [myarticles, MYARTICLES]
-  #- [press, PRESS]
+  - [press, PRESS]
   - [erdos, ERDOS]
 
 # General info and whatnot
@@ -52,7 +52,7 @@ header:
 education:
   - uni: University of California, Irvine
     location: CA
-    degree: Ph.D., Neuroscience
+    degree: Ph.D., Neurobiology and Behavior
     dates: In progress
     advisor: Dr. Norbert Fortin
   # - uni: Quantic School of Business and Technology
@@ -62,7 +62,7 @@ education:
   - uni: Indiana University, Bloomington 
     location: IN
     dates: May the Fourth, 2019
-    degree: B.S., Cognitive Science \textit{with Honors}; 
+    degree: B.S., Cognitive Science \textit{with Honors} 
     specialize: Computation specialization
     minor: Certificate in Neuroscience; Minor in Psychology  
     thesis: "Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
@@ -123,6 +123,10 @@ researchtl:
 
 
 awards: 
+  - name: "School of Biological Sciences Travel Award"
+    funder: "UC BioSci"
+    amount:
+    date_awarded: 2021
   - name: "Norman Weinberger Award"
     funder: "UC Irvine CNLM"
     amount:
@@ -356,7 +360,11 @@ mentee:
     now: Amazon
 
 
-uniserv:
+uniserv: 
+  - name: UC Advocacy Network Ambassador
+    uni: University of California, Irvine
+    year: 2021 - 
+
   - name: End Racism Initiative
     uni: University of California, Irvine
     year: 2020 - 
@@ -465,6 +473,11 @@ erdos:
 datasets:
   - data:
 
+      - name: "Hippocampal ensembles represent sequential relationships among an extended sequence of nonspatial events"
+        year: 2021
+        platform: Dryad
+        link: "https://doi.org/10.7280/D14X30"
+
       - name: "GCCR COVID-19 Questionnaire"
         year: 2020
         platform: OSF
@@ -481,23 +494,18 @@ datasets:
 publications:
   - type: "Preprints" 
     pubs:
-      # - title: " "
-        # authors: ""
-        # year: 20
-        # journal: " "
-        # nums: ""
-        # link: ""
-      # - title: "Avalanche: an End-to-End Library for Continual Learning"
-      #   authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni"
-      #   year: 2021
-      #   journal: "arXiv preprint"
-      #   nums: "2104.00405"
-      #   link: "http://arxiv.org/abs/2104.00405"
+
+      - title: "Increasing incidence of parosmia and phantosmia in patients recovering from COVID-19 smell loss."
+        authors: "Ohla, K., Veldhuizen, M.G., Green, T., Hannum, M.E., Bakke, A.J., Moein, S., Tognetti, A., Postma, E.M., Pellegrino, R., ... Cooper, K. W., ... Hwang, L.D. and Albayay, J."
+        year: 2021
+        journal: "medRxiv"
+        nums: ""
+        link: "https://www.medrxiv.org/content/medrxiv/early/2021/09/08/2021.08.28.21262763.full.pdf"
 
       - title: "Hippocampal ensembles represent sequential relationships among discrete nonspatial events"
         authors: "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J."
         year: 2021
-        journal: "Under Review"
+        journal: "Accepted"
         nums: " "
         link: " "
 
@@ -535,7 +543,7 @@ publications:
         nums: "107(2), 219-233"
         link: ""
         highlights:
-          - h: "Top ten Neuron papers of 2020" 
+          - h: "Top 10 Neuron papers of 2020" 
 
       - title: "More than smell—COVID-19 is associated with severe impairment of smell, taste, and chemesthesis."
         authors: "Parma, V., Ohla, K., Veldhuizen, M. G., Niv, M. Y., Kelly, C. E., Bakke, A. J., Cooper. K. W., ..., Hayes, J. E."
@@ -577,6 +585,34 @@ publications:
 
 abstracts_talks:
   - abstracts:
+
+    - title: "Hippocampal ensembles represent the sequential order of nonspatial events."
+      authors: "Cooper KW, Li L, Saraf MP, Elias GA, Baldi P, Shahbaba B, Fortin NJ"
+      year: 2021
+      venue: "Plexon Data Blitz"
+      link: ""
+      nums: ""
+
+    - title: "Hippocampal ensembles represent the sequential order of nonspatial events."
+      authors: "Cooper KW, Li L, Saraf MP, Elias GA, Baldi P, Shahbaba B, Fortin NJ"
+      year: 2021
+      venue: "Program No P858.03. Chicago, IL: Society for Neuroscience"
+      link: ""
+      nums: ""
+
+    - title: "Medial prefrontal cortex represents ordinal position within a sequence of events."
+      authors: "Elias GA, Tran AH, Saraf MP, Cooper KW, Shahbaba B, Fortin NJ"
+      year: 2021
+      venue: "Program No P858.01. Chicago, IL: Society for Neuroscience"
+      link: ""
+      nums: ""
+
+    - title: "The sequential organization of hippocampal ensemble activity provides a key temporal signal supporting the memory for the order of events."
+      authors: "Saraf MP, Haghverdian D, Cooper KW, Elias GA, Shahbaba B, Fortin NJ"
+      year: 2021
+      venue: "Program No P858.02. Chicago, IL: Society for Neuroscience"
+      link: ""
+      nums: ""
 
     - title: "Deep neural network models learn distinguishable features from hippocampal local field potential and ensemble data"
       authors: "Pan, C. J., Cooper, K. W., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Baldi, P.,  Shahbaba, B., Fortin, N. J."
@@ -752,9 +788,6 @@ myarticles:
       publisher: "We Are IU"
       URL: "https://weareiu.com/college-prep/tips-for-admits/the-whats-and-whys-of-schools-app/" 
     
-
-
-
 
 
 press: 
