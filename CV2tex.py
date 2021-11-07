@@ -29,7 +29,7 @@ compileTwice = True
 
 # Path information
 yamlFile = "cooperCV2.yaml"              # The text database
-templateFile = "."                       # templating directory
+templateDir = "."                       # templating directory
 sectionFile = "/cooperCV2_sections.tex"  # CV section logic
 resFile = "cooperCV2_.tex"               # Latex structure
 resultFile = "cooperCV.tex"              # Final built file 
@@ -38,7 +38,7 @@ yaml_contents = yaml.safe_load(open(yamlFile, 'r')) # Read data (updated to safe
 
 # Define Jinja2 envirement and load in the LaTeX templates
 # Define new syntax for jinja code
-env = Environment(loader=FileSystemLoader(templateFile),
+env = Environment(loader=FileSystemLoader(templateDir),
   block_start_string='~{',block_end_string='}~',
   variable_start_string='~{{', variable_end_string='}}~')
 

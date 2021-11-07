@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  5 NOV 2021 18:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  7 NOV 2021 05:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1284,7 +1284,7 @@ Package rerunfilecheck Info: File `cooperCV.out' has not changed.
 Here is how much of TeX's memory you used:
  28952 strings out of 479418
  574889 string characters out of 5884586
- 900415 words of memory out of 5000000
+ 900414 words of memory out of 5000000
  45976 multiletter control sequences out of 15000+600000
  554255 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
