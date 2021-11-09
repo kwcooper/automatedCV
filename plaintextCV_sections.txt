@@ -145,6 +145,45 @@
 ~{ endfor }~
 
 
+~{ elif name == "MYARTICLES" }~
+## MYARTICLES ##
+-------------------------------------------
+~{ for essayobj in contents }~ 
+~{ for arti in essayobj.articles  }~
+~{{ arti.title }}~
+~{{ arti.author }}~. (~{{ arti.date_published }}~) ~{{ arti.publisher }}~
+~{ if arti.highlights }~
+~{ for hlt in arti.highlights }~
+---> ~{{ hlt.h }}~
+~{ endfor }~
+~{ endif }~
+~{ endfor }~
+~{ endfor }~
 
+
+~{ elif name == "PRESS" }~
+## PRESS ##
+-------------------------------------------
+~{ for pressobj in contents }~     
+~{ for arti in pressobj.articles }~
+~{{ arti.author }}~ (~{{ arti.date_published }}~) ~{{ arti.title }}~. ~{{ arti.publisher }}~
+~{ if arti.highlights }~
+~{ for hlt in arti.highlights }~
+---> ~{{ hlt.h }}~
+~{ endfor }~
+~{ endif }~
+~{ endfor }~
+~{ endfor }~
+
+
+~{ elif name == "ERDOS" }~
+## ERDOS ##
+-------------------------------------------
+~{ for edobj in contents }~
+~{ for echain in edobj.graphs }~
+as of ~{{ echain.date }}~:
+~{{ echain.chain }}~
+~{ endfor }~
+~{ endfor }~
 
 ~{ endif }~

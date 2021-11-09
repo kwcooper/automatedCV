@@ -10,11 +10,17 @@ from getmetrics import grab_metrics, print_stats
 from utils import format_authors
 
 
+from datetime import date
+
+today = date.today()
+d1 = today.strftime("%y%m%d")
+print(d1)
+
 # Path information
 yamlFile = "cooperCV2.yaml"              # The text database
 templateDir = "."                       # templating directory
 resFile = "plaintextCV_template.txt"               #  structure
-resultFile = "cooperCV.txt"              # Final built file 
+resultFile = d1+"_cooperCV.txt"              # Final built file 
 sectionFile = 'plaintextCV_sections.txt'
 
 yaml_contents = yaml.safe_load(open(yamlFile, 'r')) # Read data (updated to safe_load)
@@ -39,7 +45,8 @@ def generate():
     )
   # Generate the TeX wrapper and fill it with generated sections
   result = open(resultFile, 'w')
-  result.write(env.get_template(resFile).render( body=body ))
+  result.write(env.get_template(resFile).render( body=body,
+  												 today=d1 ))
   result.close()
 
 
