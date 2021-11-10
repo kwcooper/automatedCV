@@ -130,7 +130,7 @@
 
 
 ~{ elif name == "UNISERV" }~
-## MENTEE ##
+## SERVICE ##
 -------------------------------------------
 ~{ for uniservobj in contents }~ 
 ~{{ uniservobj.name }}~ | ~{{ uniservobj.uni }}~ (~{{ uniservobj.year }}~)

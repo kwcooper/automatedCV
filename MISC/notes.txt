@@ -20,10 +20,13 @@ http://www.tedpavlic.com/TPCV.php
 
 Planning: 
 
+Add support for word documents. For now, using the generated text file should do, but should spend a bit of time formatting it all automatically. For now, the only reason I'm hesitant is because it will take time to learn the word syntax in creating headers and other formatting dynamically (why latex is so great, but (politely) curse those who require a docx file :( )
+https://blog.formpl.us/how-to-generate-word-documents-from-templates-using-python-cb039ea2c890
+
 
 
 init 19XXXX
-ud 19xxxx
+ud 211109
 
 
 MISC Notes
