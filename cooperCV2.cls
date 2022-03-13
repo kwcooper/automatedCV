@@ -227,8 +227,8 @@
 	\needspace{\headerpush}
 	\myRule{\columnwidth}{1pt}\\
 
-    \phantomsection\addcontentsline{toc}{section}{#1}%
-    \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth}{\hyphenpenalty=10000\raggedright #1}}}%
+    \phantomsection\addcontentsline{toc}{section}{\bf{\large{#1}}}%
+    \noindent\llap{\scshape\smash{\parbox[t]{\marginparwidth + 1cm}{\hyphenpenalty=10000\raggedright \large{#1}}}}%
     \vspace{-.5\baselineskip}\par}
 
 % The section headings. Flush left in small caps down pseudo-margin.

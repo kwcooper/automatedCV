@@ -43,7 +43,7 @@ header:
     twitterURL: "https://twitter.com/kw\\_cooper"
     orcid: "0002-0358-9645"
     orcidURL: "https://orcid.org/0000-0002-0358-9645"
-    currentPosition: "Graduate Scholar"
+    currentPosition: "National Science Foundation Fellow"
     department: "Department of Neurobiology and Behavior"
     departmentURL: "https://neurobiology.uci.edu/"
     workplace: "University of California, Irvine"
@@ -55,15 +55,15 @@ education:
     degree: Ph.D., Neurobiology and Behavior
     dates: In progress
     advisor: Dr. Norbert Fortin
-  # - uni: Quantic School of Business and Technology
-  #   location: D.C. 
-  #   degree: Masters in Business Administration
-  #   dates: In progress 
+  - uni: Quantic School of Business and Technology, D.C.
+    location: D.C. 
+    degree: Master of Business Administration (MBA)
+    dates: March 16, 2022
   - uni: Indiana University, Bloomington 
     location: IN
     dates: May the Fourth, 2019
     degree: B.S., Cognitive Science \textit{with Honors} 
-    specialize: Computation specialization
+    specialize: Computer science specialization
     minor: Certificate in Neuroscience; Minor in Psychology  
     thesis: "Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
     advisor: Dr. Ehren Newman, Dr. Mike Jones
@@ -82,7 +82,7 @@ researchtl:
     bullets: 
       - COVID-19 and the chemical senses
 
-  - pi: ContinualAI Research
+  - pi: ContinualAI
     area: Artificial Intelligence
     when: 2020-now
     bullets: 
@@ -98,10 +98,10 @@ researchtl:
     area: Neuroscience / Cognitive Science
     when: 2016-2019
     bullets: 
-      - Computational modeling of ACh + brain oscilations
-      - Entorhinal region electrophysiology
-      - Hippocampal imaging with Miniscopes
-      - Theta + optic flow rodent behavior
+      - Computational modeling of ACh \& neural oscilations
+      - Entorhinal region electrophysiology \& signal processing
+      - Ca\textsuperscript{2+} miniscope imaging \& rodent behavior
+      # - Theta + optic flow rodent behavior
 
   - pi: Dr. Mike Jones
     area: Cognitive Science
@@ -462,12 +462,14 @@ trainings:
 
                           
 erdos:
-  - eN: 4
+  - eN: 3
     graphs:
+      - date: 2022
+        chain: "Paul Erdös $\\rightarrow$ Richard M. Wilson $\\rightarrow$ Pierre F. Baldi $\\rightarrow$ me"
       - date: 2021
-        chain: "Paul Erdös $\\rightarrow$ Noga Alon $\\rightarrow$ Nicolò Cesa-Bianchi $\\rightarrow$ Fabio Cuzzolin"
+        chain: "Paul Erdös $\\rightarrow$ Noga Alon $\\rightarrow$ Nicolò Cesa-Bianchi $\\rightarrow$ Fabio Cuzzolin $\\rightarrow$ me"
       - date: 2019
-        chain: "Paul Erdös $\\rightarrow$ Ronald L. Graham $\\rightarrow$ Feng Zhou $\\rightarrow$ Michael J. Kahana $\\rightarrow$ Ehren L. Newman"
+        chain: "Paul Erdös $\\rightarrow$ Ronald Graham $\\rightarrow$ Feng Zhou $\\rightarrow$ Michael Kahana $\\rightarrow$ Ehren Newman $\\rightarrow$ me"
 
 
 datasets:
