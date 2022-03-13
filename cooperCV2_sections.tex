@@ -144,7 +144,7 @@
 				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     ~{ for pub in pubobj.pubs  }~
     \item ~{{ pub.title }}~ \\
-     ~{{ format_authors(pub.authors) }}~. (~{{ pub.year }}~) ~{{ pub.journal }}~ ~{{ pub.numbers }}~
+     ~{{ format_authors(pub.authors) }}~. \\ (~{{ pub.year }}~) ~{{ pub.journal }}~ ~{{ pub.nums }}~
      ~{ if pub.highlights }~
      	\begin{list}{$\drsh$}{}
      	~{ for hlt in pub.highlights }~

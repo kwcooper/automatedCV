@@ -84,7 +84,7 @@ researchtl:
 
   - pi: ContinualAI
     area: Artificial Intelligence
-    when: 2020-now
+    when: 2018-now
     bullets: 
       - Building tools to aid AI research
 
@@ -122,6 +122,10 @@ researchtl:
       - Structural biochemistry of synaptic proteins 
 
 awards: 
+  - name: "Graduate Travel Award"
+    funder: "UC Irvine"
+    amount:
+    date_awarded: 2021
   - name: "School of Biological Sciences Travel Award"
     funder: "UC Irvine BioSci"
     amount:
@@ -361,7 +365,7 @@ mentee:
 
 
 uniserv: 
-  - name: UC Advocacy Network Ambassador
+  - name: UC Advocacy Network Campus Leader
     uni: University of California, Irvine
     year: 2021 - 
 
@@ -383,6 +387,11 @@ uniserv:
     
 
 trainings: 
+
+  - name: "Mental Health First Aid"
+    where: "Nat. Council for Mental Wellbeing"
+    when: 211130
+    year: 2021
 
   - name: "FFASt Workshop on Scientific Leadership"
     where: "UC Irvine"
@@ -418,7 +427,7 @@ trainings:
     when:  200424
     year: 2020
 
-  - name: "Nonlinear Dynamics: Math. and Comp. Approaches"
+  - name: "Nonlinear Dynamics: Math. and Comp."
     where: "Santa Fe Institute"
     year: 2019
 
@@ -430,7 +439,7 @@ trainings:
     where: "Indiana University"
     year: 2017
 
-  - name: "High Performance / Supercomputing Workshop"
+  - name: "High Performance Supercomputing Workshop"
     where: "Indiana University"
     year: 2017
 
@@ -504,17 +513,17 @@ publications:
         nums: ""
         link: "https://www.medrxiv.org/content/medrxiv/early/2021/09/08/2021.08.28.21262763.full.pdf"
 
-      - title: "Hippocampal ensembles represent sequential relationships among discrete nonspatial events"
-        authors: "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Cooper, K. W., Baldi, P.,  Fortin, N. J."
-        year: 2021
-        journal: "Accepted"
-        nums: " "
-        link: " "
-
   - type: "Peer Reviewed"
     pubs: 
+      - title: "Hippocampal ensembles represent sequential relationships among discrete nonspatial events"
+        authors: "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Cooper, K. W., Elias, G. A., Haghverdian, D., Baldi, P.,  Fortin, N. J."
+        year: 2022
+        journal: "Nature Communications"
+        nums: "13(1), 1-17"
+        link: "https://doi.org/10.1038/s41467-022-28057-6"
+
       - title: "Avalanche: an End-to-End Library for Continual Learning"
-        authors: "Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Antonio Carta, Gabriele Graffieti, ... Keiland Cooper, ... Davide Bacciu, Davide Maltoni"
+        authors: "Lomonaco, V., Pellegrini, L., Cossu, A., Carta, A., Graffieti, G., Hayes, T.L., ... Cooper K. W., ... Bacciu D., Maltoni D."
         year: 2021
         journal: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
         nums: "3600-3610"
@@ -588,6 +597,13 @@ publications:
 abstracts_talks:
   - abstracts:
 
+    - title: "Stitching memories into predictable patterns"
+      authors: "Cooper KW"
+      year: 2022
+      venue: "Neuroblitz"
+      link: ""
+      nums: ""
+
     - title: "Hippocampal ensembles represent the sequential order of nonspatial events."
       authors: "Cooper KW, Li L, Saraf MP, Elias GA, Baldi P, Shahbaba B, Fortin NJ"
       year: 2021
@@ -613,6 +629,13 @@ abstracts_talks:
       authors: "Saraf MP, Haghverdian D, Cooper KW, Elias GA, Shahbaba B, Fortin NJ"
       year: 2021
       venue: "Program No P858.02. Chicago, IL: Society for Neuroscience"
+      link: ""
+      nums: ""
+
+    - title: "Grant writing workshop (Panelist)"
+      authors: "Cooper KW"
+      year: 2021
+      venue: "University of California, Irvine"
       link: ""
       nums: ""
 
@@ -793,13 +816,35 @@ myarticles:
 
 
 press: 
-  - articles:
-    - title: "Scientists Working on Continual Learning to Overcome ‘Catastrophic Forgetting’"
-      author: "John Desmond"
-      date_published: "April 15, 2021"
+  - articles: 
+
+    - title: "Study reveals how the brain organizes memories"
+      author: ""
+      date_published: "March 7, 2022"
+      year_published: 2022
+      publisher: "Al Jazeera"
+      URL: "https://www.aljazeera.net/news/healthmedicine/2022/3/7/%d8%a7%d9%84%d8%b0%d9%83%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d9%85%d8%a7%d8%ba"
+
+    - title: "Predicting Alzheimer’s risk: Why cognitive testing alone may not work."
+      author: "Mary McGorray"
+      date_published: "January 14, 2022"
+      year_published: 2022
+      publisher: "Medical News Today"
+      URL: "https://www.medicalnewstoday.com/articles/predicting-alzheimers-risk-why-cognitive-testing-alone-may-not-work"
+
+    - title: "Has COVID destroyed our attention spans?"
+      author: "David Oliver"
+      date_published: "December 22, 2021"
       year_published: 2021
-      publisher: "AI Trends"
-      URL: "https://www.aitrends.com/ai-research/scientists-working-on-continual-learning-to-overcome-catastrophic-forgetting/"
+      publisher: "USA Today"
+      URL: "https://www.usatoday.com/story/life/health-wellness/2021/12/22/covid-attention-span-exhaustion/8926439002/"
+
+    - title: "Why are human neurons different from those of other mammals?"
+      author: "Jeanna D. Smiley"
+      date_published: "November 21, 2021"
+      year_published: 2021
+      publisher: "Medical News Today"
+      URL: "https://www.medicalnewstoday.com/articles/why-are-human-neurons-different-from-those-of-other-mammals"
 
     - title: "AI Weekly: Continual learning offers a path toward more humanlike AI"
       author: "Kyle Wiggers"
