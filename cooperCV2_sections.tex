@@ -344,11 +344,11 @@
 %------------------------------------------------------------------------------
 % Add the rule here so that we can use varrying subsections 
 
-\needspace{\headerpush}
-\myRule{\columnwidth}{1pt}\\
+% \needspace{\headerpush}
+% \myRule{\columnwidth}{1pt}\\
+\section{Essays} 
 
 ~{ for essayobj in contents }~ 
-\subsection{Essays} 
 \begin{etaremune}[itemindent=-1.5\bibhang, topsep=0pt,
 				   itemsep=\bibsep,partopsep=0pt,parsep=0pt,leftmargin={\bibhang+\widthof{[999]}}] 
     ~{ for arti in essayobj.articles  }~

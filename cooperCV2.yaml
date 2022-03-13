@@ -25,7 +25,7 @@ order:
   - [trainings, TRAININGS]
   - [datasets, DATASETS]
   #- [skills, SKILLS]
-  #- [myarticles, MYARTICLES]
+  - [myarticles, MYARTICLES]
   - [press, PRESS]
   - [erdos, ERDOS]
 
@@ -122,6 +122,17 @@ researchtl:
       - Structural biochemistry of synaptic proteins 
 
 awards: 
+  - name: "Graduate Research Fellowship (GRFP)"
+    funder: "National Science Foundation"
+    amount: 
+    date_awarded: 2021
+  - name: "DTEI Pedagogical Fellowship"
+    funder: UC Irvine
+    date_awarded: 2020
+  - name: "Norman Weinberger Award"
+    funder: "UC Irvine CNLM"
+    amount:
+    date_awarded: 2021
   - name: "Graduate Travel Award"
     funder: "UC Irvine"
     amount:
@@ -130,19 +141,8 @@ awards:
     funder: "UC Irvine BioSci"
     amount:
     date_awarded: 2021
-  - name: "Norman Weinberger Award"
-    funder: "UC Irvine CNLM"
-    amount:
-    date_awarded: 2021
-  - name: "Graduate Research Fellowship (GRFP)"
-    funder: "National Science Foundation"
-    amount: 
-    date_awarded: 2021
   - name: "Best International AI Research Organization"
     funder: "Wealth \\& Finance"
-    date_awarded: 2020
-  - name: "DTEI Pedagogical Fellowship"
-    funder: UC Irvine
     date_awarded: 2020
   # - name: "UC Irvine Recruitment Fellowship"
   #   funder: UC Irvine

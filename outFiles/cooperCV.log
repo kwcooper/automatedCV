@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  13 MAR 2022 07:54
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.7)  13 MAR 2022 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1137,101 +1137,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
  []
 
 [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 449--449
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 523--533
+Underfull \hbox (badness 10000) in alignment at lines 526--536
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--553
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 604--604
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 640--640
+Underfull \hbox (badness 10000) in paragraph at lines 643--643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 673--673
+Underfull \hbox (badness 10000) in paragraph at lines 676--676
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 698--698
+Underfull \hbox (badness 10000) in paragraph at lines 701--701
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 757--757
+Underfull \hbox (badness 10000) in paragraph at lines 760--760
 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 757.
+(hyperref)                removing `\\' on input line 760.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 791--791
+Underfull \hbox (badness 10000) in paragraph at lines 797--797
+
+ []
+
+[6]
+Missing character: There is no ’ in font phvr8t!
+Missing character: There is no ’ in font phvr8t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 853--853
 
  []
 
 Missing character: There is no ’ in font phvro8t!
-[6]
 Missing character: There is no ’ in font phvro8t!
 Missing character: There is no – in font phvro8t!
-Missing character: There is no ’ in font phvro8t!
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 909--909
+Missing character: There is no ’ in font phvro8t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 971--971
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--914
+Underfull \hbox (badness 10000) in paragraph at lines 974--976
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 916--918
+Underfull \hbox (badness 10000) in paragraph at lines 978--980
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 920--922
+Underfull \hbox (badness 10000) in paragraph at lines 982--984
 
  []
 
 
 AED: lastpage setting LastPage
 [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1008.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1008.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1070.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1070.
 (outFiles/cooperCV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1008.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1008.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1070.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1070.
 
 Package rerunfilecheck Info: File `cooperCV.out' has not changed.
-(rerunfilecheck)             Checksum: 1A87C72A53096AC1307C310FD90BCEA9;930.
+(rerunfilecheck)             Checksum: EEA3B166C89CA45A84D59E4A80FF3D5D;974.
  ) 
 Here is how much of TeX's memory you used:
- 28958 strings out of 479418
- 574960 string characters out of 5884586
- 900542 words of memory out of 5000000
- 45982 multiletter control sequences out of 15000+600000
+ 28959 strings out of 479418
+ 574973 string characters out of 5884586
+ 900610 words of memory out of 5000000
+ 45983 multiletter control sequences out of 15000+600000
  563437 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  68i,13n,71p,795b,567s stack positions out of 5000i,500n,10000p,200000b,80000s
