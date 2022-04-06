@@ -583,6 +583,9 @@ publications:
         journal: "IU Journal of Undergraduate Research"
         nums: "4(1), 82-85"
         link: ""
+        highlights:
+          - h: "Ewing Prize in Philosophy winner"
+          
   - type: "Thesis"
     pubs: 
       - title: "Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"

@@ -57,3 +57,5 @@ def generate_():
 	result.close()
 
 generate() #finally, generate 
+
+print(f"Wrote files to {resultFile}")
