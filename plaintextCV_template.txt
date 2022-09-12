@@ -1,8 +1,0 @@
-Computed with automated CV V0.1.0 on ~{{ today }}~
-
-~{{ body }}~
-
-
-
-
-
