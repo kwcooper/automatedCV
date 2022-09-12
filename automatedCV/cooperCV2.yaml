@@ -9,6 +9,14 @@
 # - if _ is a part of url - put the whole url into \url{} brackets 
 # - COMPILE TWICE when done - TeX is finiky
 
+# current docs version (propigate)
+# https://docs.google.com/document/d/1ZZNFt7u2C8ibFd53eLeO9U92cBYLIJv_/edit
+
+# TODO:
+# Conference orginization (see gdoc)
+# updated sci-com verbage
+# added interviews sections
+
 order:
   - [header, HEADER]
   - [education, EDUCATION]
@@ -57,7 +65,7 @@ education:
     advisor: Dr. Norbert Fortin
   - uni: Quantic School of Business and Technology, D.C.
     location: D.C. 
-    degree: Master of Business Administration (MBA)
+    degree: MBA, Master of Business Administration
     dates: March 16, 2022
   - uni: Indiana University, Bloomington 
     location: IN
@@ -384,7 +392,11 @@ uniserv:
   - name: Office of First Year Experience
     uni: Indiana University
     year: 2015 - 2016
-    
+
+
+
+
+
 
 trainings: 
 
