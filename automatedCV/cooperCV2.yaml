@@ -1,0 +1,1003 @@
+# V2.0
+# Some Notes: 
+# - For more info on the syntax check out:
+#   https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
+# - quote the strings with : or - because these are YAML special chars
+# - avoid / symbol 
+# - if _ (underscore) is needed in PDF: TeX needs \_ so you write \\_ in YAML
+#   because YAML converts \\ to \
+# - if _ is a part of url - put the whole url into \url{} brackets 
+# - COMPILE TWICE when done - TeX is finiky
+
+order:
+  - [header, HEADER]
+  - [education, EDUCATION]
+  - [researchtl, RESEARCHTL]
+  - [awards, AWARDS]
+  - [publications, PUBLICATIONS] 
+  - [abstracts_talks, ABSTRACTS]
+  - [pedagogy, PEDAGOGY]
+  - [mentee, MENTEE]
+  - [networks, NETWORKS]
+  - [outreach, OUTREACH]
+  - [uniserv, UNISERV]
+  - [referee, REFEREE]
+  - [trainings, TRAININGS]
+  - [datasets, DATASETS]
+  #- [skills, SKILLS]
+  - [myarticles, MYARTICLES]
+  - [press, PRESS]
+  - [erdos, ERDOS]
+
+# General info and whatnot
+header:
+  - name: "Keiland W."
+    lastName: "Cooper"
+    email: "kwcooper@uci.edu"
+    emailURL: "mailto:kwcooper@uci.edu"
+    website: "kwcooper.com"
+    websiteURL: "https://kwcooper.com"
+    github: "kwcooper"
+    githubURL: "https://github.com/kwcooper"
+    twitter: "@kw\\_cooper"
+    twitterURL: "https://twitter.com/kw\\_cooper"
+    orcid: "0002-0358-9645"
+    orcidURL: "https://orcid.org/0000-0002-0358-9645"
+    currentPosition: "National Science Foundation Fellow"
+    department: "Department of Neurobiology and Behavior"
+    departmentURL: "https://neurobiology.uci.edu/"
+    workplace: "University of California, Irvine"
+    workplaceURL: "http://www.uci.edu/"
+
+education:
+  - uni: University of California, Irvine
+    location: CA
+    degree: Ph.D., Neurobiology and Behavior
+    dates: In progress
+    advisor: Dr. Norbert Fortin
+  - uni: Quantic School of Business and Technology, D.C.
+    location: D.C. 
+    degree: Master of Business Administration (MBA)
+    dates: March 16, 2022
+  - uni: Indiana University, Bloomington 
+    location: IN
+    dates: May the Fourth, 2019
+    degree: B.S., Cognitive Science \textit{with Honors} 
+    specialize: Computer science specialization
+    minor: Certificate in Neuroscience; Minor in Psychology  
+    thesis: "Thesis: Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
+    advisor: Dr. Ehren Newman, Dr. Mike Jones
+
+researchtl:
+  - pi: Dr. Norbert Fortin
+    area: Neuroscience
+    when: 2019-now
+    bullets: 
+      - Non-spatial theta sequences and precession
+      - 11 brain region electrophysiology
+
+  - pi: the GCCR
+    area: Neuroscience
+    when: 2020-now
+    bullets: 
+      - COVID-19 and the chemical senses
+
+  - pi: ContinualAI
+    area: Artificial Intelligence
+    when: 2018-now
+    bullets: 
+      - Building tools to aid AI research
+
+  - pi: Dr. Bruce McNaughton
+    area: Neuroscience
+    when: 2019-2020
+    bullets: 
+      - Hippocampal and cortical replay during sleep
+
+  - pi: Dr. Ehren Newman
+    area: Neuroscience / Cognitive Science
+    when: 2016-2019
+    bullets: 
+      - Computational modeling of ACh \& neural oscilations
+      - Entorhinal region electrophysiology \& signal processing
+      - Ca\textsuperscript{2+} miniscope imaging \& rodent behavior
+      # - Theta + optic flow rodent behavior
+
+  - pi: Dr. Mike Jones
+    area: Cognitive Science
+    when: 2018-2019
+    bullets: 
+      - Catastrophic Forgetting in connectionist language models
+
+  - pi: Dr. Amit Hagar
+    area: Philosophy + Physics
+    when: 2017-2018
+    bullets: 
+      - The natural computation of the brain
+
+  - pi: Dr. Susane Ressl
+    area: Microbiology
+    when: 2015-2016
+    bullets:
+      - Structural biochemistry of synaptic proteins 
+
+awards: 
+  - name: "Graduate Research Fellowship (GRFP)"
+    funder: "National Science Foundation"
+    amount: 
+    date_awarded: 2021
+  - name: "DTEI Pedagogical Fellowship"
+    funder: UC Irvine
+    date_awarded: 2020
+  - name: "Norman Weinberger Award"
+    funder: "UC Irvine CNLM"
+    amount:
+    date_awarded: 2021
+  - name: "Graduate Travel Award"
+    funder: "UC Irvine"
+    amount:
+    date_awarded: 2021
+  - name: "School of Biological Sciences Travel Award"
+    funder: "UC Irvine BioSci"
+    amount:
+    date_awarded: 2021
+  - name: "Best International AI Research Organization"
+    funder: "Wealth \\& Finance"
+    date_awarded: 2020
+  # - name: "UC Irvine Recruitment Fellowship"
+  #   funder: UC Irvine
+  #   date_awarded: 2019
+  - name: "Cognitive Science Outstanding Research"
+    funder: "Indiana University"
+    date_awarded: 2019
+  - name: "GRFP (Honorable Mention)"
+    funder: National Science Foundation
+    date_awarded: 2018
+  # - name: "Ewing Prize in Philosophy"
+  #   funder: "Indiana University"
+    date_awarded: 2018
+  - name: "Outstanding Contribution in Cognitive Science"
+    funder: "Indiana University"
+    date_awarded: 2018
+  # - name: "Cognitive Science Research Project Award"
+  #   funder: "Indiana University"
+  #   date_awarded: 2018
+  # - name: "Cognitive Science Research Project Award"
+  #   funder: "Indiana University"
+  #   date_awarded: 2017
+              
+networks: # add active and inactive?
+  - societies:
+    - whenName: Present
+    - names: 
+      - "Cognitive Science Society"
+      - "Society for Neuroscience"
+      - "Continual AI (co-founder)"
+      - "Indiana Academy of Science"
+      - "Global Consortium for Chemosensory Research"
+      - "Psi Chi"
+      - "Sigma Xi"
+      - "Sigma Alpha Pi"
+      - "Carboncopies Foundation"
+      - "AI for People"
+      - "Internet Society"
+  - societies:
+    - whenName: Past
+    - names:
+      - "IU Student Org. for Cog Sci (President)" 
+      - "ADAPT Consulting (VP)"
+  # - confCommittee:
+  #   - title: "Conference \\newline Committee"
+  #   - names:
+  #     - "Learning: Fast, Deep, and Shallow"
+  #     - "Midwest Undergraduate Cognitive Science Conference"
+
+pedagogy:
+  - instructBlock:
+
+    - instructType: 
+      - title: "as Co-Instructor"
+      - courses: 
+        - name: "Continual Learning"
+          code: ""
+          where: "Neuromatch"
+          sem: "Su"
+          when: "2021"
+          enroll: "5000+"
+
+        - name: "Autonomous Robotics"
+          code: "(CSCI-B355)"
+          where: "Indiana Univ."
+          title: "Co-Instructor" 
+          sem: "Sp"
+          when: "2019" 
+          enroll: 18 
+          
+        - name: "Programming in Cognitive Sciences"
+          code: "(COGS-Q 260)"
+          where: "Indiana Univ."
+          title: "Co-Instructor"
+          sem: "Sp"
+          when: "2018"
+          enroll: 27
+
+    - instructType: 
+      - title: "as Teaching Assistant"
+      - courses: 
+      
+        - name: "Mind, Memory, and the Brain"
+          code: "(Bio Sci 38)"
+          where: "UC Irvine"
+          title: "Teaching Assistant"
+          sem: "Sp"
+          when: "2021" 
+          prof: Dr. Lew
+          enroll: 142 
+
+        - name: "Neurobiology and Behavior Laboratory"
+          code: "(Bio Sci N113L)"
+          where: "UC Irvine"
+          title: "Teaching Assistant"
+          sem: "Wt"
+          when: "2020" 
+          prof: Dr. Lew
+          enroll: 196
+
+        - name: "Neurobiology and Behavior Laboratory"
+          code: "(Bio Sci N113L)"
+          where: "UC Irvine"
+          title: "Teaching Assistant"
+          sem: "Fa"
+          when: "2020" 
+          prof: Dr. Lew
+          enroll: 93
+
+        - name: "Brain and Behavior"
+          code: "(Bio Sci 35)"
+          where: "UC Irvine"
+          title: "Teaching Assistant"
+          sem: "Fa"
+          when: "2020"
+          prof: Dr. Lew
+          enroll: 366
+
+        - name: "Cognitive Psychology"
+          code: "(PSY-P 335)"
+          where: "Indiana Univ."
+          title: "Teaching Assistant"
+          sem: "Fa"
+          when: "2018"
+          prof: Dr. Pestilli
+          enroll: 80
+
+        - name: "Introduction to Neuroscience"
+          code: "(PSY-P 346)"
+          where: "Indiana Univ."
+          title: "Teaching Assistant"
+          sem: "Fa"
+          when: "2017" 
+          prof: Dr. Newman
+          enroll: 106
+  # - commseats:
+  #   - title: "Committee"
+  #   - experience:
+  #     name: "Education Policy Committee"
+  #     code: " "
+  #     where: "Indiana University"
+  #     when: " "
+  #   - experience:
+  #     name: "Faculty Council"
+  #     code: " "
+  #     where: "Indiana University"
+  #     when:  " "
+
+skills:
+  - title: Laboratory
+    details: "Stereotaxic Rodent Neurosurgery, Histological Procedures/Sacrificial Perfusions, Signal Analysis, fMRI Analysis (Brain Voyager/MATLAB), Electrophoresis, Centrifucation, Cell Culturing"
+  - title: Computation
+    details: "Python, MATLAB, HTML5/CSS, R, UNIX/Bash, Git, Adobe Creative Suite"
+  - title: IT
+    details: "APACHE/Ubuntu Server, Computer Construction, HPSS/Parallel Programming, SQL"
+
+outreach: 
+  
+  - name: "AskANeuroscientist"
+    meta: "Founder; Live Q/A via in class video-chat (>400 students)"
+    year:
+
+  # - name: "UCI End Racism"
+  #   meta: "Working group contributer addressing systemic racism"
+  #   year:
+
+  - name: "Hoosier STARS"
+    meta: "Co-founder; K-12 neuro demos reaching >300 students"
+    year:
+
+  - name: "Quora Writer"
+    meta: "Answers to neuroscience and AI questions (800k+ views)"
+    year:
+
+  - name: "CNLM Ambassadors"
+    meta: "Co-chair; SoCal Learning and memory outreach"
+    year:
+
+  - name: "The Boys and Girls Club"
+    meta: "Taught primary school aged students about the brain"
+    year:
+
+  - name: "IU Science Fest"
+    meta: "Led a booth with hands on sheep brain interaction"
+    year:
+
+  - name: "Celebrate Science Indiana"
+    meta: "Led an EEG and brain booth > 500 people"
+    year:
+
+  - name: "Observatory Guide"
+    meta: "Volunteer astronomical guide at the Kirkwood Observatory"
+    year:
+
+
+referee:
+  - name: Physiological Reviews
+    year: 
+
+  - name: CLVision @ CVPR
+    year: 
+
+
+mentee:
+  - name: Tien Lam
+    year: 
+    now: preparing for medical school 
+
+  - name: Brandon McIntosh 
+    year: 
+    now: preparing for medical school 
+
+  - name: Chelsea Pan 
+    year: 
+    now: Zendesk
+
+  - name: Troy Good
+    year: 
+    now: Amazon
+
+
+uniserv: 
+  - name: UC Advocacy Network Campus Leader
+    uni: University of California, Irvine
+    year: 2021 - 
+
+  - name: End Racism Initiative
+    uni: University of California, Irvine
+    year: 2020 - 
+
+  - name: Education Policy Committee
+    uni: Indiana University
+    year: 2016 - 2017
+
+  - name: Faculty Council
+    uni: Indiana University
+    year: 2016 - 2017
+
+  - name: Office of First Year Experience
+    uni: Indiana University
+    year: 2015 - 2016
+    
+
+trainings: 
+
+  - name: "Mental Health First Aid"
+    where: "Nat. Council for Mental Wellbeing"
+    when: 211130
+    year: 2021
+
+  - name: "FFASt Workshop on Scientific Leadership"
+    where: "UC Irvine"
+    when: 210429
+    year: 2021
+
+  - name: "Certified Peer Reviewer"
+    where: "Elsevier"
+    when: 201220
+    year: 2020 
+
+  - name: "Computational Psychiatry Course"
+    where: "University of Zurich"
+    when: 200907
+    year: 2020
+
+  - name: "The Meaning and History of the Constitution"
+    where: "Hillsdale College"
+    when: 201221
+    year: 2020
+
+  - name: "Estes Cognitive Electrophysiology Workshop"
+    where: "University of Pennsylvania"
+    when: 200804
+    year: 2020
+
+  - name: "NIH Grant Writing Workshop"
+    where: "UC Irvine"
+    year: 2020
+
+  - name: "HHMI Productivity Workshop"
+    where: "UC Irvine"
+    when:  200424
+    year: 2020
+
+  - name: "Nonlinear Dynamics: Math. and Comp."
+    where: "Santa Fe Institute"
+    year: 2019
+
+  - name: "Complexity Science"
+    where: "Santa Fe Institute"
+    year: 2018
+
+  - name: "Science Communication Workshop"
+    where: "Indiana University"
+    year: 2017
+
+  - name: "High Performance Supercomputing Workshop"
+    where: "Indiana University"
+    year: 2017
+
+  - name: "Aseptic Surgery: Proper Practice Training"
+    where: "Indiana University"
+    year: 2016
+  # - title:
+  #   details: "Viral Handling; Animal Handling; Institutional Animal Care Training"
+  #   where: "Indiana University"
+
+  - name: "Animal Handling and Animal Care Training"
+    where: "Indiana University"
+    year: 2016
+  # - title:
+  #   details: "FERPA; Data Protection and Privacy"
+  #   where: "Indiana University"
+
+  - name: "IUNI Network Science Workshop"
+    where: "Indiana University"
+    year: 2016
+
+  - name: "First Aid and CPR Certified"
+    where: "American Red Cross"
+    year: 2014
+
+  - name: "Pediatric Neurosurgery Shadowing"
+    where: "Riley Hospital"
+    year: 2014
+
+                          
+erdos:
+  - eN: 3
+    graphs:
+      - date: 2022
+        chain: "Paul Erdös $\\rightarrow$ Richard M. Wilson $\\rightarrow$ Pierre F. Baldi $\\rightarrow$ me"
+      - date: 2021
+        chain: "Paul Erdös $\\rightarrow$ Noga Alon $\\rightarrow$ Nicolò Cesa-Bianchi $\\rightarrow$ Fabio Cuzzolin $\\rightarrow$ me"
+      - date: 2019
+        chain: "Paul Erdös $\\rightarrow$ Ronald Graham $\\rightarrow$ Feng Zhou $\\rightarrow$ Michael Kahana $\\rightarrow$ Ehren Newman $\\rightarrow$ me"
+
+
+datasets:
+  - data:
+
+      - name: "Hippocampal ensembles represent sequential relationships among an extended sequence of nonspatial events"
+        year: 2021
+        platform: Dryad
+        link: "https://doi.org/10.7280/D14X30"
+
+      - name: "GCCR COVID-19 Questionnaire"
+        year: 2020
+        platform: OSF
+        link: "https://osf.io/a3vkw/"
+      
+      - name: "Extracellular recordings from across the dorsoventral axis of the medial entorhinal cortex of the rat. hc-27"
+        year: 2020
+        platform: CRCNS
+        link: "https://crcns.org/data-sets/hc/hc-27/about-hc-27"
+
+
+
+
+publications:
+  - type: "Preprints" 
+    pubs:
+
+      - title: "Increasing incidence of parosmia and phantosmia in patients recovering from COVID-19 smell loss."
+        authors: "Ohla, K., Veldhuizen, M.G., Green, T., Hannum, M.E., Bakke, A.J., Moein, S., Tognetti, A., Postma, E.M., Pellegrino, R., ... Cooper, K. W., ... Hwang, L.D. and Albayay, J."
+        year: 2021
+        journal: "medRxiv"
+        nums: ""
+        link: "https://www.medrxiv.org/content/medrxiv/early/2021/09/08/2021.08.28.21262763.full.pdf"
+
+  - type: "Peer Reviewed"
+    pubs: 
+      - title: "Hippocampal ensembles represent sequential relationships among discrete nonspatial events"
+        authors: "Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Cooper, K. W., Elias, G. A., Haghverdian, D., Baldi, P.,  Fortin, N. J."
+        year: 2022
+        journal: "Nature Communications"
+        nums: "13(1), 1-17"
+        link: "https://doi.org/10.1038/s41467-022-28057-6"
+
+      - title: "Avalanche: an End-to-End Library for Continual Learning"
+        authors: "Lomonaco, V., Pellegrini, L., Cossu, A., Carta, A., Graffieti, G., Hayes, T.L., ... Cooper K. W., ... Bacciu D., Maltoni D."
+        year: 2021
+        journal: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+        nums: "3600-3610"
+        link: "https://openaccess.thecvf.com/content/CVPR2021W/CLVision/papers/Lomonaco_Avalanche_An_End-to-End_Library_for_Continual_Learning_CVPRW_2021_paper.pdf"
+        highlights:
+          - h: "Won CLVision WB Best Library Award"
+
+      - title: "Recent smell loss is the best predictor of COVID-19 among individuals with recent respiratory symptoms."
+        authors: "Gerkin, R. C., Ohla, K., Veldhuizen, M. G., Joseph, P. V., Kelly, C. E., Bakke, A. J., ... Cooper, K.W. ... and Baguma, M. "
+        year: 2020
+        journal: "Chemical senses"
+        nums: "46"
+        link: ""
+
+      - title: "Smell and taste changes are early indicators of the COVID-19 pandemic and political decision effectiveness."
+        authors: "Pierron, D., Pereda-Loth, V., Mantel, M., Moranges, M., Bignon, E., Alva, O.,  Cooper, K. W., ... Dinnella, C. "
+        year: 2020
+        journal: "Nature Communications"
+        nums: "11(1), 1-8."
+        link: ""
+        highlights:
+          - h: "\\#4 of Top 100 Nature Communications papers of 2020"    
+
+      - title: "COVID-19 and the chemical senses: supporting players take center stage."
+        authors: "Cooper, K. W., Brann, D.H., Farruggia, M.C., Bhutani, S., Pellegrino, R., Tsukahara, T., Weinreb, C., Joseph, P.V., Larson, E.D., Parma, V. and Albers, M.W.,"
+        year: 2020
+        journal: "Neuron"
+        nums: "107(2), 219-233"
+        link: ""
+        highlights:
+          - h: "Top 10 Neuron papers of 2020" 
+
+      - title: "More than smell—COVID-19 is associated with severe impairment of smell, taste, and chemesthesis."
+        authors: "Parma, V., Ohla, K., Veldhuizen, M. G., Niv, M. Y., Kelly, C. E., Bakke, A. J., Cooper. K. W., ..., Hayes, J. E."
+        year: 2020
+        journal: "Chemical Senses"
+        nums: "45(7), 609-622"
+        link: ""
+
+      - title: "Coronaviruses and the chemical senses: past, present, and future"
+        authors: "Pellegrino, R., Cooper, K. W., Di Pizio, A., Joseph, P. V., Bhutani, S., and Parma, V. "
+        year: 2020
+        journal: "Chemical senses"
+        nums: "45(6), 415-422"
+        link: ""
+
+      - title: "Medial entorhinal cortex activates in a traveling wave in the rat"
+        authors: "Hernandez-Perez, J. J., Cooper, K. W., Newman, E. L."
+        year: 2020
+        journal: "eLife"
+        nums: "9"
+        link: ""
+
+      - title: "Can the Machine Understand: An Evidence Based Approach to the Chinese Room"
+        authors: "Cooper, K. W."
+        year: 2018
+        journal: "IU Journal of Undergraduate Research"
+        nums: "4(1), 82-85"
+        link: ""
+        highlights:
+          - h: "Ewing Prize in Philosophy winner"
+          
+  - type: "Thesis"
+    pubs: 
+      - title: "Cholinergic modulation may explain hippocampal encoding and retrieval mode switching"
+        authors: "Cooper, K. W."
+        year: 2019
+        journal: "Indiana University, Bloomington Undergraduate Thesis"
+        nums: " "
+        link: ""
+
+
+
+abstracts_talks:
+  - abstracts:
+
+    - title: "Stitching memories into predictable patterns"
+      authors: "Cooper KW"
+      year: 2022
+      venue: "Neuroblitz"
+      link: ""
+      nums: ""
+
+    - title: "Hippocampal ensembles represent the sequential order of nonspatial events."
+      authors: "Cooper KW, Li L, Saraf MP, Elias GA, Baldi P, Shahbaba B, Fortin NJ"
+      year: 2021
+      venue: "Plexon Data Blitz"
+      link: ""
+      nums: ""
+
+    - title: "Hippocampal ensembles represent the sequential order of nonspatial events."
+      authors: "Cooper KW, Li L, Saraf MP, Elias GA, Baldi P, Shahbaba B, Fortin NJ"
+      year: 2021
+      venue: "Program No P858.03. Chicago, IL: Society for Neuroscience"
+      link: ""
+      nums: ""
+
+    - title: "Medial prefrontal cortex represents ordinal position within a sequence of events."
+      authors: "Elias GA, Tran AH, Saraf MP, Cooper KW, Shahbaba B, Fortin NJ"
+      year: 2021
+      venue: "Program No P858.01. Chicago, IL: Society for Neuroscience"
+      link: ""
+      nums: ""
+
+    - title: "The sequential organization of hippocampal ensemble activity provides a key temporal signal supporting the memory for the order of events."
+      authors: "Saraf MP, Haghverdian D, Cooper KW, Elias GA, Shahbaba B, Fortin NJ"
+      year: 2021
+      venue: "Program No P858.02. Chicago, IL: Society for Neuroscience"
+      link: ""
+      nums: ""
+
+    - title: "Grant writing workshop (Panelist)"
+      authors: "Cooper KW"
+      year: 2021
+      venue: "University of California, Irvine"
+      link: ""
+      nums: ""
+
+    - title: "Deep neural network models learn distinguishable features from hippocampal local field potential and ensemble data"
+      authors: "Pan, C. J., Cooper, K. W., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Baldi, P.,  Shahbaba, B., Fortin, N. J."
+      year: 2021
+      venue: "UROP Symposium"
+      link: ""
+      nums: ""
+
+    - title: "Avalanche: an End-to-End Library for Continual Learning"
+      authors: "Cooper K. W., Lomonaco, V., Pellegrini, L., Carta, A., Cossu, A., Graffieti, G."
+      year: 2021
+      venue: ContinualAI Meetup
+      link: "https://www.youtube.com/watch?v=EyO1eM0-Hi8&t=190s"
+      nums: ""
+
+    - title: "Hippocampal theta oscillations support nonspatial sequence coding in hippocampal neurons"
+      authors: "Cooper, K. W., Shahbaba, B., Li, L., Agostinelli, F., Saraf, M., Elias, G. A., Bornstein, A., Baldi, P.,  Fortin, N. J."
+      year: 2021
+      venue: "SFN Global Connectome"
+      link: ""
+      nums: ""
+
+    - title: "The neuroscience and AI feedback loop: Catastrophic Forgetting and Sequences"
+      authors: "Cooper, K. W."
+      year: 2020
+      venue: "UCI AGS Symposium"
+      link: ""
+      nums: ""
+
+    - title: "The Art of Email"
+      authors: "Cooper K. W."
+      year: 2020
+      venue: "UCI GPS-STEM"
+      link: ""
+      nums: ""
+
+    - title: "Dual processes of hippocampal mode switching"
+      authors: "Cooper, K. W."
+      year: 2020
+      venue: "Neuromatch online Conference"
+      link: ""
+      nums: ""
+
+    - title: "Continual Learning: neuroscience + AI."
+      authors: "Cooper, K. W."
+      year: 2020
+      venue: "Contiual AI Meetup"
+      link: ""
+      nums: ""
+
+    - title: "Cholinergic abolition disrupts encoding and retrieval mode switching"
+      authors: "Cooper, K. W."
+      year: 2020
+      venue: "11th Annual Emerging Scientists Symposium"
+      link: ""
+      nums: ""
+
+    - title: "The neuroscience amd AI feedback loop"
+      authors: "Cooper, K. W."
+      year: 2019
+      venue: "UCI Brain"
+      link: ""
+      nums: ""
+    
+    - title: "On neuroscience and AI"
+      authors: "Cooper, K. W."
+      year: 2019
+      venue: "IUJUR Research Slam"
+      link: ""
+      nums: ""
+
+    - title: "Is theta a traveling wave in the medial entorhinal cortex?"
+      authors: "Hernández J, Cooper, K. W., Newman E.L."
+      year: 2018
+      venue: "Program No. 330.10. Society for Neuroscience"
+      link: ""
+      nums: ""
+
+    - title: "Consequences of Catastrophic Forgetting on Semantic Representations Learned by Deep Neural Embedding Models"
+      authors: "Cooper, K. W, Dachapally P.R, Jones M.N"
+      year: 2018
+      venue: "Midwest CogSci"
+      link: ""
+      nums: ""
+      highlights:
+        - h: "Best poster award"
+
+    - title: "Is theta in the Medial Entorhinal Cortex a Traveling Wave?"
+      authors: "Cooper, K. W., Hernández, J., Newman, E.L."
+      year: 2018
+      venue: "Society for Neuroscience, Greater Indiana Chapter"
+      link: ""
+      nums: ""
+
+    - title: "3D Brain Model Extraction and Virtual Applications"
+      authors: "Cooper, K. W."
+      year: 2018
+      venue: "(Panelist) Media School Graduate Association Conference"
+      link: ""
+      nums: ""
+
+    - title: "FlapAI: Genetically Evolved Neural Networks"
+      authors: "Cooper, K. W."
+      year: 2018 
+      venue: "Midwest Undergraduate Cognitive Science Conference"
+      link: ""
+      nums: ""
+
+    - title: "Bridging the Gap: Natural Computation and Neural Systems"
+      authors: "Cooper, K. W."
+      year: 2017 
+      venue: "Indiana University Undergraduate Research Conference"
+      link: ""
+      nums: ""
+
+    - title: "Downstream Hippocampal Activity Prediction with Neural Networks"
+      authors: "Cooper, K. W., Osborn, Z."
+      year: 2016 
+      venue: "Midwest Undergraduate Cognitive Science Conference"
+      link: ""
+      nums: ""
+
+
+myarticles:
+  - articles:
+    - title: "The Art of Email"
+      author: "Keiland Cooper"
+      date_published: "Febuary 18, 2020"
+      year_published: 2020
+      publisher: "GPS-STEM"
+      URL: "https://gps.bio.uci.edu/the-art-of-email/"
+
+    - title: "The Psychology of Risky Business"
+      author: "Keiland Cooper"
+      date_published: "July 23, 2018"
+      year_published: 2018
+      publisher: "Medium"
+      URL: "https://medium.com/@kwcooper/the-psychology-of-risky-business-2d8ddcd07d17" 
+
+    - title: "Save Money, Close Deals, Clip Coupons: the Science of Decision Making"
+      author: "Keiland Cooper"
+      date_published: "July 11, 2018"
+      year_published: 2018
+      publisher: "Medium"
+      URL: "https://medium.com/@kwcooper/save-money-close-deals-clip-coupons-the-science-of-decision-making-1ba38181fb71" 
+
+    - title: "The <Art> of Biting your Tongue"
+      author: "Keiland Cooper"
+      date_published: "October 19, 2017"
+      year_published: 2017
+      publisher: "LinkedIn Publishing"
+      URL: "https://www.linkedin.com/pulse/art-biting-your-tounge-keiland-w-cooper/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_post_details%3BssEMVNXITpiY3gWfgISVsw%3D%3D" 
+
+    - title: "What Is Undergraduate Research And Why Is It Important?"
+      author: "Keiland Cooper"
+      date_published: "September 7, 2017"
+      year_published: 2017
+      publisher: "We Are IU"
+      URL: "https://weareiu.com/academics/finding-your-path/what-is-undergraduate-research-and-why-is-it-important/" 
+
+    - title: "The Silent Battle for the Web May Change Everything as We Know It."
+      author: "Keiland Cooper"
+      date_published: "December 5, 2016"
+      year_published: 2016
+      publisher: "Medium"
+      URL: "https://medium.com/@kwcooper/the-silent-battle-for-the-web-may-change-everything-as-we-know-it-cb545b020d73" 
+
+
+    - title: "The What’s and Why’s of Schools App"
+      author: "Keiland Cooper"
+      date_published: "August 5, 2015"
+      year_published: 2015
+      publisher: "We Are IU"
+      URL: "https://weareiu.com/college-prep/tips-for-admits/the-whats-and-whys-of-schools-app/" 
+    
+
+
+press: 
+  - articles: 
+
+    - title: "Study reveals how the brain organizes memories"
+      author: ""
+      date_published: "March 7, 2022"
+      year_published: 2022
+      publisher: "Al Jazeera"
+      URL: "https://www.aljazeera.net/news/healthmedicine/2022/3/7/%d8%a7%d9%84%d8%b0%d9%83%d8%b1%d9%8a%d8%a7%d8%aa-%d8%a7%d9%84%d8%af%d9%85%d8%a7%d8%ba"
+
+    - title: "Predicting Alzheimer’s risk: Why cognitive testing alone may not work."
+      author: "Mary McGorray"
+      date_published: "January 14, 2022"
+      year_published: 2022
+      publisher: "Medical News Today"
+      URL: "https://www.medicalnewstoday.com/articles/predicting-alzheimers-risk-why-cognitive-testing-alone-may-not-work"
+
+    - title: "Has COVID destroyed our attention spans?"
+      author: "David Oliver"
+      date_published: "December 22, 2021"
+      year_published: 2021
+      publisher: "USA Today"
+      URL: "https://www.usatoday.com/story/life/health-wellness/2021/12/22/covid-attention-span-exhaustion/8926439002/"
+
+    - title: "Why are human neurons different from those of other mammals?"
+      author: "Jeanna D. Smiley"
+      date_published: "November 21, 2021"
+      year_published: 2021
+      publisher: "Medical News Today"
+      URL: "https://www.medicalnewstoday.com/articles/why-are-human-neurons-different-from-those-of-other-mammals"
+
+    - title: "AI Weekly: Continual learning offers a path toward more humanlike AI"
+      author: "Kyle Wiggers"
+      date_published: "April 9, 2021"
+      year_published: 2021
+      publisher: "VentureBeat"
+      URL: "https://venturebeat.com/2021/04/09/ai-weekly-continual-learning-offers-a-path-toward-more-humanlike-ai/"
+
+    - title: "ContinualAI Releases Avalanche: An End-to-End Library for Continual Learning"
+      author: ""
+      date_published: "April 8, 2021"
+      year_published: 2021
+      publisher: "Synced Review"
+      URL: "https://syncedreview.com/2021/04/08/continualai-releases-avalanche-an-end-to-end-library-for-continual-learning/"
+
+    - title: "Millions of COVID-19 survivors have lost senses of smell and taste. Researchers don't know if they'll come back"
+      author: "Grace Hauck"
+      date_published: "January 31,2021"
+      year_published: 2021
+      publisher: "USA Today"
+      URL: "https://www.usatoday.com/story/news/health/2021/01/31/covid-19-survivors-smell-taste-symptoms-coronavirus/4292727001/?utm_source=feedblitz&utm_medium=FeedBlitzRss&utm_campaign=usatoday-newstopstories"
+
+    - title: "What Can Covid-19 Teach Us About the Mysteries of Smell?"
+      author: "Brooke Jarvis"
+      date_published: "January 28, 2021"
+      year_published: 2021
+      publisher: "The New York Times Magazine"
+      URL: "https://www.nytimes.com/2021/01/28/magazine/covid-smell-science.html"
+
+    - title: "Is Losing Your Sense Of Smell And Taste The First Sign Of Covid-19? More Research Says Yes"
+      author: "Misha Gajewski"
+      date_published: "December 9, 2020" 
+      year_published: 2020
+      publisher: "Forbs"
+      URL: "https://www.forbes.com/sites/mishagajewski/2020/12/09/is-losing-your-sense-of-smell-and-taste-the-first-symptom-of-covid-19-more-research-says-yes/?sh=213ace6736ef"
+
+    - title: "TWiV 673: Wake up and smell the pandemic"
+      author: "Vincent Racaniello"
+      date_published: "October 18, 2020"
+      year_published: 2020
+      publisher: "This Week In Virology"
+
+    - title: "Many COVID-19 patients lost their sense of smell. Will they get it back?"
+      author: Sara Harrison
+      date_published: "August 5, 2020" 
+      year_published: 2020
+      publisher: "National Geographic"
+      URL: "https://www.nationalgeographic.com/science/article/thousands-covid-19-patients-lost-sense-smell-will-get-back-cvd"
+
+    - title: "Lifestyle Changes You Can Make to Help Lower the 19 Risk Factors for Alzheimer’s"
+      author: "Bob Curley"
+      date_published: "July 7, 2020"
+      year_published: 2020
+      publisher: "Healthline"
+      URL: "https://www.healthline.com/health-news/alzheimers-risk-factors-lifestyle-changes\\#The-impact-of-lifestyle"
+
+    - title: "Majority of Patients with Mild Covid-19 Experience Altered Smell/Taste"
+      author: "Salynn Boyles"
+      date_published: "July 6, 2020"
+      year_published: 2020
+      publisher: "Physicians Weekly"
+      URL: "https://www.physiciansweekly.com/majority-of-patients-with-mild-covid-19-experience-altered-smell-taste/"
+
+    - title: "Episode 64 - An Interview with Some of the Authors"
+      author: "Katie Boateng"
+      date_published: "June 15, 2020"
+      year_published: 2020
+      publisher: "The Smell Podcast"
+      URL: "https://podcasts.apple.com/us/podcast/the-smell-podcast/id1429270582?i=1000477261620"
+
+    - title: "Why COVID-19 Makes People Lose Their Sense of Smell"
+      author: "Leslie Kay"
+      date_published: "June 13, 2020"
+      year_published: 2020
+      publisher: "Scientific American"
+      URL: "https://www.scientificamerican.com/article/why-covid-19-makes-people-lose-their-sense-of-smell1/"
+
+    - title: "COVID-19, smell and taste – how is COVID-19 different from other respiratory diseases? "
+      author: "John E Hayes, Valentina Parma"
+      date_published: "June 4, 2020"
+      year_published: 2020
+      publisher: "The Conversation"
+      URL: "https://theconversation.com/covid-19-smell-and-taste-how-is-covid-19-different-from-other-respiratory-diseases-139543"            
+
+    - title: "What a difference a decade makes."
+      author: "Anthony Cusumano"
+      date_published: "February 2, 2020"
+      year_published: 2020
+      publisher: "Katalys Tech"
+      URL: "https://katalysttech.com/blog/what-a-difference-a-decade-makes/"
+
+    - title: "5 AI fears and how to address them."
+      author: "Kevin Casey"
+      date_published: "September 30, 2019"
+      year_published: 2019
+      publisher: "The Enterprisers Project"
+      URL: "https://enterprisersproject.com/article/2019/9/artificial-intelligence-ai-fears-how-address"
+
+    - title: "How to explain natural language processing (NLP) in plain English"
+      author: "Kevin Casey"
+      date_published: "September 17, 2019"
+      year_published: 2019
+      publisher: "The Enterprisers Project"
+      URL: "https://enterprisersproject.com/article/2019/9/natural-language-processing-nlp-explained-plain-english"      
+
+    - title: "Is Augmented Artificial Intelligence Already Disrupting Artificial Intelligence?"
+      author: "David Roe"
+      date_published: "August 27, 2019"
+      year_published: 2019
+      publisher: "CMS Wire"
+      URL: "https://www.cmswire.com/digital-workplace/is-augmented-artificial-intelligence-already-disrupting-artificial-intelligence/"
+
+    - title: "Why Is My Arm Asleep? 6 Reasons Your Limbs Go Numb When You're Sleeping"
+      author: "Kristine Fellizar"
+      date_published: "August 7, 2019"
+      year_published: 2019
+      publisher: "Bustle"
+      URL: "https://www.bustle.com/p/why-is-my-arm-asleep-6-reasons-your-limbs-go-numb-when-youre-sleeping-18552723"
+
+    - title: "Neuralink Update: How far off is Elon Musk’s high tech vision for our brains?"
+      author: "Lauren Wellbank"
+      date_published: "August 1, 2019"
+      year_published: 2019
+      publisher: "Parentology"
+      URL: "https://parentology.com/neuralink-how-far-off-is-elon-musks-high-tech-vision-for-our-brains/"
+
+    - title: "Ready for Amazon to Read Human Emotions?"
+      author: "Tina Arnoldi"
+      date_published: "July 19, 2019"
+      year_published: 2019
+      publisher: "Theravive"
+      URL: "https://www.theravive.com/today/post/ready-for-amazon-to-read-human-emotions-0003426.aspx"
+
+    - title: "IU undergraduates practice science outreach at Indiana high schools"
+      author: "Ann Lewandowski"
+      date_published: "September 28th, 2018"
+      year_published: 2018
+      publisher: "IDS"
+      URL: "https://www.idsnews.com/article/2018/09/iu-undergraduates-practice-science-outreach-at-indiana-high-schools"
+
+    - title: "The art of dissemination part 3: Care to share?"
+      author: "Alexandra Moussa-Tooks"
+      date_published: "August 14, 2018"
+      year_published: 2018
+      publisher: "ScIU"
+      URL: "http://blogs.iu.edu/sciu/2018/08/14/dissemination-care-to-share/"
+
+    - title: "Community Partnerships."
+      author: "Liz Rosdeitcher"
+      date_published: "2017"
+      year_published: 2017
+      publisher: "Psyugrad"
+      URL: "https://pbsugrad.indiana.edu/psych4u/community-partnerships/index.html"

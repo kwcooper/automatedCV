@@ -1,0 +1,87 @@
+
+Some template links: 
+
+RPI.edu carreer development latex resume's and CV's
+https://rpi.edu/dept/arc/training/latex/resumes/
+
+Add a timeline to your modernCV latex file
+https://tex.stackexchange.com/questions/29725/putting-a-timeline-for-dates-in-moderncv
+
+
+Rob Hyndman's CV
+https://robjhyndman.com/hyndsight/cv/
+and it's on github:
+https://github.com/robjhyndman/CV
+
+Ted's CV is also pretty cool. Has some other useful info
+http://www.tedpavlic.com/TPCV.php
+
+
+
+Planning: 
+
+Add support for word documents. For now, using the generated text file should do, but should spend a bit of time formatting it all automatically. For now, the only reason I'm hesitant is because it will take time to learn the word syntax in creating headers and other formatting dynamically (why latex is so great, but (politely) curse those who require a docx file :( )
+https://blog.formpl.us/how-to-generate-word-documents-from-templates-using-python-cb039ea2c890
+
+
+
+init 19XXXX
+ud 211109
+
+
+MISC Notes
+---------------------------------
+The automated optical recognition software used to digitize resume
+information works best with fonts that do not have serifs.
+
+
+
+
+
+
+
+Structure as of 210503
+
+├── cooperCV2.cls
+├── cooperCV2_sections.tex
+├── cooperCV2_.tex
+├── cooperCV2.yaml
+├── cooperCV.pdf
+├── cooperCV.tex
+├── CV2tex.py
+├── fonts
+│   ├── FontAwesome.ttf
+│   ├── Roboto-BoldItalic.ttf
+│   ├── Roboto-Bold.ttf
+│   ├── Roboto-Italic.ttf
+│   ├── Roboto-LightItalic.ttf
+│   ├── Roboto-Light.ttf
+│   ├── Roboto-MediumItalic.ttf
+│   ├── Roboto-Medium.ttf
+│   ├── Roboto-Regular.ttf
+│   ├── Roboto-ThinItalic.ttf
+│   └── Roboto-Thin.ttf
+├── img
+│   └── orcid.png
+├── MISC
+│   ├── BU
+│   │   ├── BU_200613.zip
+│   │   ├── BU_200831.zip
+│   │   ├── cooperCV_autoV1_BU210425.zip
+│   │   ├── CooperCV_v2_Auto_BU210425.zip
+│   │   ├── cooper_simpCV.zip
+│   │   └── scratch_210425.zip
+│   ├── notes.txt
+│   └── old_cvs
+│       └── cooperCV_200831.pdf
+├── outFiles
+│   ├── cooperCV2_2_w.aux
+│   ├── cooperCV2_2_w.log
+│   ├── cooperCV2_2_w.out
+│   ├── cooperCV2_2_w.pdf
+│   ├── cooperCV.aux
+│   ├── cooperCV.log
+│   └── cooperCV.out
+└── README.md
+
+6 directories, 35 files
